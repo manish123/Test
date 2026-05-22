@@ -250,3 +250,41 @@ def get_house_cusps(jd, lat, lon):
         "ascendant": asc[0],
         "houses": houses,
     }
+
+
+
+def compute_julian_day(year, month, day, hour_decimal):
+    """
+    Convert date/time to Julian Day number.
+
+    Args:
+        year, month, day: calendar date
+        hour_decimal: hour as decimal (e.g. 9.25 for 9:15)
+
+    Returns:
+        float: Julian Day number
+    """
+    return swe.julday(year, month, day, hour_decimal)
+
+
+def get_ayanamsa_value(jd):
+    """
+    Get the ayanamsa offset for a given Julian Day.
+
+    Returns:
+        float: ayanamsa in degrees
+    """
+    configure_ephemeris()
+    return swe.get_ayanamsa(jd)
+
+
+def set_topocentric_location(lon, lat, alt):
+    """
+    Configure Swiss Ephemeris for topocentric calculations at given location.
+
+    Args:
+        lon: geographic longitude (degrees)
+        lat: geographic latitude (degrees)
+        alt: altitude (meters)
+    """
+    swe.set_topo(lon, lat, alt)
