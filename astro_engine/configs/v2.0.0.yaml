@@ -2,6 +2,9 @@ version: "2.0.0"
 released: "2026-05-10"
 description: "V2 production baseline — Event Calculation Engine"
 
+# Ayanamsa: LAHIRI | FAGAN_BRADLEY | RAMAN | KRISHNAMURTI
+ayanamsa: "LAHIRI"
+
 planet_state:
   dignity_multipliers:
     exalted: 1.5

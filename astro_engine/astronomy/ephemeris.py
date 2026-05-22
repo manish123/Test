@@ -16,12 +16,12 @@ def configure_lahiri():
     return SIDEREAL_FLAGS
 
 
-def configure_ayanamsa(ayanamsa="FAGAN_BRADLEY"):
+def configure_ayanamsa(ayanamsa="LAHIRI"):
     """
     Configure ephemeris with specified ayanamsa
     
     Args:
-        ayanamsa: Ayanamsa type (default: FAGAN_BRADLEY)
+        ayanamsa: Ayanamsa type (default: LAHIRI)
     
     Returns:
         SIDEREAL_FLAGS
@@ -34,7 +34,7 @@ def configure_ayanamsa(ayanamsa="FAGAN_BRADLEY"):
     }
     
     if ayanamsa not in ayanamsa_map:
-        ayanamsa = "FAGAN_BRADLEY"
+        ayanamsa = "LAHIRI"
     
     swe.set_sid_mode(ayanamsa_map[ayanamsa], 0, 0)
     return SIDEREAL_FLAGS
