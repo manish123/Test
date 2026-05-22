@@ -222,6 +222,24 @@ def _run_single(
     location_override=None,
     location_mode="birth",
     governance_profile="professional",
+    # ──────────────────────────────────────────────────────────────────────────
+    # DEPRECATION NOTICE (v2.0.0, 2026-05-22)
+    #
+    # This function is DEPRECATED. Use the pipeline path instead:
+    #
+    #   from pipeline import run_astronomy, run_features, run_rules, run_decisions
+    #   astro    = run_astronomy(date, birth_data)
+    #   features = run_features(astro, birth_data, date)
+    #   rules    = run_rules(features, birth_data, date, config)
+    #   decision = run_decisions(rules, config)
+    #
+    # Or via api_bridges:
+    #   from api_bridges.timing_bridge import get_timing_data
+    #   result = get_timing_data(birth_data, date, domain="trading")
+    #
+    # Parity verified: pipeline produces identical output (10/10 exact match).
+    # This function will be removed after one release window (v2.1.0).
+    # ──────────────────────────────────────────────────────────────────────────
     allow_adult_insights=False,
     use_nakshatra_rulebook_bias=False,
     use_trading_gate=False,

@@ -1,0 +1,328 @@
+[
+  {
+    "eval_date": "2026-05-22T09:15:00",
+    "decision": {
+      "action": "AVOID",
+      "phase": "CALIBRATION_CHANDRABALA_8TH",
+      "confidence": 0.0,
+      "confidence_raw": 87.44,
+      "risk": 95.18,
+      "top_event": "business",
+      "score": 115.93213537499996,
+      "position_multiplier": 0.0
+    },
+    "top_events": [
+      [
+        "business",
+        115.93213537499996
+      ],
+      [
+        "job",
+        107.74850537499998
+      ]
+    ],
+    "yoga": {
+      "score": -20.0,
+      "mahapurusha": [],
+      "dainya": true,
+      "dhana": false,
+      "bhanga": false
+    },
+    "tara": {
+      "score": -10,
+      "raw_score": -11.0,
+      "rulebook_action": "TRADE HEAVILY",
+      "rulebook_reason": "Sun in Krittika"
+    },
+    "moorthy": {
+      "grade": "Loha",
+      "factor": 0.7
+    },
+    "dasha": {
+      "md": "Jupiter",
+      "ad": "Sun",
+      "sandhi": false
+    },
+    "nodes": {
+      "kala_sarpa": true,
+      "kala_sarpa_type": "anuloma"
+    },
+    "panchang_weather": {
+      "tithi": 7,
+      "karana_status": "clear",
+      "yoga_quality": "favorable",
+      "score": 30
+    },
+    "promise": "moderate",
+    "trading_gate": {
+      "overall_status": "BLOCK",
+      "score": 59.52,
+      "no_trade_triggers": [
+        "tara_no_trade",
+        "sav_below_20",
+        "sbc_malefic_karma",
+        "chandrabala_eighth"
+      ]
+    }
+  },
+  {
+    "eval_date": "2026-01-15T09:15:00",
+    "decision": {
+      "action": "AVOID",
+      "phase": "TRADING_GATE_BLOCK",
+      "confidence": 43.84,
+      "confidence_raw": 43.84,
+      "risk": 100.0,
+      "top_event": "business",
+      "score": 102.22038924999997,
+      "position_multiplier": 1.0
+    },
+    "top_events": [
+      [
+        "business",
+        102.22038924999997
+      ],
+      [
+        "finance",
+        99.15341975
+      ]
+    ],
+    "yoga": {
+      "score": -20.0,
+      "mahapurusha": [],
+      "dainya": true,
+      "dhana": false,
+      "bhanga": false
+    },
+    "tara": {
+      "score": -10,
+      "raw_score": -13.5,
+      "rulebook_action": "DO NOT TRADE",
+      "rulebook_reason": "Moon in Jyeshtha"
+    },
+    "moorthy": {
+      "grade": "Loha",
+      "factor": 0.7
+    },
+    "dasha": {
+      "md": "Jupiter",
+      "ad": "Venus",
+      "sandhi": false
+    },
+    "nodes": {
+      "kala_sarpa": false,
+      "kala_sarpa_type": null
+    },
+    "panchang_weather": {
+      "tithi": 27,
+      "karana_status": "clear",
+      "yoga_quality": "favorable",
+      "score": 20
+    },
+    "promise": "moderate",
+    "trading_gate": {
+      "overall_status": "BLOCK",
+      "score": 64.29,
+      "no_trade_triggers": [
+        "tara_no_trade",
+        "sav_below_20",
+        "sbc_malefic_karma"
+      ]
+    }
+  },
+  {
+    "eval_date": "2025-06-01T09:15:00",
+    "decision": {
+      "action": "AVOID",
+      "phase": "CALIBRATION_CHANDRABALA_8TH",
+      "confidence": 0.0,
+      "confidence_raw": 75.29,
+      "risk": 100.0,
+      "top_event": "business",
+      "score": 125.39052312499994,
+      "position_multiplier": 0.0
+    },
+    "top_events": [
+      [
+        "business",
+        125.39052312499994
+      ],
+      [
+        "job",
+        103.48357512499997
+      ]
+    ],
+    "yoga": {
+      "score": 0.0,
+      "mahapurusha": [],
+      "dainya": false,
+      "dhana": false,
+      "bhanga": false
+    },
+    "tara": {
+      "score": -5.5,
+      "raw_score": -5.5,
+      "rulebook_action": "DO NOT TRADE",
+      "rulebook_reason": "Moon in Ashlesha"
+    },
+    "moorthy": {
+      "grade": "Loha",
+      "factor": 0.7
+    },
+    "dasha": {
+      "md": "Jupiter",
+      "ad": "Venus",
+      "sandhi": false
+    },
+    "nodes": {
+      "kala_sarpa": true,
+      "kala_sarpa_type": "anuloma"
+    },
+    "panchang_weather": {
+      "tithi": 6,
+      "karana_status": "clear",
+      "yoga_quality": "favorable",
+      "score": 25
+    },
+    "promise": "moderate",
+    "trading_gate": {
+      "overall_status": "BLOCK",
+      "score": 64.29,
+      "no_trade_triggers": [
+        "tara_no_trade",
+        "sav_below_20",
+        "sbc_malefic_karma",
+        "chandrabala_eighth"
+      ]
+    }
+  },
+  {
+    "eval_date": "2024-12-10T09:15:00",
+    "decision": {
+      "action": "AVOID",
+      "phase": "TRADING_GATE_BLOCK",
+      "confidence": 100.0,
+      "confidence_raw": 100.0,
+      "risk": 58.74,
+      "top_event": "job",
+      "score": 157.40527249999997,
+      "position_multiplier": 1.0
+    },
+    "top_events": [
+      [
+        "job",
+        157.40527249999997
+      ],
+      [
+        "finance",
+        147.9714775
+      ]
+    ],
+    "yoga": {
+      "score": 0.0,
+      "mahapurusha": [],
+      "dainya": false,
+      "dhana": false,
+      "bhanga": false
+    },
+    "tara": {
+      "score": 10,
+      "raw_score": 17.0,
+      "rulebook_action": "NEUTRAL",
+      "rulebook_reason": "Moon in Uttara Bhadrapada"
+    },
+    "moorthy": {
+      "grade": "Loha",
+      "factor": 0.7
+    },
+    "dasha": {
+      "md": "Jupiter",
+      "ad": "Venus",
+      "sandhi": false
+    },
+    "nodes": {
+      "kala_sarpa": false,
+      "kala_sarpa_type": null
+    },
+    "panchang_weather": {
+      "tithi": 10,
+      "karana_status": "restrictive",
+      "yoga_quality": "dangerous",
+      "score": -10
+    },
+    "promise": "moderate",
+    "trading_gate": {
+      "overall_status": "BLOCK",
+      "score": 66.67,
+      "no_trade_triggers": [
+        "sav_below_20",
+        "sbc_malefic_karma"
+      ]
+    }
+  },
+  {
+    "eval_date": "2023-03-20T09:15:00",
+    "decision": {
+      "action": "AVOID",
+      "phase": "TRADING_GATE_BLOCK",
+      "confidence": 100.0,
+      "confidence_raw": 100.0,
+      "risk": 78.42,
+      "top_event": "business",
+      "score": 216.29818125000003,
+      "position_multiplier": 1.0
+    },
+    "top_events": [
+      [
+        "business",
+        216.29818125000003
+      ],
+      [
+        "finance",
+        211.749615
+      ]
+    ],
+    "yoga": {
+      "score": -5.0,
+      "mahapurusha": [
+        "Jupiter"
+      ],
+      "dainya": true,
+      "dhana": false,
+      "bhanga": false
+    },
+    "tara": {
+      "score": 6.5,
+      "raw_score": 6.5,
+      "rulebook_action": "DO NOT TRADE",
+      "rulebook_reason": "Moon in Shatabhisha"
+    },
+    "moorthy": {
+      "grade": "Taamra",
+      "factor": 0.9
+    },
+    "dasha": {
+      "md": "Jupiter",
+      "ad": "Ketu",
+      "sandhi": false
+    },
+    "nodes": {
+      "kala_sarpa": false,
+      "kala_sarpa_type": null
+    },
+    "panchang_weather": {
+      "tithi": 29,
+      "karana_status": "clear",
+      "yoga_quality": "favorable",
+      "score": 5
+    },
+    "promise": "moderate",
+    "trading_gate": {
+      "overall_status": "BLOCK",
+      "score": 76.19,
+      "no_trade_triggers": [
+        "sav_below_20"
+      ]
+    }
+  }
+]
