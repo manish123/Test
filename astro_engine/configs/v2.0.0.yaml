@@ -1,0 +1,316 @@
+version: "2.0.0"
+released: "2026-05-10"
+description: "V2 production baseline — Event Calculation Engine"
+
+planet_state:
+  dignity_multipliers:
+    exalted: 1.5
+    own_sign: 1.2
+    great_friend: 1.15
+    friend: 1.05
+    neutral: 1.0
+    enemy: 0.9
+    bitter_enemy: 0.75
+    debilitated: 0.5
+  avastha_multipliers:
+    jagrat: 1.0
+    swapna: 0.75
+    sushupti: 0.5
+    turiya: 0.25
+  neechabhanga_override_floor: 1.5
+  retrograde:
+    debilitated_override: 1.0
+    exalted_reduction_pct: 0.75
+    other_boost_pct: 1.20
+  combustion:
+    damping_coefficient: 0.65
+    thresholds_deg:
+      Moon: 12
+      Mars: 17
+      Mercury_direct: 14
+      Mercury_retrograde: 12
+      Jupiter: 11
+      Venus_direct: 10
+      Venus_retrograde: 8
+      Saturn: 15
+  bala_avastha:
+    slow_planets: ["Saturn", "Jupiter", "Mars"]
+    degree_threshold: 6
+    multiplier: 0.9
+  vridha_avastha:
+    degree_threshold: 24
+    multiplier: 0.85
+  shadbala:
+    sthana_bala:
+      exalted: 60
+      own: 50
+      great_friend: 45
+      friend: 40
+      neutral: 30
+      enemy: 20
+      bitter_enemy: 15
+      debilitated: 10
+      kendra_bonus: 5
+    multiplier_floor: 0.75
+    multiplier_ceiling: 1.25
+
+event_scoring:
+  planet_base_per_unit: 25
+  vimsopaka_per_unit: 2
+  exalted_bonus: 15
+  debilitated_penalty: -10
+  house_bonus:
+    tier_exalted_threshold: 1.4
+    tier_exalted_bonus: 35
+    tier_strong_threshold: 1.2
+    tier_strong_bonus: 20
+    tier_neutral_threshold: 1.0
+    tier_neutral_bonus: 8
+    per_house_cap: 60
+  transit:
+    jsa_both: 30
+    jsa_one: 15
+    karaka_base: 15
+    node_proximity_degrees: 5
+    total_cap: 60
+  arudha:
+    a7_benefic: 12
+    a7_malefic: -10
+    a10_benefic: 12
+    a10_malefic: -10
+    a1_strong: 8
+  yoga:
+    mahapurusha_bonus: 30
+    dhana_bonus: 20
+    dainya_penalty: -20
+    graha_malika_bonus: 25
+    guru_mangal_bonus: 20
+    vesi_benefic: 8
+    vesi_malefic: -8
+    kemadruma_relationship_penalty: -10
+    kemadruma_confidence_penalty: -5
+    daridra_wealth_penalty: -15
+    duryoga_relationship_penalty: -12
+    node_yogakaraka_bonus: 10
+
+reference_weights:
+  Wealth: {lagna: 0.60, moon: 0.40}
+  Profession: {lagna: 0.60, moon: 0.40}
+  Health_Risk: {lagna: 0.65, moon: 0.35}
+  Legal: {lagna: 0.55, moon: 0.45}
+  Relationship: {lagna: 0.40, moon: 0.60}
+  Family: {lagna: 0.45, moon: 0.55}
+  Development: {lagna: 0.50, moon: 0.50}
+  Mobility: {lagna: 0.45, moon: 0.55}
+  Lifecycle: {lagna: 0.50, moon: 0.50}
+  Behavior: {lagna: 0.50, moon: 0.50}
+
+multipliers:
+  bhanga_penalty: 0.30
+  nakshatra:
+    favorable: 1.10
+    unfavorable: 0.85
+    neutral: 1.00
+  moorthy:
+    swarna: 1.20
+    rajata: 1.10
+    tamra: 0.90
+    loha: 0.70
+  trading_filter:
+    trading_event_boost: 1.15
+    non_trading_damp: 0.35
+
+mmt:
+  marriage: 55
+  engagement: 55
+  remarriage: 55
+  career: 50
+  authority: 50
+  parents_death: 50
+  sibling_death: 50
+  spouse_bereavement: 50
+  finance: 45
+  property: 45
+  inheritance: 45
+  children: 45
+  child_birth: 45
+  grandchildren: 45
+  legal: 45
+  litigation: 45
+  criminal_record: 45
+  job: 40
+  business: 40
+  achievement: 40
+  retirement: 40
+  accident: 40
+  hospitalization: 40
+  surgery: 40
+  education: 40
+  studies: 40
+  examination: 40
+  travel_foreign: 40
+  relocation: 40
+  citizenship: 40
+  bankruptcy: 35
+  loss: 35
+  divorce: 35
+  extra_marital: 35
+  long_term_live_in: 35
+  relationship: 35
+  health: 35
+  health_scare: 35
+  creative_milestone: 30
+  belief_shift: 30
+  spiritual: 30
+  addiction_recovery: 30
+  behavior_risk: 30
+  behavior_discipline: 30
+  fame_breakthrough: 40
+  speculative_gain: 40
+  debt_crisis: 35
+  mystical_awakening: 30
+
+confidence:
+  base_multiplier: 60
+  yoga_weight: 0.30
+  yoga_cap: 15
+  tara_weight: 1.5
+  tara_cap: 10
+  transit_weight: 8
+  panchang_weight: 0.20
+  panchang_cap: 10
+  navamsha_echo_confirm: 8
+  navamsha_echo_contradict: -12
+  navamsha_echo_multi_contradict: -20
+  ul_confirm: 10
+  ul_conflict: -10
+  conversion_stage_bonus: 6
+  conversion_gap_penalty: -8
+  ad_house_bonus_factor: 100
+  sandhi_vimshottari_multiplier: 0.60
+  sandhi_chara_multiplier: 0.90
+  vimsopaka_weak_multiplier: 0.60
+  yogini_relationship_only_factor: 1.15
+  yogini_both_confirm: 1.20
+  yogini_neither_relationship: 0.85
+  yogini_neither_other: 0.90
+
+risk:
+  saturn_pressure_cap: 12
+  node_crisis_cap: 15
+  sade_sati_peak: 20
+  maraka_score_cap: 20
+  maraka_trigger_cap: 25
+  av_vulnerability_cap: 25
+  ashtama_shani_cap: 10
+  sbc_vedha_cap: 10
+  tara_risk_cap: 10
+  dasha_sandhi_cap: 15
+  badhakesh_cap: 12
+  gochar_vedha_cap: 10
+  panchang_adverse_cap: 10
+  eclipse_solar_critical: 40
+  eclipse_solar_7day: 20
+  eclipse_lunar_critical: 24
+  eclipse_lunar_7day: 12
+  eclipse_natal_conjunction_bonus: 15
+  mars_saturn_transit: 15
+  pranapada_vulnerable: 12
+  pranapada_lord_debilitated: 8
+  pranapada_lord_bad_house: 6
+  transit_malefic_moon_mars: 18
+  transit_malefic_moon_saturn: 14
+  transit_malefic_moon_rahu: 12
+  ul_weak_dissolving: 15
+  compound_health_risk: 20
+  relationship_volatility: 15
+  normalization_sqrt_coefficient: 10
+  final_clamp_min: 0
+  final_clamp_max: 150
+
+decision:
+  cycle_peak:
+    confidence_min: 75
+    risk_max: 30
+    score_min: 150
+    events_above_110: 3
+  go_full:
+    confidence_min: 70
+    risk_max: 45
+  surgical:
+    confidence_min: 65
+    risk_max: 35
+    score_min: 140
+  controlled_aggression:
+    confidence_min: 60
+    score_min: 120
+  moderate:
+    confidence_min: 50
+    risk_max: 75
+  low_size_wait:
+    risk_min: 75
+    risk_max: 130
+  destructive:
+    risk_min: 120
+    confidence_max: 30
+    av_vulnerability_min: 70
+
+node_anti_double_count:
+  per_event_max_bonus: 25
+  per_event_max_penalty: 0
+  sources:
+    - transit_node_contribution
+    - node_yogakaraka_bonus
+
+sector_validation:
+  coherence_strong_threshold: 3
+  coherence_strong_bonus: 12
+  coherence_moderate_threshold: 2
+  coherence_moderate_bonus: 6
+  coherence_weak_penalty: -5
+  compound_health_risk_bonus: 20
+  career_finance_convergence_bonus: 8
+  relationship_volatility_risk: 15
+
+trading_gate:
+  sav_pass: 28
+  sav_fail: 20
+  kas_composite_pass: 197
+  no_trade_nakshatras: ["Dhanishta", "Ashlesha", "Ashwini", "Mrigashira", "Jyeshtha"]
+
+eclipse:
+  critical_days: 2
+  high_days: 7
+  natal_conjunction_degrees: 3.0
+
+upapada:
+  ul_strong_positions: [1, 4, 7, 10]
+  ul_moderate_positions: [5, 9]
+  ul_weak_positions: [6, 8, 12]
+  risk_weak_dissolving: 15
+
+navamsha_echo:
+  vargottama_bonus_per_planet: 5
+  vargottama_max: 10
+
+conversion_stage:
+  history_buffer_months: 24
+  stage_advance_bonus: 6
+  stage_skip_bonus: 2
+  stage_gap_penalty: -8
+
+dynamic_weights:
+  dignity_factors:
+    exalted: 1.20
+    own: 1.10
+    great_friend: 1.05
+    friend: 1.00
+    neutral: 0.95
+    enemy: 0.85
+    bitter_enemy: 0.75
+    debilitated: 0.60
+  min_weight_floor: 0.05
+
+pranapada:
+  vulnerable_houses: [6, 8, 12]
+  transit_conjunction_degrees: 5.0
