@@ -10,9 +10,36 @@ PUNE_COORDINATES = {
     "altitude": 560  # meters above sea level
 }
 
+# Ayanamsa mapping
+_AYANAMSA_MAP = {
+    "LAHIRI": swe.SIDM_LAHIRI,
+    "FAGAN_BRADLEY": swe.SIDM_FAGAN_BRADLEY,
+    "RAMAN": swe.SIDM_RAMAN,
+    "KRISHNAMURTI": swe.SIDM_KRISHNAMURTI,
+}
 
-def configure_ephemeris():
-    swe.set_sid_mode(swe.SIDM_FAGAN_BRADLEY, 0, 0)
+# Default ayanamsa — read from config if available, otherwise LAHIRI
+_DEFAULT_AYANAMSA = "LAHIRI"
+
+
+def _get_configured_ayanamsa():
+    """Read ayanamsa from versioned config. Falls back to LAHIRI."""
+    try:
+        from astronomy.config import cfg
+        value = cfg("ayanamsa")
+        if value and value.upper() in _AYANAMSA_MAP:
+            return value.upper()
+    except Exception:
+        pass
+    return _DEFAULT_AYANAMSA
+
+
+def configure_ephemeris(ayanamsa=None):
+    """Configure Swiss Ephemeris with the specified or configured ayanamsa."""
+    if ayanamsa is None:
+        ayanamsa = _get_configured_ayanamsa()
+    sid_mode = _AYANAMSA_MAP.get(ayanamsa, swe.SIDM_LAHIRI)
+    swe.set_sid_mode(sid_mode, 0, 0)
 
 
 def get_planet_positions(jd, location=None):
@@ -250,3 +277,41 @@ def get_house_cusps(jd, lat, lon):
         "ascendant": asc[0],
         "houses": houses,
     }
+
+
+
+def compute_julian_day(year, month, day, hour_decimal):
+    """
+    Convert date/time to Julian Day number.
+
+    Args:
+        year, month, day: calendar date
+        hour_decimal: hour as decimal (e.g. 9.25 for 9:15)
+
+    Returns:
+        float: Julian Day number
+    """
+    return swe.julday(year, month, day, hour_decimal)
+
+
+def get_ayanamsa_value(jd):
+    """
+    Get the ayanamsa offset for a given Julian Day.
+
+    Returns:
+        float: ayanamsa in degrees
+    """
+    configure_ephemeris()
+    return swe.get_ayanamsa(jd)
+
+
+def set_topocentric_location(lon, lat, alt):
+    """
+    Configure Swiss Ephemeris for topocentric calculations at given location.
+
+    Args:
+        lon: geographic longitude (degrees)
+        lat: geographic latitude (degrees)
+        alt: altitude (meters)
+    """
+    swe.set_topo(lon, lat, alt)

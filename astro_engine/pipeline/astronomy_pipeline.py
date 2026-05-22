@@ -13,6 +13,7 @@ from astronomy.engine_base import (
     get_planet_latitudes,
     get_retrograde_flags,
     get_house_cusps,
+    _get_configured_ayanamsa,
 )
 from contracts.astronomy_result import AstronomyResult
 
@@ -70,7 +71,7 @@ def run_astronomy(date, birth_data, location_override=None, location_mode="birth
 
     return AstronomyResult(
         jd=jd,
-        ayanamsa="FAGAN_BRADLEY",
+        ayanamsa=_get_configured_ayanamsa(),
         lat=lat,
         lon=lon,
         positions=positions,
