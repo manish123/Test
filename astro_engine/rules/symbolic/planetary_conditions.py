@@ -128,7 +128,7 @@ def describe_dainya_yoga(is_active):
         "condition": "active",
         "description": "Energy exchange between supportive and challenging life areas",
         "themes": [
-            "good fortune connected to overcoming difficulty",
+            "support structures connected to overcoming difficulty",
             "resources tied to service/healing/debt",
             "growth through adversity pattern",
         ],
