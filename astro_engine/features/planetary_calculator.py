@@ -1,6 +1,26 @@
 """
 Planetary Position Calculator API (Layer B — Composite Feature Module)
 
+DEPRECATION NOTICE (v2.0.0, 2026-05-22)
+────────────────────────────────────────
+This module is a BACKWARD-COMPATIBILITY ADAPTER. It combines Layer A (astronomy)
+and Layer B (features) in a single call, which violates strict layer separation.
+
+Preferred replacement:
+    from pipeline import run_astronomy
+    from features.planet_enrichment import enrich_all_planets
+
+    astro = run_astronomy(date, birth_data)
+    enriched = enrich_all_planets(
+        positions=astro.positions,
+        latitudes=astro.latitudes,
+        speeds=astro.speeds,
+        retrograde_flags=astro.retrograde_flags,
+    )
+
+This module will be removed in v2.1.0 once all callers migrate.
+────────────────────────────────────────
+
 Production-ready function for calculating enriched planetary positions.
 Uses Layer A (astronomy.engine_base) for raw positions and Layer B
 (features.planet_enrichment) for classical astrology enrichment.
