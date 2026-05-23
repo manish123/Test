@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://astralyn.ai/schemas/calibration.schema.json",
+  "title": "CalibrationOverlay",
+  "description": "Calibration overlay for marriage rules. Adjusts confidence, weights, timing, and ranking WITHOUT altering classical rule definitions. Layer 3 of the Astralyn calibration architecture.",
+  "type": "object",
+  "required": [
+    "calibration_version",
+    "domain",
+    "layer_weights",
+    "likelihood_thresholds",
+    "rule_adjustments",
+    "outcome_calibration",
+    "evidence_summary"
+  ],
+  "properties": {
+    "calibration_version": {
+      "type": "string",
+      "description": "Semantic version of this calibration overlay"
+    },
+    "domain": {
+      "type": "string",
+      "enum": ["relationship"],
+      "description": "Domain scope - calibration MUST NOT leak across domains"
+    },
+    "event_family": {
+      "type": "string",
+      "enum": ["marriage"]
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "layer_weights": {
+      "type": "object",
+      "description": "Inter-layer weighting for composite score. These are EMPIRICAL not from classical texts.",
+      "required": ["dasha_weight", "transit_weight", "fast_trigger_weight", "classical_weight"],
+      "properties": {
+        "dasha_weight": { "type": "number", "minimum": 0, "maximum": 1 },
+        "transit_weight": { "type": "number", "minimum": 0, "maximum": 1 },
+        "fast_trigger_weight": { "type": "number", "minimum": 0, "maximum": 1 },
+        "classical_weight": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "likelihood_thresholds": {
+      "type": "object",
+      "description": "Score cutoffs for likelihood bands. EMPIRICAL derived from validation.",
+      "properties": {
+        "very_high": { "type": "number" },
+        "high": { "type": "number" },
+        "moderate": { "type": "number" },
+        "low": { "type": "number" }
+      }
+    },
+    "rule_adjustments": {
+      "type": "array",
+      "description": "Per-rule calibration adjustments",
+      "items": {
+        "type": "object",
+        "required": ["rule_id", "adjustment_type"],
+        "properties": {
+          "rule_id": { "type": "string" },
+          "adjustment_type": { "type": "string", "enum": ["weight", "timing", "confidence", "priority", "window"] },
+          "weight_adjustment": { "type": "number" },
+          "priority_adjustment": { "type": "integer" },
+          "timing_adjustment_days": { "type": "integer" },
+          "confidence_adjustment": { "type": "number" },
+          "window_width_adjustment_days": { "type": "integer" },
+          "reason": { "type": "string" },
+          "supporting_cases": { "type": "integer" },
+          "conflicting_cases": { "type": "integer" }
+        }
+      }
+    },
+    "outcome_calibration": {
+      "type": "object",
+      "description": "Calibration for outcome/quality classification conflicts",
+      "properties": {
+        "mode_priority_order": { "type": "array", "items": { "type": "string" } },
+        "quality_priority_order": { "type": "array", "items": { "type": "string" } },
+        "mode_confidence_thresholds": { "type": "object", "additionalProperties": { "type": "number" } },
+        "default_mode": { "type": "string" },
+        "separation_indicators": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "evidence_summary": {
+      "type": "object",
+      "properties": {
+        "total_cases_tested": { "type": "integer" },
+        "verified_cases": { "type": "integer" },
+        "reported_cases": { "type": "integer" },
+        "timing_accuracy_top5": { "type": "number" },
+        "mode_accuracy": { "type": "number" },
+        "quality_accuracy": { "type": "number" },
+        "average_rank": { "type": "number" },
+        "last_validation_date": { "type": "string", "format": "date" }
+      }
+    },
+    "governance": {
+      "type": "object",
+      "properties": {
+        "created_by": { "type": "string" },
+        "adjustment_reason": { "type": "string" },
+        "reversible": { "type": "boolean", "default": true },
+        "applies_to_personal": { "type": "boolean", "default": false },
+        "safety_notes": { "type": "string" }
+      }
+    }
+  }
+}

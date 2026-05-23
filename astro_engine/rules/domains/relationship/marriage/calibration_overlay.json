@@ -1,0 +1,148 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "relationship",
+  "event_family": "marriage",
+  "last_updated": "2026-05-23T18:00:00Z",
+  "layer_weights": {
+    "dasha_weight": 0.4,
+    "transit_weight": 0.35,
+    "fast_trigger_weight": 0.2,
+    "classical_weight": 0.05,
+    "_notes": "Initial weights. Dasha gates everything so gets highest weight. Transit confirms activation. Fast trigger pinpoints. Classical is structural modifier only."
+  },
+  "likelihood_thresholds": {
+    "very_high": 50,
+    "high": 35,
+    "moderate": 22,
+    "low": 12,
+    "_notes": "Derived from 10-case validation. 70% of actual marriages fell in top-5 windows. These thresholds may need tightening after more cases."
+  },
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions. Classical texts define PRIORITY (which is primary vs secondary) but not numeric scores. These numbers are Layer 3 calibration.",
+    "dasha": {
+      "seventh_lord_md_or_ad": 40,
+      "seventh_house_occupant_md_or_ad": 35,
+      "seventh_house_aspector_md_or_ad": 25,
+      "second_lord_md_or_ad": 30,
+      "lagna_lord_md_plus_seventh_lord_ad": 45,
+      "natural_karaka_md": 25,
+      "natural_karaka_ad": 20,
+      "ninth_lord": 18,
+      "tenth_lord": 15,
+      "seventh_lord_dispositor": 20,
+      "second_lord_dispositor": 18,
+      "_calibration_note": "7th lord score (40) was validated as correct priority. Natural karaka Venus AD (20) was UNDERWEIGHTED \u2014 marriage of Male Bhilai happened in Venus AD not Mercury AD. Consider boosting Venus-specific karaka to 30 in next version."
+    },
+    "transit": {
+      "double_transit_lagna": 45,
+      "double_transit_moon": 35,
+      "jupiter_trine_7th_lord": 30,
+      "venus_trine_lagna_lord": 20,
+      "seventh_lord_trine_lagna_lord": 22,
+      "lagna_lord_in_7th": 28,
+      "jupiter_over_d9_lagna": 25,
+      "jupiter_over_d9_7th": 25,
+      "saturn_over_d9_lagna": 22,
+      "saturn_over_d9_7th": 22,
+      "sensitive_point_1_activation": 35,
+      "sensitive_point_2_activation": 28,
+      "_calibration_note": "Double transit from Lagna (45) validated as strongest transit indicator across 7/10 cases. D9 transit needs more cases \u2014 only 3 hit."
+    },
+    "fast_trigger": {
+      "moon_in_7th_or_9th": 20,
+      "mars_in_7th_or_9th": 22,
+      "jupiter_exact_sensitive_point_1": 40,
+      "jupiter_trine_sensitive_point_1": 32,
+      "jupiter_exact_sensitive_point_2": 35,
+      "_calibration_note": "Fast triggers are meaningful ONLY when dasha+transit already active. Moon trigger fires too often (every 2.5 days) so kept low. Jupiter exact hits are rare and highly significant."
+    }
+  },
+  "rule_adjustments": [
+    {
+      "rule_id": "jyothishi_dasha_natural_karakas",
+      "adjustment_type": "weight",
+      "weight_adjustment": 0.0,
+      "reason": "Venus AD (karaka) produced actual marriage in Male Bhilai case even though Mercury AD (7th lord) scored higher. The karaka rule is correctly weighted but needs the COMBINATION of karaka + transit to be recognized as strongest. No weight change yet \u2014 need more cases.",
+      "supporting_cases": 2,
+      "conflicting_cases": 0
+    },
+    {
+      "rule_id": "jyothishi_double_transit_marriage",
+      "adjustment_type": "confidence",
+      "confidence_adjustment": 0.0,
+      "reason": "Double transit confirmed in 7/10 cases at midpoint of actual marriage window. Already at 0.95 confidence. No adjustment needed.",
+      "supporting_cases": 7,
+      "conflicting_cases": 1
+    },
+    {
+      "rule_id": "phaladeepika_transit_jupiter_trine_7th_lord",
+      "adjustment_type": "confidence",
+      "confidence_adjustment": 0.0,
+      "reason": "Jupiter trine to 7th lord sign fired in 6/10 cases. Confidence 0.9 appropriate.",
+      "supporting_cases": 6,
+      "conflicting_cases": 2
+    },
+    {
+      "rule_id": "jyothishi_longitude_sum_lagna_7th",
+      "adjustment_type": "window",
+      "window_width_adjustment_days": 0,
+      "reason": "Sensitive point 1 hit confirmed for Male Bhilai (exact match in Rahu-Mercury window). Orb 2.5 degrees seems appropriate. Need more cases.",
+      "supporting_cases": 3,
+      "conflicting_cases": 0
+    }
+  ],
+  "outcome_calibration": {
+    "mode_priority_order": [
+      "venus_mars_conjunction",
+      "5L_7L_9L_connection",
+      "venus_mars_aspect",
+      "rahu_on_1_7_axis",
+      "saturn_7th_influence",
+      "jupiter_7th_default"
+    ],
+    "quality_priority_order": [
+      "venus_double_debilitated",
+      "kuja_dosha_active",
+      "jupiter_aspect_7th",
+      "venus_saturn_stable",
+      "7L_kendra_stable",
+      "venus_mars_volatile",
+      "7L_dusthana"
+    ],
+    "mode_confidence_thresholds": {
+      "love": 0.7,
+      "arranged": 0.6,
+      "mixed": 0.5
+    },
+    "default_mode": "arranged",
+    "separation_indicators": [
+      "saturn_in_7th + rahu_aspect_7th + moon_afflicted",
+      "7L_in_12th + venus_debilitated",
+      "mars_in_7th + saturn_aspects_7th + no_jupiter_protection"
+    ],
+    "_calibration_notes": {
+      "sachin_miss": "Mode=unknown because no Venus-Mars/5L-7L connection detected. His chart has Venus in Pisces (exalted) aspecting Moon \u2014 need Venus-Moon aspect as love indicator.",
+      "srk_miss": "Mode=arranged because Saturn aspects 7th. But SRK had a love marriage. Problem: Saturn-7th rule fires as default fallback, overriding weaker love signals. Fix: require Saturn-7th WITHOUT any 5L/Venus connection for arranged classification.",
+      "kapil_miss": "Mode=love because Mars aspects Venus from H5. But actual was arranged. Problem: Mars-Venus aspect from non-conjunction is too aggressive as love indicator. Fix: downweight aspect-based love to require ADDITIONAL support (5L-7L or Moon-Venus).",
+      "modi_miss": "Quality=stable but actual=separated. Problem: no separation detection. The separation_indicators list above needs to be coded.",
+      "amitabh_miss": "Quality=unstable but actual marriage is stable (50+ years). Mars-Venus aspect triggered volatile, but Jupiter aspecting 7th should have OVERRIDDEN to stable. Fix: quality_priority_order should let Jupiter-7th override Mars-Venus-aspect (not conjunction)."
+    }
+  },
+  "evidence_summary": {
+    "total_cases_tested": 10,
+    "verified_cases": 10,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.7,
+    "mode_accuracy": 0.6,
+    "quality_accuracy": 0.7,
+    "average_rank": 3.5,
+    "last_validation_date": "2026-05-23"
+  },
+  "governance": {
+    "created_by": "initial_calibration_session",
+    "adjustment_reason": "First calibration pass against 10 public figure cases from Astrolyn validation corpus",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "Small sample size (10 cases). Do NOT apply aggressive weight changes until 50+ cases validated. Birth times for some cases are unconfirmed (Medium confidence). Mode detection needs architectural fix (priority logic) more than weight tuning."
+  }
+}
