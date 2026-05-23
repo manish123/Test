@@ -1,0 +1,73 @@
+{
+  "calibration_version": "0.1.0",
+  "title": "BusinessCalibrationOverlay",
+  "description": "Calibration overlay schema for business domain rules. Adjusts confidence, weights, timing, and ranking WITHOUT altering classical rule definitions.",
+  "domain": "business",
+  "event_family": "business_launch",
+  "required_fields": ["calibration_version", "domain", "layer_weights", "likelihood_thresholds", "rule_adjustments", "outcome_calibration", "evidence_summary"],
+  "layer_weights_spec": {
+    "description": "Inter-layer weighting for composite score. These are EMPIRICAL not from classical texts.",
+    "fields": {
+      "dasha_weight": "number 0-1, weight of dasha layer in composite score",
+      "transit_weight": "number 0-1, weight of transit layer in composite score",
+      "fast_trigger_weight": "number 0-1, weight of fast trigger layer in composite score",
+      "classical_weight": "number 0-1, weight of classical pattern layer in composite score"
+    }
+  },
+  "likelihood_thresholds_spec": {
+    "description": "Score cutoffs for likelihood bands. EMPIRICAL derived from validation.",
+    "fields": {
+      "very_high": "minimum composite score for very_high band",
+      "high": "minimum composite score for high band",
+      "moderate": "minimum composite score for moderate band",
+      "low": "minimum composite score for low band"
+    }
+  },
+  "rule_adjustments_spec": {
+    "description": "Per-rule calibration adjustments array",
+    "item_fields": {
+      "rule_id": "string, references a rule in dasha/transit/fast_trigger/classical/outcome files",
+      "adjustment_type": "one of: weight, timing, confidence, priority, window",
+      "weight_adjustment": "number, additive adjustment to rule weight",
+      "priority_adjustment": "integer, additive adjustment to rule priority",
+      "timing_adjustment_days": "integer, shift window by N days",
+      "confidence_adjustment": "number, additive adjustment to confidence",
+      "window_width_adjustment_days": "integer, expand/shrink window",
+      "reason": "string, documented justification for adjustment",
+      "supporting_cases": "integer, number of validated cases supporting this",
+      "conflicting_cases": "integer, number of cases contradicting this"
+    }
+  },
+  "outcome_calibration_spec": {
+    "description": "Calibration for outcome/quality classification conflicts",
+    "fields": {
+      "mode_priority_order": "array of mode strings in descending priority",
+      "quality_priority_order": "array of quality strings in descending priority",
+      "mode_confidence_thresholds": "object mapping mode to minimum confidence",
+      "default_mode": "string, fallback mode when no rule fires"
+    }
+  },
+  "evidence_summary_spec": {
+    "description": "Validation evidence tracking",
+    "fields": {
+      "total_cases_tested": "integer",
+      "verified_cases": "integer",
+      "reported_cases": "integer",
+      "timing_accuracy_top5": "number 0-1, fraction of cases where actual event fell in top-5 predicted windows",
+      "mode_accuracy": "number 0-1, fraction of correct mode classifications",
+      "quality_accuracy": "number 0-1, fraction of correct quality classifications",
+      "average_rank": "number, mean rank of actual event window among all predicted windows",
+      "last_validation_date": "date string"
+    }
+  },
+  "governance_spec": {
+    "description": "Change control metadata",
+    "fields": {
+      "created_by": "string, who created this overlay",
+      "adjustment_reason": "string, why these adjustments were made",
+      "reversible": "boolean, can this be rolled back",
+      "applies_to_personal": "boolean, is this personalized or general",
+      "safety_notes": "string, warnings about sample size or limitations"
+    }
+  }
+}

@@ -1,0 +1,443 @@
+[
+  {
+    "rule_id": "fast_trigger_sanghatika_business_crisis",
+    "name": "Sanghatika (16th Star) — Sudden Business Crisis Trigger",
+    "description": "Activation of the 16th Nakshatra from the natal Moon acts as a catalyst for sudden business crises, financial liabilities, and structural professional disputes.",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Sanghatika 16th Star... Triggers financial liabilities, disputes, and structural or business crises.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_closure",
+    "event_subtype": ["sudden_business_reversals"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 92,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transiting planets pass over the exact longitude of the 16th Nakshatra (Sanghatika) counted from the Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Malefics"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["16th_from_Moon"],
+      "d9": [],
+      "sensitive_points": ["Sanghatika_Nakshatra"]
+    },
+    "interpretation": {
+      "meaning": "Provides an exact longitude-sensitive trigger. Activation of the 16th star from the natal Moon acts as a catalyst for sudden business crises, financial liabilities, and structural professional disputes.",
+      "mode": "unknown",
+      "quality": "conflict_prone",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 3,
+      "exact_window_days": 1,
+      "confidence_decay_days": 2
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sanghatika_crisis_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "protect_and_defer_decisions"
+    },
+    "metadata": {
+      "notes": "Highly precise timing method for pinpointing the exact days of sudden business disruptions or forced restructuring."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_navatara_mitra_funding",
+    "name": "Mitra Tara (8th Nakshatra) — Partnership and Funding Trigger",
+    "description": "The exact transit of the Moon through the 8th Nakshatra from the birth star triggers fast, supportive financial gains, often manifesting through business partnerships, networking, or the acquisition of funding from allies.",
+    "source_text": {
+      "work_name": "45 SARAVATOBHADRA CHAKRA IN ASTROLOGY",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "8 th Nakshatra Mitra Financial gain & Success through friend",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "funding",
+    "event_subtype": ["funding_events", "partnership_signing", "major_sales_spikes"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "The transiting Moon (or other fast benefic) passes through the 8th Nakshatra (Mitra Tara) from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["8th_from_Moon"],
+      "d9": [],
+      "sensitive_points": ["Mitra_Tara"]
+    },
+    "interpretation": {
+      "meaning": "The exact transit of the Moon through the 8th Nakshatra from the birth star triggers fast, supportive financial gains, often manifesting through business partnerships, networking, or the acquisition of funding from allies.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 2,
+      "exact_window_days": 1,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.85,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mitra_tara_funding_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "sign_partnerships_close_deals"
+    },
+    "metadata": {
+      "notes": "An application of Navatara (Tara Bala) used for selecting the exact day to sign a partnership deal or close a funding round."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_navatara_param_mitra_gains",
+    "name": "Param Mitra Tara (9th Nakshatra) — Intimate Partner Gains",
+    "description": "The Moon's transit through the 9th Nakshatra (Param Mitra) triggers immediate financial success and business gains, particularly facilitated by highly trusted business partners, co-founders, or close investors.",
+    "source_text": {
+      "work_name": "45 SARAVATOBHADRA CHAKRA IN ASTROLOGY",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "9 th Nakshatra Param Mitra Financial gain & Success through very intimate friend",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_partnership",
+    "event_subtype": ["partnership_signing", "funding_events", "major_sales_spikes"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "The transiting Moon passes through the 9th Nakshatra (Param Mitra Tara) from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["9th_from_Moon"],
+      "d9": [],
+      "sensitive_points": ["Param_Mitra_Tara"]
+    },
+    "interpretation": {
+      "meaning": "The Moon's transit through the 9th Nakshatra (Param Mitra) triggers immediate financial success and business gains, particularly facilitated by highly trusted business partners, co-founders, or close investors.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 2,
+      "exact_window_days": 1,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.85,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "param_mitra_partnership_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "close_critical_agreements"
+    },
+    "metadata": {
+      "notes": "Provides a highly auspicious daily timing trigger for closing crucial business agreements."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_moon_transit_eyes_wealth",
+    "name": "Moon Transit 9th-10th Nakshatra (Eyes) — Sudden Wealth Gain",
+    "description": "A fast micro-transit technique mapping Nakshatras to body parts. When the Moon transits the stars representing the eyes (9th and 10th from birth star), it acts as a micro-trigger for immediate, sudden gains of wealth and sales.",
+    "source_text": {
+      "work_name": "MANTRESWARA'S PHALA DEEPIKA",
+      "chapter": null,
+      "verse": "36",
+      "page": null,
+      "quote": "The Moons's transit Distribution amongst limbs Effects... (d) 9th. 10th - two eyes gain of wealth",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "profit_growth",
+    "event_subtype": ["sudden_gain", "major_sales_spikes"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "The transiting Moon passes through the 9th or 10th Nakshatra counted from the Janma Nakshatra (assigned to the 'two eyes' of the Kala Purusha)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["9th_from_Moon", "10th_from_Moon"],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A fast micro-transit technique mapping Nakshatras to body parts. When the Moon transits the stars representing the eyes (9th and 10th from birth star), it acts as a micro-trigger for immediate, sudden gains of wealth and sales.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 2,
+      "exact_window_days": 1,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.9,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "moon_eyes_wealth_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "exact",
+      "recommended_action": "finalize_revenue_actions"
+    },
+    "metadata": {
+      "notes": "Used in traditional panchang and muhurta to time the exact day a business payout or sale will be realized."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_moon_transit_right_hand_acquisition",
+    "name": "Moon Transit 25th-27th Nakshatra (Right Hand) — Wealth Acquisition",
+    "description": "When the Moon activates the final trine of Nakshatras associated with the right hand (the hand of receiving), it serves as a highly accurate fast trigger for physically acquiring wealth, finalizing a lucrative deal, or taking profits.",
+    "source_text": {
+      "work_name": "MANTRESWARA'S PHALA DEEPIKA",
+      "chapter": null,
+      "verse": "36",
+      "page": null,
+      "quote": "The Moons's transit Distribution amongst limbs Effects... (h) 25th. 26th. 27th - right hand acquisition of wealth",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "profit_growth",
+    "event_subtype": ["deal_signing", "speculative_gains", "sudden_gain"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "The transiting Moon passes through the 25th, 26th, or 27th Nakshatra counted from the Janma Nakshatra (assigned to the 'right hand' of the Kala Purusha)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["25th_from_Moon", "26th_from_Moon", "27th_from_Moon"],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the Moon activates the final trine of Nakshatras associated with the right hand (the hand of receiving), it serves as a highly accurate fast trigger for physically acquiring wealth, finalizing a lucrative deal, or taking profits.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 3,
+      "exact_window_days": 1,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.9,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "right_hand_acquisition_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "sign_contracts_receive_payments"
+    },
+    "metadata": {
+      "notes": "Represents the physical act of receiving funds or signing documents on specific days of the lunar month."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_mars_transit_head_gains",
+    "name": "Mars Transit 16th-17th Nakshatra (Head) — Aggressive Gains",
+    "description": "Mars serves as a dynamic trigger for fast, aggressive action. When it transits the 16th or 17th Nakshatra from the birth star, it ignites sudden gains, rapid profit taking, and sharp sales spikes in business operations.",
+    "source_text": {
+      "work_name": "MANTRESWARA'S PHALA DEEPIKA",
+      "chapter": null,
+      "verse": "37-38",
+      "page": null,
+      "quote": "Mars' transit Distribution amongst limbs Effects... (e) 16th. 17th – head gains",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "profit_growth",
+    "event_subtype": ["sudden_gain", "speculative_gains", "major_sales_spikes"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transiting Mars passes through the 16th or 17th Nakshatra counted from the Janma Nakshatra (assigned to the 'head')"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mars"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["16th_from_Moon", "17th_from_Moon"],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mars serves as a dynamic trigger for fast, aggressive action. When it transits the 16th or 17th Nakshatra from the birth star, it ignites sudden gains, rapid profit taking, and sharp sales spikes in business operations.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 14,
+      "exact_window_days": 5,
+      "confidence_decay_days": 3
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.85,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mars_head_gains_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "exact",
+      "recommended_action": "execute_aggressive_sales"
+    },
+    "metadata": {
+      "notes": "Since Mars takes roughly 1.5 to 2 months to cross a sign, its transit over a specific Nakshatra gives an exact 2-3 week window for intense financial action."
+    }
+  },
+  {
+    "rule_id": "exact_timing_business_completion_navamsa_count",
+    "name": "Navamsa Count — Exact Day of Business Completion",
+    "description": "An exact mathematical timing methodology where the spatial distance (measured in Navamsa divisions, or 3 degree 20 minute segments) between the Ascendant and the business's ruling planet equals the exact number of days until the business deal completes or succeeds.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "Vol 1",
+      "verse": null,
+      "page": null,
+      "quote": "According to the first view, Vrischika Navamsa being the 2nd in the Mithuna lagna, the completion or success of the business has to be predicted to happen in 2 days.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_launch",
+    "event_subtype": ["deal_signing", "company_launch"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Count the number of Navamsas from the Ascendant (Lagna) to the specific Navamsa occupied by the planetary significator of the business."
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Business_Significator"],
+      "nakshatra": [],
+      "d9": ["Significator_Navamsa", "Lagna_Navamsa"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "An exact mathematical timing methodology where the spatial distance (measured in Navamsa divisions, or 3 degree 20 minute segments) between the Ascendant and the business's ruling planet equals the exact number of days until the business deal completes or succeeds.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 9,
+      "exact_window_days": 1,
+      "confidence_decay_days": 2
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "navamsa_count_exact_day",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_specific_day"
+    },
+    "metadata": {
+      "notes": "Used heavily in Prashna (Horary) astrology to give exact day counts for the execution, signing, or launch of a business venture."
+    }
+  }
+]

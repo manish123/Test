@@ -9,6 +9,7 @@ AVAILABLE_DOMAINS = [
     "health",
     "spirituality",
     "general_life",
+    "business",
 ]
 
 
@@ -40,6 +41,8 @@ def get_domain_interpreter(domain_name):
         from rules.domains.health import interpreter
     elif domain_name == "spirituality":
         from rules.domains.spirituality import interpreter
+    elif domain_name == "business":
+        from rules.domains.business import interpreter
     elif domain_name == "general_life":
         from rules.domains.general_life import interpreter
     else:
