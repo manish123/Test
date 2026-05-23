@@ -1,0 +1,117 @@
+[
+  {
+    "rule_id": "marriage_fast_moon_7th_9th",
+    "name": "Moon fast trigger on relationship houses",
+    "description": "The transiting Moon over the 7th or 9th house, or their lords, can trigger the exact marriage window within 72 days.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 99,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {"kind": "transit_house", "operator": "in", "value": [7, 9]},
+        {"kind": "planet_in_house", "operator": "equals", "value": "Moon"}
+      ],
+      "any_of": [
+        {"kind": "house_lord", "operator": "in", "value": [7, 9]}
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 72,
+      "exact_window_days": 7,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.10,
+      "transit_weight": 0.25,
+      "fast_trigger_weight": 0.60,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "exact_marriage_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_day_confirmation"
+    }
+  },
+  {
+    "rule_id": "marriage_fast_mars_7th_9th",
+    "name": "Mars fast trigger on relationship houses",
+    "description": "Mars moving over the 7th or 9th house, or their lords, can narrow marriage timing to within 2 months.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 91,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {"kind": "transit_house", "operator": "in", "value": [7, 9]},
+        {"kind": "planet_in_house", "operator": "equals", "value": "Mars"}
+      ],
+      "any_of": [
+        {"kind": "house_lord", "operator": "in", "value": [7, 9]}
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 14
+    },
+    "weights": {
+      "dasha_weight": 0.10,
+      "transit_weight": 0.20,
+      "fast_trigger_weight": 0.65,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "short_marriage_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "exact",
+      "recommended_action": "narrow_to_day_window"
+    }
+  },
+  {
+    "rule_id": "marriage_fast_jupiter_sensitive_point",
+    "name": "Jupiter hit on sensitive marriage point",
+    "description": "Jupiter crossing the Lagna lord + 7th lord longitude sum point, or its trines/opposition, triggers marriage timing.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 97,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {"kind": "mathematical_point", "operator": "within_orb", "value": "lagna_lord_plus_7th_lord_point", "orb_degrees": 3.0}
+      ],
+      "any_of": [
+        {"kind": "planet_aspect", "operator": "equals", "value": "Jupiter"},
+        {"kind": "mathematical_point", "operator": "trine", "value": "lagna_lord_plus_7th_lord_point", "orb_degrees": 3.0},
+        {"kind": "mathematical_point", "operator": "opposite", "value": "lagna_lord_plus_7th_lord_point", "orb_degrees": 3.0}
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 5,
+      "confidence_decay_days": 7
+    },
+    "weights": {
+      "dasha_weight": 0.15,
+      "transit_weight": 0.25,
+      "fast_trigger_weight": 0.50,
+      "classical_weight": 0.10
+    },
+    "outputs": {
+      "symbolic_label": "high_precision_marriage_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "confirm_date_range"
+    }
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "rule_id": "marriage_transit_double_transit",
+    "name": "Double transit marriage trigger",
+    "description": "Marriage likelihood rises when Jupiter and Saturn simultaneously activate relationship houses or their lords.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 98,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {"kind": "transit_house", "operator": "aspecting", "value": "7th_lord"},
+        {"kind": "transit_house", "operator": "aspecting", "value": "lagna_lord"}
+      ],
+      "any_of": [
+        {"kind": "transit_aspect", "operator": "conjunct", "value": "Jupiter"},
+        {"kind": "transit_aspect", "operator": "conjunct", "value": "Saturn"}
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 90,
+      "exact_window_days": 21,
+      "confidence_decay_days": 20
+    },
+    "weights": {
+      "dasha_weight": 0.25,
+      "transit_weight": 0.55,
+      "fast_trigger_weight": 0.15,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "marriage_window_active",
+      "likelihood_band": "very_high",
+      "timing_band": "broad",
+      "recommended_action": "active_monitoring"
+    }
+  },
+  {
+    "rule_id": "marriage_transit_jupiter_7th",
+    "name": "Jupiter activation of marriage houses",
+    "description": "Jupiter transiting the 7th house, Venus, 7th lord, or D9 Lagna strongly supports marriage timing.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {"kind": "transit_house", "operator": "in", "value": [7]}
+      ],
+      "any_of": [
+        {"kind": "transit_aspect", "operator": "equals", "value": "Jupiter"},
+        {"kind": "navamsa_house", "operator": "in", "value": [1, 7]},
+        {"kind": "planet_aspect", "operator": "in", "value": ["Venus", "7th_lord"]}
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 15
+    },
+    "weights": {
+      "dasha_weight": 0.25,
+      "transit_weight": 0.50,
+      "fast_trigger_weight": 0.20,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "relationship_growth_window",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "watch_for_commitment"
+    }
+  },
+  {
+    "rule_id": "marriage_transit_lagna_lord_support",
+    "name": "Lagna lord support transit",
+    "description": "Marriage timing strengthens when the Lagna lord or 7th lord transits relationship-sensitive houses or trines.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "transit",
+    "status": "experimental",
+    "priority": 82,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {"kind": "transit_aspect", "operator": "equals", "value": "lagna_lord"}
+      ],
+      "any_of": [
+        {"kind": "transit_house", "operator": "in", "value": [7, 11, 2]},
+        {"kind": "transit_aspect", "operator": "trine", "value": "7th_lord"}
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 45,
+      "exact_window_days": 10,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.20,
+      "transit_weight": 0.55,
+      "fast_trigger_weight": 0.20,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "union_window_building",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "observe_for_confirmation"
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "rule_id": "marriage_dasha_7th_lord_md",
+    "name": "7th lord Mahadasha marriage window",
+    "description": "Marriage becomes likely when the 7th lord runs Mahadasha, especially with Venus or Jupiter support.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 95,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {"kind": "dasha_lord", "operator": "equals", "value": "7th_lord"}
+      ],
+      "any_of": [
+        {"kind": "antardasha_lord", "operator": "in", "value": ["Venus", "Jupiter", "2nd_lord"]},
+        {"kind": "planet_in_house", "operator": "in", "value": [7, 2, 11]}
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 180,
+      "exact_window_days": 30,
+      "confidence_decay_days": 45
+    },
+    "weights": {
+      "dasha_weight": 0.55,
+      "transit_weight": 0.25,
+      "fast_trigger_weight": 0.15,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "marriage_window_open",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "observe_and_prepare"
+    }
+  },
+  {
+    "rule_id": "marriage_dasha_venus_md_7th_ad",
+    "name": "Venus Mahadasha with 7th lord Antardasha",
+    "description": "A strong marriage indicator, especially when supported by Jupiter transit.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "compound",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {"kind": "dasha_lord", "operator": "equals", "value": "Venus"},
+        {"kind": "antardasha_lord", "operator": "equals", "value": "7th_lord"}
+      ],
+      "any_of": [
+        {"kind": "transit_aspect", "operator": "conjunct", "value": "Jupiter"},
+        {"kind": "transit_house", "operator": "in", "value": [7, 11, 2]}
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 150,
+      "exact_window_days": 21,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.50,
+      "transit_weight": 0.30,
+      "fast_trigger_weight": 0.15,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "marriage_probability_high",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "prepare_for_commitment_window"
+    }
+  },
+  {
+    "rule_id": "marriage_dasha_2nd_lord_support",
+    "name": "2nd lord family formation support",
+    "description": "Marriage-related family formation often strengthens when the 2nd lord runs a supportive period.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "dasha",
+    "status": "experimental",
+    "priority": 75,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {"kind": "dasha_lord", "operator": "equals", "value": "2nd_lord"}
+      ],
+      "any_of": [
+        {"kind": "antardasha_lord", "operator": "in", "value": ["Venus", "Jupiter", "7th_lord"]},
+        {"kind": "house_lord", "operator": "in", "value": [7, 11]}
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 120,
+      "exact_window_days": 15,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.45,
+      "transit_weight": 0.25,
+      "fast_trigger_weight": 0.20,
+      "classical_weight": 0.10
+    },
+    "outputs": {
+      "symbolic_label": "family_forming_phase",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "observe_relationship_stability"
+    }
+  }
+]
