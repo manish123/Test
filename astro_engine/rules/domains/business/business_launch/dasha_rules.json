@@ -8,28 +8,21 @@
       "chapter": "18",
       "verse": "21-22",
       "page": null,
-      "quote": "Of whatever business or concern a planet is a karaka (promoter), that concern will succeed, as the wise say, during the dasa of that planet..."
+      "quote": "Of whatever business or concern a planet is a karaka (promoter), that concern will succeed, as the wise say, during the dasa of that planet... If men's success in a business or concern be the subject of inquiry, the astrologer should predict the success of the concern during the dasa of the planet that is the promoter of the concern in question, if the influence of the planet be for good...",
+      "translation": null
     },
     "domain": "business",
     "event_family": "business_launch",
     "event_subtype": ["business_launch", "expansion", "profit_growth"],
     "rule_type": "dasha",
     "status": "active",
-    "priority": 95,
+    "priority": 98,
     "polarity": "supportive",
     "timing_band": "broad",
     "conditions": {
       "all_of": [
-        {
-          "kind": "dasha_lord",
-          "operator": "equals",
-          "value": "Business_Karaka_Lord"
-        },
-        {
-          "kind": "planet_dignity",
-          "operator": "is_strong",
-          "value": "Business_Karaka_Lord"
-        }
+        "The Mahadasha or Antardasha of the planet acting as the natural Karaka (significator) for the specific industry or business is active",
+        "The Karaka planet is well-placed and holds good dignity/strength in the chart"
       ],
       "any_of": [],
       "none_of": []
@@ -43,6 +36,12 @@
       "d9": [],
       "sensitive_points": []
     },
+    "interpretation": {
+      "meaning": "The ultimate success, launch, or expansion of any specific business venture is deeply tied to the Dasha period of the planet that naturally rules over that specific trade or industry (Karaka).",
+      "mode": "unknown",
+      "quality": "stable",
+      "confidence": 0.95
+    },
     "window": {
       "broad_window_days": 365,
       "exact_window_days": 90,
@@ -54,73 +53,46 @@
       "fast_trigger_weight": 0.0,
       "classical_weight": 0.0
     },
-    "interpretation": {
-      "meaning": "The ultimate success, launch, or expansion of any specific business venture is deeply tied to the Dasha period of the planet that naturally rules over that specific trade or industry (Karaka).",
-      "mode": "unknown",
-      "quality": "stable",
-      "confidence": 0.95
-    },
     "outputs": {
       "symbolic_label": "business_karaka_window_open",
       "likelihood_band": "very_high",
       "timing_band": "broad",
-      "recommended_action": "execute_launch"
+      "recommended_action": "monitor_transit_activation"
     },
-    "notes": "A foundational rule indicating that one must identify the exact planetary promoter of the native's business field before assessing timing windows."
+    "metadata": {
+      "notes": "A foundational rule indicating that one must identify the exact planetary promoter of the native's business field before assessing timing windows."
+    }
   },
   {
     "rule_id": "bphs_dasha_rahu_mercury_business",
-    "name": "Rahu-Mercury Dasha — Commercial Expansion & Raj Yoga",
+    "name": "Rahu-Mercury Dasha — Commercial Expansion and Raj Yoga",
     "description": "Rahu Mahadasha with Mercury Antardasha triggers major business profits, Rajyoga effects, and successful scaling when Mercury is well-supported.",
     "source_text": {
       "work_name": "Brihat Parashara Hora Shastra",
       "chapter": null,
       "verse": null,
       "page": null,
-      "quote": "Auspicious effects, like Raj Yog, well being in the family, profits and gain of wealth in business... will be derived in the Antar Dasha of Budh in the Dasha of Rahu, if Budh is in his exaltation Rasi, in a Kendr, or in Putr and, if Budh is endowed with strength."
+      "quote": "Auspicious effects, like Raj Yog, well being in the family, profits and gain of wealth in business... will be derived in the Antar Dasha of Budh in the Dasha of Rahu, if Budh is in his exaltation Rasi, in a Kendr, or in Putr and, if Budh is endowed with strength.",
+      "translation": null
     },
     "domain": "business",
     "event_family": "profit_growth",
-    "event_subtype": ["profit_growth", "scaling", "business_related_rajyoga"],
+    "event_subtype": ["profit_growth", "scaling", "business_related_Rajyoga"],
     "rule_type": "dasha",
     "status": "active",
-    "priority": 92,
+    "priority": 95,
     "polarity": "supportive",
     "timing_band": "broad",
     "conditions": {
       "all_of": [
-        {
-          "kind": "dasha_lord",
-          "operator": "equals",
-          "value": "Rahu"
-        },
-        {
-          "kind": "antardasha_lord",
-          "operator": "equals",
-          "value": "Mercury"
-        },
-        {
-          "kind": "planet_dignity",
-          "operator": "is_strong",
-          "value": "Mercury"
-        }
+        "Rahu Mahadasha is active",
+        "Mercury (Budh) Antardasha is active",
+        "Mercury is endowed with strength"
       ],
       "any_of": [
-        {
-          "kind": "planet_dignity",
-          "operator": "is_exalted",
-          "value": "Mercury"
-        },
-        {
-          "kind": "planet_in_house",
-          "operator": "in",
-          "value": [1, 4, 7, 10]
-        },
-        {
-          "kind": "planet_in_house",
-          "operator": "in",
-          "value": [5]
-        }
+        "Mercury is in its sign of exaltation (Virgo)",
+        "Mercury is in a Kendra (1st, 4th, 7th, 10th house)",
+        "Mercury is in the 5th house (Putra Bhava)"
       ],
       "none_of": []
     },
@@ -133,6 +105,12 @@
       "d9": [],
       "sensitive_points": []
     },
+    "interpretation": {
+      "meaning": "The period combining Rahu (expansion, foreign elements, massive scale) and Mercury (commerce, trade, intellect) triggers major business profits, Rajyoga effects, and successful scaling, provided Mercury is well-supported.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
     "window": {
       "broad_window_days": 300,
       "exact_window_days": 60,
@@ -144,30 +122,27 @@
       "fast_trigger_weight": 0.0,
       "classical_weight": 0.0
     },
-    "interpretation": {
-      "meaning": "The period combining Rahu (expansion, foreign elements, massive scale) and Mercury (commerce, trade, intellect) triggers major business profits, Rajyoga effects, and successful scaling, provided Mercury is well-supported.",
-      "mode": "unknown",
-      "quality": "supportive",
-      "confidence": 0.95
-    },
     "outputs": {
       "symbolic_label": "rahu_mercury_profit_window",
       "likelihood_band": "very_high",
       "timing_band": "broad",
       "recommended_action": "scale_aggressively"
     },
-    "notes": "One of the most potent periods for commercial and entrepreneurial success in Vedic astrology."
+    "metadata": {
+      "notes": "One of the most potent periods for commercial and entrepreneurial success in Vedic astrology."
+    }
   },
   {
     "rule_id": "bphs_dasha_ketu_mercury_abnormal_profits",
-    "name": "Ketu-Mercury Dasha — Abnormal/Windfall Business Profits",
+    "name": "Ketu-Mercury Dasha — Abnormal Windfall Business Profits",
     "description": "Ketu Mahadasha with Mercury Antardasha triggers unexpected, abnormal, or windfall profits in business when Mercury is well-placed from Ketu.",
     "source_text": {
       "work_name": "Brihat Parashara Hora Shastra",
       "chapter": "59",
       "verse": "75-76",
       "page": "729",
-      "quote": "There will be good health, happiness from son, opulence and glory, availability of good food and clothes and abnormal profits in business, if Mercury be in a kendra, trikona or the 11th from the lord of the Dasa (Ketu)."
+      "quote": "There will be good health, happiness from son, opulence and glory, availability of good food and clothes and abnormal profits in business, if Mercury be in a kendra, trikona or the 11th from the lord of the Dasa (Ketu).",
+      "translation": null
     },
     "domain": "business",
     "event_family": "profit_growth",
@@ -179,33 +154,13 @@
     "timing_band": "broad",
     "conditions": {
       "all_of": [
-        {
-          "kind": "dasha_lord",
-          "operator": "equals",
-          "value": "Ketu"
-        },
-        {
-          "kind": "antardasha_lord",
-          "operator": "equals",
-          "value": "Mercury"
-        }
+        "Ketu Mahadasha is active",
+        "Mercury Antardasha is active"
       ],
       "any_of": [
-        {
-          "kind": "relative_position",
-          "operator": "kendra_from",
-          "value": "Ketu"
-        },
-        {
-          "kind": "relative_position",
-          "operator": "trikona_from",
-          "value": "Ketu"
-        },
-        {
-          "kind": "relative_position",
-          "operator": "in",
-          "value": [11]
-        }
+        "Mercury is positioned in a Kendra (1st, 4th, 7th, 10th) from Ketu",
+        "Mercury is positioned in a Trikona (5th, 9th) from Ketu",
+        "Mercury is positioned in the 11th house from Ketu"
       ],
       "none_of": []
     },
@@ -218,22 +173,22 @@
       "d9": [],
       "sensitive_points": []
     },
+    "interpretation": {
+      "meaning": "When the commerce planet (Mercury) is placed in an auspicious angle, trine, or house of gains (11th) relative to Ketu, their mutual Dasha period triggers unexpected, abnormal, or windfall profits in business.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
     "window": {
       "broad_window_days": 240,
       "exact_window_days": 45,
       "confidence_decay_days": 30
     },
     "weights": {
-      "dasha_weight": 0.90,
+      "dasha_weight": 0.9,
       "transit_weight": 0.0,
       "fast_trigger_weight": 0.0,
       "classical_weight": 0.0
-    },
-    "interpretation": {
-      "meaning": "When the commerce planet (Mercury) is placed in an auspicious angle, trine, or house of gains (11th) relative to Ketu, their mutual Dasha period triggers unexpected, abnormal, or windfall profits in business.",
-      "mode": "unknown",
-      "quality": "supportive",
-      "confidence": 0.90
     },
     "outputs": {
       "symbolic_label": "ketu_mercury_windfall_window",
@@ -241,18 +196,21 @@
       "timing_band": "broad",
       "recommended_action": "prepare_for_unexpected_gains"
     },
-    "notes": "Demonstrates the power of relative planetary placements (Dasha Pravesh Chakra) for evaluating business outcomes."
+    "metadata": {
+      "notes": "Demonstrates the power of relative planetary placements (Dasha Pravesh Chakra) for evaluating business outcomes."
+    }
   },
   {
     "rule_id": "bphs_dasha_moon_mercury_profits",
-    "name": "Moon-Mercury Dasha — Commercial Profits & Wealth Acquisition",
+    "name": "Moon-Mercury Dasha — Commercial Profits and Wealth",
     "description": "Moon Mahadasha with Mercury Antardasha yields successful commercial activity and wealth generation when Mercury is well-placed from the Moon.",
     "source_text": {
       "work_name": "Brihat Parashara Hora Shastra",
       "chapter": "53",
       "verse": "42-43",
       "page": "646",
-      "quote": "profits in business, acquisition of conveyances, clothes and ornaments etc., will be experienced in the Antardasa of Mercury in the Dasa of the Moon, if Mercury be in kendra or trikona, the 11th or the 2nd from the lord of the Dasa (the Moon)."
+      "quote": "profits in business, acquisition of conveyances, clothes and ornaments etc., will be experienced in the Antardasa of Mercury in the Dasa of the Moon, if Mercury be in kendra or trikona, the 11th or the 2nd from the lord of the Dasa (the Moon).",
+      "translation": null
     },
     "domain": "business",
     "event_family": "profit_growth",
@@ -264,38 +222,14 @@
     "timing_band": "broad",
     "conditions": {
       "all_of": [
-        {
-          "kind": "dasha_lord",
-          "operator": "equals",
-          "value": "Moon"
-        },
-        {
-          "kind": "antardasha_lord",
-          "operator": "equals",
-          "value": "Mercury"
-        }
+        "Moon Mahadasha is active",
+        "Mercury Antardasha is active"
       ],
       "any_of": [
-        {
-          "kind": "relative_position",
-          "operator": "kendra_from",
-          "value": "Moon"
-        },
-        {
-          "kind": "relative_position",
-          "operator": "trikona_from",
-          "value": "Moon"
-        },
-        {
-          "kind": "relative_position",
-          "operator": "in",
-          "value": [2]
-        },
-        {
-          "kind": "relative_position",
-          "operator": "in",
-          "value": [11]
-        }
+        "Mercury is positioned in a Kendra (1st, 4th, 7th, 10th) from the Moon",
+        "Mercury is positioned in a Trikona (5th, 9th) from the Moon",
+        "Mercury is positioned in the 2nd house from the Moon",
+        "Mercury is positioned in the 11th house from the Moon"
       ],
       "none_of": []
     },
@@ -308,6 +242,12 @@
       "d9": [],
       "sensitive_points": []
     },
+    "interpretation": {
+      "meaning": "The interaction of the emotional/public mind (Moon) and intellect/trade (Mercury) yields successful commercial activity and wealth generation, provided Mercury is well-placed from the Mahadasha lord.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
     "window": {
       "broad_window_days": 270,
       "exact_window_days": 45,
@@ -319,19 +259,15 @@
       "fast_trigger_weight": 0.0,
       "classical_weight": 0.0
     },
-    "interpretation": {
-      "meaning": "The interaction of the emotional/public mind (Moon) and intellect/trade (Mercury) yields successful commercial activity and wealth generation, provided Mercury is well-placed from the Mahadasha lord.",
-      "mode": "unknown",
-      "quality": "supportive",
-      "confidence": 0.85
-    },
     "outputs": {
       "symbolic_label": "moon_mercury_commercial_window",
       "likelihood_band": "high",
       "timing_band": "broad",
       "recommended_action": "execute_commercial_plans"
     },
-    "notes": "Links the 2nd (wealth) and 11th (gains) relative placements directly to business profit."
+    "metadata": {
+      "notes": "Links the 2nd (wealth) and 11th (gains) relative placements directly to business profit."
+    }
   },
   {
     "rule_id": "bphs_dasha_rahu_saturn_structure",
@@ -342,7 +278,8 @@
       "chapter": "54",
       "verse": "21-24",
       "page": "668",
-      "quote": "success in the desired spheres, profits in business, increase in the number of cattle, gain of wealth... will be derived in the Antardasa of Saturn in the Dasa of Rahu, if Saturn be in kendra, trikona in his sign of exaltation, in his own sign, in his moolatrikona, the 3rd or the 11th."
+      "quote": "success in the desired spheres, profits in business, increase in the number of cattle, gain of wealth... will be derived in the Antardasa of Saturn in the Dasa of Rahu, if Saturn be in kendra, trikona in his sign of exaltation, in his own sign, in his moolatrikona, the 3rd or the 11th.",
+      "translation": null
     },
     "domain": "business",
     "event_family": "scaling",
@@ -354,48 +291,17 @@
     "timing_band": "broad",
     "conditions": {
       "all_of": [
-        {
-          "kind": "dasha_lord",
-          "operator": "equals",
-          "value": "Rahu"
-        },
-        {
-          "kind": "antardasha_lord",
-          "operator": "equals",
-          "value": "Saturn"
-        }
+        "Rahu Mahadasha is active",
+        "Saturn Antardasha is active"
       ],
       "any_of": [
-        {
-          "kind": "planet_in_house",
-          "operator": "in",
-          "value": [1, 4, 7, 10]
-        },
-        {
-          "kind": "planet_in_house",
-          "operator": "in",
-          "value": [5, 9]
-        },
-        {
-          "kind": "planet_in_house",
-          "operator": "in",
-          "value": [3, 11]
-        },
-        {
-          "kind": "planet_dignity",
-          "operator": "is_exalted",
-          "value": "Saturn"
-        },
-        {
-          "kind": "planet_dignity",
-          "operator": "is_own_sign",
-          "value": "Saturn"
-        },
-        {
-          "kind": "planet_dignity",
-          "operator": "is_moolatrikona",
-          "value": "Saturn"
-        }
+        "Saturn is positioned in a Kendra (1st, 4th, 7th, 10th)",
+        "Saturn is positioned in a Trikona (5th, 9th)",
+        "Saturn is positioned in the 3rd house",
+        "Saturn is positioned in the 11th house",
+        "Saturn is in its sign of exaltation (Libra)",
+        "Saturn is in its own sign (Capricorn, Aquarius)",
+        "Saturn is in its Moolatrikona sign (Aquarius)"
       ],
       "none_of": []
     },
@@ -408,22 +314,22 @@
       "d9": [],
       "sensitive_points": []
     },
+    "interpretation": {
+      "meaning": "The intense Dasha combination of Rahu and Saturn can bring significant, structured business profits and successful scaling of operations if Saturn is dignified and placed in growth or angular houses.",
+      "mode": "unknown",
+      "quality": "stable",
+      "confidence": 0.9
+    },
     "window": {
       "broad_window_days": 540,
       "exact_window_days": 90,
       "confidence_decay_days": 60
     },
     "weights": {
-      "dasha_weight": 0.90,
+      "dasha_weight": 0.9,
       "transit_weight": 0.0,
       "fast_trigger_weight": 0.0,
       "classical_weight": 0.0
-    },
-    "interpretation": {
-      "meaning": "The intense Dasha combination of Rahu and Saturn can bring significant, structured business profits and successful scaling of operations if Saturn is dignified and placed in growth or angular houses.",
-      "mode": "unknown",
-      "quality": "stable",
-      "confidence": 0.90
     },
     "outputs": {
       "symbolic_label": "rahu_saturn_scaling_window",
@@ -431,7 +337,9 @@
       "timing_band": "broad",
       "recommended_action": "build_infrastructure_and_scale"
     },
-    "notes": "Saturn provides the necessary structure to Rahu's vast ambitions, enabling massive business execution."
+    "metadata": {
+      "notes": "Saturn provides the necessary structure to Rahu's vast ambitions, enabling massive business execution."
+    }
   },
   {
     "rule_id": "jataka_parijata_jupiter_mercury_trading",
@@ -442,7 +350,8 @@
       "chapter": "18",
       "verse": "114",
       "page": "1054",
-      "quote": "Acquisition of wealth by means of the trading community, royal favor leading to material comforts... will mark Mercury's bhukti to Jupiter's mahadasa."
+      "quote": "Acquisition of wealth by means of the trading community, royal favor leading to material comforts... will mark Mercury's bhukti to Jupiter's mahadasa.",
+      "translation": null
     },
     "domain": "business",
     "event_family": "business_expansion",
@@ -454,16 +363,8 @@
     "timing_band": "broad",
     "conditions": {
       "all_of": [
-        {
-          "kind": "dasha_lord",
-          "operator": "equals",
-          "value": "Jupiter"
-        },
-        {
-          "kind": "antardasha_lord",
-          "operator": "equals",
-          "value": "Mercury"
-        }
+        "Jupiter Mahadasha is active",
+        "Mercury Antardasha is active"
       ],
       "any_of": [],
       "none_of": []
@@ -477,6 +378,12 @@
       "d9": [],
       "sensitive_points": []
     },
+    "interpretation": {
+      "meaning": "The interaction of the planet of expansion/wisdom (Jupiter) and commerce (Mercury) provides highly lucrative networking opportunities, B2B sales growth, and overall business expansion through the trading community.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
     "window": {
       "broad_window_days": 420,
       "exact_window_days": 60,
@@ -488,19 +395,15 @@
       "fast_trigger_weight": 0.0,
       "classical_weight": 0.0
     },
-    "interpretation": {
-      "meaning": "The interaction of the planet of expansion/wisdom (Jupiter) and commerce (Mercury) provides highly lucrative networking opportunities, B2B sales growth, and overall business expansion through the trading community.",
-      "mode": "unknown",
-      "quality": "supportive",
-      "confidence": 0.85
-    },
     "outputs": {
       "symbolic_label": "jupiter_mercury_expansion_window",
       "likelihood_band": "high",
       "timing_band": "broad",
       "recommended_action": "network_and_expand"
     },
-    "notes": "Excellent period for networking, marketing, and commercial trading."
+    "metadata": {
+      "notes": "Excellent period for networking, marketing, and commercial trading."
+    }
   },
   {
     "rule_id": "jataka_parijata_jupiter_saturn_failure",
@@ -511,7 +414,8 @@
       "chapter": "18",
       "verse": "111",
       "page": "1053",
-      "quote": "A feeling of aversion, mental anguish, waste of wealth through the sons, failure of business are what a person may have to be prepared for during Saturn's interval in Jupiter's mahadasa."
+      "quote": "A feeling of aversion, mental anguish, waste of wealth through the sons, failure of business are what a person may have to be prepared for during Saturn's interval in Jupiter's mahadasa.",
+      "translation": null
     },
     "domain": "business",
     "event_family": "business_closure",
@@ -523,16 +427,8 @@
     "timing_band": "broad",
     "conditions": {
       "all_of": [
-        {
-          "kind": "dasha_lord",
-          "operator": "equals",
-          "value": "Jupiter"
-        },
-        {
-          "kind": "antardasha_lord",
-          "operator": "equals",
-          "value": "Saturn"
-        }
+        "Jupiter Mahadasha is active",
+        "Saturn Antardasha is active"
       ],
       "any_of": [],
       "none_of": []
@@ -546,6 +442,12 @@
       "d9": [],
       "sensitive_points": []
     },
+    "interpretation": {
+      "meaning": "The friction between the expansive, optimistic energy of Jupiter and the restrictive, pessimistic energy of Saturn often leads to significant operational setbacks, contraction, or outright business failure.",
+      "mode": "unknown",
+      "quality": "conflict_prone",
+      "confidence": 0.85
+    },
     "window": {
       "broad_window_days": 540,
       "exact_window_days": 90,
@@ -557,19 +459,15 @@
       "fast_trigger_weight": 0.0,
       "classical_weight": 0.0
     },
-    "interpretation": {
-      "meaning": "The friction between the expansive, optimistic energy of Jupiter and the restrictive, pessimistic energy of Saturn often leads to significant operational setbacks, contraction, or outright business failure.",
-      "mode": "unknown",
-      "quality": "conflict_prone",
-      "confidence": 0.85
-    },
     "outputs": {
       "symbolic_label": "jupiter_saturn_contraction_warning",
       "likelihood_band": "high",
       "timing_band": "broad",
       "recommended_action": "consolidate_and_protect"
     },
-    "notes": "A well-known challenging period (Dasha Chidra dynamics) requiring immense operational caution."
+    "metadata": {
+      "notes": "A well-known challenging period (Dasha Chidra dynamics) requiring immense operational caution."
+    }
   },
   {
     "rule_id": "jataka_parijata_jupiter_mars_risk",
@@ -580,7 +478,8 @@
       "chapter": "18",
       "verse": "118",
       "page": "1066",
-      "quote": "Failure in business, wandering, high fever, great risk, loss of wealth and depression of spirits, a person must be prepared for in Kuja's interval in Jupiter's mahadasa."
+      "quote": "Failure in business, wandering, high fever, great risk, loss of wealth and depression of spirits, a person must be prepared for in Kuja's interval in Jupiter's mahadasa.",
+      "translation": null
     },
     "domain": "business",
     "event_family": "business_closure",
@@ -592,16 +491,8 @@
     "timing_band": "broad",
     "conditions": {
       "all_of": [
-        {
-          "kind": "dasha_lord",
-          "operator": "equals",
-          "value": "Jupiter"
-        },
-        {
-          "kind": "antardasha_lord",
-          "operator": "equals",
-          "value": "Mars"
-        }
+        "Jupiter Mahadasha is active",
+        "Mars (Kuja) Antardasha is active"
       ],
       "any_of": [],
       "none_of": []
@@ -615,22 +506,22 @@
       "d9": [],
       "sensitive_points": []
     },
+    "interpretation": {
+      "meaning": "Impulsive decision-making, uncalculated risks, and over-aggressive expansion during the Mars sub-period within Jupiter's major period lead to catastrophic business losses and capital destruction.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.8
+    },
     "window": {
       "broad_window_days": 330,
       "exact_window_days": 60,
       "confidence_decay_days": 45
     },
     "weights": {
-      "dasha_weight": 0.80,
+      "dasha_weight": 0.8,
       "transit_weight": 0.0,
       "fast_trigger_weight": 0.0,
       "classical_weight": 0.0
-    },
-    "interpretation": {
-      "meaning": "Impulsive decision-making, uncalculated risks, and over-aggressive expansion during the Mars sub-period within Jupiter's major period lead to catastrophic business losses and capital destruction.",
-      "mode": "unknown",
-      "quality": "painful",
-      "confidence": 0.80
     },
     "outputs": {
       "symbolic_label": "jupiter_mars_overextension_risk",
@@ -638,7 +529,9 @@
       "timing_band": "broad",
       "recommended_action": "avoid_expansion_reduce_leverage"
     },
-    "notes": "Mars and Jupiter are mutual friends, but this specific Dasha alignment often causes the native to take on too much leverage or excessive risk in business."
+    "metadata": {
+      "notes": "Mars and Jupiter are mutual friends, but this specific Dasha alignment often causes the native to take on too much leverage or excessive risk in business."
+    }
   },
   {
     "rule_id": "bphs_venus_mercury_business_losses",
@@ -649,7 +542,8 @@
       "chapter": "56",
       "verse": "63-65",
       "page": "740",
-      "quote": "If Mercury be in the 6th, the 8th or the 12th from the lord of Dasa (Venus) or be weak or be associated with a malefic, there will be agony, loss of cattle, residence in other people's houses, and losses in business."
+      "quote": "If Mercury be in the 6th, the 8th or the 12th from the lord of Dasa (Venus) or be weak or be associated with a malefic, there will be agony, loss of cattle, residence in other people's houses, and losses in business.",
+      "translation": null
     },
     "domain": "business",
     "event_family": "business_closure",
@@ -661,33 +555,13 @@
     "timing_band": "broad",
     "conditions": {
       "all_of": [
-        {
-          "kind": "dasha_lord",
-          "operator": "equals",
-          "value": "Venus"
-        },
-        {
-          "kind": "antardasha_lord",
-          "operator": "equals",
-          "value": "Mercury"
-        }
+        "Venus Mahadasha is active",
+        "Mercury Antardasha is active"
       ],
       "any_of": [
-        {
-          "kind": "relative_position",
-          "operator": "in",
-          "value": [6, 8, 12]
-        },
-        {
-          "kind": "planet_dignity",
-          "operator": "is_weak",
-          "value": "Mercury"
-        },
-        {
-          "kind": "malefic_association",
-          "operator": "conjunct",
-          "value": "Mercury"
-        }
+        "Mercury is positioned in the 6th, 8th, or 12th house from Venus",
+        "Mercury is structurally weak in the birth chart",
+        "Mercury is associated with a malefic planet"
       ],
       "none_of": []
     },
@@ -700,22 +574,22 @@
       "d9": [],
       "sensitive_points": []
     },
+    "interpretation": {
+      "meaning": "While Venus-Mercury is typically highly favorable for wealth, if the planet of commerce (Mercury) is afflicted or poorly placed relative to the Mahadasha lord, it creates severe commercial vulnerability, resulting in business losses.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.9
+    },
     "window": {
       "broad_window_days": 420,
       "exact_window_days": 60,
       "confidence_decay_days": 45
     },
     "weights": {
-      "dasha_weight": 0.90,
+      "dasha_weight": 0.9,
       "transit_weight": 0.0,
       "fast_trigger_weight": 0.0,
       "classical_weight": 0.0
-    },
-    "interpretation": {
-      "meaning": "While Venus-Mercury is typically highly favorable for wealth, if the planet of commerce (Mercury) is afflicted or poorly placed relative to the Mahadasha lord, it creates severe commercial vulnerability, resulting in business losses.",
-      "mode": "unknown",
-      "quality": "painful",
-      "confidence": 0.90
     },
     "outputs": {
       "symbolic_label": "venus_mercury_loss_warning",
@@ -723,6 +597,8 @@
       "timing_band": "broad",
       "recommended_action": "protect_capital_reduce_exposure"
     },
-    "notes": "An exception rule to the generally highly favorable Venus-Mercury period. The relative 6/8 or 2/12 axis placement (Shadashtaka/Dwidwadasa) cancels the yoga."
+    "metadata": {
+      "notes": "An exception rule to the generally highly favorable Venus-Mercury period. The relative 6/8 or 2/12 axis placement (Shadashtaka/Dwidwadasa) cancels the yoga."
+    }
   }
 ]

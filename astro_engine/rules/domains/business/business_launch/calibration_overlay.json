@@ -1,0 +1,141 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "business",
+  "event_family": "business_launch",
+  "last_updated": "2026-05-23T18:00:00Z",
+  "layer_weights": {
+    "dasha_weight": 0.35,
+    "transit_weight": 0.35,
+    "fast_trigger_weight": 0.20,
+    "classical_weight": 0.10,
+    "_notes": "Initial weights. Business has longer horizons than marriage so transit and dasha are equally important. Classical patterns (natal promise) get slightly higher weight than marriage because business archetype strongly determines success potential."
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15,
+    "_notes": "Initial thresholds pending validation against actual business launch/success cases. Higher thresholds than marriage because business timing has more variables."
+  },
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions. Classical texts define PRIORITY but not numeric scores. These numbers are Layer 3 calibration.",
+    "dasha": {
+      "business_karaka_lord_md_or_ad": 45,
+      "rahu_md_mercury_ad_strong": 42,
+      "ketu_md_mercury_ad_favorable": 35,
+      "moon_md_mercury_ad_favorable": 30,
+      "rahu_md_saturn_ad_dignified": 38,
+      "jupiter_md_mercury_ad": 32,
+      "jupiter_md_saturn_ad_negative": -25,
+      "jupiter_md_mars_ad_negative": -20,
+      "venus_md_mercury_ad_afflicted_negative": -22,
+      "_calibration_note": "Business karaka dasha (45) is highest because it is the most precise indicator. Rahu-Mercury (42) is second strongest as both classical texts and modern observation confirm its commercial potency. Negative scores for failure indicators to reduce composite score."
+    },
+    "transit": {
+      "double_transit_7_10_11": 50,
+      "jupiter_conjunct_natal_mercury": 35,
+      "saturn_11th_from_moon": 38,
+      "jupiter_11th_from_moon": 32,
+      "jupiter_2nd_from_moon": 28,
+      "saturn_12th_from_moon_negative": -30,
+      "_calibration_note": "Double transit (50) is the strongest transit indicator, validated across multiple domains. Saturn 12th negative score (-30) serves as a strong blocking signal for business expansion."
+    },
+    "fast_trigger": {
+      "mitra_tara_moon": 25,
+      "param_mitra_tara_moon": 25,
+      "moon_9th_10th_eyes": 20,
+      "moon_25th_27th_right_hand": 22,
+      "mars_16th_17th_head": 18,
+      "sanghatika_16th_negative": -30,
+      "navamsa_count_exact": 35,
+      "_calibration_note": "Fast triggers are meaningful ONLY when dasha+transit already active. Sanghatika crisis trigger gets high negative to block execution on crisis days. Navamsa count is highest because it provides exact day prediction from classical Prashna."
+    }
+  },
+  "rule_adjustments": [
+    {
+      "rule_id": "jataka_parijata_business_karaka_dasha",
+      "adjustment_type": "confidence",
+      "confidence_adjustment": 0.0,
+      "reason": "Foundational rule. No adjustment needed yet — requires identification of karaka planet per native's industry. Initial confidence 0.95 appropriate.",
+      "supporting_cases": 0,
+      "conflicting_cases": 0
+    },
+    {
+      "rule_id": "double_transit_business_houses",
+      "adjustment_type": "confidence",
+      "confidence_adjustment": 0.0,
+      "reason": "Double transit is the gold standard of Jyotish transit methodology. Already at 0.95 confidence. Validated across marriage and career domains — should hold for business.",
+      "supporting_cases": 0,
+      "conflicting_cases": 0
+    },
+    {
+      "rule_id": "bphs_dasha_rahu_mercury_business",
+      "adjustment_type": "weight",
+      "weight_adjustment": 0.0,
+      "reason": "Rahu-Mercury is widely acknowledged as one of the most potent business periods. No adjustment needed until validation cases available.",
+      "supporting_cases": 0,
+      "conflicting_cases": 0
+    },
+    {
+      "rule_id": "fast_trigger_sanghatika_business_crisis",
+      "adjustment_type": "priority",
+      "priority_adjustment": 0,
+      "reason": "Crisis trigger should override positive fast triggers on same day. Priority 92 already ensures this. Monitor for false positives.",
+      "supporting_cases": 0,
+      "conflicting_cases": 0
+    }
+  ],
+  "outcome_calibration": {
+    "mode_priority_order": [
+      "sole_proprietorship_sun_7th",
+      "partnership_venus_7th",
+      "speculative_5_11_connection",
+      "technology_mars_navamsa",
+      "family_business_moon_2nd",
+      "communications_mercury_airy",
+      "unconventional_rahu_involvement",
+      "industrial_saturn_10th"
+    ],
+    "quality_priority_order": [
+      "dhana_yoga_high_wealth",
+      "chandra_mangala_11th_scalable",
+      "lagnesha_3rd_administrator",
+      "venus_7th_luxury_stable",
+      "jupiter_saturn_contraction",
+      "jupiter_mars_overleveraged",
+      "kemadruma_isolated",
+      "satramooladdhana_litigation"
+    ],
+    "mode_confidence_thresholds": {
+      "sole_proprietorship": 0.75,
+      "partnership": 0.7,
+      "speculative": 0.65,
+      "technology": 0.6,
+      "family_business": 0.6,
+      "communications": 0.55,
+      "unconventional": 0.5
+    },
+    "default_mode": "general_commerce",
+    "_calibration_notes": {
+      "initial_state": "No validation cases yet. Mode priority order is based on classical text priority (Sun 7th is definitive rejection of partnerships, hence highest). Quality priority favors positive indicators over negative ones.",
+      "next_steps": "Validate against 10+ known entrepreneur charts with documented business types and outcomes."
+    }
+  },
+  "evidence_summary": {
+    "total_cases_tested": 0,
+    "verified_cases": 0,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.0,
+    "mode_accuracy": 0.0,
+    "quality_accuracy": 0.0,
+    "average_rank": 0.0,
+    "last_validation_date": "2026-05-23"
+  },
+  "governance": {
+    "created_by": "initial_architecture_setup",
+    "adjustment_reason": "Initial calibration overlay for business domain. All values are baseline pending validation against real business launch/success/failure cases.",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "ZERO cases validated. All scores and thresholds are theoretical extrapolations from marriage/career calibration patterns. Do NOT apply aggressive weight changes until 20+ cases validated. Business timing has more variables than marriage timing — expect lower initial accuracy."
+  }
+}

@@ -1,0 +1,663 @@
+[
+  {
+    "rule_id": "phaladeepika_speculative_business_5_11",
+    "name": "5th-11th Lord Connection — Speculative Business Acumen",
+    "description": "The connection between the house of investments/speculation (5th) and the house of gains (11th) creates an archetype suited for speculative markets and investments.",
+    "source_text": {
+      "work_name": "MANTRESWARA'S PHALA DEEPIKA",
+      "chapter": null,
+      "verse": "29",
+      "page": null,
+      "quote": "If the lord of the 11th is posited in the 5th, or the lord of the 5th occupies the 11th, or the lords of the 5th and the 11th are conjoined together, with such disposition of the lords of the 5th and 11th, the prediction should be that there will be... profit in speculation because these are all signified by the 5th house.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "speculative_business",
+    "event_subtype": ["speculative_business"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The Lord of the 11th house is positioned in the 5th house",
+        "The Lord of the 5th house is positioned in the 11th house",
+        "The Lords of the 5th and 11th houses are conjoined"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5", "11"],
+      "planets": ["5th_lord", "11th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of speculative business acumen. The connection between the house of investments/speculation (5th) and the house of gains (11th) creates an archetype suited for speculative markets and investments.",
+      "mode": "speculative_business",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "speculative_business_archetype",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "leverage_speculative_instinct"
+    },
+    "metadata": {
+      "notes": "Classical wealth combination highlighting speculative trading."
+    }
+  },
+  {
+    "rule_id": "bphs_satramooladdhana_yoga_2_6",
+    "name": "Satramooladdhana Yoga — Wealth Through Conflict/Litigation",
+    "description": "Satramooladdhana Yoga indicates a business archetype where wealth is extracted from conflict, enemies, or litigation. It suggests a career managing the debts, legal disputes, or failures of others.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "24",
+      "verse": "18",
+      "page": null,
+      "quote": "When Dhana's lord is in Ari Bhava along with a benefic, the native will gain wealth through his enemies. It is know as satramooladdhana yoga.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "profit_growth",
+    "event_subtype": ["litigation_prone", "sudden_gains"],
+    "rule_type": "yoga",
+    "status": "active",
+    "priority": 82,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 2nd house is positioned in the 6th house (Ari Bhava)",
+        "The Lord of the 2nd house is conjoined with a benefic planet"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2", "6"],
+      "planets": ["2nd_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Satramooladdhana Yoga indicates a business archetype where wealth is extracted from conflict, enemies, or litigation. It suggests a career managing the debts, legal disputes, or failures of others.",
+      "mode": "litigation_prone",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "litigation_wealth_archetype",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "leverage_conflict_resolution_skills"
+    },
+    "metadata": {
+      "notes": "Archetypal indicator of litigation-based professions or businesses profiting from conflict and restructuring."
+    }
+  },
+  {
+    "rule_id": "nirayana_mars_sun_moon_partnership",
+    "name": "Mars-Sun-Moon Combination — Partnership Business Wealth",
+    "description": "Mars in combination with Sun and Moon (exalted or strong) gives wealth through business partnership.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "28",
+      "quote": "Mars exalted or alone in combination with Sun and Moon gives wealth through marriage and business partnership;",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_partnership",
+    "event_subtype": ["partnership_business"],
+    "rule_type": "combination",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Mars is in combination with the Sun and the Moon"
+      ],
+      "any_of": [
+        "Mars is exalted",
+        "Mars is alone (in its sign)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Mars", "Sun", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of wealth generation through strong alliances. Mars providing the energetic drive, harmonized with the luminaries, favors cooperative business partnerships.",
+      "mode": "partnership_business",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "partnership_wealth_archetype",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "pursue_joint_ventures"
+    },
+    "metadata": {
+      "notes": "An astrological archetype for successful joint ventures."
+    }
+  },
+  {
+    "rule_id": "nirayana_mercury_10th_import_export",
+    "name": "Mercury Alone in 10th — Merchant and Export Business",
+    "description": "Mercury situated independently in the career house is the classic signature of the merchant and trader. It signifies high-volume transactions, logistics, import/export, and commission-based scalable businesses.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "224",
+      "quote": "If alone: Exporter, wholesaler, distributor or commission agent. In airy signs, Mercury in 10 gives fluent speech for business activities.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "scaling",
+    "event_subtype": ["import_export", "scalable_business"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Mercury is positioned in the 10th house",
+        "Mercury is alone (unconjoined)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["Mercury"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mercury situated independently in the career house is the classic signature of the merchant and trader. It signifies high-volume transactions, logistics, import/export, and commission-based scalable businesses.",
+      "mode": "import_export",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "merchant_trader_archetype",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "build_scalable_commercial_operations"
+    },
+    "metadata": {
+      "notes": "If Mercury is in an airy sign (Gemini, Libra, Aquarius), it adds advanced fluency and public relations skills to the business."
+    }
+  },
+  {
+    "rule_id": "jataka_parijata_mars_navamsa_technology",
+    "name": "Mars Navamsa — Technology and Engineering Business",
+    "description": "When the livelihood Navamsa is ruled by Mars (Aries/Scorpio), it creates the archetype for technical businesses involving fire, machinery, engineering, or confrontational arenas.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "15",
+      "verse": "46-47",
+      "page": null,
+      "quote": "If the Navamsa in question belong to Mars, the person gains a livelihood by metallurgy, by working in fire... and by engaging in other people's quarrels, in any act of daring",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_launch",
+    "event_subtype": ["technology_business", "litigation_prone"],
+    "rule_type": "d9",
+    "status": "active",
+    "priority": 82,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Navamsa determining the livelihood (typically the Navamsa occupied by the 10th Lord from Ascendant, Moon or Sun) is ruled by Mars (Aries or Scorpio)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["Mars"],
+      "nakshatra": [],
+      "d9": ["Mars_Navamsa"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Archetypal signature for technical businesses involving fire, machinery, engineering (metallurgy), or confrontational arenas such as legal disputes and risk-heavy daring ventures.",
+      "mode": "technology_business",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "technology_engineering_archetype",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "align_with_technical_ventures"
+    },
+    "metadata": {
+      "notes": "In a modern context, working with 'fire and metallurgy' translates to technology, heavy industry, and engineering."
+    }
+  },
+  {
+    "rule_id": "nirayana_5th_8th_parivartana",
+    "name": "5th-8th Parivartana — Large-Scale Market Investments",
+    "description": "The exchange between the house of speculation and creative intelligence (5th) and the house of other people's money, hidden wealth, and market fluctuations (8th) creates a highly favorable archetype for large-scale market investments and sudden speculative windfalls.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "204",
+      "quote": "A person will do well in large-scale market investments when their 8th lord is well placed and aspected; when their 5th lord is well-placed and well-aspected; and, ideally, if these two lords enjoy parivartan.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "speculative_business",
+    "event_subtype": ["speculative_business", "sudden_gains"],
+    "rule_type": "yoga",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 8th house is well-placed and beneficially aspected",
+        "The Lord of the 5th house is well-placed and beneficially aspected",
+        "There is a Parivartana Yoga (mutual exchange) between the 5th Lord and the 8th Lord"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5", "8"],
+      "planets": ["5th_lord", "8th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The exchange between the house of speculation and creative intelligence (5th) and the house of other people's money, hidden wealth, and market fluctuations (8th) creates a highly favorable archetype for large-scale market investments and sudden speculative windfalls.",
+      "mode": "speculative_business",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "speculative_investment_archetype",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "deploy_capital_in_markets"
+    },
+    "metadata": {
+      "notes": "Rare combination specifically linking the collective financial currents (8th) to personal speculative instinct (5th)."
+    }
+  },
+  {
+    "rule_id": "nirayana_chandra_mangala_11th_viral",
+    "name": "Chandra-Mangala Yoga in 11th — Viral/Network Business",
+    "description": "The highly energized connection of mind/public (Moon) and ambition (Mars) in the house of networks (11th) yields immense popularity, viral reach, and highly profitable scaling through marketplace communities.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "172",
+      "quote": "Chandra-Mangala yoga here gives financial benefit here in nearly any rashi. Special dignity and added income for business in marketplace activities, buy-sell, community development, interconnections between linked networks of association. This native knows a breathtaking number of people, many of them financially influential.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "scaling",
+    "event_subtype": ["viral_public_popularity", "scalable_business"],
+    "rule_type": "yoga",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Moon and Mars are conjunct (Chandra-Mangala Yoga)",
+        "The conjunction takes place in the 11th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["11"],
+      "planets": ["Moon", "Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The highly energized connection of mind/public (Moon) and ambition (Mars) in the house of networks (11th) yields immense popularity, viral reach, and highly profitable scaling through marketplace communities.",
+      "mode": "scalable_business",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "viral_network_business_archetype",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "scale_through_community_networks"
+    },
+    "metadata": {
+      "notes": "Classic indicator for modern social network-driven business success."
+    }
+  },
+  {
+    "rule_id": "nirayana_venus_7th_luxury_partnership",
+    "name": "Venus in 7th (Strong) — Luxury and Partnership Business",
+    "description": "Venus strong in the 7th house symbolizes a business archetype rooted in high-end trade, aesthetics, luxury goods, and balanced commercial partnerships.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "72",
+      "quote": "When Shukra is strong in yuvati sthana... In business, good for trading in women's articles, wine, luxury goods. Also good for having a female business partner",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_partnership",
+    "event_subtype": ["partnership_business", "scalable_business"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Venus is positioned in the 7th house (Yuvati Sthana)",
+        "Venus has strong dignity"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7"],
+      "planets": ["Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolizes a business archetype rooted in high-end trade, aesthetics, luxury goods, and balanced commercial partnerships. Excellent for leveraging charm and design in commerce.",
+      "mode": "partnership_business",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "luxury_partnership_archetype",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "build_aesthetic_brand_partnerships"
+    },
+    "metadata": {
+      "notes": "Indicates smooth diplomatic ties with partners, though the 'too much of a good thing' principle can make the business overly focused on pleasure rather than strict discipline."
+    }
+  },
+  {
+    "rule_id": "nirayana_moon_2nd_family_business",
+    "name": "Moon in 2nd — Family Business Archetype",
+    "description": "The emotional mind (Moon) grounded in the house of lineage and accumulated assets (2nd) creates a powerful psychological attachment to family wealth, tradition, and taking up the mantle of a family business.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "185",
+      "quote": "Needs to see oneself as a bearer of traditional ethnic values esp. of art, song, ancient knowledge, wealth and beauty... Identifies strongly with the family business, or a service lineage descending through the family.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_launch",
+    "event_subtype": ["family_business"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 78,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Moon is positioned in the 2nd house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2"],
+      "planets": ["Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The emotional mind (Moon) grounded in the house of lineage and accumulated assets (2nd) creates a powerful psychological attachment to family wealth, tradition, and taking up the mantle of a family business.",
+      "mode": "family_business",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "family_business_archetype",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "honor_legacy_and_expand"
+    },
+    "metadata": {
+      "notes": "Indicates wealth preservation over generations."
+    }
+  },
+  {
+    "rule_id": "nirayana_chandra_mangala_7th_litigation",
+    "name": "Chandra-Mangala Yoga in 7th — Contract and Litigation Business",
+    "description": "The volatile combination of emotions (Moon) and aggression (Mars) in the house of contracts (7th) generates profit but ensures business partnerships are intensely debated, legally challenged, and constantly re-negotiated.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "172",
+      "quote": "Chandra-Mangala yoga here gives financial benefit through making agreements which have to be re-negotiated frequently. Good for attorney or litigator. Special dignity and added income from business in making contracts & agreements, marriage, partnerships, and alliances, weighing and balancing.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_partnership",
+    "event_subtype": ["partnership_business", "litigation_prone"],
+    "rule_type": "yoga",
+    "status": "active",
+    "priority": 82,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Moon and Mars are conjunct (Chandra-Mangala Yoga)",
+        "The conjunction takes place in the 7th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7"],
+      "planets": ["Moon", "Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The volatile combination of emotions (Moon) and aggression (Mars) in the house of contracts (7th) generates profit but ensures business partnerships are intensely debated, legally challenged, and constantly re-negotiated.",
+      "mode": "partnership_business",
+      "quality": "conflict_prone",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "litigation_partnership_archetype",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "manage_high_friction_contracts"
+    },
+    "metadata": {
+      "notes": "Highly profitable for attorneys, agents, and those managing high-friction contracts."
+    }
+  },
+  {
+    "rule_id": "nirayana_lagnesha_in_3rd",
+    "name": "Lagnesha in 3rd — Born Business Administrator",
+    "description": "When the ruler of the self (1st) is placed in the house of commerce and self-effort (3rd), it creates a natural business administrator. The native thrives in sales, marketing, public relations, and detail-oriented commercial execution.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "193",
+      "quote": "Lagnesha in domain-3 = Personality controls the daily business. Native is a born business administrator, with natural talents in all commercial behaviors such as sales, marketing, public relations, advertising, planning & execution. Success at all detail levels...",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "scaling",
+    "event_subtype": ["scalable_business"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 1st house (Lagnesha) is positioned in the 3rd house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1", "3"],
+      "planets": ["1st_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the ruler of the self (1st) is placed in the house of commerce and self-effort (3rd), it creates a natural business administrator. The native thrives in sales, marketing, public relations, and detail-oriented commercial execution.",
+      "mode": "scalable_business",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "born_administrator_archetype",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "lead_commercial_operations"
+    },
+    "metadata": {
+      "notes": "The 3rd house is 2nd-from-2nd, indicating self-made wealth. An exalted planet here (like Saturn or Mars) makes a true captain of industry."
+    }
+  }
+]

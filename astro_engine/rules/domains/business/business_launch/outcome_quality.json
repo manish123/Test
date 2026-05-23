@@ -1,0 +1,606 @@
+[
+  {
+    "rule_id": "nirayana_sun_7th_sole_proprietorship",
+    "name": "Sun in 7th (Strong) — Sole Proprietorship Indicated",
+    "description": "The Sun in the 7th house creates a strong, decisive, and independent business mindset. The native thrives in business only when operating as a sole proprietor or ultimate authority.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "206",
+      "quote": "A strong Ravi in yuvati bhava can make a decisive, rational business person who can accept a large measure of personal responsibility. However the native should not take on partners. Sole proprietorship is best.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_launch",
+    "event_subtype": ["partnership_business"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 85,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Sun is positioned in the 7th house",
+        "The Sun is strong by rashi"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7"],
+      "planets": ["Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The Sun in the 7th house creates a strong, decisive, and independent business mindset. Because the Sun is individualistic and authoritative, it damages egalitarian partnerships. The native thrives in business only when operating as a sole proprietor or ultimate authority.",
+      "mode": "sole_proprietorship",
+      "quality": "challenging_for_partnerships",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "sole_proprietorship_indicated",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_as_solo_operator"
+    },
+    "metadata": {
+      "notes": "This rule indicates the explicit rejection of partnerships in favor of sole proprietorship. If the Sun is weak, it attracts dominating partners leading to legal separations."
+    }
+  },
+  {
+    "rule_id": "nirayana_venus_7th_luxury_quality",
+    "name": "Venus in 7th (Strong) — Luxury Sector Classification",
+    "description": "Venus strong in the 7th indicates business success through luxury goods, aesthetics, fashion, beauty, wine, and female business partnerships.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "72",
+      "quote": "When Shukra is strong in yuvati sthana... In business, good for trading in women's articles, wine, luxury goods. Also good for having a female business partner",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_partnership",
+    "event_subtype": ["partnership_business", "scalable_business"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Venus is positioned in the 7th house",
+        "Venus is endowed with strong dignity"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7"],
+      "planets": ["Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolizes a business outcome rooted in high-end trade, aesthetics, luxury goods, and balanced commercial partnerships. Excellent for leveraging charm, design, and public socializing in commerce.",
+      "mode": "luxury_sector",
+      "quality": "stable",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "luxury_sector_classification",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_luxury_aesthetics_sector"
+    },
+    "metadata": {
+      "notes": "Indicates smooth diplomatic ties with partners and success through female business partnerships."
+    }
+  },
+  {
+    "rule_id": "nirayana_8th_lord_in_6th_private_equity",
+    "name": "8th Lord in 6th — Private Equity and Confidential Deals",
+    "description": "Because the 6th house is 11th (gains) from the 8th (hidden matters/other people's money), this placement grants immense profits through private equity, high-leverage debt management, confidential transactions, and capitalizing on market imbalances.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "202",
+      "quote": "As 11th-from-8th bhava Ripu Bhava gives the fruits of hidden matters. L-8 in 6th bhava is usually very profitable, with gains resulting from confidential financial arrangements, 'private equity', undercover deals, etc. These arrangements may be legal or illegal... but the profits are often substantial.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "speculative_business",
+    "event_subtype": ["debt_heavy", "speculative_business", "sudden_gains"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 8th house is positioned in the 6th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["6", "8"],
+      "planets": ["8th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Because the 6th house is 11th (gains) from the 8th (hidden matters/other people's money), this placement grants immense profits through private equity, high-leverage debt management, confidential transactions, and capitalizing on market imbalances.",
+      "mode": "debt_heavy",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "private_equity_classification",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_as_private_equity_debt"
+    },
+    "metadata": {
+      "notes": "A form of Vipreet Raj Yoga that turns crisis, debt, and secrecy into substantial business profit."
+    }
+  },
+  {
+    "rule_id": "outcome_mercury_airy_sign_communications",
+    "name": "Mercury in 10th in Airy Sign — Communications and PR Business",
+    "description": "Mercury in the 10th house in an airy sign (Gemini, Libra, Aquarius) adds advanced fluency, public relations skills, and media/communications sector alignment.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "224",
+      "quote": "In airy signs, Mercury in 10 gives fluent speech for business activities.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "scaling",
+    "event_subtype": ["scalable_business"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 75,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Mercury is positioned in the 10th house",
+        "Mercury is in an airy sign (Gemini, Libra, or Aquarius)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["Mercury"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mercury in the 10th in an airy sign specifically indicates communications-heavy businesses: media, PR, advertising, publishing, digital marketing, SaaS, and information services.",
+      "mode": "communications_sector",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.8
+    },
+    "outputs": {
+      "symbolic_label": "communications_sector_classification",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_communications_media_sector"
+    },
+    "metadata": {
+      "notes": "Sector classification rule. Narrows 'merchant archetype' into specific communications/media alignment."
+    }
+  },
+  {
+    "rule_id": "outcome_jupiter_saturn_failure_quality",
+    "name": "Jupiter-Saturn Conflict Quality — Contraction and Restructuring Outcome",
+    "description": "When the Jupiter-Saturn dasha fires, the QUALITY of the business outcome is contraction, forced restructuring, or loss of expansion momentum.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "18",
+      "verse": "111",
+      "page": "1053",
+      "quote": "A feeling of aversion, mental anguish, waste of wealth through the sons, failure of business are what a person may have to be prepared for during Saturn's interval in Jupiter's mahadasa.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_closure",
+    "event_subtype": ["scaling"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Jupiter Mahadasha is active",
+        "Saturn Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Jupiter", "Saturn"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Jupiter", "Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The business outcome during Jupiter-Saturn period is characterized by contraction, forced austerity, operational slowdowns, and potential business failure. The quality is painful but can lead to stronger foundations if navigated correctly.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "contraction_restructuring_outcome",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_as_contraction_restructuring"
+    },
+    "metadata": {
+      "notes": "Quality classification rule. Does not determine timing but classifies the nature of the business event when other timing rules fire."
+    }
+  },
+  {
+    "rule_id": "outcome_rahu_involvement_unconventional",
+    "name": "Rahu Involvement — Unconventional/Disruptive Business Model",
+    "description": "Rahu's strong involvement in business houses (7th, 10th, 11th) or as dasha lord indicates unconventional, foreign, or disruptive business models.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Rahu breaks societal norms and traditions. Its influence on commerce and gains houses creates unconventional pathways to wealth through foreign elements, technology disruption, or novel markets.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_launch",
+    "event_subtype": ["technology_business", "scalable_business"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 78,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Rahu is positioned in the 7th house",
+        "Rahu is positioned in the 10th house",
+        "Rahu is positioned in the 11th house",
+        "Rahu strongly aspects the 10th or 11th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7", "10", "11"],
+      "planets": ["Rahu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Rahu's influence on business houses indicates an unconventional, foreign-connected, or disruptive business model. Modern interpretation: tech startups, foreign trade, novel markets, or businesses that break established industry norms.",
+      "mode": "unconventional_disruptive",
+      "quality": "volatile",
+      "confidence": 0.8
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.8
+    },
+    "outputs": {
+      "symbolic_label": "unconventional_business_classification",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_as_disruptive_unconventional"
+    },
+    "metadata": {
+      "notes": "Quality/mode classification for business type. Can apply to tech startups, foreign trade businesses, or innovative market entrants."
+    }
+  },
+  {
+    "rule_id": "outcome_saturn_10th_industrial_scale",
+    "name": "Saturn in 10th or Aspecting 10th — Industrial/Large-Scale Operations",
+    "description": "Saturn's influence on the 10th house indicates businesses requiring massive patience, slow scaling, heavy capital expenditure, and industrial/manufacturing operations.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Saturn in the 10th house gives success through persistent effort over long periods. The native builds slowly but massively. Industries requiring patience, capital, and systematic operations.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "scaling",
+    "event_subtype": ["scalable_business"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 78,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Saturn is positioned in the 10th house",
+        "Saturn aspects the 10th house (3rd, 7th, or 10th aspect)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn's influence on the 10th house indicates businesses requiring massive patience, slow scaling, heavy capital expenditure, and industrial/manufacturing operations. Success comes late but is enduring.",
+      "mode": "industrial_scale",
+      "quality": "stable",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "industrial_scale_classification",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_as_industrial_slow_scale"
+    },
+    "metadata": {
+      "notes": "Quality classification for business scale and sector. Indicates manufacturing, infrastructure, mining, or any business requiring long gestation and heavy capex."
+    }
+  },
+  {
+    "rule_id": "outcome_jupiter_mars_overleverage_quality",
+    "name": "Jupiter-Mars Quality — Overleveraged Aggressive Outcome",
+    "description": "When the Jupiter-Mars dasha fires, the QUALITY of the business event is characterized by excessive leverage, impulsive expansion, and capital destruction through aggression.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "18",
+      "verse": "118",
+      "page": "1066",
+      "quote": "Failure in business, wandering, high fever, great risk, loss of wealth and depression of spirits, a person must be prepared for in Kuja's interval in Jupiter's mahadasa.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_closure",
+    "event_subtype": ["speculative_gains_through_business", "expansion"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 82,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Jupiter Mahadasha is active",
+        "Mars Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Jupiter", "Mars"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Jupiter", "Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The business outcome during Jupiter-Mars is characterized by impulsive expansion, excessive leverage, and capital destruction. The native takes on too much risk and burns through resources aggressively.",
+      "mode": "unknown",
+      "quality": "volatile",
+      "confidence": 0.8
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.8
+    },
+    "outputs": {
+      "symbolic_label": "overleveraged_aggressive_outcome",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_as_overleveraged_volatile"
+    },
+    "metadata": {
+      "notes": "Quality classification for the nature of the business failure. Distinguishes impulsive failures from structural/slow-grinding Saturn-type failures."
+    }
+  },
+  {
+    "rule_id": "outcome_dhana_yoga_wealth_scale",
+    "name": "Dhana Yoga Present — High Wealth Scale Business",
+    "description": "The presence of classical Dhana Yoga (2nd/11th lord connections with Jupiter/Venus) classifies the potential business scale as high-wealth generating.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "24",
+      "verse": null,
+      "page": null,
+      "quote": "If the lord of wealth (2nd) and lord of gains (11th) are connected with benefics and occupy auspicious houses, the native accumulates great wealth through their own efforts.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "profit_growth",
+    "event_subtype": ["scalable_business", "profit_growth"],
+    "rule_type": "yoga",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "2nd lord and 11th lord are connected by conjunction or aspect",
+        "2nd lord is in 11th or 11th lord is in 2nd",
+        "Jupiter or Venus is connected to both 2nd and 11th houses"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2", "11"],
+      "planets": ["2nd_lord", "11th_lord", "Jupiter", "Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The presence of Dhana Yoga classifies the business potential as high-wealth generating. When timing rules fire, this structural pattern indicates the business will achieve significant financial scale.",
+      "mode": "scalable_business",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "high_wealth_scale_classification",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_as_high_wealth_potential"
+    },
+    "metadata": {
+      "notes": "Structural modifier. When dasha/transit rules fire, Dhana Yoga increases confidence that the business will achieve significant financial scale."
+    }
+  },
+  {
+    "rule_id": "outcome_kemadruma_isolation_quality",
+    "name": "Kemadruma Yoga — Isolated/Struggling Business Quality",
+    "description": "Kemadruma Yoga (Moon without planetary support in adjacent houses) indicates business struggles due to lack of support networks, partnerships, or market connections.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "If there are no planets in the 2nd and the 12th from the Moon, the native is bereft of wealth, vehicles, and mental peace. Known as Kemadruma Yoga.",
+      "translation": null
+    },
+    "domain": "business",
+    "event_family": "business_closure",
+    "event_subtype": ["sudden_business_changes"],
+    "rule_type": "yoga",
+    "status": "active",
+    "priority": 72,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "No planets occupy the 2nd house from the Moon",
+        "No planets occupy the 12th house from the Moon"
+      ],
+      "any_of": [],
+      "none_of": [
+        "Jupiter or Venus aspects the Moon (cancellation)"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2", "12"],
+      "planets": ["Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Kemadruma Yoga indicates business struggles due to lack of support networks, partnerships, or market connections. The native must build everything alone, often facing periods of financial isolation.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.75
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.75
+    },
+    "outputs": {
+      "symbolic_label": "isolated_struggling_quality",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_as_isolated_self_reliant"
+    },
+    "metadata": {
+      "notes": "Quality modifier reducing confidence when business timing rules fire. Indicates the business will face isolation and lack of support. Check for Kemadruma cancellation factors."
+    }
+  }
+]

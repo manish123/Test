@@ -2,268 +2,92 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://astrolyn.ai/schemas/business_rule.schema.json",
   "title": "BusinessRule",
+  "description": "Schema for business domain event rules. Covers all 5 semantic layers: dasha, transit, fast_trigger, classical_pattern, and outcome/quality classification.",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "rule_id",
-    "name",
-    "domain",
-    "event_family",
-    "rule_type",
-    "status",
-    "priority",
-    "conditions",
-    "outputs"
-  ],
+  "required": ["rule_id","name","domain","event_family","rule_type","status","priority","conditions","outputs"],
   "properties": {
-    "rule_id": {
-      "type": "string",
-      "minLength": 1,
-      "description": "Unique rule identifier, e.g. business_dasha_rahu_mercury"
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1
-    },
-    "description": {
-      "type": "string"
-    },
+    "rule_id": {"type": "string", "minLength": 1, "description": "Unique rule identifier"},
+    "name": {"type": "string", "minLength": 1},
+    "description": {"type": "string"},
     "source_text": {
       "type": "object",
       "additionalProperties": true,
-      "description": "Classical source provenance: work_name, chapter, verse, page, quote",
       "properties": {
-        "work_name": { "type": "string" },
-        "chapter": { "type": ["string", "null"] },
-        "verse": { "type": ["string", "null"] },
-        "page": { "type": ["string", "null"] },
-        "quote": { "type": ["string", "null"] }
+        "work_name": {"type": "string"},
+        "chapter": {"type": ["string","null"]},
+        "verse": {"type": ["string","null"]},
+        "page": {"type": ["string","null"]},
+        "quote": {"type": ["string","null"]},
+        "translation": {"type": ["string","null"]}
       }
     },
-    "domain": {
-      "type": "string",
-      "enum": ["business"],
-      "description": "Business rules belong to the business domain"
-    },
-    "event_family": {
-      "type": "string",
-      "enum": [
-        "business_launch",
-        "business_expansion",
-        "business_closure",
-        "business_partnership",
-        "profit_growth",
-        "speculative_business",
-        "funding",
-        "scaling"
-      ]
-    },
-    "event_subtype": {
-      "type": "array",
-      "items": { "type": "string" },
-      "description": "Specific sub-events: business_launch, expansion, profit_growth, scaling, partnerships, funding_opportunities, sudden_gains, etc."
-    },
-    "rule_type": {
-      "type": "string",
-      "enum": ["dasha", "transit", "fast_trigger", "classical_pattern", "compound", "yoga", "house_activation", "d9", "combination"]
-    },
-    "status": {
-      "type": "string",
-      "enum": ["active", "experimental", "calibration", "deprecated"]
-    },
-    "priority": {
-      "type": "integer",
-      "minimum": 1,
-      "maximum": 100,
-      "description": "Higher value means stronger precedence"
-    },
-    "polarity": {
-      "type": "string",
-      "enum": ["supportive", "neutral", "challenging", "mixed"]
-    },
-    "timing_band": {
-      "type": "string",
-      "enum": ["broad", "medium", "exact", "none"],
-      "description": "broad = dasha-level, medium = transit-level, exact = fast-trigger-level, none = natal pattern"
-    },
+    "domain": {"type": "string", "enum": ["business"]},
+    "event_family": {"type": "string", "enum": ["business_launch","business_expansion","business_closure","business_partnership","profit_growth","speculative_business","funding","scaling"]},
+    "event_subtype": {"type": "array", "items": {"type": "string"}},
+    "rule_type": {"type": "string", "enum": ["dasha","transit","fast_trigger","classical_pattern","compound","combination","yoga","house_activation","d9","aspect"]},
+    "status": {"type": "string", "enum": ["active","experimental","calibration","deprecated"]},
+    "priority": {"type": "integer", "minimum": 1, "maximum": 100},
+    "polarity": {"type": "string", "enum": ["supportive","neutral","challenging","mixed"]},
+    "timing_band": {"type": "string", "enum": ["broad","medium","narrow","exact","none"]},
     "conditions": {
       "type": "object",
-      "additionalProperties": false,
       "required": ["all_of"],
       "properties": {
-        "all_of": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/Condition"
-          }
-        },
-        "any_of": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/Condition"
-          }
-        },
-        "none_of": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/Condition"
-          }
-        }
+        "all_of": {"type": "array"},
+        "any_of": {"type": "array"},
+        "none_of": {"type": "array"}
       }
     },
     "signals": {
       "type": "object",
-      "additionalProperties": false,
-      "description": "Which astrological signals activate this rule",
       "properties": {
-        "dasha": { "type": "array", "items": { "type": "string" } },
-        "transit": { "type": "array", "items": { "type": "string" } },
-        "houses": { "type": "array", "items": { "type": "string" } },
-        "planets": { "type": "array", "items": { "type": "string" } },
-        "nakshatra": { "type": "array", "items": { "type": "string" } },
-        "d9": { "type": "array", "items": { "type": "string" } },
-        "sensitive_points": { "type": "array", "items": { "type": "string" } }
-      }
-    },
-    "window": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "broad_window_days": {
-          "type": "integer",
-          "minimum": 0
-        },
-        "exact_window_days": {
-          "type": "integer",
-          "minimum": 0
-        },
-        "confidence_decay_days": {
-          "type": "integer",
-          "minimum": 0
-        }
-      }
-    },
-    "weights": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "dasha_weight": { "type": "number" },
-        "transit_weight": { "type": "number" },
-        "fast_trigger_weight": { "type": "number" },
-        "classical_weight": { "type": "number" }
+        "dasha": {"type": "array", "items": {"type": "string"}},
+        "transit": {"type": "array", "items": {"type": "string"}},
+        "houses": {"type": "array", "items": {"type": "string"}},
+        "planets": {"type": "array", "items": {"type": "string"}},
+        "nakshatra": {"type": "array", "items": {"type": "string"}},
+        "d9": {"type": "array", "items": {"type": "string"}},
+        "sensitive_points": {"type": "array", "items": {"type": "string"}}
       }
     },
     "interpretation": {
       "type": "object",
       "additionalProperties": true,
-      "description": "Human-readable interpretation metadata",
       "properties": {
-        "meaning": { "type": "string" },
-        "mode": { "type": "string" },
-        "quality": { "type": "string" },
-        "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+        "meaning": {"type": "string"},
+        "mode": {"type": "string"},
+        "quality": {"type": "string"},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "window": {
+      "type": ["object","null"],
+      "properties": {
+        "broad_window_days": {"type": "integer", "minimum": 0},
+        "exact_window_days": {"type": "integer", "minimum": 0},
+        "confidence_decay_days": {"type": "integer", "minimum": 0}
+      }
+    },
+    "weights": {
+      "type": "object",
+      "properties": {
+        "dasha_weight": {"type": "number"},
+        "transit_weight": {"type": "number"},
+        "fast_trigger_weight": {"type": "number"},
+        "classical_weight": {"type": "number"}
       }
     },
     "outputs": {
       "type": "object",
-      "additionalProperties": false,
-      "required": ["symbolic_label", "likelihood_band", "timing_band"],
+      "required": ["symbolic_label","likelihood_band","timing_band"],
       "properties": {
-        "symbolic_label": {
-          "type": "string",
-          "description": "Neutral interpretation label, e.g. business_expansion_window_active"
-        },
-        "likelihood_band": {
-          "type": "string",
-          "enum": ["very_low", "low", "moderate", "high", "very_high"]
-        },
-        "timing_band": {
-          "type": "string",
-          "enum": ["broad", "narrow", "exact"]
-        },
-        "recommended_action": {
-          "type": "string",
-          "description": "Domain-facing guidance: prepare, execute, consolidate, pivot, avoid_expansion"
-        }
+        "symbolic_label": {"type": "string"},
+        "likelihood_band": {"type": "string", "enum": ["very_low","low","moderate","high","very_high"]},
+        "timing_band": {"type": "string", "enum": ["broad","narrow","exact","none"]},
+        "recommended_action": {"type": "string"}
       }
     },
-    "metadata": {
-      "type": "object",
-      "additionalProperties": true,
-      "description": "Optional provenance and calibration metadata"
-    },
-    "notes": {
-      "type": "string",
-      "description": "Implementation notes or additional context"
-    }
-  },
-  "$defs": {
-    "Condition": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["kind", "operator", "value"],
-      "properties": {
-        "kind": {
-          "type": "string",
-          "enum": [
-            "dasha_lord",
-            "antardasha_lord",
-            "house_lord",
-            "planet_in_house",
-            "planet_aspect",
-            "planet_dignity",
-            "planet_conjunction",
-            "transit_house",
-            "transit_aspect",
-            "transit_conjunction",
-            "navamsa_house",
-            "navamsa_lagna",
-            "navamsa_lord",
-            "parivartana",
-            "relative_position",
-            "nakshatra",
-            "nakshatra_from_moon",
-            "age_pattern",
-            "sensitive_point",
-            "yoga_active",
-            "house_lord_position",
-            "malefic_association"
-          ]
-        },
-        "operator": {
-          "type": "string",
-          "enum": [
-            "equals",
-            "in",
-            "not_in",
-            "overlaps",
-            "within_orb",
-            "aspecting",
-            "conjunct",
-            "trine",
-            "square",
-            "opposite",
-            "kendra_from",
-            "trikona_from",
-            "is_strong",
-            "is_weak",
-            "is_exalted",
-            "is_own_sign",
-            "is_moolatrikona",
-            "has_exchange"
-          ]
-        },
-        "value": {},
-        "orb_degrees": {
-          "type": "number",
-          "minimum": 0
-        },
-        "required_strength": {
-          "type": "number",
-          "minimum": 0,
-          "maximum": 1
-        }
-      }
-    }
+    "metadata": {"type": "object", "additionalProperties": true}
   }
 }
