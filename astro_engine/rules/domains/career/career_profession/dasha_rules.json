@@ -1,0 +1,469 @@
+[
+  {
+    "rule_id": "bphs_dasha_10th_lord",
+    "name": "10th Lord Mahadasha — Career Rise",
+    "description": "The primary planetary period for achieving professional recognition, authority, government honors, and major career ascension.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "48",
+      "verse": "5-8",
+      "page": "591",
+      "quote": "recognition from and awards by Government in the Dasa of the lord of the 10th",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["career_rise", "authority_increase", "professional_visibility"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 98,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": ["The Mahadasha of the 10th Lord is active"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["10th_lord"],
+      "transit": [],
+      "houses": ["10"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The primary planetary period for achieving professional recognition, authority, government honors, and major career ascension is during the Mahadasha of the 10th house lord.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "career_dasha_window_open",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "monitor_transit_activation"
+    },
+    "metadata": {
+      "notes": "Fundamental baseline rule for career timing in Vimshottari Dasha."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_1st_10th_exchange",
+    "name": "1st-10th Lord Parivartana — High Position",
+    "description": "A powerful mutual exchange between self (1st) and career/karma (10th) triggers major professional ascension.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "14-17",
+      "page": "468",
+      "quote": "There will be acquisition of a kingdom (attainment of a high position in Government) in the Dasha of the lords of the Ascendant and 10th, if the lord of the 10th be in the Ascendant and the lord of the Ascendant be in the 10th.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["career_rise", "authority_increase", "promotion_potential"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 95,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "The 1st Lord is positioned in the 10th house",
+        "The 10th Lord is positioned in the 1st house"
+      ],
+      "any_of": [
+        "The Mahadasha or Antardasha of the 1st Lord is active",
+        "The Mahadasha or Antardasha of the 10th Lord is active"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["1st_lord", "10th_lord"],
+      "transit": [],
+      "houses": ["1", "10"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A powerful Parivartana Yoga (mutual exchange) between the self (1st) and career/karma (10th) triggers major professional ascension and executive power during the planetary periods of either involved lord.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "parivartana_career_rise",
+      "likelihood_band": "very_high",
+      "timing_band": "broad",
+      "recommended_action": "expect_major_promotion"
+    },
+    "metadata": {
+      "notes": "Classic combination for achieving high public office or leadership roles."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_rajayoga_9_10_5",
+    "name": "Dharma-Karma Rajayoga — 9th/10th/5th Lords",
+    "description": "Activation of Rajayogas formed by lords of fortune, karma, and intelligence creates a broad window for career success.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "9-13",
+      "page": "468",
+      "quote": "If the lord of the 9th and 10th be in conjunction with the lord of the 5th, their Dasha produce beneficial results. [...] The Dasha of the lords of the 10th and 4th produce favourable effects if they be associated with the lord of the 9th.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["career_rise", "promotion_potential"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The 9th Lord, 10th Lord, and 5th Lord are conjunct, and the Dasha of any of these lords is active",
+        "The 10th Lord, 4th Lord, and 9th Lord are conjunct, and the Dasha of any of these lords is active"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["9th_lord", "10th_lord", "5th_lord", "4th_lord"],
+      "transit": [],
+      "houses": ["4", "5", "9", "10"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Activation of Dharma-Karma Adhipati Yoga during their planetary periods creates a broad window for significant career success, promotions, and overall beneficial professional results.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "rajayoga_career_activation",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "confirm_with_transit"
+    },
+    "metadata": {
+      "notes": "Links the houses of fortune and intelligence directly to professional outcomes."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_saturn_saturn_strong",
+    "name": "Saturn-Saturn Period — Executive Authority",
+    "description": "A structurally strong Saturn brings immense professional elevation during its own MD-AD combination.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "1-3",
+      "page": null,
+      "quote": "Effects like acquisition of a kingdom (attainment of a high position in government)... attainment of the position of a commander of the army... will be derived in the Antardasa of Saturn in the Dasa of Saturn, if Saturn be in his own sign, in his sign of exaltation or in deep exaltation, or be in Kendra or Trikona from the Ascendant, or be a yoga-karaka.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["authority_increase", "career_rise"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": ["Saturn Mahadasha is active", "Saturn Antardasha is active"],
+      "any_of": [
+        "Saturn is in its own sign (Capricorn, Aquarius)",
+        "Saturn is exalted (Libra)",
+        "Saturn is in a Kendra (1st, 4th, 7th, 10th)",
+        "Saturn is in a Trikona (1st, 5th, 9th)",
+        "Saturn is a Yogakaraka for the Ascendant (e.g., Taurus, Libra)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Saturn"],
+      "transit": [],
+      "houses": ["1", "4", "5", "7", "9", "10"],
+      "planets": ["Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A structurally strong Saturn, the natural significator of career and karma, brings immense professional elevation during its own Mahadasha and Antardasha.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "saturn_executive_authority",
+      "likelihood_band": "very_high",
+      "timing_band": "broad",
+      "recommended_action": "expect_leadership_role"
+    },
+    "metadata": {
+      "notes": "Requires Saturn to be functionally and positionally strong to bestow these high-level career effects rather than delays."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_saturn_venus_career",
+    "name": "Saturn-Venus Period — Career Honors and Wealth",
+    "description": "One of the most celebrated periods for exceptional career rise, material wealth, and professional honors.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "24-27",
+      "page": null,
+      "quote": "acquisition of a kingdom (attainment of high position in government), enjoyments by the beneficence of the king (government), honours... will be derived in the Antardasa of Venus in the Dasa of Saturn; if Venus be in Kendra, Trikona or the 11th associated with or aspected by benefices.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["career_rise", "income_growth", "professional_visibility"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": ["Saturn Mahadasha is active", "Venus Antardasha is active"],
+      "any_of": [
+        "Venus is in a Kendra (1st, 4th, 7th, 10th)",
+        "Venus is in a Trikona (1st, 5th, 9th)",
+        "Venus is in the 11th house"
+      ],
+      "none_of": ["Venus is devoid of benefic associations or aspects"]
+    },
+    "signals": {
+      "dasha": ["Saturn", "Venus"],
+      "transit": [],
+      "houses": ["1", "4", "5", "7", "9", "10", "11"],
+      "planets": ["Saturn", "Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The highly celebrated Saturn-Venus period reliably brings exceptional career rise, material wealth, and professional honors, provided Venus is well-placed.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "saturn_venus_career_peak",
+      "likelihood_band": "very_high",
+      "timing_band": "broad",
+      "recommended_action": "expect_wealth_and_honors"
+    },
+    "metadata": {
+      "notes": "One of the most famous mutual dasha periods for wealth and career elevation in Vedic astrology."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_sun_mercury_authority",
+    "name": "Sun-Mercury Period — High Administrative Position",
+    "description": "The Sun (authority) combined with Mercury (intellect/administration) leads to high administrative positions.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "63",
+      "verse": "8",
+      "page": "787",
+      "quote": "Sun-Mercury-Feeding from the king's kitchen, acquisition of Chhatra and Chamar with royal symbols, attainment of the position of a high dignitary of government.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["authority_increase", "promotion_potential"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": ["Sun Mahadasha is active", "Mercury Antardasha is active"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Sun", "Mercury"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Sun", "Mercury"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The combination of the Sun (signifying authority and government) and Mercury (signifying intellect and administration) periods leads to high administrative positions, advisory roles, and executive power.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sun_mercury_admin_rise",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "seek_government_or_advisory_roles"
+    },
+    "metadata": {
+      "notes": "A general indication for government service, consulting, or elevation to executive status."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_sun_jupiter_recognition",
+    "name": "Sun-Jupiter Period — Government Recognition",
+    "description": "Overlapping periods of the two primary planets of dharma and authority generate strong public recognition.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "62",
+      "verse": "6",
+      "page": "771",
+      "quote": "Sun-Jupiter-Recognition by government, respected by government employees, becoming favourite of the king.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["professional_visibility", "authority_increase"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": ["Sun Mahadasha is active", "Jupiter Antardasha is active"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Sun", "Jupiter"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Sun", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The overlapping periods of the two primary planets of dharma and authority (Sun and Jupiter) generate strong public recognition, favors from higher-ups, and an expansion of professional reputation.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sun_jupiter_recognition",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "seek_promotions_and_visibility"
+    },
+    "metadata": {
+      "notes": "Excellent for seeking promotions, government contracts, or expanding public influence."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_mercury_jupiter_business",
+    "name": "Mercury-Jupiter Period — Business Profits",
+    "description": "The period ruled by commerce (Mercury) combined with expansion/wealth (Jupiter) triggers lucrative business opportunities.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "63",
+      "page": "637",
+      "quote": "Mercury-Jupiter-Sublimity, progress in education, increase in wealth and good qualities, profits in business.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["business_activation", "income_growth"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 78,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": ["Mercury Mahadasha is active", "Jupiter Antardasha is active"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Mercury", "Jupiter"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Mercury", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The period ruled by the planet of commerce (Mercury) combined with the planet of expansion and wealth (Jupiter) specifically triggers lucrative business opportunities and commercial profitability.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mercury_jupiter_business_profits",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "expand_business_ventures"
+    },
+    "metadata": {
+      "notes": "A key window for entrepreneurs and those in trade/commerce."
+    }
+  }
+]

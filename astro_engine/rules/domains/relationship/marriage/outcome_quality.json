@@ -1,0 +1,588 @@
+[
+  {
+    "rule_id": "jyothishi_love_marriage_5_7_9",
+    "name": "Love Marriage: 5th-7th-9th Lord Connection",
+    "description": "Intense connection of the lords of romance (5th), partnership (7th), and fortune (9th) indicates love marriage.",
+    "source_text": {
+      "work_name": "Timing of Marriage | JYOTHISHI",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Look for intense connection of 5th Lord, 7th Lord & 9th Lord either by conjunction or aspects. This condition has to be met even though many other combinations have been postulated.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["love"],
+    "rule_type": "combination",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The 5th Lord, 7th Lord, and 9th Lord are connected to each other"
+      ],
+      "any_of": [
+        "Connection is formed by planetary conjunction",
+        "Connection is formed by mutual planetary aspect"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5", "7", "9"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The merging of romance (5th), partnership (7th), and dharma/fortune (9th) aligns to transform a romantic relationship into a formalized marriage. This is the primary classical indicator for love marriages.",
+      "mode": "love",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "love_marriage_indicated",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_as_love_marriage"
+    },
+    "metadata": {
+      "notes": "A primary indicator for love marriages in contemporary Vedic astrology. Does not determine timing but determines mode/quality."
+    }
+  },
+  {
+    "rule_id": "jyothishi_intercaste_marriage_rahu",
+    "name": "Intercaste/Unconventional Marriage: Rahu on 1-7 Axis",
+    "description": "Rahu's influence on the self-partner axis indicates marriage outside cultural, religious, or caste boundaries.",
+    "source_text": {
+      "work_name": "Timing of Marriage | JYOTHISHI",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Rahu's involvement with Lagna or 7th House indicates inter caste marriage.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["intercaste", "mixed"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 75,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Rahu is positioned in the 1st House (Lagna)",
+        "Rahu is positioned in the 7th House",
+        "Rahu strongly aspects the 1st House or 7th House"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1", "7"],
+      "planets": ["Rahu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Rahu breaks societal norms and traditions. Its influence on the axis of self (1st) and partner (7th) often results in a union outside of one's cultural, religious, or caste boundaries.",
+      "mode": "mixed",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "unconventional_marriage_indicated",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_as_intercaste_or_unconventional"
+    },
+    "metadata": {
+      "notes": "Can apply to inter-religious, inter-caste, or foreign marriages. In modern contexts: marriage to someone from a different background/culture."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_two_wives_dual_signs",
+    "name": "Second Marriage Indicator: Dual Signs",
+    "description": "Both the 7th lord and Venus in dual/mutable signs (Gemini, Virgo, Sagittarius, Pisces) indicate duality in marriage.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "10",
+      "verse": "5",
+      "page": "106",
+      "quote": "A person will have two wives in the event of both the lord of the 7th and Venus being posited in a dual sign or amsa.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["second_marriage"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 70,
+    "polarity": "neutral",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 7th House is positioned in a dual sign (Gemini, Virgo, Sagittarius, Pisces) in D1 or D9",
+        "Venus is positioned in a dual sign in D1 or D9"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7"],
+      "planets": ["Venus", "7th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The mutable/dual nature of the signs occupied by primary marriage significators indicates duality in marriage. Modern interpretation: divorce followed by second marriage, or multiple long-term partnerships.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "second_marriage_possible",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "flag_second_marriage_potential"
+    },
+    "metadata": {
+      "notes": "Historically interpreted as polygamy, in modern context it is a primary indicator for divorce followed by second marriage. Check both D1 and D9 sign placements."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_female_second_marriage",
+    "name": "Female Chart: Moon + Saturn in 7th = Second Marriage",
+    "description": "In a female chart, Moon-Saturn conjunction in the 7th house indicates dissolution of the first marriage and necessity of a second.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "If in a female's birth chart, the Moon and Saturn be together in the 7th house, the native marries again (after the first marriage).",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["second_marriage"],
+    "rule_type": "combination",
+    "status": "active",
+    "priority": 68,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "gender",
+          "operator": "equals",
+          "value": "female"
+        },
+        "Moon and Saturn are conjunct in the 7th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7"],
+      "planets": ["Moon", "Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "In a female chart, the emotional mind (Moon) compressed by restriction/delays (Saturn) in the house of partnership leads to dissolution or loss of the first marriage, necessitating a second.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.75
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.8
+    },
+    "outputs": {
+      "symbolic_label": "female_second_marriage_indicator",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "flag_second_marriage_female"
+    },
+    "metadata": {
+      "notes": "Specific to female charts in classical texts. Modern interpretation: significant marital difficulties or separation/remarriage."
+    }
+  },
+  {
+    "rule_id": "bphs_lack_of_conjugal_felicity",
+    "name": "Painful Marriage: Moon in 7th + 7th Lord in 12th + Weak Venus",
+    "description": "Creates a deeply unfulfilling marriage due to Moon seeking partnership while 7th lord is lost in the 12th and Venus is weak.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "18",
+      "verse": "18",
+      "page": null,
+      "quote": "If Candr is in Yuvati, as Yuvati Lord is in Vyaya and the Karaka (indicator Sukr) is bereft of strength, the native will not be endowed with marital happiness.",
+      "translation": "If the Moon is in the 7th house, the 7th Lord is in the 12th house, and Venus is weak, there is a lack of conjugal felicity."
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["painful", "conflict_prone"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 80,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Moon is positioned in the 7th house",
+        "The Lord of the 7th house is positioned in the 12th house",
+        "Venus (the Karaka) is weak or afflicted"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7", "12"],
+      "planets": ["Moon", "Venus", "7th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Creates a painful or deeply unfulfilling marriage. Moon in 7th = emotional investment in partnership. 7th lord in 12th = partnership dissipates/is lost. Weak Venus = no pleasure/beauty in the union.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "painful_marriage_quality",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "flag_marital_dissatisfaction"
+    },
+    "metadata": {
+      "notes": "A severe combination for marital dissatisfaction or emotional distancing between spouses. Does not deny marriage but promises unhappiness within it."
+    }
+  },
+  {
+    "rule_id": "astrosight_venus_saturn_conjunct",
+    "name": "Delayed but Stable: Venus-Saturn Conjunction",
+    "description": "Saturn restricts and matures Venus, bringing initial delays but fostering highly stable, committed, and enduring partnerships.",
+    "source_text": {
+      "work_name": "What is Conjunct in Astrology? Meaning & Effects Guide - AstroSight",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Venus Conjunct Saturn: Delayed or difficult romance, older spouse, serious love, eventual deep commitment after trials.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["delayed", "stable"],
+    "rule_type": "aspect",
+    "status": "active",
+    "priority": 72,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Venus is conjunct Saturn in the birth chart"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Venus", "Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn restricts and matures the romantic qualities of Venus. Initial delays, emotional coolness, or struggles in love, but fosters highly stable, committed, and enduring partnerships often with an older or mature spouse.",
+      "mode": "unknown",
+      "quality": "stable",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "delayed_stable_marriage",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_delayed_but_stable"
+    },
+    "metadata": {
+      "notes": "Reflects an outcome that is initially challenging but ultimately creates a very stable foundation. Often spouse is older or more mature."
+    }
+  },
+  {
+    "rule_id": "astrosight_venus_mars_conjunct",
+    "name": "Passionate but Volatile: Venus-Mars Conjunction",
+    "description": "Creates highly passionate, intense, and romantically driven relationship patterns that support love affairs but can introduce volatility.",
+    "source_text": {
+      "work_name": "What is Conjunct in Astrology? Meaning & Effects Guide - AstroSight",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Mars conjunct Venus: Passion combined with love - intense romantic and sexual energy.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["love", "unstable"],
+    "rule_type": "aspect",
+    "status": "active",
+    "priority": 68,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Mars is conjunct Venus in the birth chart"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Mars", "Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Intense romantic and sexual energy. Strongly supports love affairs and love marriages propelled by physical attraction. Can introduce volatility or conflict due to excess fire and desire.",
+      "mode": "love",
+      "quality": "unstable",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.8
+    },
+    "outputs": {
+      "symbolic_label": "passionate_volatile_marriage",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_love_marriage_volatile"
+    },
+    "metadata": {
+      "notes": "Often results in love marriages propelled by strong physical attraction. May need Saturn aspects for stability."
+    }
+  },
+  {
+    "rule_id": "harness_kuja_dosha_12th",
+    "name": "Kuja Dosha: Mars in 12th House",
+    "description": "Mars in the 12th house forms a type of Kuja Dosha introducing hidden anger, passive-aggression, or conflicts into marriage.",
+    "source_text": {
+      "work_name": "The Twelfth House: Misery or Moksha - Dennis Harness",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Mars [in the 12th House]: Kuja Dosha, early marriage may end in divorce, passive-aggressive personality, possible hidden abuse issues...",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["conflict_prone", "unstable"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 78,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "planet_in_house",
+          "operator": "equals",
+          "value": {"planet": "Mars", "house": 12}
+        }
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["12"],
+      "planets": ["Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Forms a type of Kuja Dosha that introduces hidden anger, passive-aggression, or conflicts into the marriage environment. Frequently causes early marriages to dissolve. Extends to Mars in 1, 2, 4, 7, 8 per broader rules.",
+      "mode": "unknown",
+      "quality": "conflict_prone",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "kuja_dosha_conflict",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "flag_marital_conflict_risk"
+    },
+    "metadata": {
+      "notes": "Classical indicator of marital discord and potential separation. Full Kuja Dosha applies to Mars in houses 1, 2, 4, 7, 8, 12. Some exceptions apply (Mars in own sign, aspected by Jupiter, etc.)."
+    }
+  },
+  {
+    "rule_id": "jyothishi_denial_or_severe_delay",
+    "name": "Denial/Severe Delay: Venus in 8th with Mercury/Saturn or Double Debilitation",
+    "description": "Severe affliction to Venus through 8th house placement with restrictive planets or Vargottama debilitation, leading to denial of marriage or profoundly difficult path.",
+    "source_text": {
+      "work_name": "Timing of Marriage | JYOTHISHI",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Denial of Marriage: Venus in 8th House with Mercury / Saturn. Venus debilitated both in Rashi & Navamsha.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["delayed", "painful", "denial"],
+    "rule_type": "combination",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Venus is in the 8th House conjunct Mercury",
+        "Venus is in the 8th House conjunct Saturn",
+        "Venus is debilitated in both the D1 (Rashi) chart and the D9 (Navamsa) chart"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["8"],
+      "planets": ["Venus", "Mercury", "Saturn"],
+      "nakshatra": [],
+      "d9": ["Venus_debilitated"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Severe affliction to the natural significator of marriage (Venus) through placement in the most difficult house (8th) with restrictive planets, or deep structural weakness (Vargottama debilitation), leading to denial of marriage or a profoundly difficult relationship path.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "marriage_denial_or_extreme_delay",
+      "likelihood_band": "very_low",
+      "timing_band": "none",
+      "recommended_action": "flag_potential_denial"
+    },
+    "metadata": {
+      "notes": "Indicates extreme delays or outright denial of marriage. Modern interpretation: very late marriage (after 40) or lifelong singlehood. Check for remedial factors (Jupiter aspect, etc.)."
+    }
+  }
+]

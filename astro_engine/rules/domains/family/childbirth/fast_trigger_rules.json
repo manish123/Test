@@ -1,0 +1,321 @@
+[
+  {
+    "rule_id": "fast_trigger_childbirth_moon_72_days",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Moon 5th or 9th bhavas or their lords - Child birth takes place in seventy two days - this happens very often",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 95,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Moon passes through the natal 5th house",
+        "Transit Moon passes through the natal 9th house",
+        "Transit Moon passes over the natal 5th lord",
+        "Transit Moon passes over the natal 9th lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": ["5", "9"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The transit of the fast-moving Moon over the houses or lords of progeny (5th) or dharma/fortune (9th) acts as a precise final trigger, manifesting childbirth within 72 days.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 72,
+      "exact_window_days": 3,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "moon_childbirth_trigger_fired",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_72_day_window"
+    },
+    "metadata": {
+      "notes": "Used to narrow down the exact delivery date once broader slow-moving transits and dashas are aligned."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_childbirth_sun_2_months",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Sun 5th or 9th bhavas or their lords - Child birth in Two months",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 90,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Sun passes through the natal 5th house",
+        "Transit Sun passes through the natal 9th house",
+        "Transit Sun passes over the natal 5th lord",
+        "Transit Sun passes over the natal 9th lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Sun"],
+      "houses": ["5", "9"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The transit of the Sun over the progeny or dharma axis and their lords narrows the timing window for childbirth to within two months.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 30,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sun_childbirth_trigger_fired",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_60_day_window"
+    },
+    "metadata": {
+      "notes": "The Sun's transit defines a one-month physical window, effectively triggering the event."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_childbirth_mars_75_days",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Mars 5th or 9th bhavas or their lords - Child birth in 75 days",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 88,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mars passes through the natal 5th house",
+        "Transit Mars passes through the natal 9th house",
+        "Transit Mars passes over the natal 5th lord",
+        "Transit Mars passes over the natal 9th lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mars"],
+      "houses": ["5", "9"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The transit of Mars over the progeny or dharma axis acts as an activating physical trigger for childbirth, generally bringing the event within 75 days.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 75,
+      "exact_window_days": 14,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mars_childbirth_trigger_fired",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_75_day_window"
+    },
+    "metadata": {
+      "notes": "Mars signifies the physical severing/cutting of the umbilical cord and bodily action, hence its transit is a crucial final trigger."
+    }
+  },
+  {
+    "rule_id": "horasara_menses_conception_trigger",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": "4",
+      "verse": "1",
+      "page": "33",
+      "quote": "Should the Moon in her transit pass through an Apachaya house (i.e. other than 3rd, 6th, 10th and 11th) in a female's chart and come in aspect to or conjunction with Mars, it leads to her menses and is congenial for conception.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 85,
+    "conditions": {
+      "all_of": [
+        "Native is female",
+        "Transit Moon passes through an Apachaya house (1st, 2nd, 4th, 5th, 7th, 8th, 9th, or 12th) from her natal Ascendant"
+      ],
+      "any_of": [
+        "Transit Moon is conjunct transit Mars",
+        "Transit Moon is aspected by transit Mars"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon", "Mars"],
+      "houses": ["1", "2", "4", "5", "7", "8", "9", "12"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Provides the exact physiological transit trigger for menstruation that successfully prepares the female body for a viable conception. Driven by Moon (water/ovum) and Mars (fire/blood).",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 3,
+      "exact_window_days": 1,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "fertility_window_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "optimal_conception_day"
+    },
+    "metadata": {
+      "notes": "A biological timing rule used in medical Jyotish to pinpoint peak fertility windows."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_delivery_sun_transit_adhana",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "31",
+      "page": null,
+      "quote": "The birth of a son (child) is likely to take place when the Sun In his transit passes the third sign representing the Nisheka Lagna or transits a sign triangular to the Adhana Lagna.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 93,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Sun passes through the 3rd sign from the Nisheka (Impregnation) Lagna",
+        "Transit Sun passes through a sign trine (1st, 5th, 9th) to the Adhana (Conception) Lagna"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Sun"],
+      "houses": ["1", "3", "5", "9"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["Adhana_Lagna", "Nisheka_Lagna"]
+    },
+    "interpretation": {
+      "meaning": "Uses the exact chart of conception (Adhana/Nisheka) to pinpoint the delivery month based on the Sun's transit relative to the conception Ascendant.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 7,
+      "confidence_decay_days": 5
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.9,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sun_delivery_month_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_delivery_month"
+    },
+    "metadata": {
+      "notes": "Because the Sun changes signs exactly once a month, this effectively targets the exact solar month of delivery."
+    }
+  }
+]

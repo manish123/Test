@@ -1,0 +1,263 @@
+[
+  {
+    "rule_id": "fast_trigger_moon_72_days",
+    "name": "Moon Fast Trigger (72-Day Manifestation)",
+    "description": "The transit of the fast-moving Moon over the houses or lords of partnership (7th) or dharma/fortune (9th) acts as a precise final trigger, typically manifesting marriage within 72 days.",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Moon 7th or 9th bhavas or their lords - Marriage takes place in seventy two days - this happens very often",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 95,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Moon passes through the natal 7th house sign",
+        "Transit Moon passes through the natal 9th house sign",
+        "Transit Moon conjuncts the natal 7th lord",
+        "Transit Moon conjuncts the natal 9th lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": ["7", "9"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The Moon is the fastest-moving planet and acts as the final trigger that pins down exact timing once the broader dasha and slow transit windows are already open. Marriage within 72 days of this trigger.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 72,
+      "exact_window_days": 3,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "moon_fast_trigger_fired",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_72_day_window"
+    },
+    "metadata": {
+      "notes": "Used to narrow down the exact wedding date once broader slow-moving transits and dashas are already aligned. Moon transits each sign every 2.5 days, so this fires frequently - only meaningful when dasha + transit layers are already active."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_mars_2_months",
+    "name": "Mars Fast Trigger (2-Month Manifestation)",
+    "description": "Mars moving over the 7th or 9th house/lords narrows the marriage timing window to within two months.",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Mars 7th or 9th bhavas or their lords - Marriage takes place in TWO months",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mars passes through the natal 7th house sign",
+        "Transit Mars passes through the natal 9th house sign",
+        "Transit Mars conjuncts the natal 7th lord",
+        "Transit Mars conjuncts the natal 9th lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mars"],
+      "houses": ["7", "9"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mars as a faster-moving planet (45 days per sign average) acts as an activation spark for events promised by longer-term outer planet transits. Marriage within 60 days of this trigger.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mars_fast_trigger_fired",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_60_day_window"
+    },
+    "metadata": {
+      "notes": "Mars transits each sign in ~45 days (unless retrograde: ~6 months). More reliable than Moon trigger due to lower frequency. Only meaningful when dasha + slow transit layers are already active."
+    }
+  },
+  {
+    "rule_id": "exact_longitude_sum_lagna_7th",
+    "name": "Jupiter Exact Hit on Sensitive Marriage Point 1",
+    "description": "Jupiter activating the exact mathematical point (Lagna Lord longitude + 7th Lord longitude), or its trines/opposition, as a primary exact trigger for marriage manifestation.",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Sensitive Marriage Point_1 = Longitude of Lagna Lord + Longitude of 7th Lord... Marriage is highly likely to manifest when Transit Jupiter transits either of these calculated longitude points, their exact trines (120 or 240 away), or the point 180 directly opposite them.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 97,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter conjuncts the exact degree sum of the Lagna Lord and 7th Lord",
+        "Transit Jupiter trines (120 or 240 degrees) the exact degree sum of the Lagna Lord and 7th Lord",
+        "Transit Jupiter opposes (180 degrees) the exact degree sum of the Lagna Lord and 7th Lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["Lagna_Lord_Longitude + 7th_Lord_Longitude"]
+    },
+    "interpretation": {
+      "meaning": "Provides a high-precision spatial coordinate calculated from the rulers of the self and spouse. Jupiter activating this exact mathematical point, or its trines/opposition, acts as a primary exact trigger for the manifestation of marriage.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 5,
+      "confidence_decay_days": 7
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.9,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_sensitive_point_1_exact",
+      "likelihood_band": "very_high",
+      "timing_band": "exact",
+      "recommended_action": "confirm_date_range"
+    },
+    "metadata": {
+      "notes": "Requires precise birth time to calculate exact planetary longitudes. Formula: (Lagna_Lord_Lon + 7th_Lord_Lon) mod 360. Orb: 1-2 degrees for Jupiter."
+    }
+  },
+  {
+    "rule_id": "exact_longitude_sum_nakshatra_7th",
+    "name": "Jupiter Exact Hit on Sensitive Marriage Point 2",
+    "description": "Jupiter activating the calculated point (Janma Nakshatra Lord longitude + 7th Lord longitude) as an alternate exact trigger.",
+    "source_text": {
+      "work_name": "Timing of Marriage | JYOTHISHI",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Add Longitudes of Janma Nakshatra Lord and 7th Lord. When Jupiter transits this point /its trine, marriage is likely.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 93,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter conjuncts the exact degree sum of the Janma Nakshatra Lord and 7th Lord",
+        "Transit Jupiter trines (120 or 240 degrees) the exact degree sum of the Janma Nakshatra Lord and 7th Lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["Janma_Nakshatra_Lord"],
+      "d9": [],
+      "sensitive_points": ["Janma_Nakshatra_Lord_Longitude + 7th_Lord_Longitude"]
+    },
+    "interpretation": {
+      "meaning": "An alternate exact mathematical trigger point combining the ruler of the mind/moon (Janma Nakshatra Lord) and the ruler of partnership (7th Lord). Jupiter's transit over this coordinate triggers the event.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 5,
+      "confidence_decay_days": 7
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.85,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_sensitive_point_2_exact",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "cross_validate_with_point_1"
+    },
+    "metadata": {
+      "notes": "Highly precise timing method dependent on accurate mathematical longitudes. Formula: (Janma_Nakshatra_Lord_Lon + 7th_Lord_Lon) mod 360. Orb: 1-2 degrees."
+    }
+  }
+]

@@ -1,0 +1,328 @@
+[
+  {
+    "rule_id": "jyothishi_dasha_primary_marriage_triggers",
+    "name": "Primary Dasha Marriage Triggers",
+    "description": "Marriage becomes likely during the Dasha/Bhukti of planets structurally connected to the 7th house of partnership, the 2nd house of family formation, and the 1st house of self.",
+    "source_text": {
+      "work_name": "Timing of Marriage | JYOTHISHI",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Dasha & Bhukti The individual (during marriageable age) may get married during following conditions. Dasha of 7th Lord, planets occupying 7th house, planets aspecting 7th house... Dasha / Bhukti of 2nd Lord... Dasha of Lagna Lord and Bhukti of 7th Lord.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["stable"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 98,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Mahadasha or Antardasha of the 7th Lord is active",
+        "Mahadasha or Antardasha of a planet occupying the 7th house is active",
+        "Mahadasha or Antardasha of a planet aspecting the 7th house is active",
+        "Mahadasha or Antardasha of the 2nd Lord is active",
+        "Mahadasha of the Lagna Lord is active concurrently with the Antardasha of the 7th Lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["7th_lord", "7th_house_occupant", "7th_house_aspecting_planet", "2nd_lord", "Lagna_lord"],
+      "transit": [],
+      "houses": ["1", "2", "7"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Provides primary planetary period windows for marriage based on planets structurally connected to the 7th house of partnership, the 2nd house of family formation, and the 1st house of self.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 90,
+      "confidence_decay_days": 60
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "marriage_dasha_window_open",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "monitor_transit_activation"
+    },
+    "metadata": {
+      "notes": "Fundamental Dasha timing rules for marriage windows. This is the first gate - if no dasha rule fires, marriage is unlikely regardless of transits."
+    }
+  },
+  {
+    "rule_id": "jyothishi_dasha_natural_karakas",
+    "name": "Natural Karaka Dasha Triggers",
+    "description": "The planetary periods of the natural significators of marriage, desire, and emotional connection act as broad timing windows for marriage, regardless of house rulership.",
+    "source_text": {
+      "work_name": "Timing of Marriage | JYOTHISHI",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Dasha of natural karakas, namely, Venus, Rahu & Moon",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["stable"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Mahadasha or Antardasha of Venus is active",
+        "Mahadasha or Antardasha of Rahu is active",
+        "Mahadasha or Antardasha of the Moon is active"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Venus", "Rahu", "Moon"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Venus", "Rahu", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Venus is the universal Karaka for marriage. Rahu indicates worldly attachments and sudden events. Moon indicates domestic and emotional settling. Their periods create marriage-fertile windows regardless of house lordship.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 730,
+      "exact_window_days": 180,
+      "confidence_decay_days": 90
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "karaka_marriage_window",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "check_structural_support"
+    },
+    "metadata": {
+      "notes": "Secondary dasha layer. Venus MD/AD is strongest. Rahu gives sudden/unexpected marriages. Moon gives emotional readiness for domestic life."
+    }
+  },
+  {
+    "rule_id": "jataka_parijata_dasha_alternative_lords",
+    "name": "Alternative Dasha Lords (Jataka Parijata Priority Hierarchy)",
+    "description": "A descending priority order of Dasha periods for marriage timing when primary 7th house indicators are not running during marriageable age.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "14",
+      "verse": "29",
+      "page": "860",
+      "quote": "If the lord of the 7th bhava be associated with Venus, its Dasa and Bhukti may lead to marriage. Failing that, the Dasa and Bhukti of the lord of the Rasi occupied by the planet owning the 2nd bhava may have marriage-producing efficacy. The Dasa and Bhukti of the lords of the 9th and the 10th bhavas come next in order.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["stable"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Mahadasha or Antardasha of the 7th lord is active, provided it is associated with Venus",
+        "Mahadasha or Antardasha of the dispositor of the 2nd lord is active",
+        "Mahadasha or Antardasha of the 9th lord is active",
+        "Mahadasha or Antardasha of the 10th lord is active"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["7th_lord", "2nd_lord_dispositor", "9th_lord", "10th_lord"],
+      "transit": [],
+      "houses": ["2", "7", "9", "10"],
+      "planets": ["Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Provides a descending order of Dasha priorities for marriage timing, highlighting the connection between 7th lord and Venus, followed by the planetary dispositor of the 2nd lord, and finally the lords of dharma (9th) and karma/status (10th).",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 120,
+      "confidence_decay_days": 45
+    },
+    "weights": {
+      "dasha_weight": 0.8,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.5
+    },
+    "outputs": {
+      "symbolic_label": "alternative_marriage_dasha",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "check_venus_association"
+    },
+    "metadata": {
+      "notes": "Highlights backup Dasha periods when primary 7th house indicators are not running during marriageable age. Descending priority: 7L+Venus > 2L dispositor > 9L > 10L."
+    }
+  },
+  {
+    "rule_id": "jataka_parijata_dasha_internal_timing",
+    "name": "Intra-Dasha Timing Refinement (Benefic/Malefic Placement)",
+    "description": "Determines the specific segment of a planetary period (start/middle/end) in which marriage will manifest, based on the natural benefic/malefic status of the Dasha lord and the house it occupies.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "14",
+      "verse": "30",
+      "page": "861",
+      "quote": "If the planet powerful for producing marriage be benefic and in a benefic house, it will bring on the happy event at the commencement of its Dasa. If the planet, being itself benefic, should occupy a malefic house, the marriage... will take place in the middle of its Dasa. If the planet and the house it occupies be both malefic, the event in question will happen at the end of its Dasa.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["stable"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 75,
+    "polarity": "mixed",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The active marriage-producing Dasha lord is a natural benefic placed in a benefic house (Triggers at Dasha start)",
+        "The active marriage-producing Dasha lord is a natural benefic placed in a malefic house (Triggers at Dasha midpoint)",
+        "The active marriage-producing Dasha lord is a natural malefic placed in a malefic house (Triggers at Dasha end)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A structural timing rule designed to narrow the window within a broad Mahadasha or Antardasha period. Benefic lord + benefic house = early. Benefic lord + malefic house = middle. Malefic lord + malefic house = late.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "dasha_segment_refinement",
+      "likelihood_band": "moderate",
+      "timing_band": "narrow",
+      "recommended_action": "narrow_within_dasha_period"
+    },
+    "metadata": {
+      "notes": "This is a refinement rule applied AFTER a primary dasha rule fires. It narrows timing to first/second/third portion of the dasha. Benefic houses: 1,2,4,5,7,9,11. Malefic houses: 3,6,8,12. Natural benefics: Jupiter, Venus, Mercury (unafflicted), Moon (waxing)."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_dasha_strongest_significator",
+    "name": "Strongest Significator Dasha (Phaladeepika Method)",
+    "description": "Marriage occurs in the Dasha of the strongest planet among the 7th lord's dispositors (in D1 and D9), Venus, or the Moon. Integrates Navamsa and Shadbala for definitive Dasha lord identification.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "10",
+      "verse": "14",
+      "page": "109",
+      "quote": "Find out who amongst (1) the lord of the sign in which lord of the 7th is posited and the lord of the navamsa which the lord of the 7th occupies and (2) Venus and Moon, is stronger. The marriage will take place in the dasha of this stronger planet...",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["stable"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "The Mahadasha or Antardasha of the strongest planet among the following is active: 7th lord's Rashi dispositor, 7th lord's Navamsa dispositor, Venus, or the Moon."
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["7th_lord_dispositor", "7th_lord_navamsa_dispositor", "Venus", "Moon"],
+      "transit": [],
+      "houses": ["7"],
+      "planets": ["Venus", "Moon"],
+      "nakshatra": [],
+      "d9": ["7th_lord_navamsa_dispositor"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "If direct 7th house indicators are weak or their periods do not align with marriageable age, the strongest among the 7th lord's dispositors (in D1 and D9) or natural karakas (Venus/Moon) will manifest marriage during its Dasha.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 120,
+      "confidence_decay_days": 60
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "strongest_significator_dasha",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "confirm_with_transit_activation"
+    },
+    "metadata": {
+      "notes": "Integrates Navamsa (D9) dispositors and Shadbala (planetary strength) to isolate the definitive Dasha lord for marriage. Requires Shadbala calculation or simplified strength ranking."
+    }
+  }
+]

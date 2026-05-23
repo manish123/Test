@@ -1,0 +1,388 @@
+[
+  {
+    "rule_id": "bphs_early_marriage_venus_exalted",
+    "name": "Early Marriage: Venus Exalted + 7th Lord in Benefic House",
+    "description": "Classical indicator of extremely early marriage or strong disposition for early partnership when Venus is exalted/own sign and 7th lord is well-placed.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "18",
+      "verse": "22",
+      "page": "166",
+      "quote": "If the 7th lord is in a benefic's house (or in the 9th as subha Rasi so means) while Venus is exalted or is in own sign, the native will marry at the age of 5 or 9.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["early"],
+    "rule_type": "classical_pattern",
+    "status": "experimental",
+    "priority": 60,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "7th lord is positioned in a benefic house (1, 2, 4, 5, 7, 9, 11) or the 9th house",
+        "Venus is either exalted (Pisces) or in own sign (Taurus/Libra)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7", "9"],
+      "planets": ["Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of early marriage readiness. Classical ages 5 or 9 should be interpreted as strong disposition for early partnership in modern contexts (18-22 range). Indicates the chart has strong marriage promise without obstruction.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.6
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.8
+    },
+    "outputs": {
+      "symbolic_label": "early_marriage_disposition",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "expect_marriage_in_early_dasha_window"
+    },
+    "metadata": {
+      "notes": "Classical age-based rules should not be applied literally in modern contexts. Interpret as: marriage will happen at the first available dasha window after social marriageable age."
+    }
+  },
+  {
+    "rule_id": "bphs_early_marriage_venus_2nd_7th_11th",
+    "name": "Early Marriage: Venus in 2nd + 7th Lord in 11th",
+    "description": "The connection between Venus (Karaka) in the house of family (2nd) and the 7th lord in the house of gains (11th) precipitates an early union.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "18",
+      "verse": "24",
+      "page": "166",
+      "quote": "Venus in the 2nd while the 7th lord is in the 11th will give marriage at the age of 10 or 16.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["early"],
+    "rule_type": "classical_pattern",
+    "status": "experimental",
+    "priority": 55,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Venus is positioned in the 2nd house",
+        "The 7th lord is positioned in the 11th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2", "11"],
+      "planets": ["Venus", "7th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of early marriage. Venus in the family house + 7th lord in the gains house = marriage comes easily and early without obstruction.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.7
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "early_marriage_venus_gains",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "expect_early_marriage_window"
+    },
+    "metadata": {
+      "notes": "Ages 10 or 16 indicate early marriage timing in ancient contexts. Modern interpretation: marriage in the first available planetary period after age 18-21."
+    }
+  },
+  {
+    "rule_id": "bphs_early_marriage_exchange_2_11",
+    "name": "Early Marriage: Parivartana (Exchange) of 2nd and 11th Lords",
+    "description": "A mutual exchange between the lords of family (2nd) and gains/desires (11th) accelerates family formation.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "18",
+      "verse": "29",
+      "page": "167",
+      "quote": "An exchange between the lords of the 2nd and the 11th will bring marriage 13 years after birth.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["early"],
+    "rule_type": "classical_pattern",
+    "status": "experimental",
+    "priority": 50,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "The 2nd lord is in the 11th house",
+        "The 11th lord is in the 2nd house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2", "11"],
+      "planets": ["2nd_lord", "11th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Parivartana Yoga (mutual exchange) between the houses of family/wealth (2nd) and gains/desires (11th) accelerates family formation. Does not explicitly involve the 7th house, showing the importance of the 2nd/11th axis.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.75
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.8
+    },
+    "outputs": {
+      "symbolic_label": "parivartana_2_11_early_marriage",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "check_dasha_of_exchange_lords"
+    },
+    "metadata": {
+      "notes": "Age 13 points to early relationship developments. Modern interpretation: strong facilitation of marriage in first available period. Check dasha of either exchanging lord."
+    }
+  },
+  {
+    "rule_id": "bphs_normal_marriage_7th_12th_navamsa",
+    "name": "Normal Marriage Timing: 7th Lord in 12th + Lagna Lord in D9 7th",
+    "description": "Standard marriage timing (age 23-26) when 7th lord is weakened by 12th house placement but compensated by Lagna lord activating the D9 7th house.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "18",
+      "verse": "31",
+      "page": "167",
+      "quote": "Should the 7th lord be in the 12th while the natal ascendant lord is in the 7th in Navamsa, marriage will be in 23rd/26th year of age.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["stable"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 75,
+    "polarity": "mixed",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "The natal 7th lord is positioned in the 12th house in the D1 chart",
+        "The natal Ascendant (Lagna) lord is positioned in the 7th house of the Navamsa (D9) chart"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["12"],
+      "planets": ["7th_lord", "Lagna_lord"],
+      "nakshatra": [],
+      "d9": ["7th_house"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Standard marriage timing. The 7th lord in the 12th creates mild delay (loss/expense related to partnership), but Lagna lord in D9 7th house ensures marriage will happen in the normal age range (23-26).",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "normal_marriage_timing_pattern",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "expect_marriage_age_23_26"
+    },
+    "metadata": {
+      "notes": "Ages 23/26 typically indicate normal marriage timing in classical texts. Integrates both D1 and D9 placements. Modern interpretation: marriage in mid-20s."
+    }
+  },
+  {
+    "rule_id": "bphs_delayed_marriage_8th_7th_venus_d9",
+    "name": "Delayed Marriage: 8th Lord in 7th + Venus in D9 Lagna",
+    "description": "The placement of the obstacle-causing 8th lord in the marriage house creates significant delays, pushing marriage into later years (25-33).",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "18",
+      "verse": "32",
+      "page": "167",
+      "quote": "Either the 25th year or the 33rd year will bring marriage if the 8th lord is in the 7th as Venus is in Navamsa ascendant.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["delayed"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 78,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "The 8th lord is positioned in the 7th house in the natal D1 chart",
+        "Venus is positioned in the 1st house (Ascendant) of the Navamsa (D9) chart"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7"],
+      "planets": ["8th_lord", "Venus"],
+      "nakshatra": [],
+      "d9": ["Lagna"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The 8th lord in the 7th house creates obstruction, transformation, and delay in marriage. But Venus in D9 Lagna ensures marriage WILL happen - just later (age 25-33). The delay is structural, not denial.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "delayed_marriage_8th_obstruction",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "expect_marriage_age_25_33"
+    },
+    "metadata": {
+      "notes": "Ages 25 and 33 were considered significantly delayed in the classical era. Modern interpretation: marriage delayed to late 20s/early 30s."
+    }
+  },
+  {
+    "rule_id": "bphs_delayed_marriage_venus_rahu_5th_9th",
+    "name": "Delayed Marriage: Venus in 5th + Rahu in 5th/9th",
+    "description": "The combination of Venus (marriage significator) in the house of romance (5th) heavily influenced by Rahu delays traditional formalization to age 31-33.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "18",
+      "verse": "33",
+      "page": "167",
+      "quote": "Should Venus be in the 9th from the 9th (i.e. in the 5th house), while Rahu is in one of the said houses (i.e. in the 5th/9th), marriage will take place during 31st or 33rd year.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": ["delayed"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 72,
+    "polarity": "mixed",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Venus is positioned in the 5th house"
+      ],
+      "any_of": [
+        "Rahu is positioned in the 5th house",
+        "Rahu is positioned in the 9th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5", "9"],
+      "planets": ["Venus", "Rahu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Venus in 5th = romantic nature. Rahu in 5th/9th = unconventional approach to love and dharma. Combination delays traditional marriage but does not deny it. Often associated with non-traditional relationship paths before marriage.",
+      "mode": "mixed",
+      "quality": "unknown",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 0,
+      "confidence_decay_days": 0
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "delayed_marriage_venus_rahu",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "expect_marriage_age_30_33"
+    },
+    "metadata": {
+      "notes": "Ages 31 and 33 act as markers for late marriage. Often points to non-traditional relationship paths (love affairs, live-in, delayed commitment) before marriage occurs."
+    }
+  }
+]
