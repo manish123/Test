@@ -1,0 +1,795 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://astrolyn.ai/schemas/marriage_rule.schema.json",
+  "title": "MarriageRule",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "rule_id",
+    "name",
+    "domain",
+    "event_family",
+    "rule_type",
+    "status",
+    "priority",
+    "conditions",
+    "outputs"
+  ],
+  "properties": {
+    "rule_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique rule identifier, e.g. marriage_dasha_7th_lord_md"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string",
+      "enum": ["relationship"],
+      "description": "Marriage rules belong to the relationship domain"
+    },
+    "event_family": {
+      "type": "string",
+      "enum": ["marriage", "commitment", "union", "cohabitation", "separation", "reconciliation"]
+    },
+    "rule_type": {
+      "type": "string",
+      "enum": ["dasha", "transit", "fast_trigger", "classical_pattern", "compound"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "experimental", "calibration", "deprecated"]
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100,
+      "description": "Higher value means stronger precedence"
+    },
+    "polarity": {
+      "type": "string",
+      "enum": ["supportive", "neutral", "challenging", "mixed"]
+    },
+    "conditions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["all_of"],
+      "properties": {
+        "all_of": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Condition"
+          }
+        },
+        "any_of": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Condition"
+          }
+        },
+        "none_of": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Condition"
+          }
+        }
+      }
+    },
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "broad_window_days": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "exact_window_days": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "confidence_decay_days": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "weights": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dasha_weight": {
+          "type": "number"
+        },
+        "transit_weight": {
+          "type": "number"
+        },
+        "fast_trigger_weight": {
+          "type": "number"
+        },
+        "classical_weight": {
+          "type": "number"
+        }
+      }
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["symbolic_label", "likelihood_band", "timing_band"],
+      "properties": {
+        "symbolic_label": {
+          "type": "string",
+          "description": "Neutral interpretation label, e.g. marriage_window_active"
+        },
+        "likelihood_band": {
+          "type": "string",
+          "enum": ["very_low", "low", "moderate", "high", "very_high"]
+        },
+        "timing_band": {
+          "type": "string",
+          "enum": ["broad", "narrow", "exact"]
+        },
+        "recommended_action": {
+          "type": "string",
+          "description": "Domain-facing guidance, e.g. prepare, observe, engage, confirm"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Optional provenance and calibration metadata"
+    }
+  },
+  "$defs": {
+    "Condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "operator", "value"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "dasha_lord",
+            "antardasha_lord",
+            "house_lord",
+            "planet_in_house",
+            "planet_aspect",
+            "transit_house",
+            "transit_aspect",
+            "navamsa_house",
+            "navamsa_lagna",
+            "darakaraka",
+            "mathematical_point",
+            "nakshatra",
+            "age_pattern",
+            "sensitive_point"
+          ]
+        },
+        "operator": {
+          "type": "string",
+          "enum": ["equals", "in", "not_in", "overlaps", "within_orb", "aspecting", "conjunct", "trine", "square", "opposite"]
+        },
+        "value": {},
+        "orb_degrees": {
+          "type": "number",
+          "minimum": 0
+        },
+        "required_strength": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+{
+  "rule_id": "marriage_dasha_7th_lord_md",
+  "name": "7th lord Mahadasha marriage window",
+  "description": "Marriage becomes likely when the 7th lord runs Mahadasha, especially with Venus or Jupiter support.",
+  "domain": "relationship",
+  "event_family": "marriage",
+  "rule_type": "dasha",
+  "status": "active",
+  "priority": 90,
+  "polarity": "supportive",
+  "conditions": {
+    "all_of": [
+      {
+        "kind": "dasha_lord",
+        "operator": "equals",
+        "value": "7th_lord"
+      }
+    ],
+    "any_of": [
+      {
+        "kind": "house_lord",
+        "operator": "in",
+        "value": ["Venus", "Jupiter", "2nd_lord"]
+      },
+      {
+        "kind": "planet_in_house",
+        "operator": "in",
+        "value": [7, 2, 11]
+      }
+    ],
+    "none_of": []
+  },
+  "window": {
+    "broad_window_days": 180,
+    "exact_window_days": 21,
+    "confidence_decay_days": 30
+  },
+  "weights": {
+    "dasha_weight": 0.45,
+    "transit_weight": 0.30,
+    "fast_trigger_weight": 0.20,
+    "classical_weight": 0.05
+  },
+  "outputs": {
+    "symbolic_label": "marriage_window_active",
+    "likelihood_band": "high",
+    "timing_band": "broad",
+    "recommended_action": "observe_and_prepare"
+  }
+}
+
+
+
+
+Recommended file split
+
+For your codebase, I would store this as:
+
+rules/domains/relationship/marriage/
+  marriage_rule.schema.json
+  dasha_rules.json
+  transit_rules.json
+  fast_trigger_rules.json
+  classical_patterns.json
+  
+  
+  
+  [
+  {
+    "rule_id": "marriage_dasha_7th_lord_md",
+    "name": "7th lord Mahadasha marriage window",
+    "description": "Marriage becomes likely when the 7th lord runs Mahadasha, especially with Venus or Jupiter support.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 95,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "dasha_lord",
+          "operator": "equals",
+          "value": "7th_lord"
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "antardasha_lord",
+          "operator": "in",
+          "value": ["Venus", "Jupiter", "2nd_lord"]
+        },
+        {
+          "kind": "planet_in_house",
+          "operator": "in",
+          "value": [7, 2, 11]
+        }
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 180,
+      "exact_window_days": 30,
+      "confidence_decay_days": 45
+    },
+    "weights": {
+      "dasha_weight": 0.55,
+      "transit_weight": 0.25,
+      "fast_trigger_weight": 0.15,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "marriage_window_open",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "observe_and_prepare"
+    }
+  },
+  {
+    "rule_id": "marriage_dasha_venus_md_7th_ad",
+    "name": "Venus Mahadasha with 7th lord Antardasha",
+    "description": "A strong marriage indicator, especially when supported by Jupiter transit.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "compound",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "dasha_lord",
+          "operator": "equals",
+          "value": "Venus"
+        },
+        {
+          "kind": "antardasha_lord",
+          "operator": "equals",
+          "value": "7th_lord"
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "transit_aspect",
+          "operator": "conjunct",
+          "value": "Jupiter"
+        },
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [7, 11, 2]
+        }
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 150,
+      "exact_window_days": 21,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.50,
+      "transit_weight": 0.30,
+      "fast_trigger_weight": 0.15,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "marriage_probability_high",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "prepare_for_commitment_window"
+    }
+  },
+  {
+    "rule_id": "marriage_dasha_2nd_lord_support",
+    "name": "2nd lord family formation support",
+    "description": "Marriage-related family formation often strengthens when the 2nd lord runs a supportive period.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "dasha",
+    "status": "experimental",
+    "priority": 75,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "dasha_lord",
+          "operator": "equals",
+          "value": "2nd_lord"
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "antardasha_lord",
+          "operator": "in",
+          "value": ["Venus", "Jupiter", "7th_lord"]
+        },
+        {
+          "kind": "house_lord",
+          "operator": "in",
+          "value": [7, 11]
+        }
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 120,
+      "exact_window_days": 15,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.45,
+      "transit_weight": 0.25,
+      "fast_trigger_weight": 0.20,
+      "classical_weight": 0.10
+    },
+    "outputs": {
+      "symbolic_label": "family_forming_phase",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "observe_relationship_stability"
+    }
+  }
+]
+
+
+
+[
+  {
+    "rule_id": "marriage_transit_double_transit",
+    "name": "Double transit marriage trigger",
+    "description": "Marriage likelihood rises when Jupiter and Saturn simultaneously activate relationship houses or their lords.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 98,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_house",
+          "operator": "aspecting",
+          "value": "7th_lord"
+        },
+        {
+          "kind": "transit_house",
+          "operator": "aspecting",
+          "value": "lagna_lord"
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "transit_aspect",
+          "operator": "conjunct",
+          "value": "Jupiter"
+        },
+        {
+          "kind": "transit_aspect",
+          "operator": "conjunct",
+          "value": "Saturn"
+        }
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 90,
+      "exact_window_days": 21,
+      "confidence_decay_days": 20
+    },
+    "weights": {
+      "dasha_weight": 0.25,
+      "transit_weight": 0.55,
+      "fast_trigger_weight": 0.15,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "marriage_window_active",
+      "likelihood_band": "very_high",
+      "timing_band": "broad",
+      "recommended_action": "active_monitoring"
+    }
+  },
+  {
+    "rule_id": "marriage_transit_jupiter_7th",
+    "name": "Jupiter activation of marriage houses",
+    "description": "Jupiter transiting the 7th house, Venus, 7th lord, or D9 Lagna strongly supports marriage timing.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [7]
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "transit_aspect",
+          "operator": "equals",
+          "value": "Jupiter"
+        },
+        {
+          "kind": "navamsa_house",
+          "operator": "in",
+          "value": [1, 7]
+        },
+        {
+          "kind": "planetary_significator",
+          "operator": "in",
+          "value": ["Venus", "7th_lord"]
+        }
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 15
+    },
+    "weights": {
+      "dasha_weight": 0.25,
+      "transit_weight": 0.50,
+      "fast_trigger_weight": 0.20,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "relationship_growth_window",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "watch_for_commitment"
+    }
+  },
+  {
+    "rule_id": "marriage_transit_lagna_lord_support",
+    "name": "Lagna lord support transit",
+    "description": "Marriage timing strengthens when the Lagna lord or 7th lord transits relationship-sensitive houses or trines.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "transit",
+    "status": "experimental",
+    "priority": 82,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_aspect",
+          "operator": "equals",
+          "value": "lagna_lord"
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [7, 11, 2]
+        },
+        {
+          "kind": "transit_aspect",
+          "operator": "trine",
+          "value": "7th_lord"
+        }
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 45,
+      "exact_window_days": 10,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.20,
+      "transit_weight": 0.55,
+      "fast_trigger_weight": 0.20,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "union_window_building",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "observe_for_confirmation"
+    }
+  }
+]
+
+
+
+[
+  {
+    "rule_id": "marriage_fast_moon_7th_9th",
+    "name": "Moon fast trigger on relationship houses",
+    "description": "The transiting Moon over the 7th or 9th house, or their lords, can trigger the exact marriage window.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 99,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [7, 9]
+        },
+        {
+          "kind": "planetary_significator",
+          "operator": "equals",
+          "value": "Moon"
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "house_lord",
+          "operator": "in",
+          "value": [7, 9]
+        }
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 7,
+      "exact_window_days": 1,
+      "confidence_decay_days": 2
+    },
+    "weights": {
+      "dasha_weight": 0.10,
+      "transit_weight": 0.25,
+      "fast_trigger_weight": 0.60,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "exact_marriage_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_day_confirmation"
+    }
+  },
+  {
+    "rule_id": "marriage_fast_mars_7th_9th",
+    "name": "Mars fast trigger on relationship houses",
+    "description": "Mars moving over the 7th or 9th house, or their lords, can narrow marriage timing to the exact week or days.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 91,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [7, 9]
+        },
+        {
+          "kind": "planetary_significator",
+          "operator": "equals",
+          "value": "Mars"
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "house_lord",
+          "operator": "in",
+          "value": [7, 9]
+        }
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 14,
+      "exact_window_days": 3,
+      "confidence_decay_days": 4
+    },
+    "weights": {
+      "dasha_weight": 0.10,
+      "transit_weight": 0.20,
+      "fast_trigger_weight": 0.65,
+      "classical_weight": 0.05
+    },
+    "outputs": {
+      "symbolic_label": "short_marriage_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "exact",
+      "recommended_action": "narrow_to_day_window"
+    }
+  },
+  {
+    "rule_id": "marriage_fast_jupiter_sensitive_point",
+    "name": "Jupiter hit on sensitive marriage point",
+    "description": "Jupiter crossing the Lagna lord + 7th lord longitude point, or its trines/opposition, can trigger marriage timing.",
+    "domain": "relationship",
+    "event_family": "marriage",
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 97,
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "mathematical_point",
+          "operator": "within_orb",
+          "value": "lagna_lord_plus_7th_lord_point",
+          "orb_degrees": 1.0
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "planetary_significator",
+          "operator": "equals",
+          "value": "Jupiter"
+        },
+        {
+          "kind": "mathematical_point",
+          "operator": "trine",
+          "value": "lagna_lord_plus_7th_lord_point",
+          "orb_degrees": 1.0
+        },
+        {
+          "kind": "mathematical_point",
+          "operator": "opposite",
+          "value": "lagna_lord_plus_7th_lord_point",
+          "orb_degrees": 1.0
+        }
+      ],
+      "none_of": []
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 5,
+      "confidence_decay_days": 7
+    },
+    "weights": {
+      "dasha_weight": 0.15,
+      "transit_weight": 0.25,
+      "fast_trigger_weight": 0.50,
+      "classical_weight": 0.10
+    },
+    "outputs": {
+      "symbolic_label": "high_precision_marriage_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "confirm_date_range"
+    }
+  }
+]
+
+
+
+Suggested folder layout
+rules/
+  domains/
+    relationship/
+      marriage/
+        dasha_rules.json
+        transit_rules.json
+        fast_trigger_rules.json
+        marriage_rule.schema.json
+        
+        
+        
+        How to use these together
+
+The logic should be:
+
+Dasha rule fires → marriage broad window opens
+Transit rule fires → window becomes active
+Fast trigger rule fires → exact timing is narrowed down
+Decision layer → outputs BROAD_WINDOW, NARROW_WINDOW, or TARGET_DAY
+Best practice
+
+Keep these as:
+
+neutral
+domain-scoped
+versioned
+calibration-friendly
+
+That way the same structure can be reused for:
+
+childbirth
+job switch
+business launch
+relocation
+surgery
+retreat
+exam timing
+
+
+
+
+
