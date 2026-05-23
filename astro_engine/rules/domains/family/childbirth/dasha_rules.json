@@ -1,0 +1,358 @@
+[
+  {
+    "rule_id": "phaladeepika_dasha_primary_childbirth_triggers",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "25",
+      "page": null,
+      "quote": "The birth of a son should possibly take place in the dasha or antar dasha of any of the following planets:- (1) The lord of the ascendent, (2) the lord of the 7th house, (3) the lord of the 5th house, (4) Jupiter, (5) the planet aspecting the 5th house, (6) the planet occupying the 5th house.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 98,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Mahadasha or Antardasha of the 1st Lord (Lagna Lord) is active",
+        "Mahadasha or Antardasha of the 7th Lord is active",
+        "Mahadasha or Antardasha of the 5th Lord is active",
+        "Mahadasha or Antardasha of Jupiter is active",
+        "Mahadasha or Antardasha of a planet aspecting the 5th house is active",
+        "Mahadasha or Antardasha of a planet occupying the 5th house is active"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["1st_lord", "7th_lord", "5th_lord", "Jupiter", "5th_house_occupant", "5th_house_aspecting_planet"],
+      "transit": [],
+      "houses": ["1", "5", "7"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Provides the primary planetary period windows for childbirth based on planets structurally connected to the 5th house of progeny, 1st house of self, 7th house of partnership, and Jupiter (the natural significator for children).",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "childbirth_dasha_window_open",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "monitor_transit_activation"
+    },
+    "metadata": {
+      "notes": "These represent the fundamental Dasha timing rules for defining a broad conception or childbirth window. This is the first gate — if no dasha rule fires, childbirth is unlikely regardless of transits."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_dasha_strongest_progeny_significator",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "28",
+      "page": null,
+      "quote": "Find out which amongst the (1) lord of the 5th house, (2) the lord of the sign occupied by the lord of the 5th house and (3) the lord of the navamsa of the lord of the 5th house (4) the lord of the sign occupied by jupiter and (5) the lord of the navamsa occupied by Jupiter is a strong planet. The birth of a son (children) may be expected in the major or sub-period of this strong planet.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 90,
+    "conditions": {
+      "all_of": [
+        "The Mahadasha or Antardasha of the strongest planet among the following is active: 5th lord, 5th lord's Rashi dispositor, 5th lord's Navamsa dispositor, Jupiter's Rashi dispositor, or Jupiter's Navamsa dispositor."
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["5th_lord", "5th_lord_dispositor", "5th_lord_navamsa_dispositor", "Jupiter_dispositor", "Jupiter_navamsa_dispositor"],
+      "transit": [],
+      "houses": ["5"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": ["5th_lord_navamsa_dispositor", "Jupiter_navamsa_dispositor"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When direct 5th house indicators are unclear or weak, the strongest planet among the dispositors of the 5th lord and Jupiter (in both the birth chart and Navamsa) will manifest childbirth during its planetary period.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "strongest_progeny_significator_dasha",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "confirm_with_transit_activation"
+    },
+    "metadata": {
+      "notes": "This rule deeply integrates Navamsa (D9) dispositors and overall planetary strength to isolate the definitive Dasha lord for childbirth."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_dasha_longitude_sum_nakshatra",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "27",
+      "page": null,
+      "quote": "Add the longitudes of (1) the lord of the ascendant, (2) the lord of the 7th house, and (3) the lord of the 5th house. During the course of the major period represented by the owner of the nakshatra resulting from the sum total... and in the sub-period of any of the following planets will the birth of a son (children) take place.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "combination",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "status": "calibration",
+    "priority": 85,
+    "conditions": {
+      "all_of": [
+        "The active Mahadasha lord is the ruler of the Nakshatra corresponding to the sum of the longitudes of the 1st Lord, 7th Lord, and 5th Lord"
+      ],
+      "any_of": [
+        "The active Antardasha lord is a planet occupying the 5th house",
+        "The active Antardasha lord is a planet aspecting the 5th house",
+        "The active Antardasha lord is the lord of the 5th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Calculated_Nakshatra_Lord", "5th_house_occupant", "5th_house_aspecting_planet", "5th_lord"],
+      "transit": [],
+      "houses": ["1", "5", "7"],
+      "planets": [],
+      "nakshatra": ["Longitude_Sum_Nakshatra"],
+      "d9": [],
+      "sensitive_points": ["Lagna_Lord_Longitude + 7th_Lord_Longitude + 5th_Lord_Longitude"]
+    },
+    "interpretation": {
+      "meaning": "Calculates a specific overarching Mahadasha window based on the mathematical sum of the self, partner, and progeny lords. The childbirth event is activated during the Antardasha of a direct 5th house influencer.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "longitude_sum_childbirth_dasha",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "verify_nakshatra_calculation"
+    },
+    "metadata": {
+      "notes": "A high-precision mathematical Dasha timing technique requiring accurate birth time."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_natural_benefic_overlaps",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "53, 54, 59",
+      "verse": "Multiple",
+      "page": null,
+      "quote": "...increase in the number of children and grand children... in the Antardasa of the Moon in the Dasha of Jupiter, if the Moon be in kendra, trikona or the 11th... Effects like marriage, birth of a son... derived in the Antardasa of Venus in the Dasa of Saturn, if Venus be in kendra, trikona or the 11th...",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 82,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Antardasha of the Moon is active within the Mahadasha of Jupiter, and the Moon is well-placed (Kendra, Trikona, 11th, exalted, or own sign)",
+        "Antardasha of Venus is active within the Mahadasha of Saturn, and Venus is well-placed (Kendra, Trikona, 11th)",
+        "Antardasha of Jupiter is active within the Mahadasha of Ketu, and Jupiter is well-placed (exalted, own sign, or Kendra/Trikona from Ascendant)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Moon", "Jupiter", "Venus", "Saturn", "Ketu"],
+      "transit": [],
+      "houses": ["1", "4", "5", "7", "9", "10", "11"],
+      "planets": ["Moon", "Jupiter", "Venus", "Saturn", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Favorable Antardashas of natural benefics (Moon, Venus, Jupiter) occurring within specific Mahadashas act as strong periods for childbirth, provided the Antardasha lord is structurally well-placed in the birth chart.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "benefic_overlap_childbirth",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "check_benefic_placement"
+    },
+    "metadata": {
+      "notes": "Highlights the direct involvement of natural benefics in specific Dasha combinations for initiating progeny."
+    }
+  },
+  {
+    "rule_id": "bphs_rashi_dasha_moon_jupiter",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "48",
+      "verse": null,
+      "page": null,
+      "quote": "In the Dasa of the rasi owned or occupied by the Moon, there will be gain of wealth and clothes, name and fame and birth of children. In the Dasa of the rasi owned and occupied by Jupiter there will be increase in the number of children...",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 75,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The active Rashi Dasha is of a sign owned by the Moon (Cancer)",
+        "The active Rashi Dasha is of a sign occupied by the Moon",
+        "The active Rashi Dasha is of a sign owned by Jupiter (Sagittarius or Pisces)",
+        "The active Rashi Dasha is of a sign occupied by Jupiter"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Rashi_Dasha"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Moon", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "In sign-based (Rashi) Dasha systems, planetary periods ruled by signs structurally linked to the natural significators of fertility and progeny (Moon and Jupiter) actively support childbirth.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.8,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "rashi_dasha_progeny",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "cross_validate_with_vimshottari"
+    },
+    "metadata": {
+      "notes": "Applies to Rashi Dasha systems (like Jaimini Chara Dasha or Kalachakra Dasha) as detailed in BPHS."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_difficult_progeny_periods",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "53",
+      "verse": "13-14",
+      "page": null,
+      "quote": "...distress to wife and children... will result if Jupiter be in his sign of debilitation, combust, in the 6th, the 8th or the 12th from the Ascendant or in an enemy sign or be associated with malefics.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 80,
+    "conditions": {
+      "all_of": [
+        "The active Dasha or Antardasha is of Jupiter"
+      ],
+      "any_of": [
+        "Jupiter is in its sign of debilitation",
+        "Jupiter is combust",
+        "Jupiter is in the 6th, 8th, or 12th house",
+        "Jupiter is in an enemy sign",
+        "Jupiter is associated with malefic planets"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Jupiter"],
+      "transit": [],
+      "houses": ["6", "8", "12"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "If the natural significator of children (Jupiter) is structurally weak or severely afflicted during its active Dasha or Antardasha period, it creates a difficult or delayed window for childbirth.",
+      "mode": "unknown",
+      "quality": "difficult",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "difficult_progeny_period",
+      "likelihood_band": "low",
+      "timing_band": "broad",
+      "recommended_action": "flag_conception_difficulty"
+    },
+    "metadata": {
+      "notes": "Indicates a challenging period for conception and progeny health during the afflicted planet's Dasha."
+    }
+  }
+]

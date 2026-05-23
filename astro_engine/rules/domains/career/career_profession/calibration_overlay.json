@@ -1,0 +1,126 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "career",
+  "event_family": "career_profession",
+  "last_updated": "2026-05-23T20:00:00Z",
+
+  "layer_weights": {
+    "dasha_weight": 0.40,
+    "transit_weight": 0.35,
+    "fast_trigger_weight": 0.20,
+    "classical_weight": 0.05,
+    "_notes": "Initial weights identical to marriage/childbirth baseline. Career events are more diffuse than marriage/childbirth (career has multiple peaks, not a single event), so transit weight may need to be boosted in future calibration versions to distinguish the PEAK moment from the broader career MD."
+  },
+
+  "likelihood_thresholds": {
+    "very_high": 50,
+    "high": 35,
+    "moderate": 22,
+    "low": 12,
+    "_notes": "From 6-case validation. 67% top-5 accuracy. The lower accuracy vs childbirth (100%) is expected because career events are more ambiguous — multiple career peaks can exist in the same MD, making ranking harder."
+  },
+
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions. Classical texts define PRIORITY; these numbers are Layer 3 calibration.",
+    "dasha": {
+      "tenth_lord_md": 45,
+      "tenth_lord_ad": 35,
+      "tenth_house_occupant_md_or_ad": 30,
+      "tenth_house_aspector_md_or_ad": 22,
+      "lagna_lord_md_or_ad": 18,
+      "rajayoga_lord_md": 25,
+      "rajayoga_lord_ad": 20,
+      "saturn_saturn_strong": 30,
+      "saturn_venus_well_placed": 32,
+      "sun_mercury_admin": 25,
+      "sun_jupiter_recognition": 25,
+      "mercury_jupiter_business": 22,
+      "_calibration_note": "10th lord MD (45) is the single strongest career trigger. Saturn-Venus (32) produced Modi's CM rise. Saturn-Saturn (30) produced Amitabh's stardom. Rajayoga lords (25/20) act as secondary amplifiers. NOTE: For very early career events (age <20, like Sachin debut at 16), the engine underperforms because career signifiers may not have strong natal connections to the dasha lord running at that age — these are often 'destined' events that fire on transit alone."
+    },
+    "transit": {
+      "double_transit_on_10th": 45,
+      "saturn_in_10th": 30,
+      "tenth_lord_in_upachaya": 28,
+      "jupiter_trine_10th_lord": 25,
+      "_calibration_note": "Double transit (45) is the strongest transit signal — confirmed in Modi PM 2014 and Dhoni Captain 2007. Saturn in 10th (30) is a medium-term structural transit (2.5 years) that indicates WHEN a restructuring period begins. Consider adding: Jupiter in 10th or aspecting 10th as a separate rule."
+    },
+    "fast_trigger": {
+      "sun_in_10th_or_11th": 20,
+      "mars_in_10th": 22,
+      "jupiter_near_karma_nakshatra": 28,
+      "_calibration_note": "Karma Nakshatra (10th star from Moon) is the most powerful fast trigger for career. Jupiter passing through this nakshatra creates a 2-week peak window within the broader dasha/transit alignment. Need to test with more cases — especially for negative triggers (Saturn/Rahu on karma nakshatra = disruption)."
+    }
+  },
+
+  "rule_adjustments": [
+    {
+      "rule_id": "bphs_dasha_10th_lord",
+      "adjustment_type": "confidence",
+      "confidence_adjustment": 0.0,
+      "reason": "10th lord MD fired correctly in Dhoni (Saturn is 10th aspector contributing to detection) and Amitabh (Saturn MD with Saturn strong). In Modi's case, Moon MD fired because Moon is a rajayoga lord and 10th aspector. No adjustment needed.",
+      "supporting_cases": 4,
+      "conflicting_cases": 0
+    },
+    {
+      "rule_id": "bphs_dasha_rajayoga_9_10_5",
+      "adjustment_type": "weight",
+      "weight_adjustment": 0.0,
+      "reason": "Rajayoga lords fired as secondary amplifiers in 5/6 cases. They correctly boost windows that already have a primary 10th house connection. No independent gate function — they amplify, not initiate.",
+      "supporting_cases": 5,
+      "conflicting_cases": 0
+    },
+    {
+      "rule_id": "double_transit_career_enhancement",
+      "adjustment_type": "confidence",
+      "confidence_adjustment": 0.0,
+      "reason": "Double transit on 10th house confirmed in Modi PM 2014 (strongest transit signal) and Dhoni Captain 2007. When double transit is present, the career event is almost certain to manifest. Confidence 0.95 appropriate.",
+      "supporting_cases": 3,
+      "conflicting_cases": 0
+    },
+    {
+      "rule_id": "bphs_dasha_saturn_venus_career",
+      "adjustment_type": "weight",
+      "weight_adjustment": 0.0,
+      "reason": "Saturn-Venus fired for Modi CM 2001 (Venus in H9 = trikona, well-placed). Score 32 placed it at rank #8 because transit support was weaker at the midpoint evaluation. Consider: evaluate transit at more granular intervals for long AD periods.",
+      "supporting_cases": 1,
+      "conflicting_cases": 0
+    }
+  ],
+
+  "outcome_calibration": {
+    "career_type_indicators": {
+      "government": "Sun in 10th OR Saturn in 10th OR double transit + 10th lord strong",
+      "business": "Mercury in 10th OR 10th lord in 7th OR Mercury-Jupiter period",
+      "corporate": "Mars exalted (Capricorn) OR Saturn strong in 10th",
+      "consulting": "Jupiter in 10th OR Jupiter aspecting 10th",
+      "spiritual": "Jupiter navamsa livelihood OR Ketu connection to 10th"
+    },
+    "stability_indicators": {
+      "stable": "10th lord in kendra/trikona OR Saturn dignified in 10th",
+      "unstable": "10th lord in 6th/8th/12th OR multiple malefics on 10th"
+    },
+    "_calibration_notes": {
+      "modi": "Modi has Moon in 10th aspected by Mars — strong political/public career. Moon MD (his career MD) fired as both 10th occupant AND rajayoga lord. Career type = government (correct).",
+      "sachin_miss": "Sachin's debut at age 16 in Moon-Sun dasha has a weak dasha score (10.4) because Sun is not directly connected to the 10th house in his chart as a primary significator. The debut was triggered primarily by TRANSIT + natural talent (Mars exalted = sports). Consider adding: Mars connection to career for athletes.",
+      "career_vs_single_event": "Unlike marriage (single event) or childbirth (single event), career has MULTIPLE peaks across life. The engine correctly identifies windows but ranking the SPECIFIC peak event is harder. Future: add event_subtype weighting (debut vs promotion vs peak recognition)."
+    }
+  },
+
+  "evidence_summary": {
+    "total_cases_tested": 6,
+    "verified_cases": 6,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.67,
+    "timing_accuracy_detected": 1.0,
+    "average_rank": 4.7,
+    "last_validation_date": "2026-05-23"
+  },
+
+  "governance": {
+    "created_by": "initial_calibration_session",
+    "adjustment_reason": "First calibration pass against 6 verified career milestone cases (Modi PM + CM, Sachin debut, Dhoni captain + WC, Amitabh stardom)",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "Career events are inherently more diffuse than marriage/childbirth. 67% top-5 accuracy is acceptable for v0.1.0 but needs improvement. Key gaps: (1) Very early career events at young age need special handling, (2) Transit layer needs more granular sampling for long AD periods, (3) Consider event_subtype-specific scoring in future versions."
+  }
+}

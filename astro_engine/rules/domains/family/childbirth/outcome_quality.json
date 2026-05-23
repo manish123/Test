@@ -1,0 +1,466 @@
+[
+  {
+    "rule_id": "bphs_loss_first_child_infertility",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "16",
+      "verse": "4",
+      "page": "146",
+      "quote": "If the 5th lord is in the 6th as the ascendant lord is conjuct Mars, the native will lose his very first child whereafter his female will not be fertile to yield an offspring.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["miscarriage_risk", "difficult_pregnancy", "child_related_suffering"],
+    "rule_type": "combination",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 88,
+    "conditions": {
+      "all_of": [
+        "The 5th lord is positioned in the 6th house",
+        "The Ascendant (Lagna) lord is conjunct Mars"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["6"],
+      "planets": ["5th_lord", "Lagna_lord", "Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Indicates a painful reproductive journey where the loss of the first pregnancy or child leads to subsequent infertility or severe difficulties in conceiving again.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "first_child_loss_infertility",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "flag_reproductive_difficulty"
+    },
+    "metadata": {
+      "notes": "A highly specific combination linking 6th house (disease/obstacles) with Martian affliction to the physical body (Lagna lord)."
+    }
+  },
+  {
+    "rule_id": "bphs_adopted_issue_saturn_mercury",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "16",
+      "verse": "9",
+      "page": "146",
+      "quote": "Should the 5th house be owned by Saturn or Mercury and be occupied or aspected by Saturn and Mandi, one will have adopted issues.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["adoption"],
+    "rule_type": "combination",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "status": "active",
+    "priority": 75,
+    "conditions": {
+      "all_of": [
+        "The 5th house is owned by either Saturn (Capricorn, Aquarius) or Mercury (Gemini, Virgo)"
+      ],
+      "any_of": [
+        "The 5th house is occupied by both Saturn and Mandi (Gulika)",
+        "The 5th house is aspected by both Saturn and Mandi (Gulika)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5"],
+      "planets": ["Saturn", "Mercury", "Mandi"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The structural influence of eunuch or restrictive planets (Saturn and Mercury) combined with the toxic point Mandi on the house of progeny denies biological children, leading the native to adopt.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "adoption_indicated",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_adoption_path"
+    },
+    "metadata": {
+      "notes": "A primary classical rule for adoption in Jyotish."
+    }
+  },
+  {
+    "rule_id": "bphs_mean_children_affliction",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "16",
+      "verse": "17",
+      "page": "149",
+      "quote": "One will obtain children that will indulge in mean deeds if the 5th is occupied by 3 or 4 malefics while the 5th lord is in fall. A benefic (including Mercury) in the 5th is excluded in the said combination.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["child_related_suffering", "conflict_prone"],
+    "rule_type": "combination",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 70,
+    "conditions": {
+      "all_of": [
+        "The 5th house is occupied by 3 or 4 malefic planets",
+        "The 5th lord is in its sign of debilitation (fall)"
+      ],
+      "any_of": [],
+      "none_of": [
+        "A benefic planet (including Mercury) occupies the 5th house"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5"],
+      "planets": ["5th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Extreme malefic influence on the 5th house without any benefic relief produces offspring who bring sorrow, disgrace, or conflict to the native through bad character or immoral actions.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "troubled_offspring_quality",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "flag_child_character_risk"
+    },
+    "metadata": {
+      "notes": "An outcome quality rule showing that having children does not guarantee happiness; severe afflictions yield suffering through the children."
+    }
+  },
+  {
+    "rule_id": "bphs_female_stillborn_child",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "80",
+      "verse": "40",
+      "page": "963",
+      "quote": "The woman concerned will give birth to an already dead child, if the 7th be occupied by Rahu and the Sun or the Jupiter and Rahu be in the 8th, and the 5th be occupied by malefics.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["miscarriage_risk"],
+    "rule_type": "combination",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 82,
+    "conditions": {
+      "all_of": [
+        "The 5th house is occupied by malefic planets"
+      ],
+      "any_of": [
+        "The 7th house is occupied by Rahu and the Sun",
+        "The 8th house is occupied by Jupiter and Rahu"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5", "7", "8"],
+      "planets": ["Rahu", "Sun", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A combination specifically for female charts indicating the tragedy of stillbirth or late-term miscarriage. The toxic presence of Rahu afflicting the Sun (vitality) or Jupiter (Karaka of children), combined with direct harm to the 5th house, destroys the life force of the fetus.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "stillbirth_risk",
+      "likelihood_band": "low",
+      "timing_band": "none",
+      "recommended_action": "flag_pregnancy_complication_risk"
+    },
+    "metadata": {
+      "notes": "Specific to female charts (Stree Jataka)."
+    }
+  },
+  {
+    "rule_id": "bphs_female_inability_to_conceive",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "80",
+      "verse": "41",
+      "page": "963",
+      "quote": "The woman concerned will not be able to conceive if Jupiter and Venus be associated with Mars in the 8th house or Mars be with Saturn in the 8th house.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["difficult_conception"],
+    "rule_type": "combination",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 85,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Jupiter, Venus, and Mars are conjunct in the 8th house",
+        "Mars and Saturn are conjunct in the 8th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["8"],
+      "planets": ["Jupiter", "Venus", "Mars", "Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "In a female chart, severe affliction in the 8th house (representing reproductive organs and chronic conditions) by fiery/restrictive malefics or destruction of natural significators of fertility results in barrenness or physiological inability to conceive.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "conception_inability",
+      "likelihood_band": "very_low",
+      "timing_band": "none",
+      "recommended_action": "flag_infertility_medical"
+    },
+    "metadata": {
+      "notes": "Specific to female charts. Points strongly toward reproductive health conditions requiring modern medical intervention."
+    }
+  },
+  {
+    "rule_id": "bphs_karmic_curse_serpent",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "83",
+      "verse": "9-16",
+      "page": "987",
+      "quote": "There will be no male issue due to the curse of a serpant if at birth—(1) Rahu is in the 5th house aspected by Mars...",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["karmic_child_patterns", "delayed_conception"],
+    "rule_type": "combination",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 80,
+    "conditions": {
+      "all_of": [
+        "Rahu is positioned in the 5th house",
+        "Rahu in the 5th house is aspected by Mars"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5"],
+      "planets": ["Rahu", "Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A karmic blockage (Sarpa Shap) preventing or heavily delaying the birth of a male heir. It represents past-life entanglements manifesting as physical or reproductive hurdles in the current life.",
+      "mode": "unknown",
+      "quality": "delayed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "karmic_progeny_blockage",
+      "likelihood_band": "low",
+      "timing_band": "none",
+      "recommended_action": "flag_karmic_delay"
+    },
+    "metadata": {
+      "notes": "Translators note 'Mary' is an OCR/typographical error in the source text for 'Mars' (Mangal/Bhauma). Treated as Mars for astrological logic."
+    }
+  },
+  {
+    "rule_id": "jataka_parijata_child_given_for_adoption",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "3",
+      "verse": "52",
+      "page": "143",
+      "quote": "When Mandi is aspected by the Moon and is in conjunction with Saturn or aspected by him, the child born will be given away by the parents to another to adopt",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["adoption"],
+    "rule_type": "combination",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "status": "active",
+    "priority": 68,
+    "conditions": {
+      "all_of": [
+        "Mandi is aspected by the Moon"
+      ],
+      "any_of": [
+        "Mandi is in conjunction with Saturn",
+        "Mandi is aspected by Saturn"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Mandi", "Moon", "Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "This rule applies to the child's chart. Indicates the child will be separated from biological parents and given up for adoption due to the combined influence of the emotional mind (Moon) and detachment/loss (Saturn) over the toxic point Mandi.",
+      "mode": "unknown",
+      "quality": "mixed",
+      "confidence": 0.75
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "child_given_for_adoption",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_adoption_from_child_chart"
+    },
+    "metadata": {
+      "notes": "Represents the chart of the adoptee, not the adoptive parents."
+    }
+  },
+  {
+    "rule_id": "jataka_parijata_birth_of_twins",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "3",
+      "verse": "21",
+      "page": "118",
+      "quote": "These five planets [Lagna, Sun, Jupiter, Moon, Venus/Mars] occupying a Navamsa owned by a dull [dual] Rasi, and at the same time aspected by Mercury, produce twins corresponding to the character of the dull [dual] Rasi...",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["multiple_children"],
+    "rule_type": "combination",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 70,
+    "conditions": {
+      "all_of": [
+        "The Ascendant, Sun, Moon, and Jupiter are placed in a dual sign in the Navamsa (D9) chart",
+        "These planets are aspected by Mercury"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Sun", "Moon", "Jupiter", "Mercury"],
+      "nakshatra": [],
+      "d9": ["Dual_Signs"],
+      "sensitive_points": ["Lagna"]
+    },
+    "interpretation": {
+      "meaning": "Heavy concentration of core identity and fertility planets in mutable/dual signs within the D9 chart, combined with Mercury's aspect, results in the birth of twins.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "twins_indicated",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "flag_twin_potential"
+    },
+    "metadata": {
+      "notes": "The gender of the twins aligns with the masculine/feminine nature of the dual Navamsa sign."
+    }
+  }
+]

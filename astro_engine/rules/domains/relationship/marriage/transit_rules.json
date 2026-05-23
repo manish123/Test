@@ -1,0 +1,454 @@
+[
+  {
+    "rule_id": "jyothishi_double_transit_marriage",
+    "name": "Double Transit Marriage Activation (Jupiter + Saturn)",
+    "description": "The Double Transit phenomenon where both Jupiter (expansion) and Saturn (commitment/structure) simultaneously activate the axis of self (1st) and partnership (7th). One of the most reliable timing techniques.",
+    "source_text": {
+      "work_name": "Timing of Marriage | JYOTHISHI",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Transit Saturn should aspect Lagna Lord and / or 7th House. Transit Jupiter should aspect 7th Lord and / or Lagna. Saturn and Jupiter can reverse their role.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 98,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Saturn influences the Lagna Lord/7th House AND Transit Jupiter influences the 7th Lord/Lagna",
+        "Transit Jupiter influences the Lagna Lord/7th House AND Transit Saturn influences the 7th Lord/Lagna"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Jupiter"],
+      "houses": ["1", "7"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Requires simultaneous activation of the 1-7 axis by both slow-moving planets. Jupiter blesses and expands while Saturn commits and solidifies. Their combined influence on the marriage axis is the strongest transit trigger.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.95
+    },
+    "window": {
+      "broad_window_days": 90,
+      "exact_window_days": 30,
+      "confidence_decay_days": 20
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 1.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "double_transit_marriage_active",
+      "likelihood_band": "very_high",
+      "timing_band": "medium",
+      "recommended_action": "active_monitoring_for_fast_trigger"
+    },
+    "metadata": {
+      "notes": "One of the most widely used and reliable timing techniques in modern Jyotish. Both planets must simultaneously activate the 1-7 axis via conjunction, aspect, or transit through those signs."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_transit_jupiter_trine_7th_lord",
+    "name": "Jupiter Transit Trine to 7th Lord",
+    "description": "Jupiter's transit acting as a blessing over the relationship axis by forming a trine (120 degrees) to the natal or Navamsa position of the partnership lord.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "10",
+      "verse": "14",
+      "page": "109",
+      "quote": "The marriage will take place in the dasha of this stronger planet when Jupiter in transit passes through the sign triangular to the sign or navamsa occupied by the lord of the 7th.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes through a sign trine to the natal sign occupied by the 7th lord",
+        "Transit Jupiter passes through a sign trine to the Navamsa (D9) sign occupied by the 7th lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["7"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": ["7th_lord_navamsa"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Jupiter's transit in trine to the 7th lord's natal or D9 position creates a harmonious activation of partnership energy. One year window per Jupiter sign transit.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 60,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_trine_7th_lord_active",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "confirm_dasha_support"
+    },
+    "metadata": {
+      "notes": "Jupiter's transit through a sign lasts roughly one year, defining a medium timing band. Check both D1 and D9 positions of 7th lord."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_transit_venus_7th_lord",
+    "name": "Venus/7th Lord Transit Trine to Lagna Lord Sign",
+    "description": "Marriage timing activated when Venus or the 7th lord transits in a favorable trinal geometry to the sign or Navamsa ruled by the Lagna lord.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "10",
+      "verse": "12",
+      "page": "109",
+      "quote": "The marriage may be expected to come off when Venus or the lord of the 7th house in its orbit passes through a sign which is triangular to the Rasi or Navamsa owned by the lord of the Lagna.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Venus passes through a sign trine to the natal sign owned by the Lagna lord",
+        "Transit Venus passes through a sign trine to the Navamsa (D9) sign owned by the Lagna lord",
+        "Transit 7th lord passes through a sign trine to the natal sign owned by the Lagna lord",
+        "Transit 7th lord passes through a sign trine to the Navamsa (D9) sign owned by the Lagna lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Venus", "7th_lord"],
+      "houses": ["1", "7"],
+      "planets": ["Venus"],
+      "nakshatra": [],
+      "d9": ["Lagna_lord_navamsa"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Marriage timing is activated when relationship significators (Venus or the 7th lord) transit in a favorable trinal geometry to the sign or Navamsa ruled by the planet representing the self (Lagna lord).",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 14,
+      "confidence_decay_days": 7
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "venus_7th_lord_trine_lagna",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "watch_for_fast_trigger"
+    },
+    "metadata": {
+      "notes": "Creates a medium timing window (approx 1 month for Venus transit, longer for slow 7th lords like Jupiter/Saturn)."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_transit_lagna_lord_7th",
+    "name": "Lagna Lord Transits 7th House",
+    "description": "A direct narrow window for marriage when the Ascendant Lord physically enters the house of partnership (7th) by transit.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "10",
+      "verse": "13",
+      "page": "109",
+      "quote": "It can also take place when the lord of the ascendant transits through the sign representing the 7th house.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [
+        "The transiting Lagna Lord (Ascendant Lord) is located in the natal 7th house sign"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Lagna_lord"],
+      "houses": ["7"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The planetary ruler of the self physically entering the house of partnership creates a direct activation of the marriage axis. Duration depends on the speed of the Lagna lord planet.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 7,
+      "confidence_decay_days": 5
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.8,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "lagna_lord_in_7th_transit",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "confirm_dasha_and_other_transits"
+    },
+    "metadata": {
+      "notes": "Direct transit activation of the marriage house. Duration: Mercury/Venus ~1 month, Mars ~45 days, Jupiter ~1 year, Saturn ~2.5 years."
+    }
+  },
+  {
+    "rule_id": "jyothishi_navamsa_transit_trigger",
+    "name": "Jupiter/Saturn Transit over Navamsa Lagna or 7th",
+    "description": "Major slow-moving planets directly activating the core axis of the D9 chart (the divisional chart of marriage) serve as powerful transit triggers.",
+    "source_text": {
+      "work_name": "How to predict Marriage timing (Simple Indicators)",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Transit Jupiter or Saturn over Navamsa Lagna or 7th house.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes over the Navamsa (D9) Ascendant sign",
+        "Transit Jupiter passes over the Navamsa (D9) 7th house sign",
+        "Transit Saturn passes over the Navamsa (D9) Ascendant sign",
+        "Transit Saturn passes over the Navamsa (D9) 7th house sign"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter", "Saturn"],
+      "houses": ["1", "7"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": ["Lagna", "7th_house"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The D9 (Navamsa) is specifically the chart of marriage and dharma. When Jupiter or Saturn transit the D9 lagna or 7th house sign, it directly activates the marriage promise at a structural level.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 90,
+      "confidence_decay_days": 45
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "navamsa_axis_transit_active",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "confirm_d1_transit_and_dasha"
+    },
+    "metadata": {
+      "notes": "Highlights the necessity of checking planetary transits against the Navamsa chart, not just the D1 Rasi chart. Requires D9 lagna calculation."
+    }
+  },
+  {
+    "rule_id": "jyothishi_longitude_sum_lagna_7th",
+    "name": "Sensitive Marriage Point (Lagna Lord + 7th Lord Longitude Sum)",
+    "description": "A mathematically calculated trigger point from the rulers of self (1st) and spouse (7th), activated by Jupiter transit.",
+    "source_text": {
+      "work_name": "Timing of Marriage | JYOTHISHI",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Add Longitude of Lagna Lord and 7th Lord. When Jupiter transits this point / its trine/7th from it, marriage is likely.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "status": "calibration",
+    "priority": 92,
+    "polarity": "supportive",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes over the exact degree sum of Lagna Lord + 7th Lord",
+        "Transit Jupiter passes over the trine (120, 240 degrees) of the sum of Lagna Lord + 7th Lord",
+        "Transit Jupiter passes over the 7th aspect (180 degrees) of the sum of Lagna Lord + 7th Lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["Lagna_Lord_Longitude + 7th_Lord_Longitude"]
+    },
+    "interpretation": {
+      "meaning": "A highly precise mathematical trigger point. The sum of Lagna Lord and 7th Lord longitudes creates a sensitive degree. Jupiter crossing this point (or its trines/opposition) activates marriage.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 7,
+      "confidence_decay_days": 5
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sensitive_point_1_activated",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "confirm_dasha_window_open"
+    },
+    "metadata": {
+      "notes": "Creates a very narrow timing window. Requires accurate birth time to calculate exact degrees. Formula: (Lagna_Lord_Lon + 7th_Lord_Lon) mod 360."
+    }
+  },
+  {
+    "rule_id": "jyothishi_longitude_sum_nakshatra_7th",
+    "name": "Sensitive Marriage Point (Janma Nakshatra Lord + 7th Lord Longitude Sum)",
+    "description": "An alternate high-precision trigger point utilizing the ruler of the Moon's birth star combined with the marriage house lord.",
+    "source_text": {
+      "work_name": "Timing of Marriage | JYOTHISHI",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Add Longitudes of Janma Nakshatra Lord and 7th Lord. When Jupiter transits this point /its trine, marriage is likely.",
+      "translation": null
+    },
+    "domain": "relationship",
+    "event_family": "marriage",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "status": "calibration",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes over the exact degree sum of Janma Nakshatra Lord + 7th Lord",
+        "Transit Jupiter passes over the trine (120, 240 degrees) of the sum of Janma Nakshatra Lord + 7th Lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["Janma_Nakshatra_Lord"],
+      "d9": [],
+      "sensitive_points": ["Janma_Nakshatra_Lord_Longitude + 7th_Lord_Longitude"]
+    },
+    "interpretation": {
+      "meaning": "An alternate high-precision spatial coordinate calculated from the planetary ruler of the Moon's birth star combined with the marriage house lord, activated by Jupiter's transit.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.75
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 7,
+      "confidence_decay_days": 5
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sensitive_point_2_activated",
+      "likelihood_band": "moderate",
+      "timing_band": "narrow",
+      "recommended_action": "cross_validate_with_point_1"
+    },
+    "metadata": {
+      "notes": "Narrow timing window based on mathematical calculation. Formula: (Janma_Nakshatra_Lord_Lon + 7th_Lord_Lon) mod 360. Requires accurate Moon longitude for nakshatra lord identification."
+    }
+  }
+]

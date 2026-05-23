@@ -1,0 +1,352 @@
+[
+  {
+    "rule_id": "phaladeepika_transit_jupiter_trine_5th_lord",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "25",
+      "page": null,
+      "quote": "When Jupiter passes through in transit the triangular sign to the sign occupied by the lord of the 5th or yama kantaka, birth of a son may also be expected.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 95,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes through a sign trine to the natal sign occupied by the 5th lord",
+        "Transit Jupiter passes through a sign trine to the natal position of Yama Kantaka"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["5"],
+      "planets": ["Jupiter", "5th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["Yama_Kantaka"]
+    },
+    "interpretation": {
+      "meaning": "Jupiter's transit acting as a blessing over the progeny axis by forming a trine (120 degrees) to the natal position of the 5th lord or the sensitive point Yama Kantaka.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.95,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_trine_5th_lord_active",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "confirm_dasha_support"
+    },
+    "metadata": {
+      "notes": "Creates a medium timing window (roughly one year) for conception or childbirth."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_transit_lagna_lord_5th",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "26",
+      "page": null,
+      "quote": "The birth of a son is likely to take place, when the lord of the ascendant during his transit (1) gets into conjunction with the lord of the 5th house, (2) passes through his sign of exaltation or (3) occupies his own sign passing through in his transit of the ascendant through the 5th house or the sign occupied by the lord of the 5th...",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "timing_band": "narrow",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 88,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transiting Lagna Lord conjuncts the natal 5th Lord",
+        "Transiting Lagna Lord passes through its sign of exaltation",
+        "Transiting Lagna Lord passes through its own sign",
+        "Transiting Lagna Lord passes through the natal 5th house",
+        "Transiting Lagna Lord passes through the sign occupied by the natal 5th lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Lagna_lord"],
+      "houses": ["5"],
+      "planets": ["Lagna_lord", "5th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Provides a specific narrow window for childbirth when the planetary ruler of the self (1st house) physically activates the house or lord of progeny (5th house) by transit.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "lagna_lord_activates_5th",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "watch_for_fast_trigger"
+    },
+    "metadata": {
+      "notes": "Acts as a direct transit activation of the progeny house by the ruler of the self."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_transit_jupiter_trine_dispositor",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "29",
+      "page": null,
+      "quote": "Find out the sign of 5th from Jupiter and the sign and navamsa of its lord. When Jupiter in transit is triangular to that sign or navamsa, the birth of a son (children) may be predicted.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 85,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes through a sign trine to the Rashi sign owned by the lord of the 5th house from natal Jupiter",
+        "Transit Jupiter passes through a sign trine to the Navamsa (D9) sign owned by the lord of the 5th house from natal Jupiter"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["5"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": ["Lord_of_5th_from_Jupiter"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Jupiter's transit activating the dispositor of the 5th house counted from Jupiter itself (the Karaka of children) in either the D1 or D9 chart indicates a powerful window for childbirth.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_bhavat_bhavam_active",
+      "likelihood_band": "moderate",
+      "timing_band": "medium",
+      "recommended_action": "confirm_dasha_alignment"
+    },
+    "metadata": {
+      "notes": "A secondary Jupiter transit rule emphasizing the principle of Bhavat Bhavam (houses relative to their natural significators)."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_transit_jupiter_longitude_sum",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "30",
+      "page": null,
+      "quote": "Find out the lord of the nakshatra occupied by the Moon and that of the 5th from it. Add the longitudes of the two plantes. When Jupiter passes in transit through the sign represented by this result or through one of its triangular ones, the birth of a son is possible.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "timing_band": "narrow",
+    "polarity": "supportive",
+    "status": "calibration",
+    "priority": 90,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes over the exact mathematical degree sum of the Moon's Nakshatra Lord and the lord of the 5th Nakshatra from it",
+        "Transit Jupiter passes through a sign trine to the exact mathematical degree sum of the Moon's Nakshatra Lord and the lord of the 5th Nakshatra from it"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": [],
+      "planets": ["Moon"],
+      "nakshatra": ["Janma_Nakshatra"],
+      "d9": [],
+      "sensitive_points": ["Moon_Nakshatra_Lord_Longitude + 5th_Nakshatra_Lord_Longitude"]
+    },
+    "interpretation": {
+      "meaning": "Calculates a highly precise mathematical trigger point utilizing the planetary lord of the Moon's birth star combined with the lord of the 5th star (representing progeny). Jupiter's transit over this coordinate triggers childbirth.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sensitive_progeny_point_activated",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "confirm_dasha_window_open"
+    },
+    "metadata": {
+      "notes": "Creates a very narrow timing window based on mathematical calculation requiring exact longitudes."
+    }
+  },
+  {
+    "rule_id": "horasara_conception_jupiter_transit",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": "4",
+      "verse": "5",
+      "page": "34",
+      "quote": "Should Jupiter be in the ascendant, the 5th or the 9th or his own Rasi or Navamsa and the week day auspicious, then the conception obtained thus becomes exemplary.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "timing_band": "narrow",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 92,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter is in the 1st house (Ascendant) during the time of conception",
+        "Transit Jupiter is in the 5th house during the time of conception",
+        "Transit Jupiter is in the 9th house during the time of conception",
+        "Transit Jupiter occupies its own Rasi (Sagittarius or Pisces) during the time of conception",
+        "Transit Jupiter occupies its own Navamsa during the time of conception"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["1", "5", "9"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": ["Jupiter_Own_Navamsa"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Favorable transit placements of Jupiter (the Putrakaraka or natural significator of children) in dharma trikonas or its own signs during intercourse highly support a successful and exemplary conception.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.95,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_conception_window",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "optimal_conception_period"
+    },
+    "metadata": {
+      "notes": "Specifically addresses the transit conditions necessary for Adhana (impregnation/conception)."
+    }
+  },
+  {
+    "rule_id": "bphs_ashtakavarga_saturn_distress_transit",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "70",
+      "verse": "30-33",
+      "page": "723",
+      "quote": "Multiply the Yoga Pinda of Jupiter by the number of rekhas in the Ashtakavarga and divide the product separately by 27 and 12. The remainders will denote the Nakshatra and rashi respectively. The progeny will be in distress during the transit of Saturn through that Nakshatra and its Trikona Nakshatras and of that rasi and its Trikona rashis.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 78,
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Saturn passes through the Nakshatra calculated via Jupiter's Ashtakavarga Yoga Pinda formula",
+        "Transit Saturn passes through the trinal Nakshatras of the calculated Nakshatra",
+        "Transit Saturn passes through the Rashi calculated via Jupiter's Ashtakavarga Yoga Pinda formula",
+        "Transit Saturn passes through the trinal Rashis of the calculated Rashi"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn"],
+      "houses": [],
+      "planets": ["Jupiter", "Saturn"],
+      "nakshatra": ["Calculated_Ashtakavarga_Nakshatra"],
+      "d9": [],
+      "sensitive_points": ["Jupiter_Ashtakavarga_Yoga_Pinda"]
+    },
+    "interpretation": {
+      "meaning": "Calculates sensitive zones in the zodiac using Jupiter's Ashtakavarga points. When Saturn (planet of restriction and karma) transits these exact zones or their trines, it creates periods of difficulty, distress, or obstacles regarding progeny.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "saturn_progeny_distress_zone",
+      "likelihood_band": "low",
+      "timing_band": "medium",
+      "recommended_action": "flag_progeny_health_risk"
+    },
+    "metadata": {
+      "notes": "Identifies a challenging window for conception or child well-being based on Ashtakavarga transit methodologies."
+    }
+  }
+]

@@ -1,0 +1,295 @@
+[
+  {
+    "rule_id": "bphs_exalted_10th_lord_fame",
+    "name": "Exalted 10th Lord + Jupiter + 9th Lord in 10th — Honor and Command",
+    "description": "A powerful Dharma-Karma combination with exaltation and Jupiter's blessing producing immense wealth, honors, and executive power.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "21",
+      "verse": "8-10",
+      "page": null,
+      "quote": "Should Karm's Lord be in exaltation and be in the company of Guru, as Dharm's Lord is in Karm the native will be endowed with honour, wealth and valour. One [will command and rule others...]",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["fame_status", "leadership", "government"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 95,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The 10th Lord is in its sign of exaltation",
+        "The 10th Lord is conjunct Jupiter",
+        "The 9th Lord is positioned in the 10th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["10th_lord", "9th_lord", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A powerful Dharma-Karma combination coupled with planetary exaltation and Jupiter's blessing, producing immense wealth, high honors, and the executive power to command others.",
+      "mode": "leadership",
+      "quality": "unknown",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "exalted_10L_rajayoga",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "classify_executive_leadership"
+    },
+    "metadata": {
+      "notes": "A Brihat Parashara style Rajayoga specifically activating immense career rise and lasting legacy."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_rajayoga_mars_saturn_jup",
+    "name": "Rajayoga: Mars + Saturn + Jupiter in 1st/10th/11th",
+    "description": "A recognized classical Rajayoga formed by the primary planets of action, karma, and dharma occupying the most powerful houses.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": "24",
+      "page": "79",
+      "quote": "The following are 4 Rajayogas declared by those versed in the science... (4) Mars, Saturn and Jupiter quartered in the 10th, 11th and the Lagna.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["fame_status", "leadership"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Mars, Saturn, and Jupiter are distributed among the 1st, 10th, and 11th houses"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1", "10", "11"],
+      "planets": ["Mars", "Saturn", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A recognized classical Rajayoga formed by the primary planets of action, karma, and dharma occupying the most powerful Kendra and Upachaya houses, elevating the native to king-like status.",
+      "mode": "leadership",
+      "quality": "unknown",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "mars_saturn_jupiter_rajayoga",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "classify_high_leadership"
+    },
+    "metadata": {
+      "notes": "Highly specific structural yoga utilizing the pillars of effort (Mars), structure (Saturn), and blessing (Jupiter)."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_moon_leo_jupiter_aspect",
+    "name": "Moon in Leo Aspected by Jupiter — King-like Status",
+    "description": "The emotional mind (Moon) in royal/solar energy (Leo) expanded by Jupiter's aspect grants high leadership and authority.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": "8",
+      "page": null,
+      "quote": "When the Moon be in Leo and be aspected by the Sun, Mars, Mercury, Jupiter, Venus and Saturn, the native will respectively become (1) a king, (2) one well versed in astrology, (3) wealthy, (4) a king and (5) a barber.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["leadership", "fame_status", "government"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Moon is positioned in the sign of Leo",
+        "The Moon is aspected by Jupiter"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Moon", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The emotional mind (Moon) supported by royal/solar energy (Leo) and expanded by Jupiter's aspect grants high leadership, regal authority, and public prominence.",
+      "mode": "leadership",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "moon_leo_jupiter_leadership",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_public_leadership"
+    },
+    "metadata": {
+      "notes": "In the text's sequence, Jupiter is the 4th planet listed, corresponding to the 4th outcome: 'a king'."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_livelihood_jupiter_navamsa",
+    "name": "Jupiter Navamsa Livelihood — Government/Spiritual Profession",
+    "description": "The D9 dispositor of the 10th lord being Jupiter indicates career rooted in religion, government, or teaching.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": "6",
+      "page": null,
+      "quote": "If the Navamsa be that of Jupiter, the sources of livelihood or earning will be through dependence on Brahmins, or through dependence on temples (serving as priests etc.) or religious Ashramas, through the beneficience of the king (Government), through study of Puranas, Shastras, or Vedas...",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["spiritual_profession", "government"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 75,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Navamsa determining livelihood (typically of the 10th Lord) is owned by Jupiter"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": ["Jupiter_Navamsa"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Indicates a career rooted in religion, spiritual guidance, teaching, or traditional government and administrative roles that depend on higher authority or moral institutions.",
+      "mode": "government",
+      "quality": "unknown",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_navamsa_livelihood",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_government_or_spiritual"
+    },
+    "metadata": {
+      "notes": "A fundamental classical rule linking the D9 dispositor of the 10th house/lord to the exact flavor of the profession."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_mars_jupiter_admin",
+    "name": "Mars-Jupiter Conjunction — City Administrator",
+    "description": "The combination of martial action (Mars) and expansive wisdom/law (Jupiter) leads to high administrative or leadership roles.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": "3",
+      "page": null,
+      "quote": "If Mars and Jupiter be together he will be administrator of a city or town, or a king or a rich Brahmin.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["government", "leadership"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 78,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Mars and Jupiter are conjunct in the birth chart"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Mars", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The combination of martial action (Mars) and expansive wisdom/law (Jupiter) leads to high administrative roles, leadership in cities/towns, or elevated advisory positions in government.",
+      "mode": "leadership",
+      "quality": "unknown",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "mars_jupiter_administrator",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_civil_administration"
+    },
+    "metadata": {
+      "notes": "Represents an archetypal signature for civil administrators, mayors, and executives."
+    }
+  }
+]

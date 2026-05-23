@@ -1,0 +1,338 @@
+[
+  {
+    "rule_id": "career_sun_10th_executive",
+    "name": "Sun in 10th — Executive Leadership",
+    "description": "The Sun in the house of karma provides strong executive abilities and a natural affinity for government service and high-level management.",
+    "source_text": {
+      "work_name": "The Computational and Karmic Architecture of Personality in Jyotisha",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Surya: Strong executive leadership capability, ethical intelligence, rational decision-making skills... Indicates government service, management at higher levels of large organizations, & political appointments.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["government", "corporate", "leadership"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": ["The Sun is positioned in the 10th house"],
+      "any_of": [],
+      "none_of": ["The Sun is poorly disposed or afflicted"]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The Sun in the house of karma provides strong executive abilities and a natural affinity for high-level management, political appointments, and government service.",
+      "mode": "unknown",
+      "quality": "stable",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "sun_10th_executive",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_executive_government"
+    },
+    "metadata": {
+      "notes": "A poorly disposed Sun in the 10th can lead to micro-managing and authoritarian tendencies."
+    }
+  },
+  {
+    "rule_id": "career_saturn_10th_populist",
+    "name": "Saturn in 10th — Slow Rise Through Discipline",
+    "description": "Saturn in its natural house grants credible, slow rise to power through discipline and endurance.",
+    "source_text": {
+      "work_name": "The Computational and Karmic Architecture of Personality in Jyotisha",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "House-10 is Shani's natural house; Shani does well here. Believable personality who has credibility and is willing to work their way up the ladder... Often found in government service, with trade unions, and other populist appeals to the common man.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["government", "leadership"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": ["Saturn is positioned in the 10th house"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn feels at home in the 10th house, granting a slow but incredibly credible rise in career. Supports long-term positions in government, organized labor, and leadership roles resonating with the working class.",
+      "mode": "unknown",
+      "quality": "stable",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "saturn_10th_disciplined_rise",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_government_populist"
+    },
+    "metadata": {
+      "notes": "The native is a stickler for rules and conformity."
+    }
+  },
+  {
+    "rule_id": "career_jupiter_10th_conservative_leadership",
+    "name": "Jupiter in 10th — Ethical Conservative Leadership",
+    "description": "Jupiter in the 10th brings wisdom and moral focus into the public sphere, creating ethical leaders and high-level administrators.",
+    "source_text": {
+      "work_name": "The Computational and Karmic Architecture of Personality in Jyotisha",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "More conservative religious views mixed with sincere desire for good government & ethical leadership... You may hold a high position; such as, bankers, judges, doctors, lawyers, professors, preachers, government officers.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["government", "consulting", "spiritual_profession", "leadership"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": ["Jupiter is positioned in the 10th house"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Jupiter in the 10th house brings natural wisdom and moral focus into the public sphere, creating ethical leaders, judges, academics, and high-level government or financial administrators.",
+      "mode": "unknown",
+      "quality": "stable",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_10th_ethical_leader",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_ethical_leadership"
+    },
+    "metadata": {
+      "notes": "While successful, Jupiter is slightly constrained in the 10th as the natural domain of Saturn limits Jupiter's expansive philosophy."
+    }
+  },
+  {
+    "rule_id": "career_10th_lord_in_8th",
+    "name": "10th Lord in 8th — Unstable Career with Expertise",
+    "description": "The career lord in the house of sudden changes causes breaks in conventional career but can lead to deep expertise.",
+    "source_text": {
+      "work_name": "The Computational and Karmic Architecture of Personality in Jyotisha",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "The Effects of the 10th lord in the Eighth House Since the 10th lord is in the 8th, changes or breaks in career are to be expected... They may become mystics & choose the 8th is the 10th from the 10th, they will be renowned for their professional work.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["unstable_career", "frequent_job_changes", "spiritual_profession", "research"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 80,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": ["The 10th Lord is positioned in the 8th house"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["8", "10"],
+      "planets": ["10th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The ruler of the career house placed in the house of sudden changes and mysticism causes breaks or instability in conventional career path, but can lead to high expertise in esoteric, research-oriented, or mystical professions.",
+      "mode": "unknown",
+      "quality": "unstable",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "10L_8th_unstable_expert",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_research_or_transformation"
+    },
+    "metadata": {
+      "notes": "The 8th house is the 11th (gains) from the 10th, hence expertise can be monetized despite surface instability."
+    }
+  },
+  {
+    "rule_id": "career_10th_lord_in_7th",
+    "name": "10th Lord in 7th — Business and Public Fame",
+    "description": "The career lord in the partnership house (10th from 10th) grants exceptional business acumen and widespread professional fame.",
+    "source_text": {
+      "work_name": "The Computational and Karmic Architecture of Personality in Jyotisha",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Since the 10th lord is in the 7th, this is a powerful position for professional life... They believe in people and in delegation. Hence all ventures initiated by them prove to be successful. As the 7th is 10th from the 10th, their professional fame will surpass all boundaries.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["business", "leadership", "fame_status", "entrepreneurship"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": ["The 10th Lord is positioned in the 7th house"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7", "10"],
+      "planets": ["10th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Placing the career lord in the house of partnerships and the public (which is 10th from the 10th — Bhavat Bhavam) grants exceptional business acumen, successful public ventures, and widespread professional fame.",
+      "mode": "unknown",
+      "quality": "stable",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "10L_7th_business_fame",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_business_entrepreneurship"
+    },
+    "metadata": {
+      "notes": "Highly auspicious for independent business, trade, and partnerships."
+    }
+  },
+  {
+    "rule_id": "career_mars_in_capricorn",
+    "name": "Mars Exalted in Capricorn — Corporate Executive",
+    "description": "Exalted Mars bestows tremendous organized energy and executive ambition, driving the native to the top of competitive hierarchies.",
+    "source_text": {
+      "work_name": "The Computational and Karmic Architecture of Personality in Jyotisha",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Mangala in Makara is a competitive winner in hierarchical organizations. In any bhava, this yoga guarantees business success. Tightly planned & organized energy... climbs steadily toward executive positions in prestige social hierarchies - preferably in competitive business.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["corporate", "business", "leadership"],
+    "rule_type": "house_activation",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": ["Mars is positioned in the sign of Capricorn (Makara)"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Exalted Mars bestows tremendous organized energy and executive ambition, driving the native to the top of competitive corporate or business hierarchies.",
+      "mode": "unknown",
+      "quality": "stable",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "mars_capricorn_executive",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_corporate_leadership"
+    },
+    "metadata": {
+      "notes": "Success depends heavily on the condition of Saturn (the dispositor). If Saturn is poorly placed, the rise involves heavy obstacles."
+    }
+  }
+]

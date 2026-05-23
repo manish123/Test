@@ -1,0 +1,361 @@
+[
+  {
+    "rule_id": "phaladeepika_denial_triple_affliction",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "2",
+      "page": null,
+      "quote": "When the 5th places counted from the Lagna, Jupiter and the Moon are either associated with or aspected by malefics and are devoid of benefics or of their aspect... and when the lords of the above said houses are posited in Dusstthanas (i.e., 6th, 8th and 12th), the person concerned can have no issues whatever.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["denied"],
+    "rule_type": "classical_pattern",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 95,
+    "conditions": {
+      "all_of": [
+        "The 5th house from the Ascendant is influenced solely by malefics",
+        "The 5th house from the Moon is influenced solely by malefics",
+        "The 5th house from Jupiter is influenced solely by malefics",
+        "The lords of the 5th from Ascendant, Moon, and Jupiter are placed in the 6th, 8th, or 12th houses"
+      ],
+      "any_of": [],
+      "none_of": [
+        "Benefic planets aspecting or occupying the 5th houses from Ascendant, Moon, or Jupiter"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5", "6", "8", "12"],
+      "planets": ["Moon", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Indicates a complete denial of progeny. Requires comprehensive structural affliction where the house of children is destroyed from the physical Ascendant, the emotional center (Moon), and the natural significator of children (Jupiter).",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "complete_progeny_denial",
+      "likelihood_band": "very_low",
+      "timing_band": "none",
+      "recommended_action": "flag_childlessness_risk"
+    },
+    "metadata": {
+      "notes": "A core classical principle validating that true denial of an event requires the affliction of the house, its lord, and its Karaka simultaneously."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_multiple_children_male_d9",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "12",
+      "verse": "10",
+      "page": null,
+      "quote": "If in any nativity the lord of the 5th house, Jupiter, Mars and the Sun are all posited in male Navamsas, they lead to the possession of a good number of children...",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["multiple"],
+    "rule_type": "classical_pattern",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "status": "active",
+    "priority": 72,
+    "conditions": {
+      "all_of": [
+        "The lord of the 5th house is placed in a masculine sign in the Navamsa (D9) chart",
+        "Jupiter is placed in a masculine sign in the Navamsa (D9) chart",
+        "Mars is placed in a masculine sign in the Navamsa (D9) chart",
+        "The Sun is placed in a masculine sign in the Navamsa (D9) chart"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5"],
+      "planets": ["Jupiter", "Mars", "Sun", "5th_lord"],
+      "nakshatra": [],
+      "d9": ["Male_Signs"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The alignment of primary significators of vitality, seed, and progeny into masculine/active divisions (Navamsas) generates high fecundity, resulting in multiple children.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "multiple_children_promise",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_high_fertility"
+    },
+    "metadata": {
+      "notes": "Male signs in Navamsa are Aries, Gemini, Leo, Libra, Sagittarius, and Aquarius."
+    }
+  },
+  {
+    "rule_id": "bphs_kakavandhya_single_child",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "18",
+      "verse": "5",
+      "page": "146",
+      "quote": "Should the 5th lord be in fall in the 6th, 8th or the 12th while Mercury and Ketu are in the 5th, the native's wife will give birth to one child only.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["difficult_conception"],
+    "rule_type": "classical_pattern",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 78,
+    "conditions": {
+      "all_of": [
+        "The 5th lord is in its sign of debilitation (fall)",
+        "Mercury is positioned in the 5th house",
+        "Ketu is positioned in the 5th house"
+      ],
+      "any_of": [
+        "The 5th lord is in the 6th house",
+        "The 5th lord is in the 8th house",
+        "The 5th lord is in the 12th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5", "6", "8", "12"],
+      "planets": ["5th_lord", "Mercury", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Forms a 'Kakavandhya Dosha' (a condition of having only one offspring). The extreme weakness of the 5th lord combined with eunuch/obstructive energies (Mercury and Ketu) in the house of children limits progeny to a single child.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "single_child_only",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "flag_limited_fertility"
+    },
+    "metadata": {
+      "notes": "A specific Brihat Parashara pattern indicating the restriction of fertility after the first birth."
+    }
+  },
+  {
+    "rule_id": "bphs_delayed_difficult_progeny",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "18",
+      "verse": "7",
+      "page": "146",
+      "quote": "Should the 9th lord be in the ascendant while the 5th lord is in fall and Ketu is in the 5th along with Mercury, obtainment of progeny will be after a great deal of ordalium.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["delayed", "difficult_conception"],
+    "rule_type": "classical_pattern",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 75,
+    "conditions": {
+      "all_of": [
+        "The 9th lord is positioned in the 1st house (Ascendant)",
+        "The 5th lord is in its sign of debilitation (fall)",
+        "Ketu is positioned in the 5th house",
+        "Mercury is positioned in the 5th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1", "5"],
+      "planets": ["9th_lord", "5th_lord", "Ketu", "Mercury"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Indicates heavily delayed childbirth or highly difficult conception. While the 9th lord in the 1st provides overall fortune ensuring a child eventually comes, the severe affliction to the 5th house and its lord causes significant medical or karmic obstacles first.",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "delayed_difficult_conception",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "expect_late_pregnancy"
+    },
+    "metadata": {
+      "notes": "Differentiates absolute denial from severe delay. Indicates medical intervention or prolonged effort is required."
+    }
+  },
+  {
+    "rule_id": "jataka_parijata_denial_all_significators_weak",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": null,
+      "verse": "24",
+      "page": null,
+      "quote": "When Jupiter and the lords of the 1st, the 7th and the 5th bhavas are all weak, childlessness should be pronounced.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["denied"],
+    "rule_type": "classical_pattern",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "status": "active",
+    "priority": 92,
+    "conditions": {
+      "all_of": [
+        "Jupiter is weak (by sign, house, or aspect)",
+        "The Lord of the 1st house (Lagna) is weak",
+        "The Lord of the 5th house is weak",
+        "The Lord of the 7th house is weak"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Jupiter", "1st_lord", "5th_lord", "7th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Absolute denial of children due to systemic failure of all required foundations: the self (1st), the partner (7th), the house of progeny (5th), and the natural blessing of children (Jupiter).",
+      "mode": "unknown",
+      "quality": "unknown",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "systemic_childlessness",
+      "likelihood_band": "very_low",
+      "timing_band": "none",
+      "recommended_action": "flag_childlessness_risk"
+    },
+    "metadata": {
+      "notes": "Weakness here implies debilitation, combustion, placement in dusthanas (6,8,12), or defeat in planetary war."
+    }
+  },
+  {
+    "rule_id": "jataka_parijata_multiple_embryos_twins",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": null,
+      "verse": "25",
+      "page": "125",
+      "quote": "Many are the embryos encased in the embryonic bag when the rising sign is the last Navamsa of Dhanus and the planets are strong in the Navamsa owned by Dhanus and when the Lagna is aspected by Mercury and Saturn in their strength.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "childbirth",
+    "event_subtype": ["multiple"],
+    "rule_type": "classical_pattern",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "status": "experimental",
+    "priority": 65,
+    "conditions": {
+      "all_of": [
+        "The Ascendant (Lagna) falls in the last Navamsa of Sagittarius",
+        "Multiple planets are strongly placed in the Sagittarius Navamsa",
+        "The Ascendant is aspected by a strong Mercury",
+        "The Ascendant is aspected by a strong Saturn"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1"],
+      "planets": ["Mercury", "Saturn"],
+      "nakshatra": [],
+      "d9": ["Sagittarius_Navamsa"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A highly specific chart geometry indicating the conception and birth of multiple children at once (twins, triplets). Driven by dual signs and combined aspects of dualistic/separative planets on a specific Navamsa degree.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.75
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.8
+    },
+    "outputs": {
+      "symbolic_label": "twins_or_multiples_possible",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "flag_multiple_birth_potential"
+    },
+    "metadata": {
+      "notes": "A very rare and strict classical combination for higher-order multiples."
+    }
+  }
+]
