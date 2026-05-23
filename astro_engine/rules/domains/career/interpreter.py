@@ -126,4 +126,5 @@ class CareerInterpreter(BaseDomainInterpreter):
             "risk_level": risk_level,
             "risk_points": round(risk_points, 1),
             "risk_factors": [c for c in challenges],
+            "activated_events": [(e.event_id, e.title, s) for e, s in self.get_activated_events(symbolic_state)[:10]],
         }
