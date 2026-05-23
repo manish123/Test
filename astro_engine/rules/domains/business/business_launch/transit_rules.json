@@ -1,0 +1,408 @@
+[
+  {
+    "rule_id": "transit_jupiter_conjunct_mercury",
+    "name": "Jupiter Transit Conjunct Natal Mercury — Commercial Expansion",
+    "description": "Jupiter's transit over natal Mercury triggers significant opportunities for commercial expansion, business scaling, and positive market outreach.",
+    "source_text": {
+      "work_name": "How to Use Transits for Prediction - MarStars",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "transiting Jupiter is making conjunction with your natal mercury... Jupiter... may bring some great opportunities for expansion or for growth in terms of your work."
+    },
+    "domain": "business",
+    "event_family": "business_expansion",
+    "event_subtype": ["business_expansion", "market_expansion"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_conjunction",
+          "operator": "conjunct",
+          "value": "Mercury",
+          "orb_degrees": 5.0
+        }
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": [],
+      "planets": ["Mercury"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "window": {
+      "broad_window_days": 120,
+      "exact_window_days": 30,
+      "confidence_decay_days": 20
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.90,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "interpretation": {
+      "meaning": "Jupiter's transit over natal Mercury (the natural significator of commerce, trade, and communication) triggers significant opportunities for commercial expansion, business scaling, and positive market outreach.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_mercury_expansion_transit",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "pursue_new_contracts_and_markets"
+    },
+    "notes": "Creates a medium timing window (roughly 1 year) characterized by networking, new contracts, and commercial growth."
+  },
+  {
+    "rule_id": "double_transit_business_houses",
+    "name": "Double Transit (Jupiter + Saturn) on Business Houses — Major Manifestation",
+    "description": "The simultaneous Double Transit of Jupiter and Saturn onto the 7th, 10th, or 11th powerfully actualizes major business milestones, structural growth, and scaling.",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "7",
+      "quote": "If both Saturn and Jupiter Aspects both bhava and its bhava lord at a time Enhances that bhava results"
+    },
+    "domain": "business",
+    "event_family": "business_expansion",
+    "event_subtype": ["business_expansion", "partnership_activation", "sudden_business_changes"],
+    "rule_type": "combination",
+    "status": "active",
+    "priority": 98,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_aspect",
+          "operator": "aspecting",
+          "value": "Saturn"
+        },
+        {
+          "kind": "transit_aspect",
+          "operator": "aspecting",
+          "value": "Jupiter"
+        }
+      ],
+      "any_of": [
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [7]
+        },
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [10]
+        },
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [11]
+        }
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Jupiter"],
+      "houses": ["7", "10", "11"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "window": {
+      "broad_window_days": 180,
+      "exact_window_days": 45,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 1.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "interpretation": {
+      "meaning": "The simultaneous 'Double Transit' of Jupiter (expansion) and Saturn (manifestation/structure) onto the 7th (partnerships/contracts), 10th (commerce/public standing), or 11th (gains/networks) powerfully actualizes major business milestones, structural growth, and scaling.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "double_transit_business_manifestation",
+      "likelihood_band": "very_high",
+      "timing_band": "narrow",
+      "recommended_action": "execute_major_business_decisions"
+    },
+    "notes": "Considered the most reliable transit methodology in Jyotish for timing the physical manifestation of major life and business events."
+  },
+  {
+    "rule_id": "phaladeepika_saturn_transit_12th_moon",
+    "name": "Saturn Transit 12th from Moon — Unprofitable Business Ventures",
+    "description": "Saturn's transit through the 12th house from the natal Moon forces the native into unprofitable business ventures, causing financial drain and losses.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "12th - Engagement in a business bringing no gains, loss of wealth through enemies, and sickness to wife and son."
+    },
+    "domain": "business",
+    "event_family": "business_closure",
+    "event_subtype": ["sudden_business_changes"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [12]
+        }
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn"],
+      "houses": ["12"],
+      "planets": ["Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "window": {
+      "broad_window_days": 900,
+      "exact_window_days": 180,
+      "confidence_decay_days": 90
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.90,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "interpretation": {
+      "meaning": "Saturn's transit through the 12th house from the natal Moon (the first phase of Sade Sati) forces the native into unprofitable business ventures, causing financial drain, high overheads, and losses through competitors.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.90
+    },
+    "outputs": {
+      "symbolic_label": "saturn_12th_business_drain",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "restructure_or_liquidate"
+    },
+    "notes": "Indicates a period of necessary restructuring or liquidation rather than expansion."
+  },
+  {
+    "rule_id": "phaladeepika_saturn_transit_11th_moon",
+    "name": "Saturn Transit 11th from Moon — Business Wealth & Funding",
+    "description": "Saturn transiting the 11th house of gains from the natal Moon is an exceptionally favorable 2.5-year window for acquiring significant business wealth and securing funding.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "11th - All kinds of happiness, gain of wealth and receipt of unique honour."
+    },
+    "domain": "business",
+    "event_family": "funding",
+    "event_subtype": ["funding_opportunities", "speculative_profits"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [11]
+        }
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn"],
+      "houses": ["11"],
+      "planets": ["Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "window": {
+      "broad_window_days": 900,
+      "exact_window_days": 180,
+      "confidence_decay_days": 90
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.90,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "interpretation": {
+      "meaning": "Saturn transiting the 11th house of gains from the natal Moon is an exceptionally favorable 2.5-year window for acquiring significant business wealth, securing funding, and structural growth in profitability.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.90
+    },
+    "outputs": {
+      "symbolic_label": "saturn_11th_gains_window",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "pursue_funding_and_expansion"
+    },
+    "notes": "This transit represents the culmination of effort, turning past karma into tangible financial reward and market expansion."
+  },
+  {
+    "rule_id": "phaladeepika_jupiter_transit_2nd_moon",
+    "name": "Jupiter Transit 2nd from Moon — Capital & Funding Expansion",
+    "description": "Jupiter's transit through the 2nd house from Moon expands liquid assets, bringing fresh capital and funding opportunities that facilitate business scaling.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "2nd - Acquisition of wealth, domestic happiness and influence over others."
+    },
+    "domain": "business",
+    "event_family": "funding",
+    "event_subtype": ["funding_opportunities", "business_expansion"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [2]
+        }
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["2"],
+      "planets": ["Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 60,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "interpretation": {
+      "meaning": "Jupiter's transit through the 2nd house of wealth and resources (counted from the Moon) expands liquid assets, bringing fresh capital, funding opportunities, or cash flow that facilitates business scaling.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_2nd_capital_window",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "secure_investments_and_scale"
+    },
+    "notes": "Excellent timing window for securing investments, taking out business loans, or experiencing revenue surges."
+  },
+  {
+    "rule_id": "phaladeepika_jupiter_transit_11th_moon",
+    "name": "Jupiter Transit 11th from Moon — Network Expansion & Market Growth",
+    "description": "Jupiter's transit through the 11th house from Moon brings rapid network expansion, customer growth, mass appeal, and strong financial gains.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "11th - All kinds of happiness, gain of wealth and receipt of unique honour."
+    },
+    "domain": "business",
+    "event_family": "business_expansion",
+    "event_subtype": ["business_expansion", "customer_growth", "viral_popularity"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        {
+          "kind": "transit_house",
+          "operator": "in",
+          "value": [11]
+        }
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["11"],
+      "planets": ["Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 60,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.90,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "interpretation": {
+      "meaning": "Jupiter's transit through the 11th house from the natal Moon brings rapid network expansion, customer growth, mass appeal, and strong financial gains in business.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_11th_network_growth",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "launch_products_and_expand_networks"
+    },
+    "notes": "Strong indicator for successful product launches and tapping into larger market networks."
+  }
+]

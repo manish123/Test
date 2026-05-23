@@ -16,6 +16,7 @@ Available domains:
 - health/        — physical vitality, recovery, longevity
 - spirituality/  — inner growth, detachment, awakening
 - general_life/  — balanced multi-domain overview
+- business/      — entrepreneurial growth, commercial scaling, venture timing
 
 Usage:
     from rules.domains import get_domain_interpreter
