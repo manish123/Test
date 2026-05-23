@@ -1,0 +1,296 @@
+[
+  {
+    "rule_id": "saturn_transit_10th_house",
+    "name": "Saturn Transit Through 10th House — Career Restructuring",
+    "description": "Saturn's transit through the 10th house initiates professional restructuring, heavier responsibilities, and transition into more authoritative roles.",
+    "source_text": {
+      "work_name": "Saturn Transit to Revati Nakshatra 2026: Date, Effect, Predictions and Sade Sati Remedies",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Saturn is transiting the 10th house; this is one of the biggest placements for career and public life... Restructuring your career can happen during this transit. For some, there will be changes in their positions, such as heavier duties or a move into a more serious role.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["job_change", "authority_increase", "career_expansion"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 90,
+    "polarity": "mixed",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": ["Transit Saturn passes through the 10th house"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn"],
+      "houses": ["10"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn's transit through the 10th house of career initiates a period of professional restructuring. It often brings heavier responsibilities, tests of leadership, and a transition into more serious or authoritative roles.",
+      "mode": "unknown",
+      "quality": "stable",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "saturn_10th_restructuring",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "prepare_for_increased_responsibility"
+    },
+    "metadata": {
+      "notes": "A critical period for establishing long-term career foundations through hard work and compliance. Lasts ~2.5 years."
+    }
+  },
+  {
+    "rule_id": "transit_10th_lord_upachaya",
+    "name": "10th Lord Transit in Upachaya Houses — Promotion",
+    "description": "The 10th lord transiting through growth houses (3, 6, 10, 11) triggers positive professional advancement.",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "7",
+      "quote": "10th lord 3,6,10,11 bhavas Promotion in job",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["promotion", "career_expansion"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit 10th lord passes through the 3rd house",
+        "Transit 10th lord passes through the 6th house",
+        "Transit 10th lord passes through the 10th house",
+        "Transit 10th lord passes through the 11th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["10th_lord"],
+      "houses": ["3", "6", "10", "11"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the planetary ruler of the 10th house transits through the Upachaya houses (houses of growth: 3rd, 6th, 10th, 11th), it triggers positive professional advancement, specifically job promotions.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "10th_lord_upachaya_promotion",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "apply_for_promotion"
+    },
+    "metadata": {
+      "notes": "Upachaya houses naturally support the growth of material and professional endeavors."
+    }
+  },
+  {
+    "rule_id": "double_transit_career_enhancement",
+    "name": "Double Transit on 10th House — Major Career Milestone",
+    "description": "Simultaneous Jupiter + Saturn activation of the 10th house and its lord profoundly enhances professional results.",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "7",
+      "quote": "If both Saturn and Jupiter Aspects both bhava and its bhava lord at a time Enhances that bhava results",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["career_expansion", "promotion", "recognition"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 98,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Transit Saturn influences the 10th house AND the 10th lord via conjunction or aspect",
+        "Transit Jupiter influences the 10th house AND the 10th lord via conjunction or aspect"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Jupiter"],
+      "houses": ["10"],
+      "planets": ["10th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The simultaneous Double Transit of Jupiter (expansion/blessing) and Saturn (structure/manifestation) onto the 10th house of career and its ruling planet profoundly enhances professional results, leading to major career milestones.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 1.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "double_transit_career_active",
+      "likelihood_band": "very_high",
+      "timing_band": "medium",
+      "recommended_action": "active_career_monitoring"
+    },
+    "metadata": {
+      "notes": "General double transit rule applied to career domain (10th house). Considered highly reliable for timing major promotions or professional breakthroughs."
+    }
+  },
+  {
+    "rule_id": "saturn_transit_sun_affliction",
+    "name": "Saturn 7th/10th from Natal Sun — Professional Troubles",
+    "description": "Saturn forming hard aspects to the natal Sun creates a period of professional friction and obstacles.",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "6",
+      "quote": "Saturn 7th or 10th from natal Sun Troubles in profession",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": [],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 80,
+    "polarity": "challenging",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Saturn passes through the 7th house counted from the natal Sun",
+        "Transit Saturn passes through the 10th house counted from the natal Sun"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn"],
+      "houses": [],
+      "planets": ["Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When transiting Saturn forms a hard angular relationship (7th or 10th position) from the natal Sun (the natural significator of authority and career), it triggers a period of professional friction, obstacles, or troubles with superiors.",
+      "mode": "unknown",
+      "quality": "conflict_prone",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "saturn_sun_career_friction",
+      "likelihood_band": "moderate",
+      "timing_band": "medium",
+      "recommended_action": "manage_authority_relationships"
+    },
+    "metadata": {
+      "notes": "Highlights the importance of the Sun as the Karaka for profession when assessing Saturn's transits."
+    }
+  },
+  {
+    "rule_id": "jupiter_transit_6th_mercury",
+    "name": "Jupiter Transit 6th House Conjunct Mercury — Work Expansion",
+    "description": "Jupiter's transit through the 6th house conjuncting natal Mercury triggers significant work opportunities and growth.",
+    "source_text": {
+      "work_name": "How to Use Transits for Prediction - MarStars",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "transiting Jupiter is making conjunction with your natal mercury in sixth house... Jupiter in sixth house may bring some great opportunities for expansion or for growth in terms of your work.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["career_expansion", "business_activation"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 75,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Transit Jupiter passes through the 6th house",
+        "Transit Jupiter conjuncts natal Mercury in the 6th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["6"],
+      "planets": ["Mercury"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Jupiter's transit through the 6th house of daily work, especially conjuncting Mercury (significator of commerce and communication), triggers significant opportunities for expansion, new contacts, and growth in the workplace.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.8,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_6th_work_expansion",
+      "likelihood_band": "moderate",
+      "timing_band": "medium",
+      "recommended_action": "pursue_new_work_opportunities"
+    },
+    "metadata": {
+      "notes": "Shows how the 6th house, typically viewed as challenging, can yield positive professional and business growth under Jupiter's expanding transit influence."
+    }
+  }
+]

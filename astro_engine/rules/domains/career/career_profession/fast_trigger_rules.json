@@ -1,0 +1,294 @@
+[
+  {
+    "rule_id": "fast_trigger_applying_aspect_job",
+    "name": "Applying Aspect to Career Point — Job Gestation",
+    "description": "The exact timing sequence of getting a new job is mapped to the applying phase of a transiting planet to a key career point.",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "A transiting planet while reaching an exact conjunction / aspect to a sensitive area makes an applying aspect... Gestation time for getting a job involves getting information about availability of job; applying for it; getting an interview; getting selection and joining in a job. All these stages can be traced in phases in the duration of applying aspect.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["job_offer", "interview", "joining_date"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "A transiting planet is in an applying aspect (approaching exact conjunction or aspect) to a sensitive career point in the natal chart"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Applying_Aspect"],
+      "houses": ["10"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["Career_Sensitive_Area"]
+    },
+    "interpretation": {
+      "meaning": "The exact timing sequence of getting a new job—from the interview to the final joining date—is mapped precisely to the applying phase of a transiting planet to a key career point. The event culminates as the aspect becomes mathematically exact.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "applying_aspect_job_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "track_applying_planet_to_10th"
+    },
+    "metadata": {
+      "notes": "Separating aspects mark the aftermath. The applying aspect acts as the actual trigger timeline."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_karma_nakshatra_disruption",
+    "name": "Karma Nakshatra (10th Star) — Job Disruption Trigger",
+    "description": "Transits of Saturn, Rahu, or Ketu over the 10th nakshatra from Moon trigger immediate job disruptions.",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Karma 10th Star... Dictates professional changes, promotions, or job shifts. Transits of Saturn, Rahu, or Ketu over this star trigger immediate job disruptions.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["resignation", "sudden_professional_event"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 92,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Saturn passes over the exact longitude of the 10th Nakshatra (Karma Star) counted from the Janma Nakshatra",
+        "Transit Rahu passes over the exact longitude of the 10th Nakshatra (Karma Star) counted from the Janma Nakshatra",
+        "Transit Ketu passes over the exact longitude of the 10th Nakshatra (Karma Star) counted from the Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Rahu", "Ketu"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["10th_from_Moon"],
+      "d9": [],
+      "sensitive_points": ["Karma_Nakshatra"]
+    },
+    "interpretation": {
+      "meaning": "Provides a longitude-sensitive exact trigger. When natural malefics transit the specific degree of the 10th star from the Moon, it acts as a fast trigger for immediate job disruption, sudden loss, or forced resignation.",
+      "mode": "unknown",
+      "quality": "painful",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "karma_star_disruption_fired",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "prepare_for_sudden_job_change"
+    },
+    "metadata": {
+      "notes": "A precision nakshatra transit technique specifically targeting sudden career breaks and endings."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_karma_nakshatra_success",
+    "name": "Karma Nakshatra (10th Star) — Success Trigger",
+    "description": "Benefic planets transiting the 10th star from Moon trigger positive career shifts and promotion announcements.",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Karma 10th Star... Dictates professional changes, promotions, or job shifts... Benefics transiting here bring success.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["promotion_announcement", "job_offer", "contract_signing"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transit benefic planets pass over the exact longitude of the 10th Nakshatra (Karma Star) counted from the Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Benefics"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["10th_from_Moon"],
+      "d9": [],
+      "sensitive_points": ["Karma_Nakshatra"]
+    },
+    "interpretation": {
+      "meaning": "When benefic planets transit the specific degree of the 10th star from the Moon, it acts as an exact trigger for positive career shifts, promotion announcements, or receiving a definitive job offer.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.9,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "karma_star_success_fired",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_promotion_window"
+    },
+    "metadata": {
+      "notes": "Exact degree-based trigger for professional success events."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_sanghatika_business_crisis",
+    "name": "Sanghatika Nakshatra (16th Star) — Business Crisis Trigger",
+    "description": "Activation of the 16th star from Moon catalyzes sudden business crises and financial disputes.",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Sanghatika 16th Star... Triggers financial liabilities, disputes, and structural or business crises.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["sudden_professional_event", "business_crisis"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 78,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transiting planets pass over the exact longitude of the 16th Nakshatra (Sanghatika) counted from the Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["16th_from_Moon"],
+      "d9": [],
+      "sensitive_points": ["Sanghatika_Nakshatra"]
+    },
+    "interpretation": {
+      "meaning": "Activation of the 16th star from the Moon acts as a catalyst for sudden business crises, financial disputes, and structural challenges in one's profession.",
+      "mode": "unknown",
+      "quality": "conflict_prone",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.9,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sanghatika_business_crisis_fired",
+      "likelihood_band": "moderate",
+      "timing_band": "exact",
+      "recommended_action": "protect_business_assets"
+    },
+    "metadata": {
+      "notes": "Specifically impacts independent business owners and structural professional matters on the exact days of the transit."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_abhishek_promotion",
+    "name": "Abhishek Nakshatra (28th Star) — Honors and Promotion Trigger",
+    "description": "Planets transiting the 28th star relative to the Moon trigger highly visible career milestones and public recognition.",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Abhishek 28th Star... Triggers honors, promotions, social recognition, and professional freedom.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_profession",
+    "event_subtype": ["promotion_announcement", "recognition_event"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transiting planets pass over the exact longitude of the 28th Nakshatra (Abhishek) counted from the Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["28th_from_Moon"],
+      "d9": [],
+      "sensitive_points": ["Abhishek_Nakshatra"]
+    },
+    "interpretation": {
+      "meaning": "An exact longitude-sensitive activation point. When planets transit the 28th star relative to the Moon, it triggers highly visible career milestones, public recognition, honors, and promotions.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.95,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "abhishek_promotion_fired",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "target_recognition_window"
+    },
+    "metadata": {
+      "notes": "Used to time the exact day or week a promotion or public award is announced (using the 28-star system which includes Abhijit)."
+    }
+  }
+]
