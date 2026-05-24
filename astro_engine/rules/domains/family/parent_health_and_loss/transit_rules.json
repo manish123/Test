@@ -1,0 +1,591 @@
+[
+  {
+    "rule_id": "transit_saturn_sun_ashtakavarga_father",
+    "name": "Saturn Transit over Sun — Ashtakavarga Father Indicator",
+    "description": "When transit Saturn passes over the natal Sun or sensitive points with low Ashtakavarga bindus, father's health deteriorates. Saturn as natural maraka transiting over father-karaka Sun activates paternal crisis.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Ashtakavarga & Transit",
+      "verse": null,
+      "page": null,
+      "quote": "When Saturn transits the sign of natal Sun with few bindus in Sun's Ashtakavarga, distress to the father occurs.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_health_crisis", "father_death"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 92,
+    "polarity": "challenging",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Transit Saturn is conjunct or in the sign of natal Sun",
+        "Sun's Ashtakavarga bindus in that sign are 3 or fewer"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn"],
+      "houses": ["9", "10"],
+      "planets": ["Saturn", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["natal_Sun_longitude"]
+    },
+    "interpretation": {
+      "meaning": "Saturn's heavy transit over natal Sun directly afflicts the father-karaka. Low Ashtakavarga bindus confirm lack of protective support in that sign. Father faces chronic health crisis.",
+      "mode": "father_crisis",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 45,
+      "confidence_decay_days": 90
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.92,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.08
+    },
+    "outputs": {
+      "symbolic_label": "saturn_sun_father_transit_active",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "monitor_fast_trigger_moon"
+    },
+    "metadata": {
+      "notes": "Ashtakavarga-based transit. Saturn stays in a sign for 2.5 years; exact conjunction narrows to months.",
+      "parent_affected": "father",
+      "severity": "health_crisis"
+    }
+  },
+  {
+    "rule_id": "transit_saturn_moon_ashtakavarga_mother",
+    "name": "Saturn Transit over Moon — Ashtakavarga Mother Indicator",
+    "description": "When transit Saturn passes over the natal Moon or sensitive points with low Ashtakavarga bindus, mother's health deteriorates. Saturn transiting over mother-karaka Moon activates maternal crisis.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Ashtakavarga & Transit",
+      "verse": null,
+      "page": null,
+      "quote": "When Saturn transits the sign of natal Moon with few bindus in Moon's Ashtakavarga, distress to the mother occurs.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_health_crisis", "mother_death"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 92,
+    "polarity": "challenging",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Transit Saturn is conjunct or in the sign of natal Moon",
+        "Moon's Ashtakavarga bindus in that sign are 3 or fewer"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn"],
+      "houses": ["4"],
+      "planets": ["Saturn", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["natal_Moon_longitude"]
+    },
+    "interpretation": {
+      "meaning": "Saturn's heavy transit over natal Moon directly afflicts the mother-karaka. Sade-sati or dhaiyya over Moon triggers maternal health concerns when Ashtakavarga support is weak.",
+      "mode": "mother_crisis",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 45,
+      "confidence_decay_days": 90
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.92,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.08
+    },
+    "outputs": {
+      "symbolic_label": "saturn_moon_mother_transit_active",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "monitor_fast_trigger_moon"
+    },
+    "metadata": {
+      "notes": "Ashtakavarga-based transit. Particularly potent during Sade-sati over natal Moon.",
+      "parent_affected": "mother",
+      "severity": "health_crisis"
+    }
+  },
+  {
+    "rule_id": "transit_saturn_rahu_mars_4th_from_sun",
+    "name": "Saturn-Rahu-Mars Transit 4th from Sun — Father Death Trigger",
+    "description": "When transit Saturn, Rahu, or Mars are placed 4th from natal Sun (the house of end/grave from father), father's death potential is activated. Multiple malefics in this position intensify the danger.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "Transit Effects on Parents",
+      "verse": null,
+      "page": null,
+      "quote": "Malefics transiting the 4th from the Sun bring danger to the father, as the 4th is the house of end (8th from 9th).",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death", "father_health_crisis"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Saturn is in the 4th house from natal Sun",
+        "Transit Rahu is in the 4th house from natal Sun",
+        "Transit Mars is in the 4th house from natal Sun"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Rahu", "Mars"],
+      "houses": ["4_from_Sun"],
+      "planets": ["Saturn", "Rahu", "Mars", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["4th_from_natal_Sun"]
+    },
+    "interpretation": {
+      "meaning": "The 4th from Sun is the 8th from the 9th house (father's longevity house). Malefics transiting here attack the father's vitality. Multiple malefics simultaneously = critical danger.",
+      "mode": "father_death",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 180,
+      "exact_window_days": 30,
+      "confidence_decay_days": 60
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.88,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.12
+    },
+    "outputs": {
+      "symbolic_label": "malefic_4th_from_sun_father_danger",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "check_mars_exact_conjunction"
+    },
+    "metadata": {
+      "notes": "Jataka Parijata. The 4th from Sun = 8th from 9th logic. Mars transit is fastest (45 days).",
+      "parent_affected": "father",
+      "severity": "death"
+    }
+  },
+  {
+    "rule_id": "transit_sun_trine_moon_navamsa_lords_mother",
+    "name": "Sun Transit Trine Moon's Navamsa Lord — Mother Event Window",
+    "description": "When transit Sun forms a trine to the natal position of Moon's Navamsa dispositor, maternal events are triggered. The Sun illuminates the karmic maternal axis.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "Transit Effects",
+      "verse": null,
+      "page": null,
+      "quote": "When the Sun transits trine to the Navamsa lord of the Moon, events related to the mother manifest.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_health_crisis", "mother_event"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 78,
+    "polarity": "challenging",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [
+        "Transit Sun is trine (120 or 240 degrees) to the natal position of Moon's Navamsa dispositor"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Sun"],
+      "houses": ["4"],
+      "planets": ["Sun", "Moon"],
+      "nakshatra": [],
+      "d9": ["Moon_navamsa_lord"],
+      "sensitive_points": ["Moon_navamsa_dispositor_longitude"]
+    },
+    "interpretation": {
+      "meaning": "Sun's monthly transit trine to the D9 dispositor of Moon activates maternal karma. This is a narrow timing trigger within a broader dasha window.",
+      "mode": "mother_event",
+      "quality": "challenging",
+      "confidence": 0.72
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 5,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.78,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.22
+    },
+    "outputs": {
+      "symbolic_label": "sun_trine_moon_d9_mother_event",
+      "likelihood_band": "moderate",
+      "timing_band": "narrow",
+      "recommended_action": "correlate_with_dasha_window"
+    },
+    "metadata": {
+      "notes": "Phaladeepika transit principle. Sun transits quickly (30 days/sign) — use as narrow window refiner.",
+      "parent_affected": "mother",
+      "severity": "event"
+    }
+  },
+  {
+    "rule_id": "transit_sun_trine_lagna_navamsa_lords_father",
+    "name": "Sun Transit Trine Lagna's Navamsa Lord — Father Event Window",
+    "description": "When transit Sun forms a trine to the natal position of Lagna's Navamsa dispositor, paternal events are triggered. The Lagna Navamsa lord connects to the native's dharmic axis including father.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "Transit Effects",
+      "verse": null,
+      "page": null,
+      "quote": "When the Sun transits trine to the Navamsa lord of the Ascendant, events related to the father and self manifest.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_health_crisis", "father_event"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 78,
+    "polarity": "challenging",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [
+        "Transit Sun is trine (120 or 240 degrees) to the natal position of Lagna's Navamsa dispositor"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Sun"],
+      "houses": ["1", "9"],
+      "planets": ["Sun"],
+      "nakshatra": [],
+      "d9": ["Lagna_navamsa_lord"],
+      "sensitive_points": ["Lagna_navamsa_dispositor_longitude"]
+    },
+    "interpretation": {
+      "meaning": "Sun's monthly transit trine to the D9 dispositor of Lagna activates self/father karma. This narrows the timing window for paternal events within a broader dasha gate.",
+      "mode": "father_event",
+      "quality": "challenging",
+      "confidence": 0.72
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 5,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.78,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.22
+    },
+    "outputs": {
+      "symbolic_label": "sun_trine_lagna_d9_father_event",
+      "likelihood_band": "moderate",
+      "timing_band": "narrow",
+      "recommended_action": "correlate_with_dasha_window"
+    },
+    "metadata": {
+      "notes": "Phaladeepika transit principle. Sun as father-karaka transiting trine to Lagna D9 lord.",
+      "parent_affected": "father",
+      "severity": "event"
+    }
+  },
+  {
+    "rule_id": "transit_double_sun_moon_difference_mother",
+    "name": "Transit at Double Sun-Moon Difference — Mother Event Timing",
+    "description": "When a transit planet reaches the degree equal to twice the natal Sun-Moon difference (a sensitive maternal point), maternal events are activated. This is a mathematical sensitive point technique.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Sensitive Points",
+      "verse": null,
+      "page": null,
+      "quote": "The point obtained by doubling the difference between Sun and Moon positions indicates timing of maternal events when activated by transit.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_health_crisis", "mother_event"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 75,
+    "polarity": "challenging",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [
+        "Transit Saturn or malefic is conjunct the point at 2 x (Sun longitude - Moon longitude) mod 360"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Rahu", "Mars"],
+      "houses": [],
+      "planets": ["Sun", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["double_sun_moon_difference"]
+    },
+    "interpretation": {
+      "meaning": "Mathematical sensitive point derived from luminaries. When malefics transit this degree, maternal axis is activated. Combines with dasha for timing confirmation.",
+      "mode": "mother_event",
+      "quality": "challenging",
+      "confidence": 0.70
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.75,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.25
+    },
+    "outputs": {
+      "symbolic_label": "double_sun_moon_diff_mother_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "narrow",
+      "recommended_action": "verify_dasha_gate_active"
+    },
+    "metadata": {
+      "notes": "BPHS sensitive point technique. Empirical — requires more validation cases.",
+      "parent_affected": "mother",
+      "severity": "event"
+    }
+  },
+  {
+    "rule_id": "transit_mandi_sun_difference_father",
+    "name": "Transit at Mandi-Sun Difference Point — Father Event Timing",
+    "description": "When a transit malefic reaches the sensitive point derived from the Mandi-Sun difference, paternal events are activated. Mandi (Gulika) is a malefic sub-planet that intensifies death-related significations.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Mandi & Sensitive Points",
+      "verse": null,
+      "page": null,
+      "quote": "The difference between Mandi and Sun positions indicates the point of paternal crisis when activated by malefic transit.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_health_crisis", "father_death"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 80,
+    "polarity": "challenging",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [
+        "Transit Saturn or malefic is conjunct the point at (Mandi longitude - Sun longitude) mod 360"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Rahu"],
+      "houses": [],
+      "planets": ["Sun", "Mandi"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["mandi_sun_difference"]
+    },
+    "interpretation": {
+      "meaning": "Mandi (son of Saturn) combined with Sun creates a paternal danger point. When malefics transit this degree, father's longevity is threatened.",
+      "mode": "father_crisis",
+      "quality": "challenging",
+      "confidence": 0.75
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.80,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.20
+    },
+    "outputs": {
+      "symbolic_label": "mandi_sun_diff_father_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "narrow",
+      "recommended_action": "verify_dasha_gate_active"
+    },
+    "metadata": {
+      "notes": "BPHS Mandi technique. Mandi calculation requires accurate birth time.",
+      "parent_affected": "father",
+      "severity": "crisis"
+    }
+  },
+  {
+    "rule_id": "transit_yamakantaka_sun_difference_father",
+    "name": "Transit at Yamakantaka-Sun Difference — Father Death Timing",
+    "description": "When a transit malefic reaches the sensitive point derived from Yamakantaka-Sun difference, father's death timing is indicated. Yamakantaka is the sub-planet of Yama (death god).",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Yamakantaka Effects",
+      "verse": null,
+      "page": null,
+      "quote": "The difference between Yamakantaka and Sun indicates the point when the father's death may occur upon malefic transit.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 82,
+    "polarity": "challenging",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [
+        "Transit Saturn or malefic is conjunct the point at (Yamakantaka longitude - Sun longitude) mod 360"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Rahu"],
+      "houses": [],
+      "planets": ["Sun", "Yamakantaka"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["yamakantaka_sun_difference"]
+    },
+    "interpretation": {
+      "meaning": "Yamakantaka represents the death-dealing quality of Jupiter. Its difference with Sun creates a critical paternal mortality point. Transit activation by Saturn/Rahu triggers the event.",
+      "mode": "father_death",
+      "quality": "challenging",
+      "confidence": 0.78
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.82,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.18
+    },
+    "outputs": {
+      "symbolic_label": "yamakantaka_sun_father_death",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "correlate_with_dasha_and_classical"
+    },
+    "metadata": {
+      "notes": "BPHS Yamakantaka technique. Rare but potent when combined with dasha gate.",
+      "parent_affected": "father",
+      "severity": "death"
+    }
+  },
+  {
+    "rule_id": "transit_moon_mandi_difference_mother",
+    "name": "Transit at Moon-Mandi Difference Point — Mother Event Timing",
+    "description": "When a transit malefic reaches the sensitive point derived from Moon-Mandi difference, maternal events are activated. Moon represents mother and Mandi adds malefic timing specificity.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Mandi & Sensitive Points",
+      "verse": null,
+      "page": null,
+      "quote": "The difference between Moon and Mandi positions indicates the timing of maternal events when activated by malefic transit.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_health_crisis", "mother_death"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 80,
+    "polarity": "challenging",
+    "timing_band": "narrow",
+    "conditions": {
+      "all_of": [
+        "Transit Saturn or malefic is conjunct the point at (Moon longitude - Mandi longitude) mod 360"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Rahu"],
+      "houses": [],
+      "planets": ["Moon", "Mandi"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["moon_mandi_difference"]
+    },
+    "interpretation": {
+      "meaning": "Moon-Mandi sensitive point targets maternal longevity. When slow malefics transit this degree, mother's health is at risk. Most dangerous during active dasha gate.",
+      "mode": "mother_crisis",
+      "quality": "challenging",
+      "confidence": 0.75
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.80,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.20
+    },
+    "outputs": {
+      "symbolic_label": "moon_mandi_diff_mother_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "narrow",
+      "recommended_action": "verify_dasha_gate_active"
+    },
+    "metadata": {
+      "notes": "BPHS Mandi technique for maternal axis. Requires accurate Mandi calculation.",
+      "parent_affected": "mother",
+      "severity": "crisis"
+    }
+  }
+]

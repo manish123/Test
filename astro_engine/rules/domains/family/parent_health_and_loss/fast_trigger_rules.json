@@ -1,0 +1,337 @@
+[
+  {
+    "rule_id": "fast_trigger_moon_transit_sun_navamsa_dispositor_father",
+    "name": "Moon Transit over Sun's Navamsa Dispositor — Father Loss Trigger",
+    "description": "When transit Moon passes over the natal position of Sun's Navamsa dispositor, the exact day for father-related events is pinpointed. Moon transits each sign in ~2.5 days, providing precise timing.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "Transit Timing",
+      "verse": null,
+      "page": null,
+      "quote": "The Moon transiting over the Navamsa lord of the Sun gives the exact day of paternal events.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death", "father_health_crisis"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transit Moon is conjunct (within 3 degrees) the natal position of Sun's Navamsa dispositor",
+        "A dasha gate for parental loss is currently active",
+        "A transit activation rule is currently firing"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": [],
+      "planets": ["Moon", "Sun"],
+      "nakshatra": [],
+      "d9": ["Sun_navamsa_dispositor"],
+      "sensitive_points": ["Sun_navamsa_dispositor_longitude"]
+    },
+    "interpretation": {
+      "meaning": "Moon is the fastest visible planet. Its conjunction with the D9 dispositor of Sun pinpoints the exact day of paternal crisis within an already-active dasha+transit window.",
+      "mode": "father_event_exact",
+      "quality": "challenging",
+      "confidence": 0.82
+    },
+    "window": {
+      "broad_window_days": 3,
+      "exact_window_days": 1,
+      "confidence_decay_days": 2
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.88,
+      "classical_weight": 0.12
+    },
+    "outputs": {
+      "symbolic_label": "moon_sun_d9_father_exact_day",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "event_imminent_alert"
+    },
+    "metadata": {
+      "notes": "Fast trigger — only meaningful when dasha + transit layers are already active.",
+      "parent_affected": "father",
+      "severity": "exact_timing"
+    }
+  },
+  {
+    "rule_id": "fast_trigger_gandanta_pada_father_loss",
+    "name": "Gandanta Pada Transit — Father Loss Exact Timing",
+    "description": "When transit Moon or Sun passes through Gandanta points (junctions of water-fire signs: Cancer-Leo, Scorpio-Sagittarius, Pisces-Aries), parental death events crystallize. These are karmic knots that release bound fate.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Gandanta Effects",
+      "verse": null,
+      "page": null,
+      "quote": "Planets at Gandanta (junction of water and fire signs) bring sudden karmic events including death of parents.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transit Sun or Moon is within 3 degrees of a Gandanta point (0 Aries, 0 Leo, 0 Sagittarius from water side)",
+        "A dasha gate for parental loss is currently active",
+        "Natal Sun or 9th lord is associated with Gandanta in birth chart"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Sun", "Moon"],
+      "houses": ["9"],
+      "planets": ["Sun", "Moon"],
+      "nakshatra": ["Ashlesha-Magha_junction", "Jyeshtha-Moola_junction", "Revati-Ashwini_junction"],
+      "d9": [],
+      "sensitive_points": ["gandanta_points"]
+    },
+    "interpretation": {
+      "meaning": "Gandanta points are karmic dissolution zones where the soul crosses from emotional (water) to transformative (fire) energy. Transit through these points during active parental dasha triggers sudden loss.",
+      "mode": "father_death_sudden",
+      "quality": "challenging",
+      "confidence": 0.80
+    },
+    "window": {
+      "broad_window_days": 3,
+      "exact_window_days": 1,
+      "confidence_decay_days": 2
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.85,
+      "classical_weight": 0.15
+    },
+    "outputs": {
+      "symbolic_label": "gandanta_father_loss_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "event_imminent_alert"
+    },
+    "metadata": {
+      "notes": "Gandanta technique. Three junction points in the zodiac. Most potent at Jyeshtha-Moola (Scorpio-Sagittarius).",
+      "parent_affected": "father",
+      "severity": "death"
+    }
+  },
+  {
+    "rule_id": "fast_trigger_gandanta_pada_mother_loss",
+    "name": "Gandanta Pada Transit — Mother Loss Exact Timing",
+    "description": "When transit Moon passes through Gandanta points while the 4th lord or Moon is natally connected to Gandanta, maternal death events crystallize. The Moon-Gandanta connection is specifically maternal.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Gandanta Effects",
+      "verse": null,
+      "page": null,
+      "quote": "Moon at Gandanta brings sudden karmic events especially related to the mother and emotional bonds.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_death"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transit Moon is within 3 degrees of a Gandanta point",
+        "A dasha gate for parental loss is currently active",
+        "Natal Moon or 4th lord is associated with Gandanta in birth chart"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": ["4"],
+      "planets": ["Moon"],
+      "nakshatra": ["Ashlesha-Magha_junction", "Jyeshtha-Moola_junction", "Revati-Ashwini_junction"],
+      "d9": [],
+      "sensitive_points": ["gandanta_points"]
+    },
+    "interpretation": {
+      "meaning": "Moon at Gandanta specifically targets maternal significations. The karmic knot dissolves the maternal bond. Most dangerous when natal Moon is also in Gandanta nakshatra.",
+      "mode": "mother_death_sudden",
+      "quality": "challenging",
+      "confidence": 0.80
+    },
+    "window": {
+      "broad_window_days": 3,
+      "exact_window_days": 1,
+      "confidence_decay_days": 2
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.85,
+      "classical_weight": 0.15
+    },
+    "outputs": {
+      "symbolic_label": "gandanta_mother_loss_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "event_imminent_alert"
+    },
+    "metadata": {
+      "notes": "Gandanta technique for maternal axis. Moon's Gandanta transit is specifically maternal.",
+      "parent_affected": "mother",
+      "severity": "death"
+    }
+  },
+  {
+    "rule_id": "fast_trigger_mars_4th_from_sun_father_death",
+    "name": "Mars Transit 4th from Sun — Father Death Day Trigger",
+    "description": "When transit Mars reaches exactly the 4th sign from natal Sun (with tight orb), it triggers the exact day of father's death event. Mars is the fastest malefic and acts as the detonator.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "Transit Timing",
+      "verse": null,
+      "page": null,
+      "quote": "Mars transiting the 4th from the Sun with exact conjunction gives the day of the father's crisis.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 82,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transit Mars is in the 4th sign from natal Sun (within 5 degree orb of the exact 4th cusp from Sun)",
+        "A dasha gate for father loss is currently active",
+        "Transit Saturn is also afflicting father-significant points"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mars"],
+      "houses": ["4_from_Sun"],
+      "planets": ["Mars", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["4th_from_natal_Sun"]
+    },
+    "interpretation": {
+      "meaning": "Mars is the fastest malefic (~45 days/sign). When it reaches the 4th from Sun during an active Saturn transit + dasha window, it detonates the event. Acts as the precision timer.",
+      "mode": "father_death_detonator",
+      "quality": "challenging",
+      "confidence": 0.78
+    },
+    "window": {
+      "broad_window_days": 7,
+      "exact_window_days": 2,
+      "confidence_decay_days": 5
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.82,
+      "classical_weight": 0.18
+    },
+    "outputs": {
+      "symbolic_label": "mars_4th_sun_father_detonator",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "event_imminent_alert"
+    },
+    "metadata": {
+      "notes": "Jataka Parijata fast trigger. Mars as detonator within Saturn's broader transit window.",
+      "parent_affected": "father",
+      "severity": "death"
+    }
+  },
+  {
+    "rule_id": "fast_trigger_sun_navamsa_transit_mother_loss",
+    "name": "Sun Transit through Moon's Navamsa Sign — Mother Loss Day Trigger",
+    "description": "When transit Sun enters the Navamsa sign of the natal Moon, the exact timing window for maternal loss events is activated. Sun illuminates the hidden maternal karmic signature.",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": "Transit Pinpointing",
+      "verse": null,
+      "page": null,
+      "quote": "When the Sun transits through the Navamsa sign occupied by the natal Moon, maternal events are triggered to the day.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_death", "mother_health_crisis"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 80,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transit Sun is in the sign corresponding to natal Moon's Navamsa position",
+        "A dasha gate for maternal loss is currently active",
+        "A transit activation rule is currently firing"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Sun"],
+      "houses": ["4"],
+      "planets": ["Sun", "Moon"],
+      "nakshatra": [],
+      "d9": ["Moon_navamsa_sign"],
+      "sensitive_points": ["Moon_navamsa_sign"]
+    },
+    "interpretation": {
+      "meaning": "Sun's monthly transit through Moon's D9 sign activates the hidden maternal karma. When combined with dasha + transit layers already active, provides 30-day window for maternal event.",
+      "mode": "mother_event_timing",
+      "quality": "challenging",
+      "confidence": 0.76
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 7,
+      "confidence_decay_days": 14
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.80,
+      "classical_weight": 0.20
+    },
+    "outputs": {
+      "symbolic_label": "sun_moon_d9_mother_timing",
+      "likelihood_band": "moderate",
+      "timing_band": "exact",
+      "recommended_action": "correlate_with_moon_fast_trigger"
+    },
+    "metadata": {
+      "notes": "Hora Sara technique. Sun in Moon's D9 sign = ~30 day window. Combine with Moon fast trigger for exact day.",
+      "parent_affected": "mother",
+      "severity": "event"
+    }
+  }
+]
