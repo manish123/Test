@@ -1,0 +1,688 @@
+{
+  "domain": "relocation",
+  "event_family": "foreign_settlement",
+  "file_type": "outcome_quality",
+  "version": "1.0.0",
+  "rules": [
+    {
+      "rule_id": "jp_12th_lord_permanent_foreign",
+      "name": "Permanent Settlement Quality - Venus Aspect",
+      "description": "The quality of permanent foreign settlement is comfortable and stable when the 12th lord is weak but aspected by Venus, indicating a settled and pleasant life abroad.",
+      "source_text": "Jataka Parijata 15:23",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "permanent_settlement_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 1,
+      "polarity": "benefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "lord_of_house",
+            "house": 12,
+            "condition": "weak",
+            "description": "12th lord must be weak (debilitated, combust, or in enemy sign)"
+          },
+          {
+            "factor": "aspect",
+            "from_planet": "Venus",
+            "to_factor": "lord_of_12th",
+            "description": "Venus must aspect the 12th lord"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {
+          "signal": "venus_aspect_quality",
+          "weight": 0.6
+        },
+        {
+          "signal": "permanent_settlement_indicator",
+          "weight": 0.4
+        }
+      ],
+      "interpretation": {
+        "summary": "Venus's aspect on the weak 12th lord ensures the permanent foreign settlement is comfortable, aesthetically pleasant, and materially secure.",
+        "detail": "The Venus aspect transforms what could be a difficult displacement into a comfortable and attractive foreign life. The native enjoys beauty, luxury, and social pleasantness in their adopted homeland.",
+        "quality_factors": ["comfort", "beauty", "social_harmony", "material_security"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.85,
+        "confidence": 0.76,
+        "classical_authority": 0.9
+      },
+      "outputs": {
+        "outcome_quality": "comfortable_permanent",
+        "settlement_stability": "high",
+        "material_comfort": "good",
+        "emotional_satisfaction": "moderate_to_high"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 15,
+        "verse": 23,
+        "tradition": "Jyotish",
+        "tags": ["permanent_settlement", "venus", "comfort", "quality"]
+      }
+    },
+    {
+      "rule_id": "jp_12th_lord_beautiful_sojourn",
+      "name": "Luxurious Temporary Sojourn Quality",
+      "description": "The quality of the foreign experience is luxurious and temporary when the 12th lord is strong with benefic aspects, indicating sojourns in beautiful and prosperous foreign lands.",
+      "source_text": "Jataka Parijata 15:24",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "luxurious_sojourn_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 2,
+      "polarity": "benefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "lord_of_house",
+            "house": 12,
+            "condition": "strong",
+            "description": "12th lord must be strong (exalted, own sign, or friendly sign)"
+          },
+          {
+            "factor": "benefic_aspects",
+            "to_factor": "lord_of_12th",
+            "description": "Benefic planets must aspect the 12th lord"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {
+          "signal": "12th_lord_dignity",
+          "weight": 0.5
+        },
+        {
+          "signal": "benefic_aspect_quality",
+          "weight": 0.5
+        }
+      ],
+      "interpretation": {
+        "summary": "A strong 12th lord with benefic aspects produces luxurious and aesthetically beautiful foreign sojourns.",
+        "detail": "The native experiences foreign lands as places of beauty, luxury, and pleasure. These are temporary but highly enjoyable stays in prosperous and aesthetically pleasing locations.",
+        "quality_factors": ["luxury", "beauty", "pleasure", "cultural_richness"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.83,
+        "confidence": 0.77,
+        "classical_authority": 0.9
+      },
+      "outputs": {
+        "outcome_quality": "luxurious_temporary",
+        "settlement_stability": "temporary",
+        "material_comfort": "excellent",
+        "emotional_satisfaction": "high"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 15,
+        "verse": 24,
+        "tradition": "Jyotish",
+        "tags": ["luxury", "sojourn", "beautiful_lands", "temporary", "quality"]
+      }
+    },
+    {
+      "rule_id": "bphs_12th_house_wandering",
+      "name": "Repeated/Unstable Relocation Quality",
+      "description": "The quality of foreign settlement is unstable and repetitive when the 12th house is afflicted, causing the native to wander country to country without finding permanent settlement.",
+      "source_text": "BPHS 12:11",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "unstable_relocation_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 3,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "house_affliction",
+            "house": 12,
+            "condition": "afflicted_by_malefics",
+            "description": "12th house must be afflicted by malefic planets"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "12th_lord_condition",
+            "condition": "weak_or_afflicted",
+            "description": "Weak or afflicted 12th lord intensifies instability"
+          }
+        ]
+      },
+      "signals": [
+        {
+          "signal": "12th_house_affliction_severity",
+          "weight": 0.7
+        },
+        {
+          "signal": "repeated_relocation_pattern",
+          "weight": 0.3
+        }
+      ],
+      "interpretation": {
+        "summary": "Affliction to the 12th house produces a pattern of repeated, unstable relocations with no permanent foreign home.",
+        "detail": "The native experiences foreign settlement as a series of forced moves, never finding stability. Each relocation brings temporary hope followed by displacement, creating a cycle of wandering.",
+        "quality_factors": ["instability", "repetition", "displacement", "restlessness"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.82,
+        "confidence": 0.80,
+        "classical_authority": 0.95
+      },
+      "outputs": {
+        "outcome_quality": "unstable_repeated",
+        "settlement_stability": "very_low",
+        "material_comfort": "variable",
+        "emotional_satisfaction": "low"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 12,
+        "verse": 11,
+        "tradition": "Jyotish",
+        "tags": ["unstable", "wandering", "repeated", "affliction", "quality"]
+      }
+    },
+    {
+      "rule_id": "jp_moveable_lagna_foreign_fortune",
+      "name": "Foreign Prosperity Quality",
+      "description": "The quality of foreign experience is prosperous and fortunate when moveable Lagna combines with its lord in a moveable sign, indicating material success abroad.",
+      "source_text": "Jataka Parijata 15:26",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "foreign_prosperity_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 4,
+      "polarity": "benefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "lagna_sign_type",
+            "condition": "moveable",
+            "signs": ["Aries", "Cancer", "Libra", "Capricorn"],
+            "description": "Lagna must be a moveable sign"
+          },
+          {
+            "factor": "lagna_lord_sign_type",
+            "condition": "moveable",
+            "description": "Lord of Lagna must be in a moveable sign"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {
+          "signal": "double_moveable_emphasis",
+          "weight": 0.6
+        },
+        {
+          "signal": "fortune_abroad_indicator",
+          "weight": 0.4
+        }
+      ],
+      "interpretation": {
+        "summary": "Double moveable emphasis produces prosperity and financial fortune in foreign lands.",
+        "detail": "The native prospers materially through foreign connections, international business, or relocation. The moveable quality ensures adaptability and ability to seize opportunities in new environments.",
+        "quality_factors": ["prosperity", "adaptability", "financial_success", "opportunity"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.80,
+        "confidence": 0.78,
+        "classical_authority": 0.9
+      },
+      "outputs": {
+        "outcome_quality": "prosperous_foreign",
+        "settlement_stability": "moderate_to_high",
+        "material_comfort": "excellent",
+        "emotional_satisfaction": "moderate"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 15,
+        "verse": 26,
+        "tradition": "Jyotish",
+        "tags": ["prosperity", "fortune", "moveable", "foreign", "quality"]
+      }
+    },
+    {
+      "rule_id": "nirayana_jupiter_12th_wandering_foreigner",
+      "name": "Jupiter in 12th - Prosperous Foreign Wanderer Quality",
+      "description": "When Jupiter is placed in the 12th house, the native becomes a prosperous wanderer in foreign lands, blessed with wisdom and resources during travels.",
+      "source_text": "Nirayana System p169",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "prosperous_wanderer_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 5,
+      "polarity": "benefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_in_house",
+            "planet": "Jupiter",
+            "house": 12,
+            "description": "Jupiter must be placed in the 12th house"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "jupiter_dignity",
+            "condition": "strong",
+            "description": "Jupiter in strong dignity amplifies prosperity abroad"
+          }
+        ]
+      },
+      "signals": [
+        {
+          "signal": "jupiter_in_12th",
+          "weight": 0.7
+        },
+        {
+          "signal": "jupiter_dignity_strength",
+          "weight": 0.3
+        }
+      ],
+      "interpretation": {
+        "summary": "Jupiter in the 12th house blesses the native as a prosperous foreign wanderer with wisdom, resources, and spiritual growth.",
+        "detail": "Per Nirayana System p169, Jupiter in the 12th creates a fortunate foreigner who prospers through travel, foreign connections, and spiritual seeking. Unlike afflicted patterns, this wandering is blessed and prosperous.",
+        "quality_factors": ["prosperity", "wisdom", "spiritual_growth", "divine_protection"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.81,
+        "confidence": 0.75,
+        "classical_authority": 0.80
+      },
+      "outputs": {
+        "outcome_quality": "prosperous_wanderer",
+        "settlement_stability": "moderate",
+        "material_comfort": "good_to_excellent",
+        "emotional_satisfaction": "high"
+      },
+      "metadata": {
+        "author": "Nirayana System Authors",
+        "text": "Nirayana System",
+        "page": 169,
+        "tradition": "Jyotish",
+        "tags": ["jupiter", "12th_house", "prosperous", "wanderer", "foreign", "quality"]
+      }
+    },
+    {
+      "rule_id": "nirayana_ketu_9th_wandering_mendicant",
+      "name": "Repeated Relocation/Exile Pattern Quality",
+      "description": "Ketu in the 9th house produces a quality of repeated relocation and exile-like existence, where the native cannot settle and moves perpetually.",
+      "source_text": "Nirayana System p169",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "repeated_relocation_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 6,
+      "polarity": "neutral",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_in_house",
+            "planet": "Ketu",
+            "house": 9,
+            "description": "Ketu must be placed in the 9th house"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "ketu_dispositor",
+            "condition": "weak_or_afflicted",
+            "description": "Weak dispositor of Ketu intensifies the exile pattern"
+          }
+        ]
+      },
+      "signals": [
+        {
+          "signal": "ketu_9th_detachment",
+          "weight": 0.6
+        },
+        {
+          "signal": "repeated_exile_pattern",
+          "weight": 0.4
+        }
+      ],
+      "interpretation": {
+        "summary": "Ketu in the 9th produces repeated relocation and an exile-like pattern where permanent settlement remains elusive.",
+        "detail": "The quality is one of detachment from roots and perpetual movement. The native experiences each place as temporary, driven by spiritual restlessness or karmic detachment from worldly settlement.",
+        "quality_factors": ["detachment", "perpetual_movement", "spiritual_restlessness", "exile"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.76,
+        "confidence": 0.72,
+        "classical_authority": 0.80
+      },
+      "outputs": {
+        "outcome_quality": "repeated_exile",
+        "settlement_stability": "very_low",
+        "material_comfort": "minimal",
+        "emotional_satisfaction": "variable"
+      },
+      "metadata": {
+        "author": "Nirayana System Authors",
+        "text": "Nirayana System",
+        "page": 169,
+        "tradition": "Jyotish",
+        "tags": ["ketu", "9th_house", "repeated", "exile", "wandering", "quality"]
+      }
+    },
+    {
+      "rule_id": "jp_foreign_death_temple",
+      "name": "Permanent Settlement/Isolation Abroad Quality",
+      "description": "The combination of Saturn 1st, Mars 12th, and Sun/Moon/Mercury 5th produces permanent settlement with isolation abroad, ultimately ending in death in foreign land.",
+      "source_text": "Jataka Parijata v109",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "permanent_isolation_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 7,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_in_house",
+            "planet": "Saturn",
+            "house": 1,
+            "description": "Saturn must be in the 1st house"
+          },
+          {
+            "factor": "planet_in_house",
+            "planet": "Mars",
+            "house": 12,
+            "description": "Mars must be in the 12th house"
+          },
+          {
+            "factor": "planets_in_house",
+            "planets": ["Sun", "Moon", "Mercury"],
+            "house": 5,
+            "condition": "any_or_all",
+            "description": "Sun, Moon, and/or Mercury in the 5th house"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {
+          "signal": "permanent_foreign_isolation",
+          "weight": 0.5
+        },
+        {
+          "signal": "saturn_mars_separation",
+          "weight": 0.3
+        },
+        {
+          "signal": "5th_house_disconnect",
+          "weight": 0.2
+        }
+      ],
+      "interpretation": {
+        "summary": "This pattern produces permanent settlement abroad characterized by isolation, ending in death far from homeland.",
+        "detail": "The quality of this foreign settlement is one of finality and isolation. Saturn restricts return, Mars drives the native away, and the luminaries in the 5th disconnect from progeny and cultural roots. The settlement is permanent but lonely.",
+        "quality_factors": ["isolation", "permanence", "finality", "disconnection"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.75,
+        "confidence": 0.65,
+        "classical_authority": 0.88
+      },
+      "outputs": {
+        "outcome_quality": "permanent_isolated",
+        "settlement_stability": "permanent_but_isolated",
+        "material_comfort": "variable",
+        "emotional_satisfaction": "low"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "verse": 109,
+        "tradition": "Jyotish",
+        "tags": ["permanent", "isolation", "foreign_death", "saturn", "mars", "quality"]
+      }
+    },
+    {
+      "rule_id": "bphs_moon_afflicted_forced_migration",
+      "name": "Forced Migration - Unstable Residence Quality",
+      "description": "When the Moon is afflicted, the native experiences forced migration and unstable residence, being compelled to move due to external circumstances beyond their control.",
+      "source_text": "BPHS",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "forced_migration_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 8,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_condition",
+            "planet": "Moon",
+            "condition": "afflicted",
+            "description": "Moon must be afflicted by malefic aspects or conjunctions (Saturn, Mars, Rahu)"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "moon_house",
+            "houses": [4, 8, 12],
+            "description": "Moon in 4th, 8th, or 12th house intensifies forced migration"
+          },
+          {
+            "factor": "4th_lord_condition",
+            "condition": "weak_or_afflicted",
+            "description": "Afflicted 4th lord (home) adds to residential instability"
+          }
+        ]
+      },
+      "signals": [
+        {
+          "signal": "moon_affliction_severity",
+          "weight": 0.6
+        },
+        {
+          "signal": "forced_displacement_indicator",
+          "weight": 0.4
+        }
+      ],
+      "interpretation": {
+        "summary": "Afflicted Moon produces forced migration and unstable residence where the native is compelled to relocate against their will.",
+        "detail": "The quality of this relocation is forced and unwilling. External circumstances such as conflict, economic hardship, or family disruption compel the native to migrate. Residence remains unstable with frequent forced moves.",
+        "quality_factors": ["forced_movement", "instability", "external_compulsion", "emotional_distress"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.79,
+        "confidence": 0.74,
+        "classical_authority": 0.92
+      },
+      "outputs": {
+        "outcome_quality": "forced_unstable",
+        "settlement_stability": "very_low",
+        "material_comfort": "poor",
+        "emotional_satisfaction": "very_low"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "tradition": "Jyotish",
+        "tags": ["moon", "afflicted", "forced_migration", "unstable", "quality"]
+      }
+    },
+    {
+      "rule_id": "bphs_jupiter_strong_homeland_return",
+      "name": "Homeland Return Quality",
+      "description": "When Jupiter is strong and well-placed, particularly influencing the 4th house or its lord, the native eventually returns to their homeland after foreign sojourns.",
+      "source_text": "BPHS",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "homeland_return_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 9,
+      "polarity": "benefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_condition",
+            "planet": "Jupiter",
+            "condition": "strong",
+            "description": "Jupiter must be strong (exalted, own sign, or well-dignified)"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "jupiter_aspect_to_4th",
+            "condition": "aspecting_4th_house_or_lord",
+            "description": "Jupiter aspecting the 4th house or its lord strengthens homeland connection"
+          },
+          {
+            "factor": "4th_lord_condition",
+            "condition": "strong",
+            "description": "Strong 4th lord supports eventual return"
+          }
+        ]
+      },
+      "signals": [
+        {
+          "signal": "jupiter_strength",
+          "weight": 0.5
+        },
+        {
+          "signal": "4th_house_connection",
+          "weight": 0.3
+        },
+        {
+          "signal": "homeland_pull_indicator",
+          "weight": 0.2
+        }
+      ],
+      "interpretation": {
+        "summary": "Strong Jupiter ensures the native returns to their homeland after foreign experiences, with the return being prosperous and fulfilling.",
+        "detail": "The quality of this pattern is one of eventual homecoming. Jupiter's strength and connection to the 4th house (homeland) ensures that any foreign stay is temporary and that the return is blessed, prosperous, and welcomed.",
+        "quality_factors": ["homecoming", "prosperity", "fulfillment", "roots_reconnection"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.80,
+        "confidence": 0.73,
+        "classical_authority": 0.92
+      },
+      "outputs": {
+        "outcome_quality": "homeland_return",
+        "settlement_stability": "returns_to_stable",
+        "material_comfort": "good",
+        "emotional_satisfaction": "high"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "tradition": "Jyotish",
+        "tags": ["jupiter", "strong", "homeland", "return", "4th_house", "quality"]
+      }
+    },
+    {
+      "rule_id": "nirayana_mars_9th_frequent_moves",
+      "name": "Mars in 9th - Frequent Moves Quality",
+      "description": "When Mars is placed in the 9th house, the native experiences frequent moves and relocations driven by ambition, conflict, or restlessness.",
+      "source_text": "Nirayana System p169",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "frequent_moves_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 10,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_in_house",
+            "planet": "Mars",
+            "house": 9,
+            "description": "Mars must be placed in the 9th house"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "mars_dignity",
+            "condition": "weak_or_afflicted",
+            "description": "Weak Mars in 9th intensifies conflict-driven moves"
+          },
+          {
+            "factor": "mars_aspects",
+            "condition": "aspected_by_malefics",
+            "description": "Additional malefic aspects on Mars increase frequency of moves"
+          }
+        ]
+      },
+      "signals": [
+        {
+          "signal": "mars_in_9th",
+          "weight": 0.7
+        },
+        {
+          "signal": "frequent_relocation_pattern",
+          "weight": 0.3
+        }
+      ],
+      "interpretation": {
+        "summary": "Mars in the 9th house produces frequent moves and relocations driven by ambition, conflict, or martial energy.",
+        "detail": "Per Nirayana System p169, Mars in the 9th creates a pattern of frequent relocation driven by the native's aggressive pursuit of goals, conflict with authority, or martial restlessness. Moves are often sudden and impulsive.",
+        "quality_factors": ["frequency", "impulsiveness", "conflict_driven", "ambition"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.77,
+        "confidence": 0.72,
+        "classical_authority": 0.80
+      },
+      "outputs": {
+        "outcome_quality": "frequent_impulsive",
+        "settlement_stability": "low",
+        "material_comfort": "variable",
+        "emotional_satisfaction": "low_to_moderate"
+      },
+      "metadata": {
+        "author": "Nirayana System Authors",
+        "text": "Nirayana System",
+        "page": 169,
+        "tradition": "Jyotish",
+        "tags": ["mars", "9th_house", "frequent_moves", "impulsive", "conflict", "quality"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "calibration_version": "0.1.0",
+  "title": "RelocationCalibrationOverlay",
+  "description": "Calibration overlay schema for relocation/foreign settlement rules. Adjusts confidence, weights, timing, and ranking WITHOUT altering classical rule definitions.",
+  "domain": "relocation",
+  "event_family": "foreign_settlement",
+  "required_fields": ["calibration_version", "domain", "layer_weights", "likelihood_thresholds", "rule_adjustments", "outcome_calibration", "evidence_summary"],
+  "layer_weights_spec": {
+    "description": "Inter-layer weighting for composite score. These are EMPIRICAL not from classical texts.",
+    "fields": {
+      "dasha_weight": "number 0-1, weight of dasha layer in composite score",
+      "transit_weight": "number 0-1, weight of transit layer in composite score",
+      "fast_trigger_weight": "number 0-1, weight of fast trigger layer in composite score",
+      "classical_weight": "number 0-1, weight of classical pattern layer in composite score"
+    }
+  },
+  "likelihood_thresholds_spec": {
+    "description": "Score cutoffs for likelihood bands. EMPIRICAL derived from validation.",
+    "fields": {
+      "very_high": "minimum composite score for very_high band",
+      "high": "minimum composite score for high band",
+      "moderate": "minimum composite score for moderate band",
+      "low": "minimum composite score for low band"
+    }
+  },
+  "rule_adjustments_spec": {
+    "description": "Per-rule calibration adjustments array",
+    "item_fields": {
+      "rule_id": "string, references a rule in dasha/transit/fast_trigger/classical/outcome files",
+      "adjustment_type": "one of: weight, timing, confidence, priority, window",
+      "reason": "string, documented justification for adjustment",
+      "supporting_cases": "integer, number of validated cases supporting this",
+      "conflicting_cases": "integer, number of cases contradicting this"
+    }
+  },
+  "outcome_calibration_spec": {
+    "description": "Calibration for outcome/quality classification conflicts",
+    "fields": {
+      "mode_priority_order": "array of mode strings in descending priority",
+      "quality_priority_order": "array of quality strings in descending priority",
+      "default_mode": "string, fallback mode when no rule fires"
+    }
+  },
+  "evidence_summary_spec": {
+    "description": "Validation evidence tracking",
+    "fields": {
+      "total_cases_tested": "integer",
+      "verified_cases": "integer",
+      "timing_accuracy_top5": "number 0-1",
+      "mode_accuracy": "number 0-1",
+      "average_rank": "number",
+      "last_validation_date": "date string"
+    }
+  }
+}
