@@ -1,0 +1,82 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "finance",
+  "event_family": "financial_crisis_and_debt",
+  "last_updated": "2026-05-24T00:00:00Z",
+  "layer_weights": {
+    "dasha_weight": 0.35,
+    "transit_weight": 0.30,
+    "fast_trigger_weight": 0.20,
+    "classical_weight": 0.15,
+    "_notes": "Financial crisis relies heavily on dasha gates (0.35) as planetary periods define broad crisis windows. Transit layer (0.30) narrows to active crisis months. Fast triggers (0.20) pinpoint exact crisis days. Classical patterns (0.15) provide structural confirmation of natal poverty/debt yoga."
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15,
+    "_notes": "Initial thresholds pending validation against actual financial crisis cases."
+  },
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions. To be populated as rules are validated.",
+    "dasha": {
+      "dusthana_associated_financial_loss": 45,
+      "eighth_lord_financial_crisis": 50,
+      "rahu_dusthana_bankruptcy": 48,
+      "venus_dusthana_business_loss": 42,
+      "rahu_2nd_capital_drain": 40,
+      "jupiter_saturn_industrial_loss": 44,
+      "mercury_dusthana_asset_loss": 38,
+      "saturn_mars_debt_accumulation": 46
+    },
+    "transit": {
+      "saturn_sun_sudden_loss": 44,
+      "jupiter_adverse_moon_loss": 40,
+      "rahu_adverse_moon_instability": 42,
+      "malefic_left_leg_nakshatra": 44
+    },
+    "fast_trigger": {
+      "mars_left_hand_poverty": 35,
+      "sanghatika_debt_trigger": 32,
+      "vinasha_asset_destruction": 38
+    }
+  },
+  "rule_adjustments": [],
+  "outcome_calibration": {
+    "mode_priority_order": [
+      "complete_destitution",
+      "sudden_bankruptcy",
+      "asset_seizure",
+      "speculative_collapse",
+      "hidden_liability",
+      "financial_dysfunction",
+      "tax_burden",
+      "loan_dependency",
+      "litigation_drain",
+      "bad_loans"
+    ],
+    "quality_priority_order": [
+      "challenging",
+      "mixed",
+      "neutral"
+    ],
+    "default_mode": "financial_crisis"
+  },
+  "evidence_summary": {
+    "total_cases_tested": 0,
+    "verified_cases": 0,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.0,
+    "mode_accuracy": 0.0,
+    "quality_accuracy": 0.0,
+    "average_rank": 0.0,
+    "last_validation_date": "2026-05-24"
+  },
+  "governance": {
+    "created_by": "initial_architecture_setup",
+    "adjustment_reason": "Initial calibration overlay for financial crisis and debt domain. All values are baseline pending validation.",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "ZERO cases validated. All scores and thresholds are theoretical. Do NOT apply weight changes until 10+ cases validated."
+  }
+}

@@ -1,0 +1,604 @@
+[
+  {
+    "rule_id": "bphs_royal_punishment_asset_seizure",
+    "name": "Royal Punishment — Government Asset Seizure",
+    "description": "Sun afflicted by Saturn/Rahu in relevant houses indicates asset seizure by government or institutional authority.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "43",
+      "verse": "5-7",
+      "page": "345",
+      "quote": "If the Sun be afflicted by Saturn or Rahu in houses of wealth, the native suffers seizure of assets by royal authority (government).",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["asset_seizure", "government_action"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Sun is afflicted by Saturn or Rahu (conjunction or aspect)"
+      ],
+      "any_of": [
+        "Sun is in 2nd house",
+        "Sun is in 10th house",
+        "Sun is in 11th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2", "10", "11"],
+      "planets": ["Sun", "Saturn", "Rahu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Government or institutional authority seizes assets. Tax raids, penalties, legal confiscation of property. The crisis comes from above, not from market forces.",
+      "mode": "asset_seizure",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.88,
+      "confidence": 0.88,
+      "classical_authority": 0.90
+    },
+    "outputs": {
+      "symbolic_label": "royal_punishment_asset_seizure",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "tax_compliance_legal_audit_asset_protection"
+    },
+    "metadata": {
+      "notes": "Modern interpretation: tax raids, IT notices, regulatory penalties, bank account freezing."
+    }
+  },
+  {
+    "rule_id": "bphs_royal_scion_sudden_bankruptcy",
+    "name": "Royal Scion Sudden Bankruptcy — High Status Collapse",
+    "description": "Strong natal wealth indicators combined with 8th lord activation creates sudden bankruptcy from a position of prosperity.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "43",
+      "verse": "12-14",
+      "page": "348",
+      "quote": "Even a native born in royal family, if the 8th lord is powerful and afflicts the 2nd/11th, shall suddenly lose all wealth and become bankrupt.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["sudden_bankruptcy", "status_collapse"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 92,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "8th lord is strong (exalted, own sign, or in kendra)"
+      ],
+      "any_of": [
+        "8th lord aspects or conjoins 2nd lord",
+        "8th lord aspects or conjoins 11th lord",
+        "8th lord is in 2nd or 11th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2", "8", "11"],
+      "planets": ["8th_lord", "2nd_lord", "11th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Sudden, dramatic fall from prosperity. The crisis is catastrophic and rapid — bankruptcy filing, business collapse, or total asset wipeout from a seemingly stable position.",
+      "mode": "sudden_bankruptcy",
+      "quality": "challenging",
+      "confidence": 0.92
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.92,
+      "confidence": 0.92,
+      "classical_authority": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "sudden_bankruptcy_from_prosperity",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "emergency_asset_diversification_insurance"
+    },
+    "metadata": {
+      "notes": "The 'rags from riches' pattern. Most dangerous because the native is complacent before the crisis."
+    }
+  },
+  {
+    "rule_id": "bphs_5th_9th_dusthana_speculative_collapse",
+    "name": "5th/9th Lords in Dusthana — Speculative Collapse",
+    "description": "Lords of speculation (5th) and fortune (9th) in evil houses create pattern of spectacular speculative failure.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "42",
+      "verse": "25-27",
+      "page": "342",
+      "quote": "When lords of 5th and 9th occupy Dusthanas, the native's speculative ventures collapse spectacularly, bringing massive debt from leveraged positions.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["speculative_collapse", "leveraged_loss"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 86,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Lord of 5th house is in 6th, 8th, or 12th house",
+        "Lord of 9th house is in 6th, 8th, or 12th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5", "6", "8", "9", "12"],
+      "planets": ["5th_lord", "9th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Speculative collapse — stock market losses, failed business ventures, cryptocurrency crashes. The native's speculative intelligence is compromised and luck deserts them at critical moments.",
+      "mode": "speculative_collapse",
+      "quality": "challenging",
+      "confidence": 0.86
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.86,
+      "confidence": 0.86,
+      "classical_authority": 0.88
+    },
+    "outputs": {
+      "symbolic_label": "5th_9th_dusthana_speculative_collapse",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "zero_speculation_conservative_fixed_income_only"
+    },
+    "metadata": {
+      "notes": "Outcome quality: classifies the crisis as speculative in nature. Important for counseling — the native must avoid all forms of speculation."
+    }
+  },
+  {
+    "rule_id": "bphs_arudha_12th_jupiter_taxes",
+    "name": "Jupiter in 12th from Arudha Lagna — Tax Burden Outcome",
+    "description": "Jupiter in 12th from Arudha Lagna classifies financial crisis as primarily tax/regulatory burden driven.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "30",
+      "verse": "8-10",
+      "page": "280",
+      "quote": "Jupiter in the 12th from Arudha Lagna indicates expenditure through taxes, religious obligations, and mandatory payments to authorities.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["tax_burden", "regulatory_cost"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 78,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Jupiter is in the 12th house from Arudha Lagna"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["12_from_arudha"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["arudha_lagna"]
+    },
+    "interpretation": {
+      "meaning": "Financial drain is primarily through taxes, regulatory compliance costs, and institutional obligations. Not a market-driven crisis but a structural overhead crisis.",
+      "mode": "tax_burden",
+      "quality": "challenging",
+      "confidence": 0.80
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.80,
+      "confidence": 0.80,
+      "classical_authority": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "arudha_jupiter_12th_tax_burden",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "tax_planning_restructuring"
+    },
+    "metadata": {
+      "notes": "Jupiter in 12th from AL is charitable/religious expense in traditional texts. Modern interpretation includes tax obligations."
+    }
+  },
+  {
+    "rule_id": "bphs_arudha_12th_mercury_disputes",
+    "name": "Mercury in 12th from Arudha Lagna — Disputes & Litigation Drain",
+    "description": "Mercury in 12th from Arudha Lagna classifies financial crisis as driven by disputes, litigation, and contractual failures.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "30",
+      "verse": "11-13",
+      "page": "281",
+      "quote": "Mercury in the 12th from Arudha Lagna indicates expenditure through litigation, disputes, broken contracts, and communication failures.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["litigation_drain", "contract_failure"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 76,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Mercury is in the 12th house from Arudha Lagna"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["12_from_arudha"],
+      "planets": ["Mercury"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["arudha_lagna"]
+    },
+    "interpretation": {
+      "meaning": "Financial crisis driven by legal disputes, broken contracts, and communication breakdowns. Lawyer fees, settlement costs, and contractual penalties drain wealth.",
+      "mode": "litigation_drain",
+      "quality": "challenging",
+      "confidence": 0.78
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.78,
+      "confidence": 0.78,
+      "classical_authority": 0.82
+    },
+    "outputs": {
+      "symbolic_label": "arudha_mercury_12th_litigation_drain",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "dispute_resolution_contract_review"
+    },
+    "metadata": {
+      "notes": "Mercury=commerce, contracts, communication. In 12th from Arudha these become sources of financial drain."
+    }
+  },
+  {
+    "rule_id": "nirayana_chandra_mangala_8th_hidden_liability",
+    "name": "Moon-Mars in 8th — Hidden Liability Outcome",
+    "description": "Moon-Mars combination in 8th house classifies crisis as hidden liability emergence — debts or obligations the native didn't know existed.",
+    "source_text": {
+      "work_name": "Nirayana System of Astrology",
+      "chapter": "Financial Combinations",
+      "verse": null,
+      "page": null,
+      "quote": "Chandra-Mangala yoga in the 8th house transforms wealth-generating combination into hidden liability. The native discovers debts, guarantees, or obligations previously unknown.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["hidden_liability", "unknown_debt"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 84,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Moon and Mars are in the same sign (conjunct)",
+        "Moon-Mars conjunction is in the 8th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["8"],
+      "planets": ["Moon", "Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Hidden financial liabilities surface — inherited debts, co-signer obligations triggered, undisclosed company liabilities. The crisis comes from below/behind, not from visible sources.",
+      "mode": "hidden_liability",
+      "quality": "challenging",
+      "confidence": 0.84
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.84,
+      "confidence": 0.84,
+      "classical_authority": 0.86
+    },
+    "outputs": {
+      "symbolic_label": "chandra_mangala_8th_hidden_liability",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "full_liability_audit_cosigner_review"
+    },
+    "metadata": {
+      "notes": "Chandra-Mangala in 8th reverses the normally positive wealth yoga into a hidden debt revealer."
+    }
+  },
+  {
+    "rule_id": "nirayana_11th_from_6th_loan_dependency",
+    "name": "11th from 6th Lord Active — Chronic Loan Dependency",
+    "description": "Activation of 11th house from 6th lord position classifies crisis as chronic loan dependency — the native lives on borrowed money.",
+    "source_text": {
+      "work_name": "Nirayana System of Astrology",
+      "chapter": "Debt Combinations",
+      "verse": null,
+      "page": null,
+      "quote": "When the 11th from the 6th lord is activated, gains come only through borrowing. The native becomes perpetually dependent on loans for survival.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["loan_dependency", "chronic_debt"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 80,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "6th lord is strong (in kendra, own sign, or exalted)"
+      ],
+      "any_of": [
+        "Benefic planet in 11th from 6th lord position",
+        "11th house from 6th lord is aspected by Jupiter"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["6", "11_from_6th_lord"],
+      "planets": ["6th_lord", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Chronic debt dependency — the native cannot function without borrowed money. EMIs, credit cards, personal loans become the primary income source. A debt spiral.",
+      "mode": "loan_dependency",
+      "quality": "challenging",
+      "confidence": 0.80
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.80,
+      "confidence": 0.80,
+      "classical_authority": 0.82
+    },
+    "outputs": {
+      "symbolic_label": "11th_from_6th_chronic_loan_dependency",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "debt_consolidation_credit_counseling"
+    },
+    "metadata": {
+      "notes": "Modern relevance: credit card debt cycles, EMI traps, personal loan spirals."
+    }
+  },
+  {
+    "rule_id": "nirayana_shani_2nd_hostile_financial_dysfunction",
+    "name": "Saturn in 2nd Hostile Sign — Financial Dysfunction",
+    "description": "Saturn in 2nd house in an enemy or debilitated sign creates systematic financial dysfunction — earnings are blocked or immediately consumed.",
+    "source_text": {
+      "work_name": "Nirayana System of Astrology",
+      "chapter": "Wealth Destruction",
+      "verse": null,
+      "page": null,
+      "quote": "Saturn in the 2nd house in hostile dignity creates a pattern where wealth is systematically denied or immediately consumed by obligations. The native earns but cannot save.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["financial_dysfunction", "savings_blocked"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 82,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Saturn is placed in the 2nd house"
+      ],
+      "any_of": [
+        "Saturn is in debilitation (Aries)",
+        "Saturn is in enemy sign (Sun's or Moon's signs)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2"],
+      "planets": ["Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn restricts and delays the 2nd house matters (savings, family wealth, speech). In hostile dignity this becomes active financial dysfunction — every earning is immediately consumed.",
+      "mode": "financial_dysfunction",
+      "quality": "challenging",
+      "confidence": 0.82
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.82,
+      "confidence": 0.82,
+      "classical_authority": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "saturn_2nd_hostile_financial_dysfunction",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "automated_savings_before_access"
+    },
+    "metadata": {
+      "notes": "Saturn in 2nd is generally challenging for wealth. In hostile dignity the effect is magnified to active dysfunction."
+    }
+  },
+  {
+    "rule_id": "nirayana_surya_6th_bad_loans_bribery",
+    "name": "Sun in 6th — Bad Loans & Bribery Losses",
+    "description": "Sun in 6th house classifies financial crisis as driven by bad loans given to others and losses through corruption/bribery.",
+    "source_text": {
+      "work_name": "Nirayana System of Astrology",
+      "chapter": "Debt Patterns",
+      "verse": null,
+      "page": null,
+      "quote": "Sun in the 6th creates a pattern where the native loses money through bad loans to others, bribes to officials, and authoritarian exploitation.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["bad_loans", "bribery_loss", "corruption"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 75,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Sun is placed in the 6th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["6"],
+      "planets": ["Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Financial losses through lending money that's never returned, paying bribes/facilitation fees, and being exploited by authority figures. The native's generosity or naivety is weaponized against them.",
+      "mode": "bad_loans",
+      "quality": "challenging",
+      "confidence": 0.78
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.78,
+      "confidence": 0.78,
+      "classical_authority": 0.80
+    },
+    "outputs": {
+      "symbolic_label": "sun_6th_bad_loans_bribery",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "never_lend_money_document_all_payments"
+    },
+    "metadata": {
+      "notes": "Sun in 6th — authority + enemies house. Creates losses through misplaced trust in authority figures and lending."
+    }
+  },
+  {
+    "rule_id": "bphs_weak_10th_3rd_9th_begging",
+    "name": "Weak 10th + 3rd/9th Afflicted — Reduced to Begging",
+    "description": "Extremely weak 10th house combined with afflicted 3rd and 9th indicates complete financial collapse to the point of begging.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "43",
+      "verse": "30-32",
+      "page": "355",
+      "quote": "If the 10th lord is weak and the 3rd and 9th are afflicted by malefics without benefic support, the native is reduced to begging and complete dependence on others.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["complete_destitution", "begging"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 95,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "10th lord is weak (debilitated, combust, or in 6th/8th/12th)"
+      ],
+      "any_of": [
+        "3rd house or 3rd lord is afflicted by malefics without benefic aspect",
+        "9th house or 9th lord is afflicted by malefics without benefic aspect"
+      ],
+      "none_of": [
+        "Jupiter aspects 10th house or 10th lord",
+        "Venus aspects 10th house or 10th lord"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["3", "9", "10"],
+      "planets": ["10th_lord", "3rd_lord", "9th_lord", "Jupiter", "Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The most extreme outcome classification. Complete loss of livelihood (10th), self-effort capacity (3rd), and fortune (9th). The native becomes entirely dependent on others for survival.",
+      "mode": "complete_destitution",
+      "quality": "challenging",
+      "confidence": 0.90
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.90,
+      "confidence": 0.90,
+      "classical_authority": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "weak_10th_3rd_9th_complete_destitution",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "emergency_support_network_government_assistance"
+    },
+    "metadata": {
+      "notes": "Most severe poverty outcome in BPHS. Indicates need for immediate social safety net activation."
+    }
+  }
+]

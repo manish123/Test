@@ -1,0 +1,254 @@
+[
+  {
+    "rule_id": "transit_saturn_sun_sudden_loss",
+    "name": "Saturn Transit on Natal Sun — Sudden Financial Loss",
+    "description": "Saturn transiting over natal Sun degree causes sudden financial loss and authority collapse.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "65",
+      "verse": "2-4",
+      "page": "712",
+      "quote": "When Saturn transits on the natal Sun, the native suffers sudden loss of wealth, authority, and faces obstacles from government.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["sudden_loss", "authority_collapse"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 90,
+    "polarity": "challenging",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Saturn is transiting within 5° orb of natal Sun degree"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn"],
+      "houses": [],
+      "planets": ["Saturn", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["natal_sun_degree"]
+    },
+    "interpretation": {
+      "meaning": "Saturn's heavy transit over the Sun crushes vitality, authority, and financial power. Government penalties, loss of position, and sudden wealth destruction are indicated.",
+      "mode": "sudden_loss",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 45,
+      "confidence_decay_days": 90
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.92,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "saturn_sun_sudden_financial_loss",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "protect_assets_avoid_government_dealings"
+    },
+    "metadata": {
+      "notes": "Saturn-Sun conjunction in transit is one of the most feared combinations for financial collapse. Orb of 5° applies."
+    }
+  },
+  {
+    "rule_id": "transit_jupiter_8_9_12_from_moon_loss",
+    "name": "Jupiter Transit 8/9/12 from Moon — Financial Loss Period",
+    "description": "Jupiter transiting 8th, 9th, or 12th house from natal Moon creates a period of financial loss despite seeming optimism.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "65",
+      "verse": "8-12",
+      "page": "714",
+      "quote": "Jupiter in 8th, 9th, or 12th from Moon in transit gives loss of wealth, false hopes, and expenditure beyond means.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["financial_loss", "over_expenditure"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Jupiter is transiting the 8th, 9th, or 12th house from natal Moon sign"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["8", "9", "12"],
+      "planets": ["Jupiter", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["natal_moon_sign"]
+    },
+    "interpretation": {
+      "meaning": "Jupiter in unfavorable houses from Moon creates illusory expansion leading to real financial loss. The native overestimates capacity and overspends.",
+      "mode": "over_expenditure",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 395,
+      "exact_window_days": 0,
+      "confidence_decay_days": 120
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.88,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_adverse_moon_financial_loss",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "avoid_large_investments_control_spending"
+    },
+    "metadata": {
+      "notes": "Jupiter is not always benefic in transit. In 8/9/12 from Moon it creates false optimism leading to loss."
+    }
+  },
+  {
+    "rule_id": "transit_rahu_from_moon_financial_loss",
+    "name": "Rahu Transit 2/5/7/9/12 from Moon — Financial Instability",
+    "description": "Rahu transiting 2nd, 5th, 7th, 9th, or 12th house from natal Moon brings financial instability and deception-related losses.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "65",
+      "verse": "15-18",
+      "page": "716",
+      "quote": "Rahu in 2nd, 5th, 7th, 9th, or 12th from Moon causes financial loss through deception, speculation failure, and partner betrayal.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["financial_instability", "deception_loss", "speculative_loss"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 87,
+    "polarity": "challenging",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Rahu is transiting the 2nd, 5th, 7th, 9th, or 12th house from natal Moon sign"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Rahu"],
+      "houses": ["2", "5", "7", "9", "12"],
+      "planets": ["Rahu", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": ["natal_moon_sign"]
+    },
+    "interpretation": {
+      "meaning": "Rahu in adverse houses from Moon creates financial chaos through deception, failed speculation, and unexpected betrayals in financial partnerships.",
+      "mode": "deception_loss",
+      "quality": "challenging",
+      "confidence": 0.87
+    },
+    "window": {
+      "broad_window_days": 548,
+      "exact_window_days": 0,
+      "confidence_decay_days": 180
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.90,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "rahu_adverse_moon_financial_instability",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "avoid_partnerships_speculation_verify_all_dealings"
+    },
+    "metadata": {
+      "notes": "Rahu's shadowy nature amplifies deception and illusion in financial matters when transiting adverse houses from Moon."
+    }
+  },
+  {
+    "rule_id": "transit_malefics_left_leg_nakshatras",
+    "name": "Saturn/Rahu/Ketu in 9-11th Nakshatra from Janma — Financial Destruction",
+    "description": "Saturn, Rahu, or Ketu transiting through the 9th to 11th nakshatra from Janma Nakshatra (Left Leg nakshatras in SBC) triggers financial destruction.",
+    "source_text": {
+      "work_name": "Nirayana System of Astrology",
+      "chapter": "Sarvatobhadra Chakra",
+      "verse": "Transit Section",
+      "page": null,
+      "quote": "When Saturn, Rahu, or Ketu transit the 9th to 11th nakshatras from Janma Nakshatra (left leg position in SBC), severe financial destruction manifests.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["financial_destruction", "asset_loss"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Saturn, Rahu, or Ketu is transiting the 9th, 10th, or 11th nakshatra counted from Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Saturn", "Rahu", "Ketu"],
+      "houses": [],
+      "planets": ["Saturn", "Rahu", "Ketu"],
+      "nakshatra": ["janma_nakshatra_plus_9", "janma_nakshatra_plus_10", "janma_nakshatra_plus_11"],
+      "d9": [],
+      "sensitive_points": ["janma_nakshatra"]
+    },
+    "interpretation": {
+      "meaning": "The left leg nakshatras (9-11 from Janma) represent the foundation of material support. Slow malefics here destroy financial stability systematically.",
+      "mode": "financial_destruction",
+      "quality": "challenging",
+      "confidence": 0.86
+    },
+    "window": {
+      "broad_window_days": 548,
+      "exact_window_days": 30,
+      "confidence_decay_days": 150
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.90,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "malefic_left_leg_nakshatra_financial_destruction",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "emergency_asset_protection_minimize_exposure"
+    },
+    "metadata": {
+      "notes": "SBC left-leg nakshatras are critical vulnerability points. Slow malefics here indicate prolonged financial destruction phase."
+    }
+  }
+]
