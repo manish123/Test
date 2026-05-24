@@ -1,0 +1,191 @@
+[
+  {
+    "rule_id": "fast_trigger_mars_left_hand_poverty",
+    "name": "Mars in 12-15th Nakshatra from Janma — Poverty Trigger",
+    "description": "Mars transiting the 12th to 15th nakshatra from Janma Nakshatra (left hand position in SBC) triggers acute poverty and financial emergency.",
+    "source_text": {
+      "work_name": "Nirayana System of Astrology",
+      "chapter": "Sarvatobhadra Chakra",
+      "verse": "Fast Transit Section",
+      "page": null,
+      "quote": "Mars transiting the 12th to 15th nakshatras from Janma (left hand in SBC) brings sudden poverty, loss of savings, and acute financial distress within days.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["poverty_trigger", "acute_loss"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 90,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Mars is transiting the 12th, 13th, 14th, or 15th nakshatra counted from Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mars"],
+      "houses": [],
+      "planets": ["Mars"],
+      "nakshatra": ["janma_nakshatra_plus_12", "janma_nakshatra_plus_13", "janma_nakshatra_plus_14", "janma_nakshatra_plus_15"],
+      "d9": [],
+      "sensitive_points": ["janma_nakshatra"]
+    },
+    "interpretation": {
+      "meaning": "Mars in the left-hand nakshatras from Janma acts as a fast trigger for poverty. When dasha and transit layers are already active, Mars pinpoints the exact day/week of financial crisis.",
+      "mode": "acute_loss",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 14,
+      "confidence_decay_days": 7
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.95,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mars_left_hand_poverty_fast_trigger",
+      "likelihood_band": "very_high",
+      "timing_band": "exact",
+      "recommended_action": "emergency_liquidity_hold_no_transactions"
+    },
+    "metadata": {
+      "notes": "Mars moves quickly (~2 days per nakshatra), making it an ideal fast trigger for exact timing of financial crisis events."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_sanghatika_nakshatra_debt",
+    "name": "Moon/Mars on 16th Nakshatra (Sanghatika) — Debt Trigger",
+    "description": "Moon or Mars transiting the 16th nakshatra from Janma (Sanghatika nakshatra) triggers sudden debt accumulation and forced borrowing.",
+    "source_text": {
+      "work_name": "Nirayana System of Astrology",
+      "chapter": "Sarvatobhadra Chakra",
+      "verse": "Sanghatika Nakshatra",
+      "page": null,
+      "quote": "The 16th nakshatra from Janma is Sanghatika (collective). Moon or Mars here brings collective financial obligations, forced debt, and obligations to creditors.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["debt_trigger", "forced_borrowing"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Moon or Mars is transiting the 16th nakshatra counted from Janma Nakshatra (Sanghatika position)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon", "Mars"],
+      "houses": [],
+      "planets": ["Moon", "Mars"],
+      "nakshatra": ["janma_nakshatra_plus_16"],
+      "d9": [],
+      "sensitive_points": ["janma_nakshatra", "sanghatika_nakshatra"]
+    },
+    "interpretation": {
+      "meaning": "Sanghatika nakshatra activation by fast movers (Moon/Mars) crystallizes latent debt tendencies into actual borrowing events. The native is forced into financial obligations.",
+      "mode": "debt_trigger",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 3,
+      "confidence_decay_days": 2
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.92,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sanghatika_debt_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "avoid_signing_loan_documents_delay_commitments"
+    },
+    "metadata": {
+      "notes": "Sanghatika (16th from Janma) represents collective/social obligations. Financial interpretation: forced debt through social or institutional pressure."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_vinasha_nakshatra_asset_loss",
+    "name": "Moon/Mars on 23rd Nakshatra (Vinasha) — Asset Destruction Trigger",
+    "description": "Moon or Mars transiting the 23rd nakshatra from Janma (Vinasha/destruction nakshatra) triggers asset destruction and irreversible financial loss.",
+    "source_text": {
+      "work_name": "Nirayana System of Astrology",
+      "chapter": "Sarvatobhadra Chakra",
+      "verse": "Vinasha Nakshatra",
+      "page": null,
+      "quote": "The 23rd nakshatra from Janma is Vinasha (destruction). Moon or Mars here causes destruction of assets, irreversible losses, and financial ruin.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["asset_destruction", "irreversible_loss"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 92,
+    "polarity": "challenging",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Moon or Mars is transiting the 23rd nakshatra counted from Janma Nakshatra (Vinasha position)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon", "Mars"],
+      "houses": [],
+      "planets": ["Moon", "Mars"],
+      "nakshatra": ["janma_nakshatra_plus_23"],
+      "d9": [],
+      "sensitive_points": ["janma_nakshatra", "vinasha_nakshatra"]
+    },
+    "interpretation": {
+      "meaning": "Vinasha nakshatra is the destruction point. Fast transits (Moon/Mars) here during active crisis windows trigger the actual moment of asset loss — foreclosure, seizure, or irreversible financial destruction.",
+      "mode": "asset_destruction",
+      "quality": "challenging",
+      "confidence": 0.90
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 3,
+      "confidence_decay_days": 2
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.95,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "vinasha_asset_destruction_trigger",
+      "likelihood_band": "very_high",
+      "timing_band": "exact",
+      "recommended_action": "emergency_protect_remaining_assets"
+    },
+    "metadata": {
+      "notes": "Vinasha (23rd from Janma) is the most destructive nakshatra position. When dasha+transit are active, this is the final pinpoint trigger."
+    }
+  }
+]

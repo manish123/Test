@@ -1,0 +1,480 @@
+[
+  {
+    "rule_id": "bphs_2nd_11th_lords_evil_houses_poverty",
+    "name": "2nd & 11th Lords in Evil Houses — Poverty Yoga",
+    "description": "Lords of 2nd and 11th houses placed in 6th, 8th, or 12th create structural poverty yoga.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "42",
+      "verse": "3-5",
+      "page": "330",
+      "quote": "If the lords of the 2nd and 11th are placed in evil houses (6th, 8th, 12th), the native will be poverty-stricken throughout life.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["poverty", "chronic_financial_weakness"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 90,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Lord of 2nd house is placed in 6th, 8th, or 12th house",
+        "Lord of 11th house is placed in 6th, 8th, or 12th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2", "6", "8", "11", "12"],
+      "planets": ["2nd_lord", "11th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Both wealth houses (2nd=savings, 11th=gains) are destroyed when their lords occupy houses of debt, crisis, and loss. Structural poverty is indicated from birth.",
+      "mode": "poverty",
+      "quality": "challenging",
+      "confidence": 0.92
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.90,
+      "confidence": 0.92,
+      "classical_authority": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "2nd_11th_lords_dusthana_poverty_yoga",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "structural_wealth_remediation_required"
+    },
+    "metadata": {
+      "notes": "Fundamental BPHS poverty combination. When both wealth houses are compromised, financial crises become recurring."
+    }
+  },
+  {
+    "rule_id": "bphs_2nd_11th_lords_mars_rahu_insolvency",
+    "name": "2nd & 11th Lords with Mars/Rahu — Insolvency Yoga",
+    "description": "Lords of 2nd and 11th houses associated with Mars and Rahu create insolvency through aggression and deception.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "42",
+      "verse": "6-8",
+      "page": "331",
+      "quote": "If the lords of the 2nd and 11th are associated with Mars and Rahu, the native faces insolvency, debts through aggression, and losses through deception.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["insolvency", "aggressive_loss", "deception_loss"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Lord of 2nd house is conjunct or aspected by Mars or Rahu",
+        "Lord of 11th house is conjunct or aspected by Mars or Rahu"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2", "11"],
+      "planets": ["2nd_lord", "11th_lord", "Mars", "Rahu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mars brings aggression and impulsive spending; Rahu brings deception and speculative loss. Together they contaminate both wealth houses, creating insolvency patterns.",
+      "mode": "insolvency",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.88,
+      "confidence": 0.88,
+      "classical_authority": 0.90
+    },
+    "outputs": {
+      "symbolic_label": "2nd_11th_mars_rahu_insolvency_yoga",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "avoid_aggressive_investments_verify_all_partners"
+    },
+    "metadata": {
+      "notes": "Mars-Rahu combination (Angarak Yoga variant) applied to wealth houses creates systematic insolvency."
+    }
+  },
+  {
+    "rule_id": "bphs_ascendant_12th_exchange_poverty",
+    "name": "Ascendant-12th House Exchange — Self-Created Poverty",
+    "description": "Exchange between 1st lord and 12th lord creates self-destructive spending and poverty through personal choices.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "42",
+      "verse": "10-11",
+      "page": "332",
+      "quote": "If the lord of the Lagna exchanges with the lord of the 12th, the native destroys his own wealth through excessive spending and poor choices.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["self_destruction", "excessive_spending"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 86,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Lord of 1st house is in the 12th house",
+        "Lord of 12th house is in the 1st house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1", "12"],
+      "planets": ["1st_lord", "12th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The self (1st) is bound to loss (12th). The native creates poverty through their own decisions — excessive generosity, wasteful spending, or self-sabotage.",
+      "mode": "self_destruction",
+      "quality": "challenging",
+      "confidence": 0.86
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.86,
+      "confidence": 0.86,
+      "classical_authority": 0.88
+    },
+    "outputs": {
+      "symbolic_label": "lagna_12th_exchange_self_poverty",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "financial_discipline_external_oversight"
+    },
+    "metadata": {
+      "notes": "Parivartana yoga between 1st and 12th is one of the clearest indicators of self-inflicted financial difficulties."
+    }
+  },
+  {
+    "rule_id": "bphs_ascendant_lord_8th_ketu_poverty",
+    "name": "Ascendant Lord in 8th with Ketu — Hidden Poverty",
+    "description": "Lagna lord in 8th house with Ketu creates hidden financial destruction and sudden unexpected losses.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "42",
+      "verse": "14-15",
+      "page": "336",
+      "quote": "If the lord of the Lagna occupies the 8th with Ketu, the native shall suffer sudden poverty from hidden causes and unexpected financial destruction.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["sudden_poverty", "hidden_loss"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 87,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Lord of 1st house is in the 8th house",
+        "Ketu is conjunct the 1st lord in 8th house (same sign)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1", "8"],
+      "planets": ["1st_lord", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Lagna lord (self) trapped in the 8th (sudden events) with Ketu (detachment, hidden forces) creates a pattern where wealth is destroyed through mysterious, untraceable channels.",
+      "mode": "sudden_poverty",
+      "quality": "challenging",
+      "confidence": 0.87
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.87,
+      "confidence": 0.87,
+      "classical_authority": 0.90
+    },
+    "outputs": {
+      "symbolic_label": "lagna_lord_8th_ketu_hidden_poverty",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "audit_hidden_liabilities_insurance_review"
+    },
+    "metadata": {
+      "notes": "Ketu's nature of sudden severance combined with 8th house transformation creates 'out of nowhere' financial collapses."
+    }
+  },
+  {
+    "rule_id": "bphs_5th_9th_lords_6th_12th_speculative_loss",
+    "name": "5th & 9th Lords in 6th/12th — Speculative Loss Yoga",
+    "description": "Lords of 5th (speculation) and 9th (fortune) placed in 6th or 12th create patterns of speculative financial loss.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "42",
+      "verse": "18-20",
+      "page": "338",
+      "quote": "If the lords of the 5th and 9th are placed in the 6th or 12th, the native loses wealth through speculation, gambling, and misplaced trust in fortune.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["speculative_loss", "gambling_loss"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Lord of 5th house is placed in 6th or 12th house",
+        "Lord of 9th house is placed in 6th or 12th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["5", "6", "9", "12"],
+      "planets": ["5th_lord", "9th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "5th house rules speculation and intelligence; 9th rules fortune. When both are in houses of debt/loss, speculative ventures consistently fail and fortune turns hostile.",
+      "mode": "speculative_loss",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.85,
+      "confidence": 0.85,
+      "classical_authority": 0.88
+    },
+    "outputs": {
+      "symbolic_label": "5th_9th_dusthana_speculative_loss_yoga",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "avoid_speculation_stock_market_gambling"
+    },
+    "metadata": {
+      "notes": "Strong indicator of consistent speculative failure. The native should be counseled against all forms of financial speculation."
+    }
+  },
+  {
+    "rule_id": "bphs_mars_saturn_2nd_wealth_destruction",
+    "name": "Mars-Saturn in 2nd House — Wealth Destruction Yoga",
+    "description": "Mars and Saturn together in the 2nd house systematically destroy accumulated wealth through conflict and restriction.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "42",
+      "verse": "22-23",
+      "page": "340",
+      "quote": "Mars and Saturn in the 2nd house destroy family wealth through aggression, litigation, and restrictive circumstances beyond the native's control.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["wealth_destruction", "litigation_loss"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 89,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Mars is placed in the 2nd house",
+        "Saturn is placed in the 2nd house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2"],
+      "planets": ["Mars", "Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mars (aggression, impulse) and Saturn (restriction, denial) in the house of wealth create a destructive cycle: impulsive spending followed by severe restriction, litigation expenses, and systematic erosion of savings.",
+      "mode": "wealth_destruction",
+      "quality": "challenging",
+      "confidence": 0.90
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.90,
+      "confidence": 0.90,
+      "classical_authority": 0.92
+    },
+    "outputs": {
+      "symbolic_label": "mars_saturn_2nd_wealth_destruction_yoga",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "litigation_avoidance_savings_protection"
+    },
+    "metadata": {
+      "notes": "One of the most feared natal combinations for financial stability. Mars-Saturn in 2nd often manifests as recurring lawsuits draining wealth."
+    }
+  },
+  {
+    "rule_id": "jp_moon_rahu_ketu_malefic_poverty",
+    "name": "Moon with Rahu/Ketu + Malefic Aspect — Chronic Poverty",
+    "description": "Moon conjunct Rahu or Ketu and aspected by malefic creates chronic poverty through mental instability and poor financial decisions.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "12",
+      "verse": "45-47",
+      "page": null,
+      "quote": "Moon conjoined with Rahu or Ketu and aspected by a malefic planet renders the native chronically poor, mentally unstable in financial matters, and unable to retain wealth.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["chronic_poverty", "mental_instability_loss"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 84,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Moon is conjunct Rahu or Ketu (same sign)"
+      ],
+      "any_of": [
+        "Moon is aspected by Saturn",
+        "Moon is aspected by Mars",
+        "Moon is aspected by Sun (combust Moon)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": ["Moon", "Rahu", "Ketu", "Saturn", "Mars", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Afflicted Moon (mind) with nodes creates financial confusion and inability to make sound financial decisions. The native repeatedly makes poor choices driven by anxiety or illusion.",
+      "mode": "chronic_poverty",
+      "quality": "challenging",
+      "confidence": 0.84
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.84,
+      "confidence": 0.84,
+      "classical_authority": 0.86
+    },
+    "outputs": {
+      "symbolic_label": "moon_nodes_malefic_chronic_poverty",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "financial_counseling_automated_savings"
+    },
+    "metadata": {
+      "notes": "Jataka Parijata emphasizes the mind-wealth connection. Afflicted Moon damages the decision-making capacity for finances."
+    }
+  },
+  {
+    "rule_id": "jp_moon_weak_varga_jupiter_dusthana",
+    "name": "Moon Weak in Vargas + Jupiter in Dusthana — No Wealth Retention",
+    "description": "Moon weak in divisional charts combined with Jupiter in 6th/8th/12th prevents any meaningful wealth accumulation.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "12",
+      "verse": "50-52",
+      "page": null,
+      "quote": "If Moon is weak in Varga charts and Jupiter occupies a Dusthana, the native cannot retain wealth. Money flows away like water regardless of income level.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "financial_crisis_and_debt",
+    "event_subtype": ["no_retention", "chronic_leakage"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 82,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Jupiter is placed in 6th, 8th, or 12th house"
+      ],
+      "any_of": [
+        "Moon is in debilitation (Scorpio)",
+        "Moon is in enemy sign",
+        "Moon is in dark half (Krishna Paksha) and waning"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["6", "8", "12"],
+      "planets": ["Moon", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Jupiter (Dhana Karaka) in Dusthana removes wealth-generating capacity. Weak Moon removes the mental stability to retain whatever comes. Together they create a sieve-like financial pattern.",
+      "mode": "chronic_leakage",
+      "quality": "challenging",
+      "confidence": 0.82
+    },
+    "window": null,
+    "weights": {
+      "base_weight": 0.82,
+      "confidence": 0.82,
+      "classical_authority": 0.84
+    },
+    "outputs": {
+      "symbolic_label": "moon_weak_jupiter_dusthana_no_retention",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "forced_savings_mechanisms_fixed_deposits"
+    },
+    "metadata": {
+      "notes": "Jupiter in Dusthana is a significant poverty indicator by itself. Combined with weak Moon it becomes nearly insurmountable without remedial measures."
+    }
+  }
+]
