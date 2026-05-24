@@ -1,1 +1,542 @@
-[]
+{
+  "domain": "relocation",
+  "event_family": "foreign_settlement",
+  "file_type": "classical_patterns",
+  "version": "1.0.0",
+  "rules": [
+    {
+      "rule_id": "jp_12th_lord_permanent_foreign",
+      "name": "12th Lord Weak with Venus Aspect - Permanent Foreign Settlement",
+      "description": "When the 12th lord is weak and receives the aspect of Venus, the native permanently settles in a foreign land.",
+      "source_text": "Jataka Parijata 15:23",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "permanent_settlement",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 1,
+      "polarity": "neutral",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "lord_of_house",
+            "house": 12,
+            "condition": "weak",
+            "description": "12th lord must be in a weak state (debilitated, combust, or in enemy sign)"
+          },
+          {
+            "factor": "aspect",
+            "from_planet": "Venus",
+            "to_factor": "lord_of_12th",
+            "description": "Venus must aspect the 12th lord"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {
+          "signal": "12th_lord_weak",
+          "weight": 0.6
+        },
+        {
+          "signal": "venus_aspect_12th_lord",
+          "weight": 0.4
+        }
+      ],
+      "interpretation": {
+        "summary": "Permanent settlement in a foreign country is indicated when the 12th lord is weak and aspected by Venus.",
+        "detail": "Per Jataka Parijata 15:23, the weakness of the 12th lord severs ties to the homeland while Venus's aspect ensures the foreign settlement is comfortable and enduring.",
+        "classical_context": "Jataka Parijata emphasizes the 12th house as the house of foreign lands and expenditure. A weak lord indicates displacement from homeland."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.85,
+        "confidence": 0.75,
+        "classical_authority": 0.9
+      },
+      "outputs": {
+        "prediction": "permanent_foreign_settlement",
+        "quality": "comfortable",
+        "duration": "permanent"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 15,
+        "verse": 23,
+        "tradition": "Jyotish",
+        "tags": ["12th_lord", "venus", "foreign_settlement", "permanent"]
+      }
+    },
+    {
+      "rule_id": "jp_moveable_lagna_foreign_fortune",
+      "name": "Moveable Lagna with Lord in Moveable Sign - Fortune Abroad",
+      "description": "When the Lagna is a moveable sign and its lord is placed in another moveable sign, the native finds fortune in foreign lands.",
+      "source_text": "Jataka Parijata 15:26",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "foreign_prosperity",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 2,
+      "polarity": "benefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "lagna_sign_type",
+            "condition": "moveable",
+            "signs": ["Aries", "Cancer", "Libra", "Capricorn"],
+            "description": "Lagna must be a moveable (cardinal) sign"
+          },
+          {
+            "factor": "lagna_lord_sign_type",
+            "condition": "moveable",
+            "description": "Lord of Lagna must be placed in a moveable sign"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {
+          "signal": "moveable_lagna",
+          "weight": 0.5
+        },
+        {
+          "signal": "lagna_lord_in_moveable",
+          "weight": 0.5
+        }
+      ],
+      "interpretation": {
+        "summary": "Fortune and prosperity are found abroad when the Lagna is moveable and its lord occupies another moveable sign.",
+        "detail": "Per Jataka Parijata 15:26, the double moveable emphasis creates a powerful indication for travel and relocation that brings wealth and success in foreign lands.",
+        "classical_context": "Moveable signs (Aries, Cancer, Libra, Capricorn) are associated with movement, travel, and change of residence in classical Jyotish."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.80,
+        "confidence": 0.78,
+        "classical_authority": 0.9
+      },
+      "outputs": {
+        "prediction": "fortune_in_foreign_land",
+        "quality": "prosperous",
+        "duration": "long_term"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 15,
+        "verse": 26,
+        "tradition": "Jyotish",
+        "tags": ["moveable_signs", "lagna", "foreign_fortune", "prosperity"]
+      }
+    },
+    {
+      "rule_id": "bphs_12th_house_wandering",
+      "name": "Afflicted 12th House - Wandering Country to Country",
+      "description": "When the 12th house is afflicted by malefics, the native wanders from country to country without stable settlement.",
+      "source_text": "BPHS 12:11",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "unstable_wandering",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 3,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "house_affliction",
+            "house": 12,
+            "condition": "afflicted_by_malefics",
+            "description": "12th house must be afflicted by malefic planets (Saturn, Mars, Rahu, Ketu)"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "12th_lord_condition",
+            "condition": "weak_or_afflicted",
+            "description": "12th lord also weak or afflicted strengthens the indication"
+          }
+        ]
+      },
+      "signals": [
+        {
+          "signal": "12th_house_malefic_affliction",
+          "weight": 0.7
+        },
+        {
+          "signal": "12th_lord_weak",
+          "weight": 0.3
+        }
+      ],
+      "interpretation": {
+        "summary": "Affliction to the 12th house causes the native to wander restlessly from country to country.",
+        "detail": "Per BPHS 12:11, when malefics afflict the 12th house, the native cannot find stable settlement abroad and moves repeatedly between countries without finding a permanent home.",
+        "classical_context": "Brihat Parashara Hora Shastra identifies the 12th house as governing foreign lands, losses, and exile. Malefic affliction destabilizes any foreign residence."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.82,
+        "confidence": 0.80,
+        "classical_authority": 0.95
+      },
+      "outputs": {
+        "prediction": "unstable_wandering_abroad",
+        "quality": "difficult",
+        "duration": "repeated_cycles"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 12,
+        "verse": 11,
+        "tradition": "Jyotish",
+        "tags": ["12th_house", "affliction", "wandering", "unstable"]
+      }
+    },
+    {
+      "rule_id": "horasara_abhi_yoga_wandering",
+      "name": "Lagna Lord in 12th + Malefic 10th + Moon-Mars - Exile/Wandering",
+      "description": "When the Lagna lord is in the 12th house, a malefic occupies the 10th house, and Moon-Mars conjunction exists, the native faces exile and wandering.",
+      "source_text": "Hora Sara v117 p268",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "exile_wandering",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 4,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "lagna_lord_placement",
+            "house": 12,
+            "description": "Lagna lord must be placed in the 12th house"
+          },
+          {
+            "factor": "malefic_in_house",
+            "house": 10,
+            "description": "A malefic planet must occupy the 10th house"
+          },
+          {
+            "factor": "conjunction",
+            "planets": ["Moon", "Mars"],
+            "description": "Moon and Mars must be in conjunction"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {
+          "signal": "lagna_lord_in_12th",
+          "weight": 0.4
+        },
+        {
+          "signal": "malefic_in_10th",
+          "weight": 0.3
+        },
+        {
+          "signal": "moon_mars_conjunction",
+          "weight": 0.3
+        }
+      ],
+      "interpretation": {
+        "summary": "The combination of Lagna lord in 12th, malefic in 10th, and Moon-Mars conjunction produces exile and forced wandering.",
+        "detail": "Per Hora Sara v117 p268, this Abhi Yoga combination creates conditions where the native is forced into exile, wandering far from their homeland under difficult circumstances.",
+        "classical_context": "Hora Sara describes this as a yoga of displacement where the self (Lagna lord) is lost to foreign lands (12th), career (10th) is afflicted, and the mind-body (Moon-Mars) is agitated."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.78,
+        "confidence": 0.72,
+        "classical_authority": 0.85
+      },
+      "outputs": {
+        "prediction": "exile_and_wandering",
+        "quality": "difficult",
+        "duration": "prolonged"
+      },
+      "metadata": {
+        "author": "Prithuyasas",
+        "text": "Hora Sara",
+        "verse": 117,
+        "page": 268,
+        "tradition": "Jyotish",
+        "tags": ["lagna_lord", "12th_house", "exile", "moon_mars", "abhi_yoga"]
+      }
+    },
+    {
+      "rule_id": "jp_12th_lord_beautiful_sojourn",
+      "name": "Strong 12th Lord with Benefic Aspects - Beautiful Foreign Lands",
+      "description": "When the 12th lord is strong and receives aspects from benefic planets, the native sojourns in beautiful foreign lands.",
+      "source_text": "Jataka Parijata 15:24",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "luxurious_sojourn",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 5,
+      "polarity": "benefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "lord_of_house",
+            "house": 12,
+            "condition": "strong",
+            "description": "12th lord must be strong (exalted, in own sign, or in friendly sign)"
+          },
+          {
+            "factor": "benefic_aspects",
+            "to_factor": "lord_of_12th",
+            "benefics": ["Jupiter", "Venus", "Mercury", "Moon"],
+            "description": "Benefic planets must aspect the 12th lord"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {
+          "signal": "12th_lord_strong",
+          "weight": 0.5
+        },
+        {
+          "signal": "benefic_aspects_on_12th_lord",
+          "weight": 0.5
+        }
+      ],
+      "interpretation": {
+        "summary": "A strong 12th lord with benefic aspects indicates sojourning in beautiful and pleasant foreign lands.",
+        "detail": "Per Jataka Parijata 15:24, when the 12th lord is dignified and blessed by benefic aspects, the native's foreign experiences are luxurious, pleasant, and in aesthetically beautiful locations.",
+        "classical_context": "The strength of the 12th lord determines the quality of foreign experience. Benefic aspects ensure comfort, beauty, and positive outcomes in foreign lands."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.83,
+        "confidence": 0.77,
+        "classical_authority": 0.9
+      },
+      "outputs": {
+        "prediction": "sojourn_in_beautiful_foreign_lands",
+        "quality": "luxurious",
+        "duration": "temporary_to_extended"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 15,
+        "verse": 24,
+        "tradition": "Jyotish",
+        "tags": ["12th_lord", "strong", "benefic_aspects", "beautiful_lands", "sojourn"]
+      }
+    },
+    {
+      "rule_id": "jp_foreign_death_temple",
+      "name": "Saturn 1st + Mars 12th + Sun/Moon/Mercury 5th - Foreign Death",
+      "description": "When Saturn is in the 1st house, Mars in the 12th house, and Sun/Moon/Mercury in the 5th house, the native dies in a foreign land or temple.",
+      "source_text": "Jataka Parijata v109",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "permanent_foreign_death",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 6,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_in_house",
+            "planet": "Saturn",
+            "house": 1,
+            "description": "Saturn must be placed in the 1st house (Lagna)"
+          },
+          {
+            "factor": "planet_in_house",
+            "planet": "Mars",
+            "house": 12,
+            "description": "Mars must be placed in the 12th house"
+          },
+          {
+            "factor": "planets_in_house",
+            "planets": ["Sun", "Moon", "Mercury"],
+            "house": 5,
+            "condition": "any_or_all",
+            "description": "Sun, Moon, and/or Mercury must be in the 5th house"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {
+          "signal": "saturn_in_1st",
+          "weight": 0.35
+        },
+        {
+          "signal": "mars_in_12th",
+          "weight": 0.35
+        },
+        {
+          "signal": "luminaries_mercury_in_5th",
+          "weight": 0.3
+        }
+      ],
+      "interpretation": {
+        "summary": "This combination indicates the native will permanently settle abroad and ultimately die in a foreign land or sacred place.",
+        "detail": "Per Jataka Parijata v109, Saturn in the 1st restricts the native's connection to homeland, Mars in the 12th drives them to foreign lands through conflict or necessity, and the luminaries/Mercury in the 5th disconnect them from their native culture and progeny.",
+        "classical_context": "This is a rare and specific yoga indicating permanent displacement ending in death abroad. The 'temple' reference suggests death may occur at a pilgrimage or sacred site far from home."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.75,
+        "confidence": 0.65,
+        "classical_authority": 0.88
+      },
+      "outputs": {
+        "prediction": "death_in_foreign_land_or_temple",
+        "quality": "severe",
+        "duration": "permanent"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "verse": 109,
+        "tradition": "Jyotish",
+        "tags": ["saturn", "mars", "foreign_death", "temple", "permanent_exile"]
+      }
+    },
+    {
+      "rule_id": "nirayana_rahu_9th_foreign_religion",
+      "name": "Rahu in 9th House - Foreign Guru/Religion",
+      "description": "When Rahu is placed in the 9th house, the native is drawn to foreign gurus, religions, or spiritual systems different from their birth tradition.",
+      "source_text": "Nirayana System p169",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "foreign_spiritual_connection",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 7,
+      "polarity": "neutral",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_in_house",
+            "planet": "Rahu",
+            "house": 9,
+            "description": "Rahu must be placed in the 9th house"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "rahu_sign_disposition",
+            "condition": "strong_or_exalted",
+            "description": "Rahu in a strong sign amplifies the foreign spiritual pull"
+          }
+        ]
+      },
+      "signals": [
+        {
+          "signal": "rahu_in_9th",
+          "weight": 0.8
+        },
+        {
+          "signal": "rahu_strong_sign",
+          "weight": 0.2
+        }
+      ],
+      "interpretation": {
+        "summary": "Rahu in the 9th house draws the native toward foreign gurus, religions, and spiritual traditions outside their birth culture.",
+        "detail": "Per Nirayana System p169, Rahu in the 9th house creates fascination with foreign philosophies and religions. The native may convert to a foreign religion, follow a foreign guru, or relocate to pursue spiritual knowledge from an alien tradition.",
+        "classical_context": "The 9th house governs dharma, guru, and higher learning. Rahu's placement here creates an unconventional or foreign approach to these matters."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.77,
+        "confidence": 0.73,
+        "classical_authority": 0.80
+      },
+      "outputs": {
+        "prediction": "attraction_to_foreign_guru_or_religion",
+        "quality": "transformative",
+        "duration": "long_term"
+      },
+      "metadata": {
+        "author": "Nirayana System Authors",
+        "text": "Nirayana System",
+        "page": 169,
+        "tradition": "Jyotish",
+        "tags": ["rahu", "9th_house", "foreign_religion", "guru", "spiritual"]
+      }
+    },
+    {
+      "rule_id": "nirayana_ketu_9th_wandering_mendicant",
+      "name": "Ketu in 9th House - Wandering Mendicant",
+      "description": "When Ketu is placed in the 9th house, the native becomes a wandering mendicant or spiritual seeker who travels without fixed residence.",
+      "source_text": "Nirayana System p169",
+      "domain": "relocation",
+      "event_family": "foreign_settlement",
+      "event_subtype": "spiritual_wandering",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 8,
+      "polarity": "neutral",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_in_house",
+            "planet": "Ketu",
+            "house": 9,
+            "description": "Ketu must be placed in the 9th house"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "ketu_association",
+            "condition": "with_saturn_or_12th_lord",
+            "description": "Association with Saturn or 12th lord intensifies the wandering pattern"
+          }
+        ]
+      },
+      "signals": [
+        {
+          "signal": "ketu_in_9th",
+          "weight": 0.8
+        },
+        {
+          "signal": "ketu_with_saturn_or_12th_lord",
+          "weight": 0.2
+        }
+      ],
+      "interpretation": {
+        "summary": "Ketu in the 9th house produces a wandering mendicant pattern where the native travels without stable residence.",
+        "detail": "Per Nirayana System p169, Ketu in the 9th house detaches the native from conventional dharma and homeland roots, producing a wandering mendicant who seeks spiritual liberation through travel and renunciation of fixed abode.",
+        "classical_context": "Ketu represents detachment and liberation. In the 9th house of dharma and long journeys, it creates a pattern of perpetual spiritual wandering and renunciation of worldly settlement."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.76,
+        "confidence": 0.72,
+        "classical_authority": 0.80
+      },
+      "outputs": {
+        "prediction": "wandering_mendicant_pattern",
+        "quality": "ascetic",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Nirayana System Authors",
+        "text": "Nirayana System",
+        "page": 169,
+        "tradition": "Jyotish",
+        "tags": ["ketu", "9th_house", "wandering", "mendicant", "spiritual_seeker"]
+      }
+    }
+  ]
+}
