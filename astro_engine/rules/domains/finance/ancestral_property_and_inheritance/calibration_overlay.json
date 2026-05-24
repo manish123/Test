@@ -1,0 +1,84 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "finance",
+  "event_family": "ancestral_property_and_inheritance",
+  "last_updated": "2026-05-24T00:00:00Z",
+  "layer_weights": {
+    "dasha_weight": 0.30,
+    "transit_weight": 0.35,
+    "fast_trigger_weight": 0.15,
+    "classical_weight": 0.20,
+    "_notes": "Initial weights. Property has strong transit dependency (Jupiter on 4th/9th is most reliable). Dasha gates but transit narrows effectively."
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15,
+    "_notes": "Initial thresholds pending validation against actual property events."
+  },
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions.",
+    "dasha": {
+      "fourth_lord_md_or_ad": 45,
+      "ninth_lord_md_or_ad": 42,
+      "eighth_lord_md_or_ad": 40,
+      "second_lord_md_or_ad": 35,
+      "twelfth_lord_md_or_ad": 30,
+      "property_karaka_md_or_ad": 38
+    },
+    "transit": {
+      "jupiter_4th_from_moon": 50,
+      "jupiter_9th_from_moon": 45,
+      "jupiter_8th_from_moon": 42,
+      "jupiter_conjunct_natal_sun": 48,
+      "saturn_conjunct_natal_mars": -35,
+      "saturn_9th_from_moon": 30
+    },
+    "fast_trigger": {
+      "jati_tara_26th": 30,
+      "moon_right_hand_25_27": 28,
+      "moon_two_eyes_9_10": 22,
+      "mars_head_16_17": 26
+    }
+  },
+  "rule_adjustments": [],
+  "outcome_calibration": {
+    "mode_priority_order": [
+      "smooth_inheritance",
+      "disputed_property",
+      "sudden_gain",
+      "karmic_pattern",
+      "inherited_debt"
+    ],
+    "quality_priority_order": [
+      "supportive",
+      "mixed",
+      "challenging"
+    ],
+    "asset_type_priority_order": [
+      "land",
+      "liquid_wealth",
+      "luxury_assets",
+      "inaccessible"
+    ],
+    "default_mode": "smooth_inheritance"
+  },
+  "evidence_summary": {
+    "total_cases_tested": 0,
+    "verified_cases": 0,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.0,
+    "mode_accuracy": 0.0,
+    "quality_accuracy": 0.0,
+    "average_rank": 0.0,
+    "last_validation_date": "2026-05-24"
+  },
+  "governance": {
+    "created_by": "initial_architecture_setup",
+    "adjustment_reason": "Initial calibration overlay for ancestral property & inheritance domain. All values are baseline pending validation.",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "ZERO cases validated. All scores and thresholds are theoretical. Do NOT apply weight changes until 10+ cases validated."
+  }
+}
