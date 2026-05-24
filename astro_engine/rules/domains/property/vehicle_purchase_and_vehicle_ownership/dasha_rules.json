@@ -1,0 +1,595 @@
+[
+  {
+    "rule_id": "phaladeepika_dasha_venus_vehicles",
+    "name": "Venus Mahadasha Vehicle Acquisition Gate",
+    "description": "Venus is the natural Karaka (significator) of vehicles, luxuries, and material comforts. Its major period acts as a primary broad timing window for vehicle acquisition.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": "12",
+      "page": null,
+      "quote": "Effects like obtaining of materials and facilities for his sport and happiness, acquisition of good vehicles, cows, precious stones, ornaments, a treasure, enjoyment in association with young women, intellectual pursuits... will be derived in the dasa of Venus.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "luxury_vehicle"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 95,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": ["Venus Mahadasha is active"],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Venus"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Venus is the natural Karaka (significator) of vehicles, luxuries, and material comforts. Its major period (Mahadasha) acts as a primary broad timing window for the acquisition of good vehicles and transportation assets.",
+      "mode": "vehicle_purchase",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": {
+      "broad_window_days": 1095,
+      "exact_window_days": 0,
+      "confidence_decay_days": 365
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "venus_vahana_karaka_gate",
+      "likelihood_band": "very_high",
+      "timing_band": "broad",
+      "recommended_action": "explore_vehicle_options"
+    },
+    "metadata": {
+      "notes": "A foundational Dasha rule correlating the natural significator of conveyances directly to vehicle acquisition."
+    }
+  },
+  {
+    "rule_id": "bphs_rasi_dasha_jupiter_4th_conveyance",
+    "name": "Rasi Dasha Jupiter in 4th Conveyance Gate",
+    "description": "In sign-based Dasha systems, when Jupiter occupies the 4th from the active Dasha sign, it triggers enjoyment of luxury conveyances.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "71-72",
+      "page": null,
+      "quote": "There will be enjoyment of the palanquin like conveyance in the Dasha of the rasi (house) from which the 4th is occupied by Jupiter.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "luxury_vehicle"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "A Rasi-based Dasha (like Jaimini Chara Dasha) is active",
+        "Jupiter occupies the 4th house counted from the active Dasha Rasi"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Rasi_Dasha"],
+      "transit": [],
+      "houses": ["4"],
+      "planets": ["Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "In sign-based Dasha systems, when the active Dasha sign has the great benefic Jupiter positioned in its 4th house (the house of vehicles and comforts), it triggers a period marked by the enjoyment of luxury conveyances and new vehicles.",
+      "mode": "vehicle_purchase",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 730,
+      "exact_window_days": 0,
+      "confidence_decay_days": 180
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "rasi_dasha_jupiter_4th_vehicle_gate",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "explore_vehicle_options"
+    },
+    "metadata": {
+      "notes": "A sign-dasha rule emphasizing the 4th house activation from the Dasha Pravesh perspective."
+    }
+  },
+  {
+    "rule_id": "jp_dasha_4th_lord_vehicles",
+    "name": "4th Lord Dasha Vehicle Acquisition Gate",
+    "description": "When the 4th lord is dignified, well-placed, and connected to Lagna, its Dasha guarantees vehicle purchase.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": null,
+      "verse": "110",
+      "page": "783",
+      "quote": "If the lord of the 4th house occupy singly and in strength one of the three positions mentioned... (1st, 4th and 9th bhavas) and be associated with the Lagna or its lord, the dasa period of the planet in question will lead to the acquisition of vehicles.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "transport_assets"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 95,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "The Dasha of the 4th Lord is active",
+        "The 4th Lord is structurally strong",
+        "The 4th Lord is associated with the Ascendant (Lagna) or the Ascendant Lord"
+      ],
+      "any_of": [
+        "The 4th Lord is positioned in the 1st house",
+        "The 4th Lord is positioned in the 4th house",
+        "The 4th Lord is positioned in the 9th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["4th_lord"],
+      "transit": [],
+      "houses": ["1", "4", "9"],
+      "planets": ["4th_lord", "1st_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the ruler of the house of vehicles (4th lord) is dignified, well-placed in auspicious trines or angles, and strongly connected to the native (Lagna), its operative Dasha period guarantees the purchase and possession of vehicles.",
+      "mode": "vehicle_purchase",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": {
+      "broad_window_days": 1095,
+      "exact_window_days": 0,
+      "confidence_decay_days": 365
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "fourth_lord_vehicle_gate",
+      "likelihood_band": "very_high",
+      "timing_band": "broad",
+      "recommended_action": "explore_vehicle_options"
+    },
+    "metadata": {
+      "notes": "Direct activation of the 4th house ruler explicitly tied to vehicle acquisition."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_jupiter_ketu_motorcar",
+    "name": "Jupiter-Ketu Dasha Luxury Vehicle Gate",
+    "description": "Jupiter Mahadasha with Ketu Antardasha in favorable geometric alignment brings sudden acquisition of motor vehicles.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "35-36",
+      "page": "540",
+      "quote": "Acquisition of a palanquin (motor car), elephants, etc., beneficence of the king, success in the desired spheres, profits in business, increase in the number of cattle... will be the auspicious effects if Ketu be in the 5th, the 9th, the 4th or the 10th from the lord of the Dasha (Jupiter).",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "luxury_vehicle"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Jupiter Mahadasha is active",
+        "Ketu Antardasha is active"
+      ],
+      "any_of": [
+        "Ketu is positioned in the 4th house from Jupiter",
+        "Ketu is positioned in the 5th house from Jupiter",
+        "Ketu is positioned in the 9th house from Jupiter",
+        "Ketu is positioned in the 10th house from Jupiter"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Jupiter", "Ketu"],
+      "transit": [],
+      "houses": ["4", "5", "9", "10"],
+      "planets": ["Jupiter", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "During Jupiter's expansive Mahadasha, if the sub-period lord Ketu is placed favorably in angular or trinal relationship to Jupiter, it brings sudden, highly auspicious gains including the acquisition of motor vehicles or luxury conveyances.",
+      "mode": "luxury_vehicle",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 400,
+      "exact_window_days": 0,
+      "confidence_decay_days": 120
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_ketu_motorcar_gate",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "explore_vehicle_options"
+    },
+    "metadata": {
+      "notes": "Demonstrates the necessity of positive geometric alignment (Dasha Pravesh) between the major and minor period lords."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_saturn_venus_conveyance",
+    "name": "Saturn-Venus Dasha Luxury Conveyance Gate",
+    "description": "Venus sub-period in Saturn Mahadasha with Venus well-placed heavily activates luxury vehicle acquisition.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "24-27",
+      "page": "574",
+      "quote": "Effects like marriage, birth of a son, gain of wealth... enjoyments by the beneficence of the king (government), honours, gain of clothes; ornaments, conveyance and other desired objects, will be derived in the Antardasa of Venus in the Dasha of Saturn; if Venus be in Kendra, Trikona or the 11th associated with or aspected by benefices.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "luxury_vehicle"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Saturn Mahadasha is active",
+        "Venus Antardasha is active",
+        "Venus is associated with or aspected by benefic planets"
+      ],
+      "any_of": [
+        "Venus is positioned in a Kendra (1st, 4th, 7th, 10th house)",
+        "Venus is positioned in a Trikona (5th, 9th house)",
+        "Venus is positioned in the 11th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Saturn", "Venus"],
+      "transit": [],
+      "houses": ["1", "4", "5", "7", "9", "10", "11"],
+      "planets": ["Saturn", "Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The sub-period of Venus in the major period of Saturn is famously auspicious. When Venus is well-placed and supported by benefics, it heavily activates the acquisition of luxury goods, conveyances, and vehicles, relieving the native from Saturnian restrictions.",
+      "mode": "luxury_vehicle",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 950,
+      "exact_window_days": 0,
+      "confidence_decay_days": 300
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "saturn_venus_luxury_conveyance_gate",
+      "likelihood_band": "very_high",
+      "timing_band": "broad",
+      "recommended_action": "explore_luxury_vehicle_options"
+    },
+    "metadata": {
+      "notes": "A classic highly functional Dasha pairing for wealth and luxury assets."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_saturn_mars_conveyance",
+    "name": "Saturn-Mars Dasha Transport Asset Gate",
+    "description": "Mars sub-period in Saturn Mahadasha with Mars dignified brings immediate acquisition of heavy or commercial transport assets.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "50-52",
+      "page": "577",
+      "quote": "gain of conveyances, clothes and ornaments, attainment of the position of a Commander of the Army... will be derived from the very commencement of the Antardasa of Mars in the Dasha of Saturn, if Mars be in his sign of exaltation, in his own sign or be associated with the lord of the Ascendant or the Dasha lord (Saturn).",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "commercial_vehicle", "transport_assets"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Saturn Mahadasha is active",
+        "Mars Antardasha is active"
+      ],
+      "any_of": [
+        "Mars is in its sign of exaltation (Capricorn)",
+        "Mars is in its own sign (Aries or Scorpio)",
+        "Mars is conjunct the Ascendant Lord",
+        "Mars is conjunct Saturn"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Saturn", "Mars"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Saturn", "Mars", "1st_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "If Mars is highly dignified or connected to key lagna/dasha rulers, its operative sub-period under Saturn (a combination of structural engineering and kinetic energy) triggers the immediate acquisition of conveyances, potentially extending to heavy or commercial transport assets.",
+      "mode": "transport_assets",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 410,
+      "exact_window_days": 0,
+      "confidence_decay_days": 120
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "saturn_mars_transport_asset_gate",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "explore_vehicle_options"
+    },
+    "metadata": {
+      "notes": "Relies heavily on Mars possessing strong dignity; without it, Saturn-Mars is generally challenging."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_dasha_jupiter_sun_vehicles",
+    "name": "Jupiter-Sun Dasha Status Vehicle Gate",
+    "description": "Sun sub-period within Jupiter Mahadasha elevates lifestyle culminating in high-status vehicle purchase.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": null,
+      "verse": "44",
+      "page": null,
+      "quote": "Effects like victory over enemines, honour from the king, birth of children and grandchildren, gains of wealth, acquisition of palanquin and horses, and residence in a populous city with all comforts, will be derived in the antar dasa of the Sun in the dasa of Jupiter.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "luxury_vehicle"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Jupiter Mahadasha is active",
+        "Sun Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Jupiter", "Sun"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Jupiter", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The sub-period of the Sun (authority and status) within the major period of Jupiter (wealth and fortune) elevates the native's lifestyle, culminating in the purchase of high-status vehicles (horses/palanquin) and increased overall mobility and comfort.",
+      "mode": "vehicle_purchase",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 380,
+      "exact_window_days": 0,
+      "confidence_decay_days": 90
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_sun_status_vehicle_gate",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "explore_vehicle_options"
+    },
+    "metadata": {
+      "notes": "A general indication of status elevation which physically manifests as luxury or status conveyances."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_moon_mercury_conveyance",
+    "name": "Moon-Mercury Dasha Conveyance Gate",
+    "description": "Moon Mahadasha with Mercury Antardasha links mobility and commercial success to vehicle purchase.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "16",
+      "page": "748",
+      "quote": "16. Moon-Mercury--Birth of a son, acquisition of a horse and other conveyances, success in education, progress, gain of white garments and grains.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "transport_assets"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 75,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Moon Mahadasha is active",
+        "Mercury Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Moon", "Mercury"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Moon", "Mercury"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The interaction of the Moon (comforts and movement) and Mercury (commerce and travel) in Dasha triggers commercial success and physical movement, manifesting as the acquisition of conveyances or transport assets.",
+      "mode": "vehicle_purchase",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 510,
+      "exact_window_days": 0,
+      "confidence_decay_days": 150
+    },
+    "weights": {
+      "dasha_weight": 0.8,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "moon_mercury_conveyance_gate",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "explore_vehicle_options"
+    },
+    "metadata": {
+      "notes": "A functional period linking mobility and commercial accumulation to vehicle purchase."
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_rahu_venus_conveyance",
+    "name": "Rahu-Venus Dasha Material Vehicle Gate",
+    "description": "Rahu Mahadasha with Venus Antardasha creates an intensely materialistic period leading to luxury vehicle acquisition.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "34",
+      "page": "634",
+      "quote": "34. Rahu-Venus-Acquisition of Chhatra, Chamar, conveyances etc., success in all ventures, worship of Lord Shiva, construction of a house.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "luxury_vehicle"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Rahu Mahadasha is active",
+        "Venus Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Rahu", "Venus"],
+      "transit": [],
+      "houses": [],
+      "planets": ["Rahu", "Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Rahu combined with Venus creates an intensely materialistic period. This Dasha combination strongly activates the desire for worldly luxuries, leading directly to the purchase of high-end conveyances and lifestyle assets.",
+      "mode": "luxury_vehicle",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 960,
+      "exact_window_days": 0,
+      "confidence_decay_days": 300
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "rahu_venus_material_vehicle_gate",
+      "likelihood_band": "very_high",
+      "timing_band": "broad",
+      "recommended_action": "explore_luxury_vehicle_options"
+    },
+    "metadata": {
+      "notes": "Known as one of the peak material acquisition periods in the Vimshottari cycle."
+    }
+  }
+]

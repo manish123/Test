@@ -1,0 +1,76 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "property",
+  "event_family": "vehicle_purchase_and_vehicle_ownership",
+  "last_updated": "2026-05-24T00:00:00Z",
+  "layer_weights": {
+    "dasha_weight": 0.30,
+    "transit_weight": 0.30,
+    "fast_trigger_weight": 0.25,
+    "classical_weight": 0.15,
+    "_notes": "Initial weights. Vehicle purchase is more impulsive than property (faster trigger weight). Venus karaka transit is highly predictive. Dasha gates are critical for broad windows. Classical patterns provide structural confirmation."
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15,
+    "_notes": "Initial thresholds pending validation against actual vehicle purchase cases."
+  },
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions. To be populated as rules are validated.",
+    "dasha": {
+      "venus_mahadasha_karaka": 48,
+      "rasi_dasha_jupiter_4th": 38,
+      "fourth_lord_dasha_dignified": 46,
+      "jupiter_ketu_motorcar": 40,
+      "saturn_venus_luxury": 44,
+      "saturn_mars_transport": 36,
+      "jupiter_sun_status": 35,
+      "moon_mercury_conveyance": 32,
+      "rahu_venus_material": 42
+    },
+    "transit": {
+      "lagna_lord_4th_activation": 42,
+      "jupiter_trine_4th_lord_d9": 40,
+      "venus_karaka_lagna_moon": 35,
+      "benefic_4th_house_transit": 38
+    },
+    "fast_trigger": {
+      "sbc_benefic_janma_nakshatra": 32
+    }
+  },
+  "rule_adjustments": [],
+  "outcome_calibration": {
+    "mode_priority_order": [
+      "luxury_vehicle",
+      "vehicle_purchase",
+      "transport_assets",
+      "commercial_vehicle",
+      "transport_upgrade"
+    ],
+    "quality_priority_order": [
+      "supportive",
+      "mixed",
+      "challenging"
+    ],
+    "default_mode": "vehicle_purchase"
+  },
+  "evidence_summary": {
+    "total_cases_tested": 0,
+    "verified_cases": 0,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.0,
+    "mode_accuracy": 0.0,
+    "quality_accuracy": 0.0,
+    "average_rank": 0.0,
+    "last_validation_date": "2026-05-24"
+  },
+  "governance": {
+    "created_by": "initial_architecture_setup",
+    "adjustment_reason": "Initial calibration overlay for vehicle purchase domain. All values are baseline pending validation.",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "ZERO cases validated. All scores and thresholds are theoretical. Do NOT apply weight changes until 10+ cases validated."
+  }
+}
