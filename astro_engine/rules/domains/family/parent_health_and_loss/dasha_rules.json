@@ -1,0 +1,560 @@
+[
+  {
+    "rule_id": "horasara_dasha_4th_lord_navamsa_father_death",
+    "name": "Hora Sara — 4th Lord Navamsa Dispositor Dasha & Father's Death",
+    "description": "During the Dasha of the planet occupying the Navamsa of the 4th lord, the father's death may occur. The 4th house connects to parents and its Navamsa dispositor activates parental karma during its period.",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": "Dasha Effects",
+      "verse": null,
+      "page": null,
+      "quote": "In the Dasha of the planet occupying the Navamsa of the 4th lord, the father may die.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death", "parental_loss"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 90,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Mahadasha or Antardasha of the planet occupying the Navamsa sign of the 4th lord is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["4th_lord_navamsa_dispositor"],
+      "transit": [],
+      "houses": ["4", "9", "10"],
+      "planets": ["Sun", "Saturn"],
+      "nakshatra": [],
+      "d9": ["4th_lord_navamsa_sign"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The Navamsa dispositor of the 4th lord carries the karmic imprint of parental destiny. When its dasha activates, father-related events manifest.",
+      "mode": "father_loss",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.90,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.10
+    },
+    "outputs": {
+      "symbolic_label": "father_death_dasha_window",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "monitor_transit_saturn_sun"
+    },
+    "metadata": {
+      "notes": "Hora Sara method. Requires accurate Navamsa computation of the 4th lord's position.",
+      "parent_affected": "father",
+      "severity": "death"
+    }
+  },
+  {
+    "rule_id": "jp_dasha_1st_4th_9th_mother_follows_father",
+    "name": "Jataka Parijata — 1st/4th/9th Lord Dasha & Mother Follows Father",
+    "description": "In the Dasha periods of the lords of the 1st, 4th, or 9th houses, there is potential for the mother's death to follow the father's death, especially when multiple parental significators are afflicted.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "Longevity of Parents",
+      "verse": null,
+      "page": null,
+      "quote": "In the Dasha of the lord of the 1st, 4th, or 9th, the mother may follow the father in death.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_death", "sequential_loss"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Mahadasha or Antardasha of the 1st lord is active",
+        "Mahadasha or Antardasha of the 4th lord is active",
+        "Mahadasha or Antardasha of the 9th lord is active"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["1st_lord", "4th_lord", "9th_lord"],
+      "transit": [],
+      "houses": ["1", "4", "9"],
+      "planets": ["Moon", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When lords of parental houses run their periods simultaneously or sequentially, both parents may face health crises. Mother following father indicates karmic bond.",
+      "mode": "mother_loss",
+      "quality": "challenging",
+      "confidence": 0.80
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.15
+    },
+    "outputs": {
+      "symbolic_label": "mother_follows_father_dasha",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "monitor_transit_moon_4th"
+    },
+    "metadata": {
+      "notes": "Jataka Parijata sequential loss pattern. Most relevant when father has already passed.",
+      "parent_affected": "mother",
+      "severity": "death"
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_ketu_saturn_death_of_parents",
+    "name": "BPHS — Ketu-Saturn Dasha & Death of Parents",
+    "description": "During Ketu Mahadasha with Saturn Antardasha, death of parents is indicated. Ketu as a separative planet combined with Saturn as maraka for parents creates a potent loss window.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Dasha Phala",
+      "verse": null,
+      "page": null,
+      "quote": "In Ketu Dasha, Saturn Bhukti: there will be death of parents, distress, and separation from kinsmen.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death", "mother_death", "parental_loss"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 92,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Ketu Mahadasha is active",
+        "Saturn Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Ketu", "Saturn"],
+      "transit": [],
+      "houses": ["4", "9", "8"],
+      "planets": ["Ketu", "Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Ketu separates, Saturn destroys. Together they bring irreversible loss of parental figures. The maraka quality of Saturn for parents activates strongly during Ketu's dissociative period.",
+      "mode": "parental_death",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.92,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.08
+    },
+    "outputs": {
+      "symbolic_label": "ketu_saturn_parental_death_gate",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "monitor_saturn_transit_sun_moon"
+    },
+    "metadata": {
+      "notes": "BPHS classic combination. One of the strongest dasha gates for parental loss.",
+      "parent_affected": "both",
+      "severity": "death"
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_saturn_rahu_parents_death",
+    "name": "BPHS — Saturn-Rahu Dasha & Parents' Death",
+    "description": "During Saturn Mahadasha with Rahu Antardasha, death of parents is indicated. Saturn as natural maraka for parents combined with Rahu's sudden, violent nature creates crisis potential.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Dasha Phala",
+      "verse": null,
+      "page": null,
+      "quote": "In Saturn Dasha, Rahu Bhukti: there will be destruction of parents, loss of wealth, and mental anguish.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death", "mother_death", "parental_loss"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 93,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Saturn Mahadasha is active",
+        "Rahu Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Saturn", "Rahu"],
+      "transit": [],
+      "houses": ["4", "9", "8", "12"],
+      "planets": ["Saturn", "Rahu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn's chronic deterioration combined with Rahu's sudden eruption. Parents face health crises that escalate rapidly. Often indicates sudden hospitalization or unexpected death.",
+      "mode": "parental_death",
+      "quality": "challenging",
+      "confidence": 0.90
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.93,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.07
+    },
+    "outputs": {
+      "symbolic_label": "saturn_rahu_parental_destruction",
+      "likelihood_band": "high",
+      "timing_band": "broad",
+      "recommended_action": "monitor_transit_saturn_8th"
+    },
+    "metadata": {
+      "notes": "BPHS classic. Saturn-Rahu is one of the harshest dasha combinations for family.",
+      "parent_affected": "both",
+      "severity": "death"
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_venus_sun_distress_father",
+    "name": "BPHS — Venus-Sun Dasha & Distress to Father",
+    "description": "During Venus Mahadasha with Sun Antardasha, distress to the father is indicated. Sun is the natural karaka of the father, and when activated under Venus (a somewhat inimical planet to Sun), father faces difficulties.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Dasha Phala",
+      "verse": null,
+      "page": null,
+      "quote": "In Venus Dasha, Sun Bhukti: there will be distress to father, quarrels with authorities, and loss of position.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_health_crisis", "father_distress"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 82,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Venus Mahadasha is active",
+        "Sun Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Venus", "Sun"],
+      "transit": [],
+      "houses": ["9", "10"],
+      "planets": ["Venus", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Venus-Sun natural enmity manifests as distress to paternal figure. Father may face health setbacks, loss of authority, or professional crisis that affects family.",
+      "mode": "father_distress",
+      "quality": "challenging",
+      "confidence": 0.78
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.82,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.18
+    },
+    "outputs": {
+      "symbolic_label": "venus_sun_father_distress",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "monitor_sun_transit_affliction"
+    },
+    "metadata": {
+      "notes": "BPHS. Indicates distress more than death. Severity depends on natal Sun strength.",
+      "parent_affected": "father",
+      "severity": "distress"
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_rahu_moon_distress_father",
+    "name": "BPHS — Rahu-Moon Dasha & Distress to Father",
+    "description": "During Rahu Mahadasha with Moon Antardasha, distress to the father is indicated. Rahu eclipses the Moon (mind), creating confusion and family disruption that particularly affects the father.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Dasha Phala",
+      "verse": null,
+      "page": null,
+      "quote": "In Rahu Dasha, Moon Bhukti: there will be danger to father, mental anxiety, and troubles from relatives.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_health_crisis", "father_distress"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 80,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Rahu Mahadasha is active",
+        "Moon Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Rahu", "Moon"],
+      "transit": [],
+      "houses": ["9", "4"],
+      "planets": ["Rahu", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Rahu's shadow over Moon creates family instability. Father figure becomes vulnerable to health crises or emotional distance. Eclipse energy disrupts paternal bond.",
+      "mode": "father_distress",
+      "quality": "challenging",
+      "confidence": 0.76
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.80,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.20
+    },
+    "outputs": {
+      "symbolic_label": "rahu_moon_father_danger",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "monitor_transit_rahu_sun"
+    },
+    "metadata": {
+      "notes": "BPHS. Rahu-Moon axis is emotionally disruptive. Father danger is secondary to mental anguish.",
+      "parent_affected": "father",
+      "severity": "distress"
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_jupiter_moon_distress_mother",
+    "name": "BPHS — Jupiter-Moon Dasha & Distress to Mother",
+    "description": "During Jupiter Mahadasha with Moon Antardasha, distress to the mother is indicated. Moon is the natural karaka of the mother, and when activated as antardasha under Jupiter, maternal health concerns arise.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Dasha Phala",
+      "verse": null,
+      "page": null,
+      "quote": "In Jupiter Dasha, Moon Bhukti: there will be distress to mother, change of residence, and emotional turbulence.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_health_crisis", "mother_distress"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 78,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Jupiter Mahadasha is active",
+        "Moon Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Jupiter", "Moon"],
+      "transit": [],
+      "houses": ["4"],
+      "planets": ["Jupiter", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Moon sub-period under Jupiter activates maternal karaka directly. Mother may face health issues, emotional distress, or separation from native. Jupiter's benevolence may limit severity.",
+      "mode": "mother_distress",
+      "quality": "challenging",
+      "confidence": 0.75
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.78,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.22
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_moon_mother_distress",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "monitor_transit_moon_4th"
+    },
+    "metadata": {
+      "notes": "BPHS. Jupiter's benefic nature may reduce severity but does not eliminate maternal distress.",
+      "parent_affected": "mother",
+      "severity": "distress"
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_saturn_moon_separation_parents",
+    "name": "BPHS — Saturn-Moon Dasha & Separation from Parents",
+    "description": "During Saturn Mahadasha with Moon Antardasha, separation from parents is indicated. Saturn creates distance and Moon represents the emotional/maternal bond. Together they sever the parental connection.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Dasha Phala",
+      "verse": null,
+      "page": null,
+      "quote": "In Saturn Dasha, Moon Bhukti: there will be separation from parents and kinsmen, mental distress, and loss of comfort.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["parental_separation", "emotional_distance"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 84,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Saturn Mahadasha is active",
+        "Moon Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Saturn", "Moon"],
+      "transit": [],
+      "houses": ["4", "12"],
+      "planets": ["Saturn", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn's cold separative energy combined with Moon's maternal signification creates forced distance from parents. May manifest as relocation, hospitalization of parent, or emotional estrangement.",
+      "mode": "parental_separation",
+      "quality": "challenging",
+      "confidence": 0.82
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.84,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.16
+    },
+    "outputs": {
+      "symbolic_label": "saturn_moon_parental_separation",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "monitor_transit_saturn_4th"
+    },
+    "metadata": {
+      "notes": "BPHS. Separation does not necessarily mean death — can be physical distance or emotional estrangement.",
+      "parent_affected": "both",
+      "severity": "separation"
+    }
+  },
+  {
+    "rule_id": "bphs_dasha_mercury_jupiter_death_parents",
+    "name": "BPHS — Mercury-Jupiter Dasha & Death of Parents",
+    "description": "During Mercury Mahadasha with Jupiter Antardasha, death of parents is indicated when other supporting conditions are present. Mercury as a mutable planet and Jupiter as a maraka for specific lagnas can trigger parental events.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Dasha Phala",
+      "verse": null,
+      "page": null,
+      "quote": "In Mercury Dasha, Jupiter Bhukti: there may be death of parents, obstacles in education, and loss of family harmony.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death", "mother_death", "parental_loss"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 76,
+    "polarity": "challenging",
+    "timing_band": "broad",
+    "conditions": {
+      "all_of": [
+        "Mercury Mahadasha is active",
+        "Jupiter Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": ["Mercury", "Jupiter"],
+      "transit": [],
+      "houses": ["4", "9", "2", "7"],
+      "planets": ["Mercury", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mercury-Jupiter combination in dasha can activate parental maraka when Jupiter rules 2nd or 7th from parental houses. Context-dependent — requires natal chart confirmation.",
+      "mode": "parental_death",
+      "quality": "challenging",
+      "confidence": 0.72
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.76,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.24
+    },
+    "outputs": {
+      "symbolic_label": "mercury_jupiter_parental_death",
+      "likelihood_band": "moderate",
+      "timing_band": "broad",
+      "recommended_action": "verify_classical_maraka_status"
+    },
+    "metadata": {
+      "notes": "BPHS. Lower confidence — requires classical pattern confirmation to validate.",
+      "parent_affected": "both",
+      "severity": "death"
+    }
+  }
+]

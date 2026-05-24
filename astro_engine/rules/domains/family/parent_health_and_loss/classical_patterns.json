@@ -1,0 +1,505 @@
+[
+  {
+    "rule_id": "bphs_moon_aspected_by_three_malefics_mother",
+    "name": "BPHS — Moon Aspected by Three Malefics & Mother's Early Death",
+    "description": "When the natal Moon is aspected by three or more natural malefics (Saturn, Mars, Rahu, Ketu, Sun), the mother faces early death or severe health affliction. Moon is the natural karaka for mother.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Parental Longevity",
+      "verse": null,
+      "page": null,
+      "quote": "If the Moon is aspected by three malefics without benefic aspect, the mother will not live long.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_death", "mother_early_death"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 92,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natal Moon is aspected by 3 or more natural malefics",
+        "No natural benefic (Jupiter, Venus, Mercury) aspects the Moon"
+      ],
+      "any_of": [],
+      "none_of": [
+        "Jupiter aspects the natal Moon",
+        "Venus aspects the natal Moon"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4"],
+      "planets": ["Moon", "Saturn", "Mars", "Rahu", "Ketu", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Triple malefic affliction of Moon destroys the mother-karaka's protective quality. Without benefic intervention, the mother's longevity is severely compromised. Structural promise of maternal loss.",
+      "mode": "mother_early_death",
+      "quality": "challenging",
+      "confidence": 0.90
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "triple_malefic_moon_mother_death",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "monitor_moon_related_dashas"
+    },
+    "metadata": {
+      "notes": "BPHS structural pattern. Confidence boost for timing layers. Does not specify WHEN, only THAT.",
+      "parent_affected": "mother",
+      "severity": "death_promise"
+    }
+  },
+  {
+    "rule_id": "bphs_malefics_6_12_or_4_10_parental_evil",
+    "name": "BPHS — Malefics in 6/12 or 4/10 Axis & Evil to Parents",
+    "description": "When natural malefics occupy the 6th and 12th houses (or 4th and 10th houses), evil befalls the parents. These axis placements create structural pressure on parental houses.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Parental Combinations",
+      "verse": null,
+      "page": null,
+      "quote": "Malefics in the 6th and 12th, or in the 4th and 10th, bring evil to the parents.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["parental_loss", "parental_suffering"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Natural malefics occupy both the 6th and 12th houses",
+        "Natural malefics occupy both the 4th and 10th houses"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4", "6", "10", "12"],
+      "planets": ["Saturn", "Mars", "Rahu", "Ketu", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "6/12 axis malefics create hidden enemies and losses for parental figures. 4/10 axis malefics directly afflict mother (4th) and father (10th) houses. Both configurations promise parental suffering.",
+      "mode": "parental_evil",
+      "quality": "challenging",
+      "confidence": 0.82
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "malefic_axis_parental_evil",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "monitor_malefic_dashas"
+    },
+    "metadata": {
+      "notes": "BPHS structural yoga. The 4/10 axis is more direct (mother/father houses); 6/12 is hidden affliction.",
+      "parent_affected": "both",
+      "severity": "suffering"
+    }
+  },
+  {
+    "rule_id": "bphs_sun_malefic_papa_kartari_7th_father",
+    "name": "BPHS — Sun with Malefic Papa Kartari in 7th & Father Loss",
+    "description": "When the Sun is in the 7th house hemmed between malefics (Papa Kartari Yoga), the father faces severe affliction or death. The 7th is maraka sthana, and Sun trapped there indicates paternal danger.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Father's Longevity",
+      "verse": null,
+      "page": null,
+      "quote": "If the Sun is in the 7th house hemmed by malefics (Papa Kartari), the father will face early death or great distress.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death", "father_severe_affliction"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natal Sun is placed in the 7th house",
+        "Malefics are in the 6th and 8th houses (hemming Sun in Papa Kartari)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["6", "7", "8"],
+      "planets": ["Sun", "Saturn", "Mars", "Rahu", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Sun (father karaka) in the 7th (maraka house) already weakens father. Papa Kartari (malefics on both sides) completely suffocates the Sun's vitality. Father's longevity is severely compromised.",
+      "mode": "father_death",
+      "quality": "challenging",
+      "confidence": 0.86
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "sun_papa_kartari_7th_father_death",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "monitor_sun_dasha_periods"
+    },
+    "metadata": {
+      "notes": "BPHS. Sun in 7th is already a maraka indicator. Papa Kartari intensifies to near-certainty.",
+      "parent_affected": "father",
+      "severity": "death_promise"
+    }
+  },
+  {
+    "rule_id": "bphs_4_10_12_malefics_separation",
+    "name": "BPHS — Malefics in 4th, 10th, 12th & Separation from Parents",
+    "description": "When natural malefics occupy all three houses (4th, 10th, 12th), the native faces separation from parents through loss, abandonment, or forced distance. These houses control parental bonds and losses.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Parental Combinations",
+      "verse": null,
+      "page": null,
+      "quote": "Malefics in the 4th, 10th, and 12th cause separation from parents in childhood or youth.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["parental_separation", "parental_abandonment"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 86,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natural malefics occupy the 4th house",
+        "Natural malefics occupy the 10th house",
+        "Natural malefics occupy the 12th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4", "10", "12"],
+      "planets": ["Saturn", "Mars", "Rahu", "Ketu", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "4th (mother), 10th (father), 12th (loss/separation) — all afflicted simultaneously creates a structural promise of parental separation. May manifest as orphanhood, abandonment, or early loss.",
+      "mode": "parental_separation",
+      "quality": "challenging",
+      "confidence": 0.84
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "malefics_4_10_12_separation",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "monitor_saturn_mars_dashas"
+    },
+    "metadata": {
+      "notes": "BPHS. Triple house affliction. Often manifests before age 25.",
+      "parent_affected": "both",
+      "severity": "separation"
+    }
+  },
+  {
+    "rule_id": "jp_malefics_4th_from_moon_mother_death",
+    "name": "Jataka Parijata — Malefics 4th from Moon & Mother's Death",
+    "description": "When natural malefics occupy the 4th house from the Moon without benefic aspect, the mother faces early death. The 4th from Moon is the direct maternal signification house.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "Mother's Longevity",
+      "verse": null,
+      "page": null,
+      "quote": "If malefics occupy the 4th from Moon without benefic aspect, the mother dies early.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_death", "mother_early_death"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 90,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natural malefics occupy the 4th house from natal Moon",
+        "No benefic aspect on the 4th house from Moon"
+      ],
+      "any_of": [],
+      "none_of": [
+        "Jupiter aspects the 4th house from Moon"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4_from_Moon"],
+      "planets": ["Moon", "Saturn", "Mars", "Rahu", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "4th from Moon = mother's house from Chandra Lagna. Malefic occupation without benefic relief structurally promises maternal loss. The more malefics, the earlier the loss.",
+      "mode": "mother_early_death",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "malefics_4th_moon_mother_death",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "monitor_4th_lord_dasha"
+    },
+    "metadata": {
+      "notes": "Jataka Parijata. 4th from Moon is the primary maternal house in Chandra Lagna system.",
+      "parent_affected": "mother",
+      "severity": "death_promise"
+    }
+  },
+  {
+    "rule_id": "jp_sun_saturn_12th_moon_7th_father_loss",
+    "name": "Jataka Parijata — Sun-Saturn in 12th & Moon in 7th & Father Loss",
+    "description": "When Sun and Saturn conjoin in the 12th house and Moon is in the 7th house, the father faces early loss. Sun (father karaka) with Saturn (death) in 12th (loss) while Moon (mind) is in maraka (7th).",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "Father's Death Combinations",
+      "verse": null,
+      "page": null,
+      "quote": "Sun and Saturn in the 12th with Moon in the 7th: the father dies early and the native suffers mental anguish.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_death", "father_early_death"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natal Sun is in the 12th house",
+        "Natal Saturn is in the 12th house",
+        "Natal Moon is in the 7th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["7", "12"],
+      "planets": ["Sun", "Saturn", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Sun+Saturn in 12th = father karaka with death karaka in house of loss. Moon in 7th = emotional self in maraka house. This combination structurally promises early father loss with deep emotional impact.",
+      "mode": "father_early_death",
+      "quality": "challenging",
+      "confidence": 0.86
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "sun_saturn_12th_moon_7th_father",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "monitor_saturn_sun_dashas"
+    },
+    "metadata": {
+      "notes": "Jataka Parijata specific combination. Rare but definitive when present.",
+      "parent_affected": "father",
+      "severity": "death_promise"
+    }
+  },
+  {
+    "rule_id": "horasara_malefics_6_8_from_sun_father",
+    "name": "Hora Sara — Malefics 6th/8th from Sun & Father Suffering",
+    "description": "When natural malefics are placed in the 6th and 8th houses from the Sun, the father suffers from diseases, enemies, and longevity threats. These are dusthana positions from the father-karaka.",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": "Father's Afflictions",
+      "verse": null,
+      "page": null,
+      "quote": "Malefics in 6th and 8th from Sun bring disease and danger to the father throughout life.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_health_crisis", "father_chronic_illness"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 82,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natural malefics are in the 6th house from natal Sun",
+        "Natural malefics are in the 8th house from natal Sun"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["6_from_Sun", "8_from_Sun"],
+      "planets": ["Sun", "Saturn", "Mars", "Rahu", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "6th from Sun = disease house for father. 8th from Sun = longevity/death house for father. Malefics in both positions create chronic health affliction and longevity threat for the father.",
+      "mode": "father_chronic_illness",
+      "quality": "challenging",
+      "confidence": 0.80
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "malefics_6_8_from_sun_father",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "monitor_sun_related_transits"
+    },
+    "metadata": {
+      "notes": "Hora Sara. Indicates chronic suffering rather than sudden death. Father may have prolonged illness.",
+      "parent_affected": "father",
+      "severity": "chronic_illness"
+    }
+  },
+  {
+    "rule_id": "bphs_pitru_shapa_karmic_curse",
+    "name": "BPHS — Pitru Shapa (Curse from Father/Ancestors)",
+    "description": "When the 9th lord is conjunct with Rahu or Ketu, and Sun is afflicted by Saturn, the Pitru Shapa (ancestral/paternal curse) is indicated. This creates generational suffering related to the paternal lineage.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Shapa Yoga (Curses)",
+      "verse": null,
+      "page": null,
+      "quote": "When the 9th lord conjoins Rahu/Ketu and Sun is afflicted by Saturn, Pitru Shapa operates causing suffering through the paternal line.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["karmic_pattern", "inherited_suffering", "father_lineage_curse"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 94,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "9th lord is conjunct Rahu or Ketu",
+        "Natal Sun is aspected by or conjunct Saturn"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["9"],
+      "planets": ["Sun", "Saturn", "Rahu", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Pitru Shapa indicates unresolved karma from the paternal lineage. The native carries ancestral burdens that manifest as suffering related to father, authority, or dharma. Remedies are prescribed in BPHS.",
+      "mode": "karmic_curse",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "pitru_shapa_ancestral_curse",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "pitru_shapa_remedies"
+    },
+    "metadata": {
+      "notes": "BPHS Shapa chapter. Pitru Shapa is one of the most significant karmic patterns. Remedies include Pitru Tarpan and Sun worship.",
+      "parent_affected": "father_lineage",
+      "severity": "karmic_generational"
+    }
+  }
+]

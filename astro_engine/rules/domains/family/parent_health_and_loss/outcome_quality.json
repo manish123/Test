@@ -1,0 +1,497 @@
+[
+  {
+    "rule_id": "chandra_ketu_emotional_distance",
+    "name": "Moon-Ketu Conjunction — Emotional Distance from Mother",
+    "description": "When Moon and Ketu conjoin in the natal chart, the native experiences emotional disconnection from the mother. Ketu's separative energy over Moon (mother karaka) creates detachment even while physically present.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Ketu Effects",
+      "verse": null,
+      "page": null,
+      "quote": "Ketu with Moon creates detachment from mother, lack of emotional nourishment, and karmic distance from maternal figures.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["emotional_distance", "maternal_detachment"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 78,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natal Moon is conjunct Ketu (within 10 degrees)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4"],
+      "planets": ["Moon", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Moon-Ketu conjunction creates a spiritual/detached quality to the maternal bond. The native may feel emotionally orphaned even with mother present. Quality classification: emotional distance.",
+      "mode": "emotional_distance",
+      "quality": "challenging",
+      "confidence": 0.82
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "moon_ketu_emotional_distance",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "quality_classification_only"
+    },
+    "metadata": {
+      "notes": "Outcome/quality rule. Classifies the nature of parental loss — emotional rather than physical.",
+      "parent_affected": "mother",
+      "quality_type": "emotional_distance"
+    }
+  },
+  {
+    "rule_id": "mars_4th_unstable_parental_relationship",
+    "name": "Mars in 4th House — Unstable Parental Relationship",
+    "description": "Mars in the 4th house creates instability in domestic life and parental relationships. The fiery aggressive energy of Mars in the house of home/mother disrupts peace and creates conflict-driven separations.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Mars in Houses",
+      "verse": null,
+      "page": null,
+      "quote": "Mars in the 4th house brings strife in the home, unstable parental bonds, and potential loss of mother's comfort.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["unstable_relationship", "parental_conflict"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 75,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natal Mars is in the 4th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4"],
+      "planets": ["Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mars in 4th disrupts domestic tranquility. Parent-child relationship marked by aggression, arguments, or sudden separations. Quality: unstable parental bond rather than physical loss.",
+      "mode": "unstable_relationship",
+      "quality": "challenging",
+      "confidence": 0.76
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "mars_4th_unstable_parents",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "quality_classification_only"
+    },
+    "metadata": {
+      "notes": "Outcome/quality rule. Mars in 4th also creates Kuja Dosha effects on domestic life.",
+      "parent_affected": "mother",
+      "quality_type": "unstable_relationship"
+    }
+  },
+  {
+    "rule_id": "bphs_malefics_4_10_12_parental_abandonment",
+    "name": "BPHS — Malefics in 4/10/12 & Parental Abandonment",
+    "description": "When malefics occupy the 4th, 10th, and 12th houses simultaneously, the native experiences parental abandonment — either through death, divorce, or willful neglect. This is the outcome quality of complete parental absence.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Parental Combinations",
+      "verse": null,
+      "page": null,
+      "quote": "Malefics in 4th, 10th, and 12th: the native grows up without parental support, facing abandonment.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["parental_abandonment", "orphan_experience"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natural malefics in the 4th house",
+        "Natural malefics in the 10th house",
+        "Natural malefics in the 12th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4", "10", "12"],
+      "planets": ["Saturn", "Mars", "Rahu", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The trifecta of parental absence: mother's house (4th), father's house (10th), and loss house (12th) all afflicted. Quality: abandonment — the native effectively grows up parentless regardless of cause.",
+      "mode": "abandonment",
+      "quality": "challenging",
+      "confidence": 0.86
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "malefics_4_10_12_abandonment",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "quality_classification_only"
+    },
+    "metadata": {
+      "notes": "Outcome/quality rule. Overlaps with classical pattern but classified here for outcome resolution.",
+      "parent_affected": "both",
+      "quality_type": "abandonment"
+    }
+  },
+  {
+    "rule_id": "bphs_waning_moon_malefic_trines_mother_abandonment",
+    "name": "BPHS — Waning Moon with Malefics in Trines & Mother Abandonment",
+    "description": "When a waning (dark) Moon is placed with malefics in trinal houses (1st, 5th, 9th), the mother abandons the child or dies early. The weak Moon (mother) surrounded by malefics in dharma trikona indicates maternal absence.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Maternal Combinations",
+      "verse": null,
+      "page": null,
+      "quote": "Waning Moon with malefics in trines: the mother abandons the child or perishes early.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_abandonment", "mother_early_death"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 84,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natal Moon is waning (Krishna Paksha, tithi > 15)",
+        "Malefics are in trinal houses (1st, 5th, or 9th) along with or aspecting Moon"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1", "5", "9"],
+      "planets": ["Moon", "Saturn", "Mars", "Rahu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Waning Moon = weakened mother karaka. Malefics in trines create a hostile dharmic environment. Quality: maternal abandonment — mother leaves (physically or emotionally) early in native's life.",
+      "mode": "mother_abandonment",
+      "quality": "challenging",
+      "confidence": 0.80
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "waning_moon_malefic_trines_abandonment",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "quality_classification_only"
+    },
+    "metadata": {
+      "notes": "Outcome/quality rule. Waning Moon is key condition — full Moon negates this yoga.",
+      "parent_affected": "mother",
+      "quality_type": "abandonment"
+    }
+  },
+  {
+    "rule_id": "bphs_pitru_shapa_inherited_suffering",
+    "name": "BPHS — Pitru Shapa & Inherited Generational Suffering",
+    "description": "When Pitru Shapa (ancestral curse) is present, the quality of parental loss carries generational weight. The native inherits unresolved karmic debts from the paternal lineage that manifest across multiple generations.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Shapa Yoga",
+      "verse": null,
+      "page": null,
+      "quote": "Under Pitru Shapa, the suffering of fathers passes to sons through generations until remedied.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["inherited_suffering", "karmic_pattern", "generational_curse"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 90,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "9th lord conjunct Rahu or Ketu",
+        "Sun afflicted by Saturn (aspect or conjunction)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["9"],
+      "planets": ["Sun", "Saturn", "Rahu", "Ketu"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Pitru Shapa quality classification: the parental suffering is not isolated but part of a generational pattern. Father's difficulties echo grandfather's, which echo great-grandfather's. Remedies break the cycle.",
+      "mode": "inherited_suffering",
+      "quality": "challenging",
+      "confidence": 0.86
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "pitru_shapa_generational",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "pitru_tarpan_remedies"
+    },
+    "metadata": {
+      "notes": "Outcome/quality rule. Same conditions as classical pitru_shapa but classified for quality/outcome resolution.",
+      "parent_affected": "father_lineage",
+      "quality_type": "inherited_suffering"
+    }
+  },
+  {
+    "rule_id": "bphs_mars_10th_enemy_sign_sudden_crisis",
+    "name": "BPHS — Mars in 10th in Enemy Sign & Sudden Paternal Crisis",
+    "description": "When Mars occupies the 10th house in an enemy sign, the father faces sudden crises — accidents, surgery, or violent events. Mars's aggressive energy in the father's house without dignity creates explosive outcomes.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Mars Effects in Houses",
+      "verse": null,
+      "page": null,
+      "quote": "Mars in the 10th in an inimical sign brings sudden danger, accidents, and surgery to the father.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["father_accident", "sudden_crisis", "father_surgery"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 80,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natal Mars is in the 10th house",
+        "Mars is in an enemy sign (Cancer for Mars, or signs ruled by Mercury/Venus)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["10"],
+      "planets": ["Mars"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mars in 10th (father's house) without dignity = uncontrolled aggressive energy directed at father. Quality: sudden crisis — accidents, emergencies, surgery rather than gradual decline.",
+      "mode": "sudden_crisis",
+      "quality": "challenging",
+      "confidence": 0.78
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "mars_10th_enemy_sudden_crisis",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "quality_classification_only"
+    },
+    "metadata": {
+      "notes": "Outcome/quality rule. Classifies the nature as sudden/violent rather than chronic.",
+      "parent_affected": "father",
+      "quality_type": "sudden_crisis"
+    }
+  },
+  {
+    "rule_id": "jp_sun_mars_8th_moon_afflicted_maternal_crisis",
+    "name": "Jataka Parijata — Sun-Mars in 8th & Afflicted Moon & Maternal Crisis",
+    "description": "When Sun and Mars conjoin in the 8th house while Moon is afflicted, the mother faces severe health crisis or surgical emergency. The 8th house of death activated by fiery malefics while Moon is weak points to maternal emergency.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "Maternal Health",
+      "verse": null,
+      "page": null,
+      "quote": "Sun and Mars in the 8th with afflicted Moon: the mother faces surgery, severe illness, or death.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["mother_health_crisis", "mother_surgery", "maternal_emergency"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 82,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Natal Sun is in the 8th house",
+        "Natal Mars is in the 8th house",
+        "Natal Moon is afflicted (conjunct or aspected by malefics)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["8"],
+      "planets": ["Sun", "Mars", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Sun+Mars in 8th = intense transformative energy in the house of death. Afflicted Moon = weakened mother-karaka. Quality: maternal emergency — acute crisis, surgery, or life-threatening event.",
+      "mode": "maternal_crisis",
+      "quality": "challenging",
+      "confidence": 0.80
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "sun_mars_8th_maternal_crisis",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "quality_classification_only"
+    },
+    "metadata": {
+      "notes": "Outcome/quality rule. Classifies maternal event as emergency/surgical rather than chronic.",
+      "parent_affected": "mother",
+      "quality_type": "maternal_emergency"
+    }
+  },
+  {
+    "rule_id": "bphs_five_planets_2nd_sudden_orphan",
+    "name": "BPHS — Five Planets in 2nd House & Sudden Orphan",
+    "description": "When five or more planets congregate in the 2nd house (family/kutumba house), the native may become an orphan early in life. The overwhelming planetary energy in the family house creates destruction of the family unit.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Planetary Concentrations",
+      "verse": null,
+      "page": null,
+      "quote": "Five or more planets in the 2nd house: the native becomes an orphan, losing both parents early.",
+      "translation": null
+    },
+    "domain": "family",
+    "event_family": "parent_health_and_loss",
+    "event_subtype": ["orphan", "both_parents_loss", "sudden_family_destruction"],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 95,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Five or more planets are placed in the 2nd house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["2"],
+      "planets": ["Sun", "Moon", "Mars", "Mercury", "Jupiter", "Venus", "Saturn"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Massive planetary concentration in 2nd (family) house = karmic overload on family structure. Both parents may die or disappear early, leaving the native as an orphan. Quality: complete parental loss.",
+      "mode": "sudden_orphan",
+      "quality": "challenging",
+      "confidence": 0.88
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 1.0
+    },
+    "outputs": {
+      "symbolic_label": "five_planets_2nd_orphan",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "quality_classification_only"
+    },
+    "metadata": {
+      "notes": "Outcome/quality rule. Rare but severe. Indicates complete loss of family structure.",
+      "parent_affected": "both",
+      "quality_type": "sudden_orphan"
+    }
+  }
+]

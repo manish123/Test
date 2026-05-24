@@ -1,0 +1,84 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "family",
+  "event_family": "parent_health_and_loss",
+  "last_updated": "2026-06-01T00:00:00Z",
+
+  "layer_weights": {
+    "dasha_weight": 0.35,
+    "transit_weight": 0.30,
+    "fast_trigger_weight": 0.20,
+    "classical_weight": 0.15,
+    "_notes": "Dasha gates everything for parental loss. Transit Saturn over Sun/Moon is the strongest activation. Classical patterns provide structural confidence. Fast triggers pinpoint the day."
+  },
+
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15,
+    "_notes": "Initial thresholds pending validation. Higher bar than childbirth due to severity of predictions."
+  },
+
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions. Classical texts define PRIORITY; these numbers are Layer 3 calibration.",
+    "dasha": {
+      "ketu_saturn_parental_death": 48,
+      "saturn_rahu_parental_destruction": 46,
+      "horasara_4th_lord_navamsa_father": 42,
+      "saturn_moon_separation": 38,
+      "venus_sun_father_distress": 32,
+      "rahu_moon_father_distress": 30,
+      "jupiter_moon_mother_distress": 28,
+      "mercury_jupiter_death_parents": 26,
+      "jp_1st_4th_9th_mother_follows": 35,
+      "_calibration_note": "Ketu-Saturn and Saturn-Rahu are the strongest dasha combinations for parental death based on BPHS text priority."
+    },
+    "transit": {
+      "saturn_sun_ashtakavarga_father": 42,
+      "saturn_moon_ashtakavarga_mother": 42,
+      "saturn_rahu_mars_4th_from_sun": 38,
+      "mandi_sun_difference_father": 32,
+      "yamakantaka_sun_difference_father": 35,
+      "moon_mandi_difference_mother": 32,
+      "sun_trine_moon_d9_mother": 28,
+      "sun_trine_lagna_d9_father": 28,
+      "double_sun_moon_difference_mother": 30,
+      "_calibration_note": "Saturn over natal Sun/Moon is the primary transit activation. Sensitive point techniques need more validation."
+    },
+    "fast_trigger": {
+      "moon_transit_sun_d9_dispositor": 30,
+      "gandanta_pada_father": 28,
+      "gandanta_pada_mother": 28,
+      "mars_4th_from_sun_detonator": 25,
+      "sun_moon_d9_timing": 22,
+      "_calibration_note": "Fast triggers only fire when dasha + transit are active. Moon transit is fastest (2.5 days/sign)."
+    }
+  },
+
+  "rule_adjustments": [],
+
+  "outcome_calibration": {
+    "mode_priority_order": ["father_death", "mother_death", "parental_death", "parental_separation", "father_distress", "mother_distress", "emotional_distance"],
+    "quality_priority_order": ["death", "sudden_crisis", "chronic_illness", "separation", "emotional_distance"],
+    "default_mode": "parental_distress",
+    "_calibration_notes": "Priority order places death events above distress. Father and mother modes are resolved based on which planet axis (Sun/Moon) is more afflicted."
+  },
+
+  "evidence_summary": {
+    "total_cases_tested": 0,
+    "verified_cases": 0,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.0,
+    "average_rank": 0.0,
+    "last_validation_date": "2026-06-01"
+  },
+
+  "governance": {
+    "created_by": "initial_rule_pack_creation",
+    "adjustment_reason": "First creation — no empirical calibration yet. Base scores derived from classical text priority ratings.",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "SENSITIVE DOMAIN: Parental death predictions require extreme care in delivery. Never present without multi-layer confirmation. Always frame as 'periods of concern' rather than definitive predictions."
+  }
+}
