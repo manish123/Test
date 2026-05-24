@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://astrolyn.ai/schemas/medical_rule.schema.json",
+  "title": "MedicalRule",
+  "description": "Schema for medical/surgery domain event rules. Covers all 5 semantic layers: dasha, transit, fast_trigger, classical_pattern, and outcome/quality classification.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["rule_id", "name", "domain", "event_family", "rule_type", "status", "priority", "conditions", "outputs"],
+  "properties": {
+    "rule_id": {"type": "string", "minLength": 1, "description": "Unique rule identifier, e.g. med_dasha_6th_lord_disease_onset"},
+    "name": {"type": "string", "minLength": 1},
+    "description": {"type": "string"},
+    "source_text": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Classical source provenance for audit and scholarly validation",
+      "properties": {
+        "work_name": {"type": "string"},
+        "chapter": {"type": ["string", "null"]},
+        "verse": {"type": ["string", "null"]},
+        "page": {"type": ["string", "null"]},
+        "quote": {"type": ["string", "null"]},
+        "translation": {"type": ["string", "null"]}
+      }
+    },
+    "domain": {"type": "string", "enum": ["medical"], "description": "Medical rules belong to the medical domain"},
+    "event_family": {
+      "type": "string",
+      "enum": ["surgery_and_medical_events", "chronic_disease", "acute_illness", "hospitalization", "recovery", "injury"],
+      "description": "Type of medical event"
+    },
+    "event_subtype": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Specific sub-events: surgery, chronic_flareup, cardiac_event, hospitalization, mental_health, accident, etc."
+    },
+    "rule_type": {
+      "type": "string",
+      "enum": ["dasha", "transit", "fast_trigger", "classical_pattern", "compound", "combination", "yoga", "house_activation", "d9", "aspect", "outcome_quality"]
+    },
+    "status": {"type": "string", "enum": ["active", "experimental", "calibration", "deprecated"]},
+    "priority": {"type": "integer", "minimum": 1, "maximum": 100, "description": "Higher value means stronger precedence within its layer"},
+    "polarity": {"type": "string", "enum": ["supportive", "benefic", "neutral", "challenging", "malefic", "mixed"]},
+    "timing_band": {
+      "type": "string",
+      "enum": ["broad", "medium", "narrow", "exact", "none"],
+      "description": "broad=dasha-level, medium=transit-level, narrow=refined, exact=fast-trigger-level, none=natal/structural"
+    },
+    "conditions": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Rule conditions. For dasha/transit/fast_trigger: all_of/any_of/none_of. For classical/outcome: required/optional."
+    },
+    "signals": {
+      "description": "Declares what data the engine must extract to evaluate this rule. Object format for dasha/transit/fast_trigger, array format for classical/outcome.",
+      "additionalProperties": true
+    },
+    "interpretation": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Human-readable interpretation metadata",
+      "properties": {
+        "meaning": {"type": "string"},
+        "summary": {"type": "string"},
+        "detail": {"type": "string"},
+        "mode": {"type": "string", "description": "Medical mode: surgery, chronic_disease, acute_illness, hospitalization, recovery, injury"},
+        "quality": {"type": "string", "description": "Quality: life_threatening, critical, manageable, routine, healing, unknown"},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1, "description": "Source-level confidence (0-1)"}
+      }
+    },
+    "window": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "description": "Timing window parameters. Null for structural/quality rules (timing_band=none)",
+      "properties": {
+        "broad_window_days": {"type": "integer", "minimum": 0},
+        "exact_window_days": {"type": "integer", "minimum": 0},
+        "confidence_decay_days": {"type": "integer", "minimum": 0}
+      }
+    },
+    "weights": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Layer weights or base_weight/confidence/classical_authority for the rule"
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["symbolic_label", "likelihood_band", "timing_band"],
+      "properties": {
+        "symbolic_label": {"type": "string", "description": "Neutral interpretation label, e.g. surgery_window_active"},
+        "likelihood_band": {"type": "string", "enum": ["very_low", "low", "moderate", "high", "very_high"]},
+        "timing_band": {"type": "string", "enum": ["broad", "narrow", "exact", "none"]},
+        "recommended_action": {"type": "string", "description": "Domain-facing guidance: schedule_screening, prepare_for_surgery, seek_specialist, etc."}
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Optional provenance, calibration, and implementation notes",
+      "properties": {
+        "notes": {"type": "string"},
+        "author": {"type": "string"},
+        "text": {"type": "string"},
+        "chapter": {},
+        "verse": {},
+        "page": {},
+        "tradition": {"type": "string"},
+        "tags": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

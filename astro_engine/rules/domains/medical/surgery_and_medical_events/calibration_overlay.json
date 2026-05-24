@@ -1,0 +1,62 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "medical",
+  "event_family": "surgery_and_medical_events",
+  "last_updated": "2026-05-24T00:00:00Z",
+  "layer_weights": {
+    "dasha_weight": 0.35,
+    "transit_weight": 0.30,
+    "fast_trigger_weight": 0.25,
+    "classical_weight": 0.10,
+    "_notes": "Initial weights. Medical events have strong fast_trigger dependency (Mrityu Bhaga and Vinasha Tara are highly precise). Dasha gates are critical for broad windows. Classical patterns provide structural confirmation but less timing value."
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15,
+    "_notes": "Initial thresholds pending validation against actual medical event cases."
+  },
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions. To be populated as rules are validated.",
+    "dasha": {},
+    "transit": {},
+    "fast_trigger": {}
+  },
+  "rule_adjustments": [],
+  "outcome_calibration": {
+    "mode_priority_order": [
+      "surgery",
+      "chronic_disease",
+      "acute_illness",
+      "hospitalization",
+      "recovery",
+      "injury"
+    ],
+    "quality_priority_order": [
+      "life_threatening",
+      "critical",
+      "manageable",
+      "routine",
+      "healing"
+    ],
+    "default_mode": "acute_illness"
+  },
+  "evidence_summary": {
+    "total_cases_tested": 0,
+    "verified_cases": 0,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.0,
+    "mode_accuracy": 0.0,
+    "quality_accuracy": 0.0,
+    "average_rank": 0.0,
+    "last_validation_date": "2026-05-24"
+  },
+  "governance": {
+    "created_by": "initial_architecture_setup",
+    "adjustment_reason": "Initial calibration overlay for medical domain. All values are baseline pending validation.",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "ZERO cases validated. All scores and thresholds are theoretical. Do NOT apply weight changes until 10+ cases validated. MEDICAL DISCLAIMER: This is for research/astrological timing only — NOT medical advice."
+  }
+}
