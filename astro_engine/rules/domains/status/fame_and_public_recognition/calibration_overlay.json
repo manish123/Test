@@ -1,0 +1,81 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "status",
+  "event_family": "fame_and_public_recognition",
+  "last_updated": "2026-05-24T00:00:00Z",
+  "layer_weights": {
+    "dasha_weight": 0.30,
+    "transit_weight": 0.35,
+    "fast_trigger_weight": 0.15,
+    "classical_weight": 0.20,
+    "_notes": "Initial weights. Fame has strong classical pattern dependency (natal promise of fame is critical). Transit slightly higher because Jupiter-Sun conjunction is the most reliable single indicator."
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15,
+    "_notes": "Initial thresholds pending validation against actual fame events."
+  },
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions.",
+    "dasha": {
+      "fame_karaka_md_or_ad": 45,
+      "tenth_lord_md_or_ad": 42,
+      "first_lord_md_or_ad": 38,
+      "fifth_lord_md_or_ad": 35,
+      "ninth_lord_md_or_ad": 33,
+      "eleventh_lord_md_or_ad": 30
+    },
+    "transit": {
+      "jupiter_conjunct_natal_sun": 50,
+      "jupiter_return": 42,
+      "benefics_in_10th": 35,
+      "abhishek_tara_28th_slow": 38
+    },
+    "fast_trigger": {
+      "abhishek_tara_moon_28th": 30,
+      "abhishek_tara_mars_28th": 28
+    }
+  },
+  "rule_adjustments": [],
+  "outcome_calibration": {
+    "mode_priority_order": [
+      "political_fame",
+      "artistic_fame",
+      "spiritual_fame",
+      "mass_influence",
+      "controversial",
+      "unconventional_secret"
+    ],
+    "quality_priority_order": [
+      "stable",
+      "charismatic",
+      "unstable",
+      "scandal_prone"
+    ],
+    "scale_priority_order": [
+      "international",
+      "national",
+      "local"
+    ],
+    "default_mode": "general_recognition"
+  },
+  "evidence_summary": {
+    "total_cases_tested": 0,
+    "verified_cases": 0,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.0,
+    "mode_accuracy": 0.0,
+    "quality_accuracy": 0.0,
+    "average_rank": 0.0,
+    "last_validation_date": "2026-05-24"
+  },
+  "governance": {
+    "created_by": "initial_architecture_setup",
+    "adjustment_reason": "Initial calibration overlay for fame/recognition domain. All values are baseline pending validation.",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "ZERO cases validated. All scores and thresholds are theoretical. Do NOT apply weight changes until 10+ cases validated."
+  }
+}
