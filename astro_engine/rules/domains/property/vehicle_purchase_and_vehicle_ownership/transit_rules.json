@@ -1,0 +1,265 @@
+[
+  {
+    "rule_id": "transit_lagna_lord_4th_house_vehicle",
+    "name": "Lagna Lord Transit 4th House Vehicle Activation",
+    "description": "Transit Lagna lord activating the 4th house or 4th lord triggers the physical acquisition of a vehicle.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "16",
+      "verse": "31",
+      "page": null,
+      "quote": "The acquisition or success of a house should be declared in the following situations :— (1) When the lord of the Lagna passes in transit in trikona through the sign or navamsa occupied by the lord of the house. (2) When the lord of the Lagna passes through that house in transit. (3) When the lord of the house transits in the sign which is trikona to the sign or navamsa occupied by the lord of the Lagna. (4) When in course of transit the lord of the Lagna and the lord of the house get conjoined or aspect each other.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "transport_upgrade"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Lagna lord passes through the 4th house",
+        "Transit Lagna lord passes through a sign that is in trine to the natal sign occupied by the 4th lord",
+        "Transit Lagna lord passes through a sign that is in trine to the natal Navamsa occupied by the 4th lord",
+        "Transit 4th lord passes through a sign that is in trine to the natal sign or Navamsa of the Lagna lord",
+        "Transit Lagna lord and Transit 4th lord conjoin or mutually aspect each other"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Lagna_lord", "4th_lord"],
+      "houses": ["4"],
+      "planets": ["1st_lord", "4th_lord"],
+      "nakshatra": [],
+      "d9": ["4th_lord_Navamsa", "Lagna_lord_Navamsa"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The physical acquisition of a vehicle or conveyance (significations of the 4th house) manifests when the transiting Ascendant lord (representing the self) makes a structural connection to the 4th house or 4th lord, or vice-versa. This aligns the native's identity with the promise of transportation assets.",
+      "mode": "vehicle_purchase",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 90,
+      "confidence_decay_days": 30
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "lagna_lord_4th_vehicle_activation",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "initiate_vehicle_search"
+    },
+    "metadata": {
+      "notes": "Applies the classical Phaladeepika 'Fructification of Houses' principles specifically to the 4th house of conveyances."
+    }
+  },
+  {
+    "rule_id": "transit_jupiter_trine_4th_lord_navamsa_vehicle",
+    "name": "Jupiter Transit Trine 4th Lord Navamsa Vehicle Window",
+    "description": "Jupiter transiting in trine to the natal 4th lord or its Navamsa unlocks a supportive one-year window for vehicle purchase.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "16",
+      "verse": "32",
+      "page": null,
+      "quote": "Note the position of the sign or navamsa occupied by the lord of the house under consideration. When Jupiter, in course of his transit, is in trikona to that sign and navamsa, the derivation of the good effects of the house may be...",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "luxury_transport"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes through a sign that is in trine (1st, 5th, 9th) to the natal sign occupied by the 4th lord",
+        "Transit Jupiter passes through a sign that is in trine (1st, 5th, 9th) to the natal Navamsa occupied by the 4th lord"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["4"],
+      "planets": ["Jupiter", "4th_lord"],
+      "nakshatra": [],
+      "d9": ["4th_lord_Navamsa"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Jupiter's transit in a trine to the natal 4th lord (or its Navamsa position) acts as a divine blessing and expansion of the 4th house's significations, unlocking a highly supportive window to purchase a vehicle or upgrade to luxury transportation.",
+      "mode": "vehicle_purchase",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 365,
+      "confidence_decay_days": 90
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_trine_4th_lord_vehicle_window",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "initiate_vehicle_search"
+    },
+    "metadata": {
+      "notes": "A reliable one-year window triggered by Jupiter activating the ruler of vehicles from the D1 or D9 (Navamsa) chart."
+    }
+  },
+  {
+    "rule_id": "transit_karaka_venus_conjunct_lagna_moon_lord",
+    "name": "Venus Karaka Transit Conjunct Lagna/Moon Lord Vehicle Trigger",
+    "description": "Transit Venus (Vahana Karaka) conjuncting natal Lagna lord or Moon sign lord facilitates vehicle purchase.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "16",
+      "verse": "31",
+      "page": null,
+      "quote": "The acquisition or success of a house should be declared in the following situations :— ... (5) When the karaka of the house in course of his transit gets conjoined with the lord of the Lagna or the lord of the sign occupied by the Moon.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase", "luxury_transport"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 78,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Venus (the Karaka for vehicles and conveyances) conjuncts the natal Lagna lord",
+        "Transit Venus (the Karaka for vehicles and conveyances) conjuncts the natal lord of the Moon sign"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Venus"],
+      "houses": [],
+      "planets": ["Venus", "1st_lord", "Moon_sign_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the natural significator for vehicles and luxuries (Venus/Vahana Karaka) transits over the planetary ruler of the Ascendant or the Moon, it temporarily bridges the native's identity/mind with conveyances, facilitating a vehicle purchase or luxury transport upgrade.",
+      "mode": "luxury_transport",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 30,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.8,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "venus_karaka_lagna_moon_vehicle_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "narrow",
+      "recommended_action": "finalize_vehicle_deal"
+    },
+    "metadata": {
+      "notes": "Direct application of the Karaka transit principle specifically mapped to Venus for vehicle acquisition."
+    }
+  },
+  {
+    "rule_id": "transit_benefic_4th_house_conveyance",
+    "name": "Benefic Transit 4th House Conveyance Window",
+    "description": "Transiting benefic planets in or aspecting the 4th house or its lord trigger a supportive window for vehicle acquisition.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "14",
+      "verse": "10-14",
+      "page": "144",
+      "quote": "Should a benefic be in Bandhu, drishti Bandhu, or in yuti with the Lord of Bandhu, or a Drishti on the Lord of Bandhu Bhava, then the native will be happy with conveyances... A malefic, replacing the said benefic, will cause losses, concerning vehicles...",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["transport_upgrade", "vehicle_purchase"],
+    "rule_type": "transit",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "A transiting benefic planet (such as Jupiter or Venus) passes through the 4th house",
+        "A transiting benefic planet aspects the 4th house",
+        "A transiting benefic planet conjuncts the 4th lord",
+        "A transiting benefic planet aspects the 4th lord"
+      ],
+      "none_of": [
+        "A transiting malefic planet occupies or aspects the 4th house concurrently without benefic relief"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter", "Venus", "Benefics"],
+      "houses": ["4"],
+      "planets": ["4th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When transiting benefic planets move through or aspect the 4th house (Bandhu Bhava) or its lord, it triggers a supportive window for enjoying new conveyances, successfully acquiring a vehicle, and upgrading one's transportation assets.",
+      "mode": "transport_upgrade",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 180,
+      "confidence_decay_days": 60
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "benefic_4th_house_conveyance_window",
+      "likelihood_band": "high",
+      "timing_band": "narrow",
+      "recommended_action": "initiate_vehicle_search"
+    },
+    "metadata": {
+      "notes": "Based on the core classical principle that benefic associations with the 4th house/lord produce happiness regarding vehicles; applicable to both natal and transit environments."
+    }
+  }
+]

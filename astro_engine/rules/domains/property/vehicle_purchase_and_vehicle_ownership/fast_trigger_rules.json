@@ -1,0 +1,66 @@
+[
+  {
+    "rule_id": "fast_trigger_sbc_vehicle_purchase",
+    "name": "SBC Benefic Janma Nakshatra Vehicle Muhurta Trigger",
+    "description": "Sarvatobhadra Chakra (SBC) benefic transit over Janma Nakshatra and name consonants creates the exact auspicious muhurta for vehicle booking or delivery.",
+    "source_text": {
+      "work_name": "45 SARAVATOBHADRA CHAKRA IN ASTROLOGY",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Astrology has prescribed special muhurtas for each auspicious activity like entering a new house, marriage, buying vehicle and other things... In a SBC when some benefic grahas in motion transit Janmanakshatra and other consonants of native, create most auspicious Muhurtas for all types of activities.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["vehicle_purchase"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [
+        "Transiting benefic planets pass over the exact longitude of the native's Janma Nakshatra (birth star)",
+        "Transiting benefic planets align with the specific phonetic consonants of the native's name in the Sarvatobhadra Chakra (SBC)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Benefics"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["Janma_Nakshatra"],
+      "d9": [],
+      "sensitive_points": ["Name_Consonants_SBC"]
+    },
+    "interpretation": {
+      "meaning": "Using the Sarvatobhadra Chakra (SBC), the exact auspicious timing (Muhurta) for buying a vehicle or taking delivery is triggered when fast-moving benefic planets in transit activate both the native's birth star and the energetic phonetic syllables of their name.",
+      "mode": "vehicle_purchase",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 0,
+      "exact_window_days": 3,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "sbc_vehicle_muhurta_exact",
+      "likelihood_band": "very_high",
+      "timing_band": "exact",
+      "recommended_action": "finalize_vehicle_purchase_today"
+    },
+    "metadata": {
+      "notes": "A micro-timing tool utilized specifically for scheduling the exact day of booking or buying a vehicle."
+    }
+  }
+]

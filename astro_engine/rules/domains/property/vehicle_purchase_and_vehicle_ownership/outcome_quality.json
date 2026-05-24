@@ -1,0 +1,495 @@
+[
+  {
+    "rule_id": "jp_4th_lord_dusthana_bad_vehicle",
+    "name": "4th Lord in Dusthana Defective Vehicle Outcome",
+    "description": "Afflicted 4th lord in debilitation placed in a Dusthana results in acquisition of an unstable or defective vehicle.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "12",
+      "verse": "113",
+      "page": null,
+      "quote": "When the lord of the 4th bhava being in an inimical or depression sign, occupies a (Dusthhana) and is aspected by the lord of the 9th bhava, there will be acquisition of a vehicle which will be either unsteady or prove a very bad specimen of its kind.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["unstable_ownership", "repeated_expenses"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 85,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 4th house occupies an inimical sign or sign of debilitation",
+        "The Lord of the 4th house is positioned in a Dusthana (6th, 8th, or 12th house)",
+        "The Lord of the 4th house is aspected by the Lord of the 9th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["6", "8", "12"],
+      "planets": ["4th_lord", "9th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the planetary ruler of vehicles (4th lord) is heavily afflicted by sign placement (debilitation/inimical), house placement (Dusthana), and receives an activating aspect from the 9th lord, the native acquires a vehicle, but the outcome is highly unstable, resulting in a defective or unreliable conveyance.",
+      "mode": "unstable_ownership",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "defective_vehicle_outcome",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "caution_vehicle_inspection_needed"
+    },
+    "metadata": {
+      "notes": "A precise classical rule defining the acquisition of a poor-quality or chronically defective vehicle."
+    }
+  },
+  {
+    "rule_id": "jp_4th_lord_9th_house_many_vehicles",
+    "name": "4th Lord in 9th with Jupiter Venus Multiple Vehicles Outcome",
+    "description": "Extraordinary combination produces outcome of massive transport prosperity and fleet ownership.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "12",
+      "verse": "123",
+      "page": null,
+      "quote": "If the lord of the 4th bhava in conjunction with Jupiter and Venus, occupy the 9th bhava and if the lord of the latter be in the 4th or in any of the other Kendras or in a Trikona position, the person born will possess many vehicles and lands.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["multiple_vehicles", "transport_prosperity"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 95,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 4th house is positioned in the 9th house",
+        "Jupiter is conjunct the Lord of the 4th house in the 9th house",
+        "Venus is conjunct the Lord of the 4th house in the 9th house"
+      ],
+      "any_of": [
+        "The Lord of the 9th house is positioned in the 4th house",
+        "The Lord of the 9th house is positioned in a Kendra (1st, 4th, 7th, 10th house)",
+        "The Lord of the 9th house is positioned in a Trikona (5th, 9th house)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4", "9", "1", "5", "7", "10"],
+      "planets": ["4th_lord", "9th_lord", "Jupiter", "Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "An extraordinary combination of the primary vehicle significators (4th lord, Venus, Jupiter) merging in the house of fortune (9th), while supported by a strong 9th lord. This outcome results in massive transport prosperity and the ownership of a fleet of multiple vehicles.",
+      "mode": "multiple_vehicles",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "multiple_vehicle_fleet_outcome",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "plan_multiple_vehicle_acquisitions"
+    },
+    "metadata": {
+      "notes": "Defines peak vehicle accumulation outcome. Rare but extremely powerful."
+    }
+  },
+  {
+    "rule_id": "jp_4th_lord_jupiter_enclosed_vehicle",
+    "name": "4th Lord with Jupiter Luxury Enclosed Vehicle Outcome",
+    "description": "Jupiter with 4th lord yields ownership of substantial, protective, and comfortable luxury vehicles.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "12",
+      "verse": "103",
+      "page": null,
+      "quote": "When the lord of the 4th bhava is associated with Jupiter, the person born will have a vehicle bordered on all the four sides.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["luxury_vehicle", "transport_prosperity"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 4th house is conjunct or aspected by Jupiter"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4"],
+      "planets": ["4th_lord", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Jupiter provides expansion and protection. When it associates with the 4th lord, the outcome is ownership of a substantial, protective, and comfortable 'bordered' vehicle, analogous to owning large luxury cars or SUVs in modern times.",
+      "mode": "luxury_vehicle",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "luxury_enclosed_vehicle_outcome",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "consider_luxury_suv_sedan"
+    },
+    "metadata": {
+      "notes": "Indicates safety, status, and luxury combined in the vehicle outcome."
+    }
+  },
+  {
+    "rule_id": "jp_4th_lord_venus_lagna_elephant",
+    "name": "4th Lord Venus Lagna Elite Vehicle Outcome",
+    "description": "Venus conjunction with 4th lord in Lagna denotes exceptional luxury vehicle ownership outcome.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "12",
+      "verse": "100",
+      "page": null,
+      "quote": "if the lord of the 4th bhava occupies the Lagna in conjunction with Venus, the person concerned will have an elephant to ride on.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["luxury_vehicle"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 4th house is positioned in the Ascendant (Lagna)",
+        "Venus is positioned in the Ascendant (Lagna) conjunct the Lord of the 4th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1", "4"],
+      "planets": ["4th_lord", "Venus"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Venus is the ultimate significator of luxury (Vahana Karaka). Its conjunction with the 4th lord in the 1st house attaches the native directly to high-status, royal-level transportation (symbolized classically by an elephant), denoting an outcome of exceptional luxury vehicles.",
+      "mode": "luxury_vehicle",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "elite_luxury_vehicle_outcome",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "consider_premium_luxury_brand"
+    },
+    "metadata": {
+      "notes": "One of the most potent classical yogas for high-end vehicle ownership outcome."
+    }
+  },
+  {
+    "rule_id": "nirayana_11th_from_6th_car_loans",
+    "name": "11th from 6th House Car Loan Debt Vehicle Outcome",
+    "description": "4th house as 11th from 6th structurally produces debt-financed vehicle acquisition.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "57",
+      "quote": "11th-from-6th: Gains from loan debt/usury = the fruits of debt... ownership of vehicles & 'property' (stuff) through 'car loans' & consumer debt",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["debt_heavy_vehicle"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 78,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The 4th house (which is structurally the 11th from the 6th house of debt) is activated for vehicle acquisition"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4", "6", "11"],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The 4th house acts as the 11th (gains) from the 6th house (debts). The inherent structural outcome is that the acquisition of vehicles is frequently accompanied by taking on car loans, leading to a debt-heavy transportation purchase.",
+      "mode": "debt_heavy_vehicle",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "debt_financed_vehicle_outcome",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "plan_vehicle_financing_carefully"
+    },
+    "metadata": {
+      "notes": "Explains the common reality of financing vehicles through loans via the Bhavat Bhavam principle."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_vargottama_lagna_9th_lord_golden_vehicle",
+    "name": "Vargottama Raja Yoga Golden Vehicle Outcome",
+    "description": "Vargottama Lagna and 9th lords yield possession of extremely luxurious, custom-built high-end vehicles.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "7",
+      "verse": "6",
+      "page": null,
+      "quote": "Should at birth the lord of the Langa being Vargottama be posited in a kendra or Trikona and the lord (of the 9th) being Vargottama be posited in a kendra or the 9th in his own sign or his sign of exaltation, the native will become a king who will occupy a beatiful golden vehicle on the back of an elephant, with chowries adorning the two sides.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["luxury_vehicle", "transport_prosperity"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 96,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the Ascendant (Lagna) is in Vargottamamsa",
+        "The Lord of the 9th house is in Vargottamamsa"
+      ],
+      "any_of": [
+        "The Lord of the Ascendant is positioned in a Kendra (1st, 4th, 7th, 10th house)",
+        "The Lord of the Ascendant is positioned in a Trikona (5th, 9th house)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["1", "4", "5", "7", "9", "10"],
+      "planets": ["1st_lord", "9th_lord"],
+      "nakshatra": [],
+      "d9": ["Vargottama_Lagna_Lord", "Vargottama_9th_Lord"],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Extremely high structural strength (Vargottama) of the 1st and 9th lords combined with angular or trinal placement yields a Raja Yoga. The outcome is the possession of extremely luxurious, 'golden' or custom-built high-end vehicles denoting societal dominance.",
+      "mode": "luxury_vehicle",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "raja_yoga_golden_vehicle_outcome",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "consider_ultra_luxury_custom_vehicle"
+    },
+    "metadata": {
+      "notes": "A definitive signature for royal or elite-level transportation outcome."
+    }
+  },
+  {
+    "rule_id": "bphs_malefic_4th_house_losses",
+    "name": "Malefic 4th House Vehicle Loss Outcome",
+    "description": "Heavy malefic influence on 4th house without benefic relief results in persistent vehicle losses and expenses.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "14",
+      "verse": "10-14",
+      "page": "144",
+      "quote": "Should a benefic be in Bandhu, drishti Bandhu, or in yuti with the Lord of Bandhu, or a Drishti on the Lord of Bandhu Bhava, then the native will be happy with conveyances... A malefic, replacing the said benefic, will cause losses, concerning vehicles...",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["unstable_ownership", "repeated_expenses"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 88,
+    "polarity": "challenging",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "A malefic planet is positioned in the 4th house",
+        "A malefic planet aspects the 4th house",
+        "A malefic planet is conjunct the Lord of the 4th house",
+        "A malefic planet aspects the Lord of the 4th house"
+      ],
+      "none_of": [
+        "A benefic planet is positioned in or aspects the 4th house or its lord"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["4"],
+      "planets": ["Malefics", "4th_lord"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Heavy malefic influence on the 4th house or its lord without any benefic relief results in persistent unstable ownership of vehicles. The outcome usually manifests as severe losses, frequent breakdowns, and repeated expenses on transportation.",
+      "mode": "repeated_expenses",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "malefic_vehicle_loss_outcome",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "caution_vehicle_maintenance_priority"
+    },
+    "metadata": {
+      "notes": "Classic formula distinguishing the quality of the vehicle experience based on natural benefic/malefic influence."
+    }
+  },
+  {
+    "rule_id": "jp_sun_moon_jupiter_9th_vehicles",
+    "name": "Sun Moon Jupiter 9th House Transport Prosperity Outcome",
+    "description": "Triple conjunction of luminaries with Jupiter in 9th bestows great ease in travel and richness in vehicles.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "8",
+      "verse": "78",
+      "page": null,
+      "quote": "if the Sun, the Moon and Jupiter be found together in the 9th bhava, the person will enjoy much ease and will be rich in vehicles.",
+      "translation": null
+    },
+    "domain": "property",
+    "event_family": "vehicle_purchase_and_vehicle_ownership",
+    "event_subtype": ["transport_prosperity", "multiple_vehicles"],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Sun is positioned in the 9th house",
+        "The Moon is positioned in the 9th house",
+        "Jupiter is positioned in the 9th house",
+        "The Sun, Moon, and Jupiter are conjunct"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": ["9"],
+      "planets": ["Sun", "Moon", "Jupiter"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The triple conjunction of the luminaries (Sun and Moon) with the great benefic Jupiter in the 9th house of fortune bestows immense grace, leading to an outcome of great ease in travel and making the native rich in transportation assets.",
+      "mode": "transport_prosperity",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "luminaries_jupiter_9th_transport_prosperity",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "plan_multiple_vehicle_acquisitions"
+    },
+    "metadata": {
+      "notes": "Connects dharma/fortune directly to the wealth of vehicles."
+    }
+  }
+]
