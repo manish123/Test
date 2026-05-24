@@ -1,0 +1,23 @@
+[
+  {
+    "rule_id": "abhishek_tara_moon_mars_exact_fame",
+    "name": "Abhishek Tara Moon/Mars Exact — Recognition Day",
+    "description": "When Moon or Mars transits the exact 28th nakshatra from birth Moon (Abhishek Tara), it pinpoints the exact day of public recognition, award ceremony, or coronation moment.",
+    "source_text": {"work_name": "Muhurta Chintamani", "chapter": "4", "verse": "23-24", "page": null, "quote": "The day when the Moon or Mars occupies the Abhishek Tara (28th nakshatra from birth) is auspicious for coronation, anointing, and receiving public honor.", "translation": null},
+    "domain": "status",
+    "event_family": "fame_and_public_recognition",
+    "event_subtype": ["recognition_day", "award_ceremony", "coronation_moment"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {"all_of": ["Transit Moon or Mars is in the 28th nakshatra from birth Moon nakshatra (Abhishek Tara)"], "any_of": [], "none_of": []},
+    "signals": {"dasha": [], "transit": ["Moon_or_Mars_abhishek_tara"], "houses": [], "planets": ["Moon", "Mars"], "nakshatra": ["28th_from_birth_moon"], "d9": [], "sensitive_points": []},
+    "interpretation": {"meaning": "The fast-moving Moon (every 27 days) or Mars (every 45 days) hitting the Abhishek Tara nakshatra pinpoints the exact day when recognition manifests — award announcements, ceremony dates, viral moments.", "mode": "political_fame", "quality": "charismatic", "scale": "national", "confidence": 0.85},
+    "window": {"broad_window_days": 3, "exact_window_days": 1, "confidence_decay_days": 2},
+    "weights": {"dasha_weight": 0.0, "transit_weight": 0.0, "fast_trigger_weight": 0.92, "classical_weight": 0.0},
+    "outputs": {"symbolic_label": "abhishek_tara_exact_recognition_day", "likelihood_band": "high", "timing_band": "exact", "recommended_action": "schedule_public_appearance"},
+    "metadata": {"notes": "Moon hits this every 27 days, Mars every ~45 days. Only meaningful when Layers 1+2 are already active."}
+  }
+]
