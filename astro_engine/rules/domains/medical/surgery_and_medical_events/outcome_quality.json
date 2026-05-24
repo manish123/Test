@@ -1,0 +1,592 @@
+{
+  "domain": "medical",
+  "event_family": "surgery_and_medical_events",
+  "file_type": "outcome_quality",
+  "version": "1.0.0",
+  "rules": [
+    {
+      "rule_id": "med_outcome_mars_8th_major_surgery",
+      "name": "Mars in 8th — Major Surgical Intervention Quality",
+      "description": "Mars placed in or ruling the 8th house indicates that the medical event will manifest as a major surgical intervention rather than conservative treatment.",
+      "source_text": "Brihat Parashara Hora Shastra 34:18",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "major_surgery_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 95,
+      "polarity": "challenging",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "mars_8th_connection",
+            "condition": "Mars is in the 8th house OR Mars rules the 8th house",
+            "description": "Mars must have direct connection to the 8th house (placement or lordship)"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "ketu_involvement",
+            "condition": "Ketu aspects or conjuncts Mars",
+            "description": "Ketu's involvement makes surgery more sudden and emergency-based"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "mars_8th_house_connection", "weight": 0.7},
+        {"signal": "ketu_mars_interaction", "weight": 0.3}
+      ],
+      "interpretation": {
+        "summary": "The medical event will require major surgical intervention — cutting, blood, and invasive procedure.",
+        "detail": "Mars in/ruling the 8th house strongly indicates that whatever health crisis occurs during the appropriate Dasha/transit window, it will require surgical resolution rather than pharmaceutical or conservative treatment.",
+        "quality_factors": ["invasive_procedure", "blood_involvement", "cutting", "anesthesia_required"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.90,
+        "confidence": 0.88,
+        "classical_authority": 0.95
+      },
+      "outputs": {
+        "symbolic_label": "major_surgery_indicated",
+        "likelihood_band": "high",
+        "timing_band": "none",
+        "recommended_action": "prepare_for_surgical_intervention"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 34,
+        "verse": 18,
+        "tradition": "Jyotish",
+        "tags": ["mars", "8th_house", "surgery", "major", "invasive"]
+      }
+    },
+    {
+      "rule_id": "med_outcome_saturn_chronic_ongoing",
+      "name": "Saturn Dominant — Chronic Ongoing Disease Quality",
+      "description": "When Saturn dominates the medical configuration (placed in or aspecting 6th/8th), the medical event will be chronic, slow-developing, and require long-term management.",
+      "source_text": "Phaladeepika 19:10",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "chronic_disease_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 92,
+      "polarity": "challenging",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "saturn_disease_dominance",
+            "condition": "Saturn is in 6th/8th house OR Saturn aspects 6th/8th house OR Saturn rules 6th/8th house",
+            "description": "Saturn must dominate the disease houses through placement, aspect, or lordship"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "no_mars_involvement",
+            "condition": "Mars does not aspect or conjunct Saturn",
+            "description": "Absence of Mars confirms chronic (non-surgical) quality"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "saturn_disease_house_dominance", "weight": 0.8},
+        {"signal": "mars_absence_from_configuration", "weight": 0.2}
+      ],
+      "interpretation": {
+        "summary": "The medical event is chronic and ongoing — requires long-term management, not acute intervention.",
+        "detail": "Saturn's dominance ensures the medical condition develops slowly, persists for long periods, and requires sustained pharmaceutical or lifestyle management rather than acute surgical intervention. Conditions like diabetes, arthritis, and chronic kidney disease.",
+        "quality_factors": ["slow_onset", "long_duration", "management_required", "gradual_deterioration"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.88,
+        "confidence": 0.85,
+        "classical_authority": 0.92
+      },
+      "outputs": {
+        "symbolic_label": "chronic_disease_management",
+        "likelihood_band": "high",
+        "timing_band": "none",
+        "recommended_action": "establish_long_term_care_plan"
+      },
+      "metadata": {
+        "author": "Mantreshwara",
+        "text": "Phaladeepika",
+        "chapter": 19,
+        "verse": 10,
+        "tradition": "Jyotish",
+        "tags": ["saturn", "chronic", "ongoing", "management", "long_term"]
+      }
+    },
+    {
+      "rule_id": "med_outcome_rahu_acute_mysterious",
+      "name": "Rahu Dominant — Acute Mysterious Illness Quality",
+      "description": "When Rahu dominates the medical configuration, the event will be acute, sudden, mysterious in nature, and difficult to diagnose initially.",
+      "source_text": "Brihat Parashara Hora Shastra 36:3",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "acute_mysterious_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 88,
+      "polarity": "challenging",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "rahu_medical_dominance",
+            "condition": "Rahu is in 6th/8th house OR Rahu conjuncts/aspects the 6th/8th lord",
+            "description": "Rahu must dominate the medical configuration"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "mercury_affliction",
+            "condition": "Mercury afflicted by Rahu",
+            "description": "Mercury-Rahu connection adds communication/diagnosis confusion"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "rahu_medical_dominance", "weight": 0.7},
+        {"signal": "diagnostic_confusion_indicator", "weight": 0.3}
+      ],
+      "interpretation": {
+        "summary": "The medical event will be mysterious, hard to diagnose, and require specialist investigation.",
+        "detail": "Rahu's influence makes the medical event confusing — unusual symptoms, multiple possible diagnoses, need for advanced testing, and often an element of toxicity or allergic reaction. The illness 'hides' or mimics other conditions.",
+        "quality_factors": ["mysterious_onset", "diagnostic_difficulty", "unusual_presentation", "toxin_involvement"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.85,
+        "confidence": 0.80,
+        "classical_authority": 0.88
+      },
+      "outputs": {
+        "symbolic_label": "acute_mysterious_illness",
+        "likelihood_band": "moderate",
+        "timing_band": "none",
+        "recommended_action": "seek_multiple_specialist_opinions"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 36,
+        "verse": 3,
+        "tradition": "Jyotish",
+        "tags": ["rahu", "mysterious", "acute", "misdiagnosis", "toxin"]
+      }
+    },
+    {
+      "rule_id": "med_outcome_jupiter_recovery_healing",
+      "name": "Jupiter Aspect/Involvement — Recovery & Healing Quality",
+      "description": "When Jupiter aspects or is involved in the medical configuration, the outcome quality shifts toward recovery, healing, and manageable treatment.",
+      "source_text": "Brihat Jataka 14:12",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "recovery_healing_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 90,
+      "polarity": "benefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "jupiter_medical_involvement",
+            "condition": "Jupiter aspects the 6th/8th house OR Jupiter aspects the Lagna lord OR Jupiter is in Lagna",
+            "description": "Jupiter must provide protective influence to the medical configuration"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "jupiter_strength",
+            "condition": "Jupiter is strong (exalted, own sign, or well-dignified)",
+            "description": "Strong Jupiter provides maximum healing potential"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "jupiter_protective_aspect", "weight": 0.6},
+        {"signal": "jupiter_dignity_strength", "weight": 0.4}
+      ],
+      "interpretation": {
+        "summary": "The medical event, while serious, will resolve positively — recovery is indicated and healing will be complete.",
+        "detail": "Jupiter's protective influence ensures that even serious medical events have favorable outcomes. Surgery succeeds, diseases respond to treatment, and the native recovers fully. Jupiter provides divine protection to the body.",
+        "quality_factors": ["full_recovery", "successful_treatment", "divine_protection", "competent_doctors"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.90,
+        "confidence": 0.85,
+        "classical_authority": 0.92
+      },
+      "outputs": {
+        "symbolic_label": "healing_recovery_indicated",
+        "likelihood_band": "high",
+        "timing_band": "none",
+        "recommended_action": "proceed_with_confidence_in_treatment"
+      },
+      "metadata": {
+        "author": "Varahamihira",
+        "text": "Brihat Jataka",
+        "chapter": 14,
+        "verse": 12,
+        "tradition": "Jyotish",
+        "tags": ["jupiter", "recovery", "healing", "protection", "positive_outcome"]
+      }
+    },
+    {
+      "rule_id": "med_outcome_maraka_life_threatening",
+      "name": "Maraka Lords Active — Life-Threatening Quality",
+      "description": "When Maraka lords (2nd/7th) dominate the medical event timing, the quality is life-threatening and requires emergency intervention.",
+      "source_text": "Brihat Parashara Hora Shastra 44:1-4",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "life_threatening_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 93,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "maraka_activation",
+            "condition": "2nd lord AND/OR 7th lord are active in Dasha AND connected to 6th/8th house",
+            "description": "Maraka lords must be activated and connected to disease/surgery houses"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "no_jupiter_protection",
+            "condition": "Jupiter does not aspect Lagna or Lagna lord",
+            "description": "Absence of Jupiter's protection increases life-threatening potential"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "maraka_lord_activation", "weight": 0.7},
+        {"signal": "jupiter_protection_absent", "weight": 0.3}
+      ],
+      "interpretation": {
+        "summary": "The medical event is life-threatening — emergency intervention required, outcome uncertain without immediate action.",
+        "detail": "Maraka lords bring death-inflicting energy to the medical event. When combined with disease/surgery house activation, the event becomes genuinely life-threatening. Emergency medical intervention is critical.",
+        "quality_factors": ["life_threatening", "emergency", "uncertain_outcome", "intensive_care_needed"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.92,
+        "confidence": 0.88,
+        "classical_authority": 0.95
+      },
+      "outputs": {
+        "symbolic_label": "life_threatening_emergency",
+        "likelihood_band": "high",
+        "timing_band": "none",
+        "recommended_action": "immediate_emergency_medical_attention"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 44,
+        "verse": "1-4",
+        "tradition": "Jyotish",
+        "tags": ["maraka", "life_threatening", "emergency", "death_inflicting"]
+      }
+    },
+    {
+      "rule_id": "med_outcome_venus_manageable_routine",
+      "name": "Venus Involvement — Manageable/Routine Medical Quality",
+      "description": "When Venus influences the medical configuration, the event is manageable, routine, and the native recovers quickly with comfort during treatment.",
+      "source_text": "Jataka Parijata 9:30",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "manageable_routine_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 80,
+      "polarity": "benefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "venus_medical_influence",
+            "condition": "Venus aspects Lagna or 6th house OR Venus is in Lagna OR Venus aspects the active Dasha lord",
+            "description": "Venus must provide softening influence to the medical event"
+          }
+        ],
+        "optional": []
+      },
+      "signals": [
+        {"signal": "venus_protective_influence", "weight": 0.7},
+        {"signal": "comfort_during_treatment", "weight": 0.3}
+      ],
+      "interpretation": {
+        "summary": "The medical event is routine and manageable — good medical care, comfortable recovery, minor procedure.",
+        "detail": "Venus's influence softens the medical event. Procedures are routine, recovery is comfortable, and the native has access to quality care and pleasant surroundings during healing. The event does not significantly disrupt life quality.",
+        "quality_factors": ["routine_procedure", "comfortable_recovery", "quality_care", "minimal_disruption"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.78,
+        "confidence": 0.75,
+        "classical_authority": 0.82
+      },
+      "outputs": {
+        "symbolic_label": "manageable_routine_medical",
+        "likelihood_band": "moderate",
+        "timing_band": "none",
+        "recommended_action": "proceed_with_scheduled_treatment"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 9,
+        "verse": 30,
+        "tradition": "Jyotish",
+        "tags": ["venus", "manageable", "routine", "comfortable", "recovery"]
+      }
+    },
+    {
+      "rule_id": "med_outcome_ketu_sudden_emergency",
+      "name": "Ketu Dominant — Sudden Emergency Surgery Quality",
+      "description": "When Ketu dominates the medical configuration, the event is sudden, unexpected, and requires emergency surgical intervention without prior warning.",
+      "source_text": "Brihat Parashara Hora Shastra 36:15",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "sudden_emergency_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 91,
+      "polarity": "challenging",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "ketu_medical_dominance",
+            "condition": "Ketu is in 6th/8th house OR Ketu conjuncts Mars OR Ketu aspects the 8th lord",
+            "description": "Ketu must dominate the surgical/emergency configuration"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "mars_ketu_conjunction",
+            "condition": "Mars and Ketu conjunct",
+            "description": "Mars-Ketu conjunction makes the emergency surgical event more severe"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "ketu_emergency_dominance", "weight": 0.7},
+        {"signal": "mars_ketu_surgical_severity", "weight": 0.3}
+      ],
+      "interpretation": {
+        "summary": "The medical event is sudden and requires emergency surgery — no warning, no time for preparation.",
+        "detail": "Ketu (headless planet of suddenness and detachment) creates medical events that arrive without warning — accidents requiring emergency surgery, appendix ruptures, sudden internal emergencies. The native is 'cut' (Ketu = severance) without preparation.",
+        "quality_factors": ["sudden_onset", "no_warning", "emergency_surgery", "accident_related"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.88,
+        "confidence": 0.84,
+        "classical_authority": 0.90
+      },
+      "outputs": {
+        "symbolic_label": "sudden_emergency_surgery",
+        "likelihood_band": "high",
+        "timing_band": "none",
+        "recommended_action": "maintain_emergency_preparedness"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 36,
+        "verse": 15,
+        "tradition": "Jyotish",
+        "tags": ["ketu", "sudden", "emergency", "surgery", "accident"]
+      }
+    },
+    {
+      "rule_id": "med_outcome_moon_psychosomatic",
+      "name": "Moon Afflicted — Psychosomatic/Mental Health Quality",
+      "description": "When the Moon is afflicted in the medical configuration, the event manifests as psychosomatic illness or mental health crisis rather than purely physical disease.",
+      "source_text": "Brihat Jataka 14:8",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "psychosomatic_mental_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 82,
+      "polarity": "challenging",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "moon_affliction_medical",
+            "condition": "Moon is afflicted (conjunct/aspected by Saturn, Rahu, or Mars) AND connected to 6th/8th/12th house",
+            "description": "Moon must be afflicted and connected to medical houses"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "12th_house_connection",
+            "condition": "Moon in or aspecting 12th house",
+            "description": "12th house connection adds hospitalization for mental health"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "moon_affliction_severity", "weight": 0.6},
+        {"signal": "mental_health_house_connection", "weight": 0.4}
+      ],
+      "interpretation": {
+        "summary": "The medical event is primarily mental/psychosomatic — depression, anxiety, psychiatric crisis, or mind-body disorder.",
+        "detail": "An afflicted Moon shifts the medical event toward the mental/emotional realm. Rather than physical surgery or disease, the crisis manifests as psychiatric emergency, psychosomatic illness, severe depression, or anxiety disorder requiring mental health intervention.",
+        "quality_factors": ["mental_health", "psychosomatic", "psychiatric", "emotional_crisis"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.82,
+        "confidence": 0.78,
+        "classical_authority": 0.85
+      },
+      "outputs": {
+        "symbolic_label": "psychosomatic_mental_event",
+        "likelihood_band": "moderate",
+        "timing_band": "none",
+        "recommended_action": "seek_psychiatric_support"
+      },
+      "metadata": {
+        "author": "Varahamihira",
+        "text": "Brihat Jataka",
+        "chapter": 14,
+        "verse": 8,
+        "tradition": "Jyotish",
+        "tags": ["moon", "psychosomatic", "mental_health", "psychiatric", "depression"]
+      }
+    },
+    {
+      "rule_id": "med_outcome_12th_hospitalization",
+      "name": "12th House Dominant — Hospitalization & Confinement Quality",
+      "description": "When the 12th house dominates the medical configuration, the event quality involves extended hospitalization, bed-rest, and confinement in a medical facility.",
+      "source_text": "Phaladeepika 13:5",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "hospitalization_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 85,
+      "polarity": "challenging",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "12th_house_dominance",
+            "condition": "12th lord is active in Dasha AND/OR multiple planets in 12th house AND/OR Lagna lord transiting 12th",
+            "description": "The 12th house must be the dominant feature of the medical configuration"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "saturn_12th_connection",
+            "condition": "Saturn aspects or is in 12th house",
+            "description": "Saturn adds long duration to the hospitalization"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "12th_house_medical_dominance", "weight": 0.7},
+        {"signal": "saturn_duration_extension", "weight": 0.3}
+      ],
+      "interpretation": {
+        "summary": "The medical event requires extended hospitalization — the native will be confined to a medical facility for treatment.",
+        "detail": "The 12th house (beds, hospitals, confinement) dominating the medical configuration means the event involves significant time in a hospital or care facility. This may be for surgery recovery, intensive treatment, or isolation-requiring conditions.",
+        "quality_factors": ["hospitalization", "bed_rest", "medical_confinement", "extended_stay"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.85,
+        "confidence": 0.80,
+        "classical_authority": 0.88
+      },
+      "outputs": {
+        "symbolic_label": "extended_hospitalization",
+        "likelihood_band": "high",
+        "timing_band": "none",
+        "recommended_action": "prepare_for_hospital_stay"
+      },
+      "metadata": {
+        "author": "Mantreshwara",
+        "text": "Phaladeepika",
+        "chapter": 13,
+        "verse": 5,
+        "tradition": "Jyotish",
+        "tags": ["12th_house", "hospitalization", "confinement", "bed_rest"]
+      }
+    },
+    {
+      "rule_id": "med_outcome_mercury_nervous_system",
+      "name": "Mercury Afflicted — Nervous System & Communication Disorder Quality",
+      "description": "When Mercury is afflicted in the medical configuration, the event manifests as nervous system disorders, speech/hearing issues, or neurological conditions.",
+      "source_text": "Jataka Parijata 8:55",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "nervous_system_quality",
+      "rule_type": "outcome_quality",
+      "status": "active",
+      "priority": 78,
+      "polarity": "challenging",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "mercury_affliction_medical",
+            "condition": "Mercury is afflicted (conjunct Rahu/Ketu, aspected by Saturn) AND connected to 6th/8th house",
+            "description": "Mercury must be afflicted and connected to medical houses"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "ketu_mercury",
+            "condition": "Ketu conjuncts or aspects Mercury",
+            "description": "Ketu-Mercury adds sudden neurological events (stroke, seizure)"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "mercury_affliction", "weight": 0.6},
+        {"signal": "nervous_system_indicator", "weight": 0.4}
+      ],
+      "interpretation": {
+        "summary": "The medical event involves the nervous system — neurological conditions, speech disorders, or communication-affecting illness.",
+        "detail": "Mercury governs the nervous system, communication, and cognitive function. When afflicted in a medical configuration, the event manifests as neurological conditions — neuropathy, speech disorders, hearing loss, cognitive decline, or in severe cases, stroke or seizures.",
+        "quality_factors": ["neurological", "nervous_system", "speech_hearing", "cognitive"]
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.78,
+        "confidence": 0.74,
+        "classical_authority": 0.82
+      },
+      "outputs": {
+        "symbolic_label": "nervous_system_disorder",
+        "likelihood_band": "moderate",
+        "timing_band": "none",
+        "recommended_action": "neurological_screening"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 8,
+        "verse": 55,
+        "tradition": "Jyotish",
+        "tags": ["mercury", "nervous_system", "neurological", "speech", "cognitive"]
+      }
+    }
+  ]
+}

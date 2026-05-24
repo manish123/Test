@@ -1,0 +1,538 @@
+{
+  "domain": "medical",
+  "event_family": "surgery_and_medical_events",
+  "file_type": "classical_patterns",
+  "version": "1.0.0",
+  "rules": [
+    {
+      "rule_id": "med_classical_6th_8th_lords_lagna",
+      "name": "6th + 8th Lords Conjunct in Lagna — Lifetime Disease Vulnerability",
+      "description": "When the lords of the 6th (disease) and 8th (surgery/chronic) houses are conjunct in the Lagna (body), it creates a lifetime structural vulnerability to severe health challenges.",
+      "source_text": "Brihat Parashara Hora Shastra 34:15",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "lifetime_health_vulnerability",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 90,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "conjunction",
+            "planets": ["6th_lord", "8th_lord"],
+            "house": 1,
+            "description": "The lords of the 6th and 8th houses must be conjunct in the 1st house (Lagna)"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "malefic_aspect",
+            "condition": "aspected_by_mars_or_saturn",
+            "description": "Additional malefic aspects intensify the vulnerability"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "6th_lord_in_lagna", "weight": 0.5},
+        {"signal": "8th_lord_in_lagna", "weight": 0.5}
+      ],
+      "interpretation": {
+        "summary": "Conjunction of 6th and 8th lords in Lagna stamps the body with lifetime disease and surgical vulnerability.",
+        "detail": "The 6th lord brings disease energy and the 8th lord brings chronic/surgical energy directly to the physical body (Lagna). The native faces recurring health challenges throughout life, with higher probability of multiple surgeries.",
+        "classical_context": "BPHS identifies this as one of the most severe health afflictions — the body itself becomes the battleground for disease and surgical intervention."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.90,
+        "confidence": 0.85,
+        "classical_authority": 0.95
+      },
+      "outputs": {
+        "prediction": "lifetime_health_vulnerability",
+        "quality": "severe",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 34,
+        "verse": 15,
+        "tradition": "Jyotish",
+        "tags": ["6th_lord", "8th_lord", "lagna", "disease", "surgery", "structural"]
+      }
+    },
+    {
+      "rule_id": "med_classical_saturn_mars_6th",
+      "name": "Saturn-Mars Conjunction in 6th House — Chronic Inflammatory Constitution",
+      "description": "Saturn (chronic) and Mars (inflammatory) conjunct in the 6th house creates a constitutional tendency toward chronic inflammatory diseases throughout life.",
+      "source_text": "Phaladeepika 17:10",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "chronic_inflammatory_constitution",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 88,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "conjunction",
+            "planets": ["Saturn", "Mars"],
+            "house": 6,
+            "description": "Saturn and Mars must be conjunct in the 6th house"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "rahu_aspect",
+            "condition": "Rahu aspects the conjunction",
+            "description": "Rahu's aspect adds mysterious/autoimmune quality to the inflammation"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "saturn_in_6th", "weight": 0.5},
+        {"signal": "mars_in_6th", "weight": 0.5}
+      ],
+      "interpretation": {
+        "summary": "Saturn-Mars in 6th creates a constitutional chronic inflammatory pattern — arthritis, autoimmune conditions, chronic infections.",
+        "detail": "Saturn (cold, chronic, restrictive) with Mars (hot, inflammatory, acute) in the house of disease creates a paradoxical constitutional pattern. Diseases are both chronic AND inflammatory — manifesting as arthritis, chronic infections, autoimmune conditions, and recurring surgical needs.",
+        "classical_context": "Phaladeepika describes this as producing 'diseases that never fully heal but constantly flare.'"
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.88,
+        "confidence": 0.82,
+        "classical_authority": 0.90
+      },
+      "outputs": {
+        "prediction": "chronic_inflammatory_constitution",
+        "quality": "chronic_recurring",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Mantreshwara",
+        "text": "Phaladeepika",
+        "chapter": 17,
+        "verse": 10,
+        "tradition": "Jyotish",
+        "tags": ["saturn", "mars", "6th_house", "chronic", "inflammatory", "autoimmune"]
+      }
+    },
+    {
+      "rule_id": "med_classical_moon_papakartari",
+      "name": "Moon in Papakartari Yoga — Mental Health Affliction",
+      "description": "Moon hemmed between two malefic planets (Papakartari Yoga) creates structural vulnerability to mental health disorders, psychosomatic illness, and emotional breakdowns.",
+      "source_text": "Brihat Jataka 14:8",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "mental_health_vulnerability",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 87,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "papakartari_yoga",
+            "planet": "Moon",
+            "condition": "hemmed_by_malefics",
+            "description": "Moon must be hemmed between two malefic planets (malefics in houses on either side of Moon)"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "moon_weakness",
+            "condition": "dark_moon_or_debilitated",
+            "description": "Weak Moon (Krishna Paksha or debilitated) intensifies mental vulnerability"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "moon_papakartari", "weight": 0.7},
+        {"signal": "moon_weakness_indicator", "weight": 0.3}
+      ],
+      "interpretation": {
+        "summary": "Moon in Papakartari creates lifetime vulnerability to depression, anxiety, and psychosomatic illness.",
+        "detail": "The Moon (mind, emotions) trapped between malefics experiences constant pressure and constriction. This creates a structural vulnerability to mental health crises — depression, anxiety disorders, panic attacks, and psychosomatic manifestations during triggering Dasha/transit periods.",
+        "classical_context": "Brihat Jataka identifies this as producing 'a mind constantly under siege' — the native's emotional equilibrium is permanently fragile."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.87,
+        "confidence": 0.80,
+        "classical_authority": 0.88
+      },
+      "outputs": {
+        "prediction": "mental_health_structural_vulnerability",
+        "quality": "chronic_episodic",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Varahamihira",
+        "text": "Brihat Jataka",
+        "chapter": 14,
+        "verse": 8,
+        "tradition": "Jyotish",
+        "tags": ["moon", "papakartari", "mental_health", "depression", "anxiety", "psychosomatic"]
+      }
+    },
+    {
+      "rule_id": "med_classical_mars_ketu_6th_8th",
+      "name": "Mars/Ketu in 6th or 8th — Surgical Destiny",
+      "description": "Mars or Ketu placed in the 6th or 8th house creates a natal pattern of surgical destiny — the native will undergo surgeries during their lifetime.",
+      "source_text": "Jataka Parijata 8:45",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "surgical_destiny",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 86,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [],
+        "optional": [
+          {
+            "factor": "planet_in_house",
+            "planet": "Mars",
+            "houses": [6, 8],
+            "description": "Mars placed in 6th or 8th house"
+          },
+          {
+            "factor": "planet_in_house",
+            "planet": "Ketu",
+            "houses": [6, 8],
+            "description": "Ketu placed in 6th or 8th house"
+          }
+        ],
+        "minimum_optional": 1
+      },
+      "signals": [
+        {"signal": "mars_in_6th_or_8th", "weight": 0.6},
+        {"signal": "ketu_in_6th_or_8th", "weight": 0.4}
+      ],
+      "interpretation": {
+        "summary": "Mars or Ketu in 6th/8th house creates a structural surgical signature — the native is destined for surgical interventions.",
+        "detail": "Mars (the planet of cutting, blood, and surgery) or Ketu (the headless planet of sudden intervention and detachment) placed in the house of disease (6th) or surgery (8th) creates a lifetime pattern where surgical intervention becomes inevitable during appropriate Dasha/transit periods.",
+        "classical_context": "Jataka Parijata links Mars/Ketu in 6/8 directly to 'wounds from weapons' — the classical euphemism for surgical operations."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.86,
+        "confidence": 0.80,
+        "classical_authority": 0.88
+      },
+      "outputs": {
+        "prediction": "surgical_destiny_confirmed",
+        "quality": "multiple_surgeries_likely",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 8,
+        "verse": 45,
+        "tradition": "Jyotish",
+        "tags": ["mars", "ketu", "6th_house", "8th_house", "surgery", "surgical_destiny"]
+      }
+    },
+    {
+      "rule_id": "med_classical_lagna_lord_dusthana",
+      "name": "Lagna Lord in 6/8/12 — Weakened Vitality from Birth",
+      "description": "When the lord of the Lagna (body/self) is placed in the 6th, 8th, or 12th house, the native's vitality is structurally weakened from birth, creating susceptibility to illness.",
+      "source_text": "Brihat Parashara Hora Shastra 24:5",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "weakened_vitality",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 85,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "lagna_lord_placement",
+            "houses": [6, 8, 12],
+            "description": "Lagna lord must be placed in the 6th, 8th, or 12th house"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "lagna_lord_dignity",
+            "condition": "weak_or_debilitated",
+            "description": "Weak dignity of Lagna lord further diminishes vitality"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "lagna_lord_in_dusthana", "weight": 0.7},
+        {"signal": "lagna_lord_weak_dignity", "weight": 0.3}
+      ],
+      "interpretation": {
+        "summary": "Lagna lord in Dusthana creates lifetime weakened vitality — the body's ruler is placed in houses of suffering.",
+        "detail": "The Lagna lord represents the physical body and its ruler. When placed in the 6th (disease), 8th (chronic/surgical), or 12th (hospitalization), the body's ruling energy is trapped in houses of suffering, creating structural vulnerability that manifests during appropriate Dasha/transit periods.",
+        "classical_context": "BPHS describes this as the body's ruler being 'imprisoned' in houses of suffering — creating a fundamental weakness in the constitution."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.85,
+        "confidence": 0.80,
+        "classical_authority": 0.92
+      },
+      "outputs": {
+        "prediction": "weakened_vitality_constitution",
+        "quality": "susceptible",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 24,
+        "verse": 5,
+        "tradition": "Jyotish",
+        "tags": ["lagna_lord", "dusthana", "vitality", "weakness", "constitution"]
+      }
+    },
+    {
+      "rule_id": "med_classical_sarpa_yoga_malefics",
+      "name": "Sarpa Yoga (All Malefics in Kendras) — Health Dangers Throughout Life",
+      "description": "When all malefic planets occupy Kendra houses (1/4/7/10), it creates Sarpa Yoga — a pattern of health dangers, accidents, and chronic suffering throughout life.",
+      "source_text": "Phaladeepika 15:25",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "sarpa_yoga_health_danger",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 82,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "sarpa_yoga",
+            "condition": "all_malefics_in_kendras",
+            "description": "All natural malefic planets (Saturn, Mars, Rahu, Ketu) must be placed in Kendra houses (1, 4, 7, 10)"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "no_benefic_kendras",
+            "condition": "benefics_absent_from_kendras",
+            "description": "Absence of benefics in Kendras intensifies the malefic pattern"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "sarpa_yoga_formed", "weight": 0.8},
+        {"signal": "benefic_absence_kendras", "weight": 0.2}
+      ],
+      "interpretation": {
+        "summary": "Sarpa Yoga creates a lifetime pattern of health dangers — the native is surrounded by malefic energy in the most important houses.",
+        "detail": "With all malefics in Kendras, the native's life is dominated by health dangers from all four cardinal directions. Accidents, chronic diseases, and surgical events occur repeatedly throughout life.",
+        "classical_context": "Phaladeepika describes Sarpa Yoga as creating a life 'full of suffering, disease, and danger' — specifically targeting physical well-being."
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.82,
+        "confidence": 0.75,
+        "classical_authority": 0.85
+      },
+      "outputs": {
+        "prediction": "lifelong_health_dangers",
+        "quality": "severe_recurring",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Mantreshwara",
+        "text": "Phaladeepika",
+        "chapter": 15,
+        "verse": 25,
+        "tradition": "Jyotish",
+        "tags": ["sarpa_yoga", "malefics", "kendras", "health_danger", "accidents"]
+      }
+    },
+    {
+      "rule_id": "med_classical_8th_lord_in_lagna",
+      "name": "8th Lord in Lagna — Chronic Health Challenges",
+      "description": "The 8th lord placed in the Lagna brings the energy of chronic disease, surgery, and hidden ailments directly to the physical body throughout life.",
+      "source_text": "Brihat Parashara Hora Shastra 24:10",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "chronic_health_challenges",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 80,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_in_house",
+            "planet": "8th_lord",
+            "house": 1,
+            "description": "The lord of the 8th house must be placed in the 1st house (Lagna)"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "8th_lord_dignity",
+            "condition": "weak_or_afflicted",
+            "description": "Weak 8th lord in Lagna increases chronic disease potential"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "8th_lord_in_lagna", "weight": 0.8},
+        {"signal": "8th_lord_afflicted", "weight": 0.2}
+      ],
+      "interpretation": {
+        "summary": "8th lord in Lagna brings chronic disease and surgical energy directly to the body — lifetime health challenges.",
+        "detail": "The 8th house rules surgery, chronic ailments, and hidden diseases. Its lord placed in the Lagna (body) imports these significations directly to the physical constitution. The native faces recurring chronic conditions and multiple surgical events.",
+        "classical_context": "BPHS states that 8th lord in Lagna creates 'a body afflicted by chronic diseases and marked by surgical scars.'"
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.80,
+        "confidence": 0.78,
+        "classical_authority": 0.90
+      },
+      "outputs": {
+        "prediction": "chronic_health_pattern",
+        "quality": "chronic_surgical",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 24,
+        "verse": 10,
+        "tradition": "Jyotish",
+        "tags": ["8th_lord", "lagna", "chronic", "surgery", "hidden_disease"]
+      }
+    },
+    {
+      "rule_id": "med_classical_sun_saturn_lagna",
+      "name": "Sun-Saturn Conjunction in Lagna — Bone & Heart Weakness",
+      "description": "Sun (vitality/heart/bones) conjunct Saturn (chronic/restriction) in Lagna creates structural weakness in the heart and skeletal system.",
+      "source_text": "Jataka Parijata 9:20",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "cardiac_skeletal_weakness",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 78,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "conjunction",
+            "planets": ["Sun", "Saturn"],
+            "house": 1,
+            "description": "Sun and Saturn must be conjunct in the 1st house (Lagna)"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "no_benefic_aspect",
+            "condition": "unaspected_by_Jupiter",
+            "description": "Absence of Jupiter's aspect removes protective influence"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "sun_saturn_conjunction_lagna", "weight": 0.7},
+        {"signal": "no_jupiter_aspect", "weight": 0.3}
+      ],
+      "interpretation": {
+        "summary": "Sun-Saturn in Lagna creates constitutional weakness in heart (Sun) and bones (Saturn) — cardiac and skeletal vulnerability.",
+        "detail": "The Sun (vitality, heart, spine) being conjunct Saturn (restriction, chronic disease, bones) in the Lagna creates a lifetime pattern where cardiac health and bone/joint integrity are structurally compromised. These vulnerabilities manifest during appropriate Dasha/transit activation.",
+        "classical_context": "Jataka Parijata describes this as creating 'a body that ages prematurely, with weakness of heart and bones from a young age.'"
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.78,
+        "confidence": 0.75,
+        "classical_authority": 0.85
+      },
+      "outputs": {
+        "prediction": "cardiac_skeletal_vulnerability",
+        "quality": "constitutional_weakness",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Vaidyanatha Dikshita",
+        "text": "Jataka Parijata",
+        "chapter": 9,
+        "verse": 20,
+        "tradition": "Jyotish",
+        "tags": ["sun", "saturn", "lagna", "heart", "bones", "weakness"]
+      }
+    },
+    {
+      "rule_id": "med_classical_rahu_6th_mysterious",
+      "name": "Rahu in 6th House — Mysterious & Misdiagnosed Diseases",
+      "description": "Rahu placed in the 6th house creates a lifetime pattern of mysterious illnesses that confound doctors, require multiple diagnoses, and often involve toxins or allergies.",
+      "source_text": "Brihat Parashara Hora Shastra 25:15",
+      "domain": "medical",
+      "event_family": "surgery_and_medical_events",
+      "event_subtype": "mysterious_disease_pattern",
+      "rule_type": "classical_pattern",
+      "status": "active",
+      "priority": 75,
+      "polarity": "malefic",
+      "timing_band": "none",
+      "conditions": {
+        "required": [
+          {
+            "factor": "planet_in_house",
+            "planet": "Rahu",
+            "house": 6,
+            "description": "Rahu must be placed in the 6th house"
+          }
+        ],
+        "optional": [
+          {
+            "factor": "rahu_with_malefic",
+            "condition": "conjunct_mars_or_saturn",
+            "description": "Rahu with Mars or Saturn in 6th makes diseases more severe and harder to treat"
+          }
+        ]
+      },
+      "signals": [
+        {"signal": "rahu_in_6th", "weight": 0.8},
+        {"signal": "rahu_malefic_conjunction_6th", "weight": 0.2}
+      ],
+      "interpretation": {
+        "summary": "Rahu in 6th creates a lifetime pattern of mysterious, hard-to-diagnose illnesses — toxins, allergies, and unusual diseases.",
+        "detail": "Rahu (illusion, confusion, foreign elements) in the 6th house (disease) creates conditions where illnesses are unusual in presentation, difficult to diagnose, often misdiagnosed initially, and may involve toxins, allergens, or unknown pathogens. Treatment often requires unconventional approaches.",
+        "classical_context": "BPHS identifies Rahu in the 6th as producing 'diseases from poison, unseen enemies (pathogens), and ailments that confound the physician.'"
+      },
+      "window": null,
+      "weights": {
+        "base_weight": 0.75,
+        "confidence": 0.72,
+        "classical_authority": 0.82
+      },
+      "outputs": {
+        "prediction": "mysterious_disease_vulnerability",
+        "quality": "confounding",
+        "duration": "lifelong"
+      },
+      "metadata": {
+        "author": "Maharishi Parashara",
+        "text": "Brihat Parashara Hora Shastra",
+        "chapter": 25,
+        "verse": 15,
+        "tradition": "Jyotish",
+        "tags": ["rahu", "6th_house", "mysterious", "misdiagnosis", "toxins", "allergy"]
+      }
+    }
+  ]
+}
