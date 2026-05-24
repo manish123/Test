@@ -1,0 +1,82 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "property",
+  "event_family": "property_purchase_and_house_acquisition",
+  "last_updated": "2026-05-24T00:00:00Z",
+  "layer_weights": {
+    "dasha_weight": 0.30,
+    "transit_weight": 0.35,
+    "fast_trigger_weight": 0.20,
+    "classical_weight": 0.15,
+    "_notes": "Initial weights. Property purchase has strong transit dependency (Jupiter in 4th/9th is highly predictive). Dasha gates are critical for broad windows. Fast triggers provide exact timing but property deals take days/weeks. Classical patterns provide structural confirmation."
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15,
+    "_notes": "Initial thresholds pending validation against actual property purchase cases."
+  },
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions. To be populated as rules are validated.",
+    "dasha": {
+      "fourth_lord_md_or_ad": 45,
+      "moon_moon_home": 40,
+      "sun_mars_authority_house": 35,
+      "mars_jupiter_land_expansion": 48,
+      "mars_venus_village_luxury": 36,
+      "saturn_mars_construction": 42,
+      "moon_venus_agriculture": 34,
+      "mercury_moon_construction": 32,
+      "moon_jupiter_expansion": 40,
+      "jupiter_saturn_large_lands": 38
+    },
+    "transit": {
+      "jupiter_4th_from_lagna": 50,
+      "jupiter_9th_from_lagna": 45,
+      "lagna_lord_4th_activation": 38,
+      "jupiter_trine_4th_lord_d9": 35,
+      "mars_karaka_conjunct_lagna_moon": 32
+    },
+    "fast_trigger": {
+      "sbc_benefic_janma_nakshatra": 30,
+      "lagna_4th_lord_conjunction": 28,
+      "mars_exact_lagna_moon_lord": 26
+    }
+  },
+  "rule_adjustments": [],
+  "outcome_calibration": {
+    "mode_priority_order": [
+      "house_purchase",
+      "land_acquisition",
+      "construction",
+      "luxury_property",
+      "investment"
+    ],
+    "quality_priority_order": [
+      "stable",
+      "profitable",
+      "unstable",
+      "debt_heavy",
+      "disputed"
+    ],
+    "default_mode": "house_purchase"
+  },
+  "evidence_summary": {
+    "total_cases_tested": 0,
+    "verified_cases": 0,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.0,
+    "mode_accuracy": 0.0,
+    "quality_accuracy": 0.0,
+    "average_rank": 0.0,
+    "last_validation_date": "2026-05-24"
+  },
+  "governance": {
+    "created_by": "initial_architecture_setup",
+    "adjustment_reason": "Initial calibration overlay for property purchase domain. All values are baseline pending validation.",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "ZERO cases validated. All scores and thresholds are theoretical. Do NOT apply weight changes until 10+ cases validated."
+  }
+}
