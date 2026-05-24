@@ -1,0 +1,64 @@
+{
+  "calibration_version": "0.1.0",
+  "domain": "relocation",
+  "event_family": "foreign_settlement",
+  "last_updated": "2026-05-24T00:00:00Z",
+  "layer_weights": {
+    "dasha_weight": 0.35,
+    "transit_weight": 0.35,
+    "fast_trigger_weight": 0.15,
+    "classical_weight": 0.15,
+    "_notes": "Initial weights. Relocation has strong classical pattern dependency (natal promise of foreign settlement is critical). Transit and dasha equally important for timing."
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15,
+    "_notes": "Initial thresholds pending validation against actual relocation cases."
+  },
+  "base_scores": {
+    "_description": "Base scores for rule sub-conditions. To be populated as rules are added.",
+    "dasha": {},
+    "transit": {},
+    "fast_trigger": {}
+  },
+  "rule_adjustments": [],
+  "outcome_calibration": {
+    "mode_priority_order": [
+      "permanent_foreign_settlement",
+      "career_relocation_abroad",
+      "education_abroad",
+      "temporary_foreign_posting",
+      "domestic_city_change",
+      "return_to_homeland",
+      "forced_displacement"
+    ],
+    "quality_priority_order": [
+      "smooth_planned",
+      "gradual_transition",
+      "sudden_unexpected",
+      "challenging_forced",
+      "repeated_moves",
+      "transformative"
+    ],
+    "default_mode": "domestic_city_change"
+  },
+  "evidence_summary": {
+    "total_cases_tested": 0,
+    "verified_cases": 0,
+    "reported_cases": 0,
+    "timing_accuracy_top5": 0.0,
+    "mode_accuracy": 0.0,
+    "quality_accuracy": 0.0,
+    "average_rank": 0.0,
+    "last_validation_date": "2026-05-24"
+  },
+  "governance": {
+    "created_by": "initial_architecture_setup",
+    "adjustment_reason": "Initial calibration overlay for relocation domain. All values are baseline pending validation.",
+    "reversible": true,
+    "applies_to_personal": false,
+    "safety_notes": "ZERO cases validated. All scores and thresholds are theoretical. Do NOT apply weight changes until 10+ cases validated."
+  }
+}
