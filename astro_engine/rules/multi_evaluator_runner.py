@@ -43,6 +43,12 @@ def _load_evaluators():
         pass
 
     try:
+        from rules import social_network_evaluator
+        evaluators["social_network"] = social_network_evaluator
+    except ImportError:
+        pass
+
+    try:
         from rules import marriage_evaluator
         evaluators["marriage"] = marriage_evaluator
     except ImportError:
@@ -156,6 +162,18 @@ def evaluate_all_domains(birth_dt, lat, lon, eval_date, alt=0):
                     "top_rules": [rid for rid, _, _ in (r.dasha_fired + r.fast_trigger_fired)[:3]],
                     "classical": r.classical.get("authority_promise", "unknown"),
                     "outcome": r.outcome.get("authority_type", "unknown"),
+                }
+            elif domain_name == "social_network":
+                chart = mod.ChartState(birth_dt, lat, lon, alt)
+                r = mod.evaluate_social_for_date(chart, eval_date)
+                results[domain_name] = {
+                    "score": round(r.total_score, 2),
+                    "likelihood": r.likelihood,
+                    "timing_band": r.timing_band,
+                    "fired_count": len(r.dasha_fired) + len(r.fast_trigger_fired),
+                    "top_rules": [rid for rid, _, _ in (r.dasha_fired + r.fast_trigger_fired)[:3]],
+                    "classical": r.classical.get("social_promise", "unknown"),
+                    "outcome": r.outcome.get("network_type", "unknown"),
                 }
             else:
                 # Other evaluators: instantiate chart + transit, run layers if available

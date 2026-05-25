@@ -1,0 +1,232 @@
+[
+  {
+    "rule_id": "transit_malefic_desha_27_alienation",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Desha 27th Star Determines relationship to the homeland; malefic transits can alienate the native from their community.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "network_breakdown",
+      "betrayal_event"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "A malefic transiting planet passes over the 27th Nakshatra (Desha Tara) counted from the natal Janma Nakshatra (Moon)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Mars",
+        "Sun"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "27th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Desha_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The 27th Nakshatra from the natal Moon governs the native's relationship with their broader community and homeland. When malefic planets transit this specific star, it acts as a medium-term trigger that alienates the native from their community, leading to network breakdown or social separation.",
+      "mode": "network_breakdown",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A specialized Tara Chakra transit rule explicitly linking malefic movement over the 27th star to social alienation and breakdown of community ties."
+  },
+  {
+    "rule_id": "transit_abhishek_28_social_recognition",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Abhishek 28th Star Triggers honors, promotions, social recognition, and professional freedom.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "influence_rise",
+      "social_expansion"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "An activating transiting planet passes over the 28th Nakshatra (Abhishek Tara) counted from the natal Janma Nakshatra (Moon)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Venus",
+        "Saturn",
+        "Sun"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "28th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Abhishek_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The Abhishek (Coronation) Tara is the 28th star relative to the birth moon in specialized transit schemes. Transits of significant planets over this coordinate serve as a direct trigger for receiving honors, expanding one's social recognition, and experiencing a marked rise in public influence.",
+      "mode": "influence_rise",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A critical 28-nakshatra scheme coordinate that dictates public visibility, social elevation, and honors."
+  },
+  {
+    "rule_id": "transit_jupiter_conjunct_mercury_friendships",
+    "source_text": {
+      "work_name": "How to Use Transits for Prediction - MarStars",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "with mercury we talk about mostly friendships and contacts and communication and knowledge and so on... Let's say that the transiting Jupiter is making conjunction with your natal mercury... Jupiter... may bring some great opportunities for expansion or for growth",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "social_expansion",
+      "alliance_support"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Transiting Jupiter is making an exact or close conjunction with the natal position of Mercury"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter"
+      ],
+      "houses": [],
+      "planets": [
+        "Mercury"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Because natal Mercury naturally signifies one's friendships, contacts, and communication networks, the transit of expansive Jupiter over natal Mercury acts as a highly supportive medium-term window for social expansion, forging new alliances, and growing one's contact base.",
+      "mode": "social_expansion",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Applies the principle of triggering the natural karaka for friendships (Mercury) with the planet of growth and opportunity (Jupiter)."
+  },
+  {
+    "rule_id": "transit_benefic_jati_26_community_support",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Jati 26th Star Governs ancestral ties, family support, and resources from the immediate community.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "patronage",
+      "alliance_support"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "A benefic transiting planet (such as Jupiter or Venus) passes over the 26th Nakshatra (Jati Tara) counted from the natal Janma Nakshatra (Moon)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Venus"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "26th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Jati_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The 26th Nakshatra from the birth star acts as the gateway to immediate community resources and deep-rooted support networks. Benefic transits through this zone activate patronage, community backing, and powerful alliance support.",
+      "mode": "patronage",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Links the activation of the Jati Tara directly to the mobilization of community networks and localized patronage."
+  }
+]

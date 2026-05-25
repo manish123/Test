@@ -1,0 +1,277 @@
+[
+  {
+    "rule_id": "nirayana_sun_11th_network_expansion",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "163",
+      "quote": "11th-from-1st, moral-ego identification with networks of voluntary association; friends gathered for mutual enjoyment and profit. Career affiliation with community development; large complex systems; networks of association; and connectedness.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "indicator": "social_expansion",
+    "rule_type": "house_activation",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Sun (Ravi) is positioned in the 11th house (Labha Bhava)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "11"
+      ],
+      "planets": [
+        "Sun"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of social expansion and network identification. The Sun in the 11th house places the native's core ego and identity within large, complex systems of voluntary association, driving them toward community development, widespread connectedness, and high-placed friendships."
+    }
+  },
+  {
+    "rule_id": "nirayana_chandra_mangala_11th_elite_connections",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "173",
+      "quote": "Bhava 11: Very profitable financially. Chandra-Mangala yoga here gives financial benefit here in nearly any rashi. Special dignity and added income for business in marketplace activities, buy-sell, community development, interconnections between linked networks of association. This native knows a breathtaking number of people, many of them financially influential.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "indicator": "elite_connections",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Moon (Chandra) is positioned in the 11th house",
+        "Mars (Mangala) is positioned in the 11th house",
+        "The Moon and Mars are conjunct (Chandra-Mangala Yoga)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "11"
+      ],
+      "planets": [
+        "Moon",
+        "Mars"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of elite connections and immense networking tendencies. The powerful Chandra-Mangala Yoga in the house of gains (11th) wires the native to effortlessly interconnect linked networks of association, granting them access to a breathtaking number of financially influential people."
+    }
+  },
+  {
+    "rule_id": "bphs_venus_karakamsa_royal_patronage",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "40",
+      "verse": "11",
+      "page": "323",
+      "quote": "One will be related to royal circles if Venus is in his Karakamsa, or in the 5th therefrom or in the ascendant or in Arudha ascendant in aspect to or in the company of Jupiter or the Moon.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "indicator": "patronage",
+    "rule_type": "combination",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Venus is positioned in the Karakamsa",
+        "Venus is positioned in the 5th house from the Karakamsa",
+        "Venus is positioned in the natal Ascendant",
+        "Venus is positioned in the Arudha Ascendant"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "1",
+        "5"
+      ],
+      "planets": [
+        "Venus",
+        "Jupiter",
+        "Moon"
+      ],
+      "d9": [
+        "Karakamsa"
+      ],
+      "nakshatra": [],
+      "sensitive_points": [
+        "Arudha_Lagna"
+      ]
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of patronage and elite access patterns. When the planet of diplomacy and luxuries (Venus) holds prominent placement in the Karakamsa or Arudha structures and is graced by Jupiter or the Moon, it structurally binds the native's social circle to royalty, institutional leaders, and powerful patrons."
+    }
+  },
+  {
+    "rule_id": "jp_mars_friendly_sign_rich_friends",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "8",
+      "verse": null,
+      "page": "604",
+      "quote": "when Mars is in a friendly house the person born will enjoy the favor of rich friends",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "indicator": "alliance_support",
+    "rule_type": "classical_pattern",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Mars is positioned in a sign ruled by a natural or temporal friend"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [],
+      "planets": [
+        "Mars"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of strong alliance support. Mars signifies energy, drive, and comrades-in-arms; when placed in a friendly dignity, the native's aggressive and competitive instincts are harmonized, securing the loyalty, favor, and patronage of wealthy and powerful friends."
+    }
+  },
+  {
+    "rule_id": "bphs_11th_lord_kendra_trikona_gains",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "22",
+      "verse": "2",
+      "page": "183",
+      "quote": "Should Labh\u2019s Lord be in Labh itself, or be in an angle, or in a trine from Lagn, there will be many gains. Similarly, if Labh\u2019s Lord is exalted, though in combustion there will be many gains.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "indicator": "social_expansion",
+    "rule_type": "classical_pattern",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The Lord of the 11th house is positioned in the 11th house",
+        "The Lord of the 11th house is positioned in a Kendra (1st, 4th, 7th, 10th house)",
+        "The Lord of the 11th house is positioned in a Trikona (5th, 9th house)",
+        "The Lord of the 11th house is in its sign of exaltation"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "1",
+        "4",
+        "5",
+        "7",
+        "9",
+        "10",
+        "11"
+      ],
+      "planets": [
+        "11th_lord"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of massive social expansion and networking tendencies. When the lord of networks and gains (11th Lord) is structurally fortified in an angle, trine, own sign, or exaltation, the native's capacity to build large assemblies, supportive communities, and profitable friendships is permanently stabilized."
+    }
+  },
+  {
+    "rule_id": "nirayana_sun_aquarius_network_instability",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "157",
+      "quote": "This error leads to dehumanization in relationships, and mutual distrust within the group. The native does not trust those in one's company, nor do they trust the native. Often perceived as untrustworthy, due to lacking a moral foundation in life... The native's sense of self is considerably swayed by 'peer pressure'; vulnerable to loss of personality through cult and organizational pressures.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "indicator": "network_instability",
+    "rule_type": "planetary_dignity",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The Sun (Ravi) is positioned in Aquarius (Kumbha)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [],
+      "planets": [
+        "Sun"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of betrayal vulnerability and network instability. When the Sun (individual ego) is placed in Saturn's sign of the masses (Aquarius), the true self is submerged into the collective. This manifests as mutual distrust within peer groups, vulnerability to cults, and unstable social associations lacking authentic loyalty."
+    }
+  },
+  {
+    "rule_id": "nirayana_venus_aquarius_mass_association",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "202",
+      "quote": "Affection for abstract visionary social concepts, especially the concept of 'community'. Holds a pragmatic & philosophical view of relationships. Generally tolerant... Pleasured by enormous festivals such as Kumbha Mela, where a tangible group vibration arises. Likes giant public events, political rallies... Likes a stable partnership within context of many interconnected networks of friendship.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "indicator": "social_popularity",
+    "rule_type": "planetary_dignity",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Venus (Shukra) is positioned in Aquarius (Kumbha)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [],
+      "planets": [
+        "Venus"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of social popularity and mass association. Venus in Aquarius directs the native's capacity for love and connection toward large-scale communities, resulting in an affinity for giant public events, egalitarian networking, and finding harmony within interconnected circles of friendship."
+    }
+  }
+]

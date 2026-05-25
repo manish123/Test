@@ -1,0 +1,429 @@
+[
+  {
+    "rule_id": "bphs_dasha_venus_saturn_patronage",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "58",
+      "verse": "52-54",
+      "page": "713",
+      "quote": "Effects like great enjoyments, visits of friends and kinsmen recognition from the king (government)... confernment of authority by the king (government), will be derived in the Antardasa of Saturn in the Dasa of Venus, if Saturn be in his sign of exaltation, in his own sign in kendra, trikona or in his own Navamsa.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "elite_connections",
+      "alliance_building",
+      "patronage"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Venus Mahadasha is active",
+        "Saturn Antardasha is active"
+      ],
+      "any_of": [
+        "Saturn is in its sign of exaltation (Libra)",
+        "Saturn is in its own sign (Capricorn or Aquarius)",
+        "Saturn is positioned in a Kendra (1st, 4th, 7th, 10th house)",
+        "Saturn is positioned in a Trikona (5th, 9th house)",
+        "Saturn is positioned in its own Navamsa (D9)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Venus",
+        "Saturn"
+      ],
+      "transit": [],
+      "houses": [
+        "1",
+        "4",
+        "5",
+        "7",
+        "9",
+        "10"
+      ],
+      "planets": [
+        "Venus",
+        "Saturn"
+      ],
+      "nakshatra": [],
+      "d9": [
+        "Saturn_Own_Navamsa"
+      ],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Saturn is structurally dignified, its sub-period within the major period of Venus triggers a powerful phase of social expansion. The native gains significant patronage from influential figures, builds strong alliances, and experiences a high frequency of networking and elite connections.",
+      "mode": "patronage",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A well-known sub-period for elevation through structural social networks and the favor of authorities."
+  },
+  {
+    "rule_id": "bphs_dasha_moon_rahu_social_collapse",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "62",
+      "verse": "13",
+      "page": "772",
+      "quote": "Moon-Rahu-Disharmony with friends and kinsmen, going away from homeland, loss of wealth, imprisonment. [...] later there will be danger from the king (government)... loss of kinsmen and friends, loss of reputation and mental agony, if Rahu be posited in a kendra or trikona.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "betrayal",
+      "social_collapse"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Moon Mahadasha is active",
+        "Rahu Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [
+        "Rahu is positioned in a Kendra (1st, 4th, 7th, 10th house)",
+        "Rahu is positioned in a Trikona (5th, 9th house)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Moon",
+        "Rahu"
+      ],
+      "transit": [],
+      "houses": [
+        "1",
+        "4",
+        "5",
+        "7",
+        "9",
+        "10"
+      ],
+      "planets": [
+        "Moon",
+        "Rahu"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The interaction of Rahu during the Moon's period brings immense psychological instability that extends outward into the native's social networks. This period is marked by betrayal, disharmony with close friends, and a collapse of reputation or mass support, especially in the latter half of the Dasha.",
+      "mode": "social_collapse",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Classic indicator of social isolation, loss of network support, and betrayal by friends."
+  },
+  {
+    "rule_id": "bphs_dasha_sun_moon_alliance_building",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "63",
+      "verse": "3",
+      "page": "786",
+      "quote": "Sun-Moon-Enjoyments, availability of good food, development of intelligence, opulence and glory like that of a king by the beneficence of the generous people. Devotion towards deities and Brahmins, interest in pious deeds, affectionate relations with friends.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "alliance_building",
+      "influence_growth",
+      "patronage"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Sun Mahadasha is active",
+        "Moon Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Sun",
+        "Moon"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Sun",
+        "Moon"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The luminary period (Sun-Moon) creates an exceptional window for forming affectionate and supportive friendships. The native experiences a rise in social influence and receives patronage and unearned grace from generous, powerful people.",
+      "mode": "alliance_building",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Highlights growth in social circles through direct patronage and warm alliances."
+  },
+  {
+    "rule_id": "bphs_dasha_sun_jupiter_elite_connections",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "62",
+      "verse": "6",
+      "page": "771",
+      "quote": "Sun-Jupiter-Recognition by government, respected by government employees, becoming favourite of the king. Success in many educational spheres, gain of wealth, success in ventures as a result of exchange of visits with the king and Brahmins.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "elite_connections",
+      "patronage"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Sun Mahadasha is active",
+        "Jupiter Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Sun",
+        "Jupiter"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Sun",
+        "Jupiter"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The interaction of the Sun (authority) and Jupiter (wisdom) during their Dasha sequence activates profound access to elite circles. The native builds influential associations, exchanges visits with highly powerful patrons (the 'king' or 'Brahmins'), and gains immense respect from institutional networks.",
+      "mode": "elite_connections",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Excellent period for networking upwards and solidifying alliances with mentors or organizational leaders."
+  },
+  {
+    "rule_id": "bphs_dasha_jupiter_sun_network_expansion",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "61",
+      "verse": "43",
+      "page": "624",
+      "quote": "Jupiter-Sun-Gain from the king (Government), friends and parents, reverence everywhere.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "influence_growth",
+      "network_expansion",
+      "social_visibility"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Jupiter Mahadasha is active",
+        "Sun Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Jupiter",
+        "Sun"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Jupiter",
+        "Sun"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "During Jupiter's period, the sub-period of the Sun acts as an amplifier for social growth. The native experiences widespread reverence ('reverence everywhere') and benefits tangibly through their network of friends, family, and government/authority figures.",
+      "mode": "network_expansion",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A generally positive window for social visibility and relying on friendship networks."
+  },
+  {
+    "rule_id": "bphs_dasha_saturn_jupiter_mass_connection",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "61",
+      "verse": "55",
+      "page": "624",
+      "quote": "Saturn-Jupiter-Acquisition of gold coins, reverence from the public (popularity), increase in wealth and grains, acquisition of Chhatra with royal symbol.",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "social_visibility",
+      "patronage"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Saturn Mahadasha is active",
+        "Jupiter Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Saturn",
+        "Jupiter"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Saturn",
+        "Jupiter"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The interaction of Saturn (the masses) and Jupiter (expansion and grace) creates an outcome of widespread popularity and reverence from the general public. This period elevates the native's social visibility dramatically.",
+      "mode": "social_visibility",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Marks a shift towards mass connection and public approval."
+  },
+  {
+    "rule_id": "bphs_dasha_moon_mars_turbulence_friends",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "63",
+      "verse": "12",
+      "page": "631",
+      "quote": "Moon-Mars-Consumption, leprosy, destruction of kinsmen, bleeding, creation of turbulence by friends and goblins (evil spirits).",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "event_subtype": [
+      "betrayal",
+      "social_collapse"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Moon Mahadasha is active",
+        "Mars Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Moon",
+        "Mars"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Moon",
+        "Mars"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The volatile combination of the Moon (emotions/mind) and Mars (conflict/aggression) during their Dasha sequence leads to significant turbulence caused directly by one's friends. This acts as a period of betrayal, arguments within social circles, and potential alienation.",
+      "mode": "betrayal",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Specifically flags 'friends' as a source of agitation and crisis during the Moon-Mars period."
+  }
+]
