@@ -1,0 +1,177 @@
+[
+  {
+    "rule_id": "transit_saturn_sadesati_imprisonment",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "174-175",
+      "quote": "Sade Sati: Seven and-a-half -The 7-plus year transit of Saturn across the sign preceding the Moon, the sign containing the Moon, and the sign after the Moon... Loss through police action, bribery & corruption, bad loans, theft, jail time, and illness.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "imprisonment_risk",
+      "investigation",
+      "public_allegation"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Transiting Saturn is passing through the sign preceding the natal Moon, the sign containing the natal Moon, or the sign after the natal Moon (Sade Sati phase)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Saturn"
+      ],
+      "houses": [
+        "12",
+        "1",
+        "2"
+      ],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": [
+        "Natal Moon"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The intense 7.5-year transit of Saturn over the natal Moon (Sade Sati) acts as a high-pressure window for experiencing severe regulatory consequences, including police action, exposure of corruption, and the risk of jail time.",
+      "mode": "imprisonment_risk",
+      "quality": "challenging",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.95,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Sade Sati is historically known to bring latent karmic debts to the surface, often manifesting as legal investigations and institutional punishment."
+  },
+  {
+    "rule_id": "transit_sanghatika_16_legal_escalation",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Sanghatika 16th Star... Triggers financial liabilities, disputes, and structural or business crises.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "legal_escalation",
+      "lawsuit"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "An activating or malefic transiting planet passes over the 16th Nakshatra (Sanghatika Tara) counted from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Mars",
+        "Sun"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "16th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Sanghatika_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The Sanghatika Tara (16th star from the natal Moon) is highly sensitive to conflicts and breakdowns. Transits of strong malefic or activating planets over this coordinate act as a timing trigger for sudden disputes, financial liabilities, and the initiation or escalation of lawsuits.",
+      "mode": "legal_escalation",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A specialized Navatara/Tara Chakra rule specifically isolating the activation of sudden disputes and legal/financial liability."
+  },
+  {
+    "rule_id": "transit_benefics_7th_settlement",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "70, 86",
+      "quote": "The law courts and litigation appear strongly in house-7... Positive dasha and transit planets indicate success in court... The purpose of legal activities in 7 bhava is not to re-interpret the law, but to achieve a practical working agreement between previously alienated parties. Bhava 7 also contains arbitrator-mediator-facilitator-advisor roles, along with any method of brokering agreements outside of the formal courtroom.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "dispute_resolution",
+      "settlement_negotiation"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Positive or benefic planets (such as Jupiter, Venus, or Mercury) transit through the 7th house (Yuvati Bhava) from the Ascendant or Moon"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Venus",
+        "Mercury"
+      ],
+      "houses": [
+        "7"
+      ],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Because the 7th house governs litigation, mediation, and balancing agreements, the transit of positive benefic planets through this house provides a highly supportive window for achieving success in court, negotiating settlements, and resolving active disputes outside the courtroom via arbitration.",
+      "mode": "settlement_negotiation",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Highlights the 7th house's role not just as the domain of open enemies, but as the zone of fair dispute resolution and practical legal agreements."
+  }
+]

@@ -1,0 +1,291 @@
+[
+  {
+    "rule_id": "nirayana_saturn_6th_litigation_tendency",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "281",
+      "quote": "When Saturn occupies the 6th house... Shani in domain-6 works the socially approved system of social imbalance, crime, and exploitation. Perpetually involved in litigation and complaints of wrong-doing, whether as a law-maker, solicitor, social advocate, accuser, or party to the complaint, and conflict management.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "indicator": "litigation tendency",
+    "indicates": "litigation",
+    "rule_type": "house_activation",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "Saturn (Shani) is positioned in the 6th house (Ripu Bhava)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "6"
+      ],
+      "planets": [
+        "Saturn"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of a profound litigation tendency. Saturn in the 6th house creates a karmic orientation toward conflict management, debt, and societal imbalance. The native is perpetually drawn into lawsuits, regulatory complaints, and adversarial dynamics, often making a career out of legal conflict or constantly defending against it."
+    }
+  },
+  {
+    "rule_id": "nirayana_mercury_7th_legal_practice",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "70",
+      "quote": "The law courts and litigation appear strongly in house-7. Attorneys and advocates must have a prominent 7th-house and radix-L-7 to be successful in legal practice. The ideal charts for success in legal reasoning feature Mercury, in any sign, occupying yuvati bhava.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "indicator": "litigation tendency",
+    "indicates": "litigation",
+    "rule_type": "house_activation",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Mercury (Budha) is positioned in the 7th house (Yuvati Bhava)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "7"
+      ],
+      "planets": [
+        "Mercury"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of litigation tendency channeled into professional success. Mercury (intellect, argumentation, and communication) in the 7th house (courts, contracts, and dispute resolution) grants exceptional legal reasoning. It indicates a strong aptitude for law practice, advocacy, and navigating courtroom disputes."
+    }
+  },
+  {
+    "rule_id": "nirayana_mercury_7th_court_success",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "70",
+      "quote": "The law courts and litigation appear strongly in house-7. Attorneys and advocates must have a prominent 7th-house and radix-L-7 to be successful in legal practice. The ideal charts for success in legal reasoning feature Mercury, in any sign, occupying yuvati bhava.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "legal_victory",
+      "settlement_success"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Mercury (Budha) is positioned in the 7th house (Yuvati Bhava)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "7"
+      ],
+      "planets": [
+        "Mercury"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mercury situated in the 7th house (the domain of law courts, contracts, and dispute resolution) provides an outcome of exceptional legal reasoning. This indicates a high likelihood of legal victory, successful advocacy, and the ability to negotiate highly favorable settlements.",
+      "mode": "legal_victory",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Defines the qualitative ideal for a litigator or anyone seeking to out-argue opponents in a formal legal setting."
+  },
+  {
+    "rule_id": "nirayana_7th_lord_10th_administrative_settlement",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "95",
+      "quote": "L-7 in 4th-from-swakshetra. Auspicious. Particularly good results in administrative law, judgeship, policy and planning, human relations/human resources, diplomacy, and other agreement-seeking disciplines.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "settlement_success"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 7th house is positioned in the 10th house (which is the 4th house counted from the 7th)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "7",
+        "10"
+      ],
+      "planets": [
+        "7th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the 7th lord is placed in the 10th house of public career, the native approaches conflict through diplomacy and administration. The outcome is highly successful dispute resolution, settlement success, and capability in administrative law or judgeship.",
+      "mode": "settlement_success",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "Focuses on the non-combative, administrative resolution of legal conflicts."
+  },
+  {
+    "rule_id": "nirayana_mars_7th_criminal_defense",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "70",
+      "quote": "Kuja/7 is not a marriage killer, and is in fact excellent for business: Kuja will cast energizing drishti upon career-10, physical body-1, & wealth-2... Good for criminal law practice & any intentional interaction with violence such as police, military, & professional security.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "successful_defense",
+      "repeated_legal_conflict"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "Mars (Kuja) is positioned in the 7th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "7"
+      ],
+      "planets": [
+        "Mars"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mars placed in the 7th house energizes the native for direct confrontation. While it signifies repeated legal conflict and interaction with violence, it is an excellent outcome indicator for successful criminal defense, police work, and prevailing in aggressive legal scenarios.",
+      "mode": "successful_defense",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "Re-frames the typical 'Kuja Dosha' into a professional asset for criminal litigation and adversarial legal success."
+  },
+  {
+    "rule_id": "nirayana_12th_from_7th_legal_defeat",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "71",
+      "quote": "12th from 7th bhava: Loss of marriage agreements, loss of balance and equity. Perpetual inability to locate points of agreement... Losses from legal decisions, losses from judgment of law courts.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "legal_defeat"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The 6th house is highly activated, specifically functioning as the 12th house (loss) relative to the 7th house (courts/agreements)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "6"
+      ],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Using the Bhavat Bhavam (derivative house) principle, the 6th house acts as the 12th house of loss and dissolution for the 7th house of law courts and contracts. When this dynamic is heavily triggered, the outcome is a perpetual inability to find agreement and severe losses from legal decisions and courtroom judgments.",
+      "mode": "legal_defeat",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "A structural rule explaining how 6th house animosity directly destroys 7th house legal equilibrium, leading to courtroom defeat."
+  }
+]
