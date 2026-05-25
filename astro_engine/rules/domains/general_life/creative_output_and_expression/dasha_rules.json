@@ -1,0 +1,410 @@
+[
+  {
+    "rule_id": "dasha_dwadashottari_venus_arts",
+    "source_text": {
+      "work_name": "Nakshatra-Based Dasha Systems in Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Dwadashottari Dasha (112-Year Cycle)... Applicable when Venus is the Lagna lord (Taurus or Libra Ascendant)... More Venus-oriented, making it effective for arts, beauty, relationships, and luxury.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "artistic_success",
+      "monetized_creativity"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Venus is the Lagna Lord (Taurus or Libra Ascendant)",
+        "The Dwadashottari Dasha system is being applied"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Dwadashottari"
+      ],
+      "transit": [],
+      "houses": [
+        "1"
+      ],
+      "planets": [
+        "Venus"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Venus rules the Ascendant, the specialized 112-year Dwadashottari Dasha system becomes highly effective. The periods within this system are strongly Venus-oriented, making it a highly accurate timeline for predicting artistic success, creative breakthroughs, and monetized creativity through beauty and luxury.",
+      "mode": "artistic_success",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A conditional Dasha system rule where the entire framework is oriented towards Venusian pursuits like arts and aesthetics."
+  },
+  {
+    "rule_id": "bphs_dasha_5_9_10_lords_creative_breakthrough",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "9-13",
+      "page": "468",
+      "quote": "If the lord of the 9th and 10th be in conjunction with the lord of the 5th, their Dasha produce beneficial results.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "creative_breakthrough",
+      "artistic_success",
+      "public_engagement"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 5th house is conjunct the Lord of the 9th house and the Lord of the 10th house"
+      ],
+      "any_of": [
+        "The Mahadasha or Antardasha of the 5th Lord is active",
+        "The Mahadasha or Antardasha of the 9th Lord is active",
+        "The Mahadasha or Antardasha of the 10th Lord is active"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "5th_lord",
+        "9th_lord",
+        "10th_lord"
+      ],
+      "transit": [],
+      "houses": [
+        "5",
+        "9",
+        "10"
+      ],
+      "planets": [
+        "5th_lord",
+        "9th_lord",
+        "10th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The conjunction of the 5th lord (representing creativity, intellect, and authorship) with the 9th (fortune) and 10th (career) forms a supreme Rajayoga. The Dasha periods of these planets trigger major creative breakthroughs, massive public reach, and highly beneficial professional results.",
+      "mode": "creative_breakthrough",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Links the house of creativity (5th) directly to fortune and public status, triggering immense success during their periods."
+  },
+  {
+    "rule_id": "hora_sara_sun_virgo_dasha_world_fame",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": "9",
+      "verse": "11",
+      "page": "109",
+      "quote": "The dasa of the Sun in Virgo gives income through cattle. Brahmins and gods. Female issues are indicated. The subject becomes world famous.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "viral_visibility",
+      "audience_growth",
+      "media_success"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Sun is positioned in Virgo (Kanya)",
+        "The Sun Mahadasha or Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Sun"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Sun"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the Sun (signifying visibility and ego) is placed in Virgo (Mercury's sign of communication, media, and detail), its Dasha period acts as a powerful catalyst for audience expansion. The native achieves 'world fame', indicating extreme viral visibility and media success.",
+      "mode": "viral_visibility",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Highlights the specific placement of the Sun in a communication-oriented sign to generate massive public reach."
+  },
+  {
+    "rule_id": "hora_sara_jupiter_sun_fame",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": null,
+      "verse": "33",
+      "page": null,
+      "quote": "During the dasa of Jupiter, in the sub-period of the Sun, one will be blessed with sons, wealth and pleasures. He will be famous and will bag a title. He will be respected by all the persons.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "public_engagement",
+      "artistic_success",
+      "viral_visibility"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Jupiter Mahadasha is active",
+        "Sun Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Jupiter",
+        "Sun"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Jupiter",
+        "Sun"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The sub-period of the Sun (visibility/authority) during Jupiter's major period (expansion/wisdom) grants the native prestigious titles, wealth, and widespread fame. It is a highly supportive window for public engagement and achieving prominent artistic or media recognition.",
+      "mode": "public_engagement",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A classic Dasha combination for acquiring titles, public respect, and expanding one's audience base."
+  },
+  {
+    "rule_id": "hora_sara_sun_jupiter_foreign_audience",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": null,
+      "verse": "18",
+      "page": null,
+      "quote": "During the sub-period of Jupiter in Sun's dasa, one will be virtuous (or he will be liberal in donating) and enjoy all luxuries. He will be rich in knowledge and possess wealth, acquire fame and live in foreign countries.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "audience_growth",
+      "content_expansion"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Sun Mahadasha is active",
+        "Jupiter Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Sun",
+        "Jupiter"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Sun",
+        "Jupiter"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The sub-period of Jupiter in the Sun's major period makes the native rich in knowledge, widely famous, and recognized even in foreign countries. This period strongly supports audience growth, international media success, and the expansion of creative content across borders.",
+      "mode": "audience_growth",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Connects fame and knowledge directly to foreign reach, ideal for digital media creativity."
+  },
+  {
+    "rule_id": "bphs_rashi_dasha_venus_trikona_music",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": null,
+      "page": "614",
+      "quote": "a trikona. The Moon there will give things like grains, ghee etc. Full Moon will favour with a treasure and jewels etc, Venus there will provide enjoyment from music etc.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "artistic_success",
+      "performance_and_expression"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "A Rashi-based Dasha (like Chara Dasha) is active",
+        "Venus is positioned in a Trikona (5th or 9th house) counted from the active Dasha Rashi"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5",
+        "9"
+      ],
+      "planets": [
+        "Venus"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "In Rashi-based Dasha systems, if Venus is placed in a trine (5th or 9th) from the active Dasha sign, the period provides immense enjoyment and success through music, arts, and creative expressions. It supports a lifestyle of aesthetic luxury and artistic performance.",
+      "mode": "artistic_success",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Highlights how planets placed in specific derivative houses from the Dasha Rashi yield thematic results (Venus yielding music/arts)."
+  },
+  {
+    "rule_id": "bphs_mercury_jupiter_dasha_sublimity",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "63",
+      "verse": "63",
+      "page": "637",
+      "quote": "Mercury-Jupiter-Sublimity, progress in education, increase in wealth and good qualities, profits in business.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "monetized_creativity",
+      "content_expansion"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Mercury Mahadasha is active",
+        "Jupiter Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Mercury",
+        "Jupiter"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Mercury",
+        "Jupiter"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The combination of Mercury (communication, media, intellect) and Jupiter (wealth, expansion, sublimity) in the Dasha sequence brings intellectual progress, high-quality output, and significant profits in business. This marks a highly supportive period for monetized creativity and expansive content generation.",
+      "mode": "monetized_creativity",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.8,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A key window mapping Mercury's media/communication significations to Jupiter's wealth and refinement."
+  }
+]

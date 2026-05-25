@@ -1,0 +1,494 @@
+[
+  {
+    "rule_id": "nirayana_chandra_mangala_5th_monetization",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "192",
+      "quote": "Bhava 5: Profitable. Chandra-Mangala yoga here gives financial benefit under most circumstances. Special dignity and added income from business in literature, performance art, speculation, and services for children.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "monetized_creativity",
+      "financial_creative_success"
+    ],
+    "rule_type": "yoga",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Moon (Chandra) is positioned in the 5th house",
+        "Mars (Mangala) is positioned in the 5th house",
+        "The Moon and Mars are conjunct (Chandra-Mangala Yoga)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Moon",
+        "Mars"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The conjunction of the Moon and Mars (Chandra-Mangala Yoga) in the 5th house of creativity ensures that the native's artistic and expressive endeavors are highly profitable. It yields an outcome of monetized creativity, specifically in literature and performance arts.",
+      "mode": "monetized_creativity",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Directly links a wealth-producing yoga with 5th house creative significations, resulting in financial creative success."
+  },
+  {
+    "rule_id": "nirayana_5th_stronger_than_4th_celebrity",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "165",
+      "quote": "If 5th bhava should surpass 4th bhava, the native might have very little stability of upbringing or formal education -- and yet be wildly successful in publishing, industrial design, or performance arts. The typical celebrity of stage & screen is indeed undereducated formally. However as a class, they possess charismatic intelligence in theatrical expression.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "mass_audience",
+      "viral_popularity"
+    ],
+    "rule_type": "house_strength",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The 5th house (creativity/performance) possesses significantly higher strength (Shadbala/Bhava Bala) than the 4th house (formal education/stability)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "4",
+        "5"
+      ],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the house of creative genius and theatrical expression (5th) is much stronger than the house of formal education (4th), the outcome is massive celebrity status. The native bypasses traditional stability to achieve wildly successful mass audience appeal and charismatic fame.",
+      "mode": "mass_audience",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "A powerful comparative strength rule delineating traditional academic success from raw, theatrical celebrity and virality."
+  },
+  {
+    "rule_id": "nirayana_jupiter_5th_royalties",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "220",
+      "quote": "If Guru is swakshetra or uccha with His lord well disposed, a karaka for great wealth through intelligence, speculative winnings or royalties on publication of creative works. Favors success in politics, speculation, amusements, entertainments, authorship...",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "financial_creative_success",
+      "artistic_mastery"
+    ],
+    "rule_type": "planetary_dignity",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Jupiter is positioned in the 5th house"
+      ],
+      "any_of": [
+        "Jupiter is in its own sign (Sagittarius or Pisces)",
+        "Jupiter is exalted (Cancer)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Jupiter"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "An exceptionally dignified Jupiter in the 5th house acts as a wealth generator specifically through creative properties. The outcome is high-level artistic mastery that yields great wealth, often manifesting as sustainable royalties from authorship, publications, and entertainment.",
+      "mode": "financial_creative_success",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "status": "active",
+    "notes": "Guarantees that creative outputs (5th house) are deeply monetized via the planet of wealth and expansion (Jupiter)."
+  },
+  {
+    "rule_id": "nirayana_mercury_5th_media_craft",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "166",
+      "quote": "Budha in domain-5 brings a love of detail & craft to the intelligence, and outputs expression in writing, performance, and all other media. Sexual genius.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "artistic_mastery",
+      "sustainable_audience_growth"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Mercury (Budha) is positioned in the 5th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Mercury"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mercury in the 5th house focuses the creative genius toward precision, detail, and multifaceted expression. The outcome is artistic mastery in technical crafts, writing, and digital/media success, allowing for prolific and consistent output.",
+      "mode": "artistic_mastery",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "Indicates a high-volume, detailed, and technically proficient style of creative output."
+  },
+  {
+    "rule_id": "nirayana_ketu_5th_hidden_talent",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "166",
+      "quote": "Ketu gives a reflective and detached philosophical intelligence, which may seek no public output although it is very deep and valuable.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "hidden_talent",
+      "recognition_without_income"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "Ketu is positioned in the 5th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Ketu"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Ketu occupying the 5th house detaches the native from the desire for fame or worldly recognition. The outcome is profound, hidden artistic talent and deep creative intelligence that rarely seeks a mass audience or public output.",
+      "mode": "hidden_talent",
+      "quality": "mixed",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Represents the archetype of the isolated, philosophical creator who produces art for spiritual or internal reasons rather than public attention."
+  },
+  {
+    "rule_id": "nirayana_rahu_5th_controversial_expression",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "166",
+      "quote": "Rahu gives wild risk-taking & taboo-breaking intelligence, high romance, and exotic ideas.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "controversial_expression",
+      "viral_popularity"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "Rahu is positioned in the 5th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Rahu"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Rahu in the 5th house of creativity injects an obsessive, boundary-pushing energy into the native's art. The outcome is highly controversial artistic expression, fueled by taboo-breaking ideas, which often results in sudden, polarizing viral popularity.",
+      "mode": "controversial_expression",
+      "quality": "mixed",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Perfectly defines the modern 'shock value' artist or creator who manipulates taboo for audience growth."
+  },
+  {
+    "rule_id": "nirayana_saturn_5th_creative_burnout",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "166",
+      "quote": "Shani in domain-5 restrains the creative intelligence & sets limits on personal speculation; tends to punish the native for taking creative risks. Children are a burden.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "creative_burnout",
+      "unstable_attention"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Saturn (Shani) is positioned in the 5th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Saturn"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn in the 5th house creates fear and limitation around self-expression. The outcome is chronic creative burnout, a sense of heavy burden attached to producing art, and a lack of spontaneous virality, as taking creative risks is systematically punished.",
+      "mode": "creative_burnout",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "Highlights the suppression of creative joy, requiring the native to treat art strictly as laborious work rather than play."
+  },
+  {
+    "rule_id": "nirayana_moon_pisces_ethereal_art",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "201",
+      "quote": "Soma-Meena is enchanted by children & spirits; magnetically attracts them; speaks for them. They channel vast intuitive creativity, but results may manifest solely on the astral plane, invisible to most humans. They neither seek nor decline the teaching role for which their wisdom suits them.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "hidden_talent",
+      "niche_success"
+    ],
+    "rule_type": "planetary_dignity",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "The Moon (Soma) is positioned in Pisces (Meena)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Moon"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The Moon in Pisces generates an outcome of vast, intuitive, and spiritually channeled creativity. However, because this art often manifests abstractly or intangibly ('invisible to most humans'), the native generally experiences hidden talent or extreme niche success rather than broad mainstream monetization.",
+      "mode": "hidden_talent",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "Qualitative rule identifying ethereal, ungrounded artistic channeling that resists commercialization."
+  },
+  {
+    "rule_id": "nirayana_venus_kendra_government_art_remuneration",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "224",
+      "quote": "Fine arts, dancing, & literary composition result from Venus; interior decorators & even successful psychotherapists are born under this influence as well. A benefic in kendra gives ease and talent. Loves high position... Government patronage and remunderation for political, artistic & musical work.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "monetized_creativity",
+      "financial_creative_success"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Venus is positioned in a Kendra (1st, 4th, 7th, or 10th house)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "1",
+        "4",
+        "7",
+        "10"
+      ],
+      "planets": [
+        "Venus"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Venus (the natural significator of beauty and the arts) is fortified in a Kendra, it yields an outcome of highly monetized creativity. The native's artistic, musical, or literary talents attract institutional prestige, reliable remuneration, and elite patronage.",
+      "mode": "monetized_creativity",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "status": "active",
+    "notes": "A core classical condition separating struggling artists from those whose creative outputs are heavily rewarded and monetized."
+  }
+]

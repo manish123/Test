@@ -1,0 +1,234 @@
+[
+  {
+    "rule_id": "transit_venus_creative_projects",
+    "source_text": {
+      "work_name": "Astrology Transits Explained: How Planetary Movements Shape Your Life - VAMA",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Venus transits influence love, relationships, beauty, and financial matters. Positive Venus transits are ideal for romance or creative projects",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "creative_output",
+      "artistic_visibility"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Transiting Venus is in a positive or favorable position"
+      ],
+      "any_of": [],
+      "none_of": [
+        "Venus is severely afflicted or in a stressful alignment"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Venus"
+      ],
+      "houses": [],
+      "planets": [
+        "Venus"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Venus, the natural significator of art, aesthetics, and beauty, transits through favorable placements in the chart, it creates an ideal medium-term window for initiating, developing, and succeeding in creative projects and artistic endeavors.",
+      "mode": "creative_output",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A direct transit rule linking Venus's movement to creative output and the execution of artistic projects."
+  },
+  {
+    "rule_id": "transit_adhana_tara_19_creative_output",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Adhana 19th Star... Triggers geographical relocation, career settlement, and creative output.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "creative_output"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "An activating transiting planet passes over the 19th Nakshatra (Adhana Tara) counted from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Saturn",
+        "Sun"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "19th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Adhana_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The Adhana Tara (the 19th Nakshatra counted from the natal Moon) acts as a highly sensitive astrological coordinate for conception and generation. Transits of significant planets over this star trigger a focused period of fertile creative output.",
+      "mode": "creative_output",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A specialized Tara Chakra transit rule explicitly linking the 19th star to creative manifestation and output."
+  },
+  {
+    "rule_id": "transit_activation_3_5_9_media_publishing",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "53",
+      "quote": "Sahaja Bhava profiles our relationship to media, ability in sales, marketing skills, advertising, public relations, etc. Creative authorship needs strong 3rd and 5th bhavas (creative inspiration) as well as a fortunate dharma bhava, for the 9th bhava rules publications.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "creative_output",
+      "media_exposure",
+      "artistic_visibility"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Auspicious or activating planets (like Jupiter, Venus, or Mercury) transit the 3rd house (Sahaja Bhava)",
+        "Auspicious or activating planets transit the 5th house (Putra Bhava)",
+        "Auspicious or activating planets transit the 9th house (Dharma Bhava)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Venus",
+        "Mercury"
+      ],
+      "houses": [
+        "3",
+        "5",
+        "9"
+      ],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When transiting planets activate the 3rd house, it stimulates media relations, advertising, and marketing skills. Activation of the 5th house triggers creative inspiration and performance, while transits through the 9th house specifically rule the successful publication and broad distribution of creative works.",
+      "mode": "media_exposure",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Synthesizes the specific house rulerships for media and authorship with standard house transit activation principles."
+  },
+  {
+    "rule_id": "transit_mercury_communication_networking",
+    "source_text": {
+      "work_name": "Astrology Transits Explained: How Planetary Movements Shape Your Life - VAMA",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Mercury transits govern communication, learning, and travel. These transits often manifest as increased mental activity, networking opportunities, or short-term challenges in expressing yourself clearly.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "event_subtype": [
+      "public_engagement",
+      "media_exposure"
+    ],
+    "rule_type": "transit",
+    "timing_band": "narrow",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Transiting Mercury is in a favorable position or aspect"
+      ],
+      "any_of": [],
+      "none_of": [
+        "Mercury is retrograde or severely afflicted (which manifests as challenges in expressing oneself)"
+      ]
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Mercury"
+      ],
+      "houses": [],
+      "planets": [
+        "Mercury"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Favorable transits of Mercury act as a swift catalyst for communication, mental activity, and audience networking. This provides a supportive window for public engagement, expressing creative ideas clearly, and leveraging media exposure.",
+      "mode": "public_engagement",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.8,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Highlights Mercury's fast-moving role in facilitating communication, media engagement, and networking activities for creators."
+  }
+]
