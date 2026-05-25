@@ -21,15 +21,19 @@ from features.dasha import get_current_vimshottari, _generate_md_periods, _gener
 from features.dignity import SIGN_LORDS, get_sign
 from features.nakshatra import get_nakshatra
 
+# ── Shared infrastructure (Phase 1 refactor) ─────────────────
+from rules.evaluator_base import (
+    IST_OFFSET, ist_to_utc, get_jd,
+    SIGN_NAMES, NAKSHATRA_LORDS,
+    NATURAL_BENEFICS, NATURAL_MALEFICS,
+    JUPITER_ASPECTS, SATURN_ASPECTS, MARS_ASPECTS,
+    BaseChartState, BaseTransitState,
+)
 
 # ═══════════════════════════════════════════════════════════════
-# CONSTANTS
+# CONSTANTS (domain-specific only)
 # ═══════════════════════════════════════════════════════════════
-IST_OFFSET = timedelta(hours=5, minutes=30)
 RULES_DIR = Path(__file__).resolve().parent / "domains" / "property" / "vehicle_purchase_and_vehicle_ownership"
-
-NATURAL_BENEFICS = {"Jupiter", "Venus", "Mercury", "Moon"}
-NATURAL_MALEFICS = {"Sun", "Mars", "Saturn", "Rahu", "Ketu"}
 
 # Vehicle Purchase-specific constants
 # Venus=Vahana Karaka, Jupiter=expansion, Moon=comfort, Saturn=heavy vehicles, Mars=engineering
@@ -37,15 +41,9 @@ VEHICLE_PURCHASE_KARAKAS = {"Venus", "Jupiter", "Moon", "Saturn", "Mars", "Mercu
 # 4=vehicles/conveyances, 1=self, 9=fortune, 11=gains
 VEHICLE_PURCHASE_HOUSES = {4, 1, 9, 11}
 
-SIGN_NAMES = {
-    1: "Aries", 2: "Taurus", 3: "Gemini", 4: "Cancer",
-    5: "Leo", 6: "Virgo", 7: "Libra", 8: "Scorpio",
-    9: "Sagittarius", 10: "Capricorn", 11: "Aquarius", 12: "Pisces"
-}
-
-
-
-# Exaltation signs for dignity checks
+# Exaltation/own/debilitation tables — kept here because this evaluator
+# intentionally extends features/dignity.py with Rahu/Ketu entries.
+# Do NOT merge into evaluator_base (domain-semantic decision, not plumbing).
 EXALTATION_SIGNS = {
     "Sun": 1, "Moon": 2, "Mars": 10, "Mercury": 6,
     "Jupiter": 4, "Venus": 12, "Saturn": 7, "Rahu": 3, "Ketu": 9
@@ -111,36 +109,11 @@ def get_jd(dt_ist):
 # CHART STATE BUILDER (reused from property evaluator pattern)
 # ═══════════════════════════════════════════════════════════════
 
-class ChartState:
+class ChartState(BaseChartState):
     """Encapsulates all natal chart data needed for vehicle purchase rule evaluation."""
 
     def __init__(self, birth_dt, lat, lon, alt=0):
-        self.birth_dt = birth_dt
-        self.lat = lat
-        self.lon = lon
-        self.alt = alt
-        self.location = {"latitude": lat, "longitude": lon, "altitude": alt}
-
-        configure_ephemeris()
-        self.birth_jd = get_jd(birth_dt)
-        self.birth_positions = get_planet_positions(self.birth_jd, self.location)
-        self.house_data = get_house_cusps(self.birth_jd, lat, lon)
-
-        self.asc_lon = self.house_data["ascendant"]
-        self.asc_sign = int(normalize_lon(self.asc_lon) // 30) + 1
-        self.moon_lon = self.birth_positions["Moon"]
-        self.moon_sign = get_sign(self.moon_lon)
-        self.moon_nakshatra = get_nakshatra(self.moon_lon)
-
-        # Compute planet data
-        self.planets = {}
-        for name, lon_val in self.birth_positions.items():
-            sign = get_sign(lon_val)
-            house = ((sign - self.asc_sign) % 12) + 1
-            self.planets[name] = {
-                "longitude": lon_val, "sign": sign,
-                "house": house, "nakshatra": get_nakshatra(lon_val),
-            }
+        super().__init__(birth_dt, lat, lon, alt)
 
 
         # All house lords
@@ -168,70 +141,17 @@ class ChartState:
         venus_lon = self.birth_positions["Venus"]
         self.sensitive_point_1 = (venus_lon + fourth_lord_lon) % 360
         # Point 2: Moon + 4th lord longitude sum (transport comfort axis)
-        self.sensitive_point_2 = (self.moon_lon + fourth_lord_lon) % 360
-
-    def _get_aspectors_of_house(self, target_house):
-        """Get planets that aspect a given house via Vedic aspects."""
-        aspectors = []
-        for name, data in self.planets.items():
-            planet_house = data["house"]
-            if ((planet_house + 7 - 1 - 1) % 12) + 1 == target_house:
-                aspectors.append(name)
-            if name == "Jupiter":
-                for asp in [5, 9]:
-                    if ((planet_house + asp - 1 - 1) % 12) + 1 == target_house:
-                        aspectors.append(name)
-            if name == "Saturn":
-                for asp in [3, 10]:
-                    if ((planet_house + asp - 1 - 1) % 12) + 1 == target_house:
-                        aspectors.append(name)
-            if name == "Mars":
-                for asp in [4, 8]:
-                    if ((planet_house + asp - 1 - 1) % 12) + 1 == target_house:
-                        aspectors.append(name)
-        return list(set(aspectors))
-
-    def get_house_from_sign(self, transit_sign, reference_sign=None):
-        """Get house number from a sign, relative to reference (default: lagna)."""
-        ref = reference_sign or self.asc_sign
-        return ((transit_sign - ref) % 12) + 1
-
-
-
-
-# ═══════════════════════════════════════════════════════════════
+        self.sensitive_point_2 = (self.moon_lon + fourth_lord_lon) % 360# ═══════════════════════════════════════════════════════════════
 # TRANSIT STATE
 # ═══════════════════════════════════════════════════════════════
 
-class TransitState:
-    """Encapsulates transit positions for a specific date."""
-
-    def __init__(self, date, chart: ChartState):
-        self.date = date
-        self.chart = chart
-        configure_ephemeris()
-        self.jd = get_jd(date)
-        self.positions = get_planet_positions(self.jd, chart.location)
-
-        self.planet_signs = {}
-        self.planet_houses_from_lagna = {}
-        self.planet_houses_from_moon = {}
-
-        for name, lon_val in self.positions.items():
-            sign = get_sign(lon_val)
-            self.planet_signs[name] = sign
-            self.planet_houses_from_lagna[name] = chart.get_house_from_sign(sign)
-            self.planet_houses_from_moon[name] = chart.get_house_from_sign(sign, chart.moon_sign)
-
-    def planet_conjunct_natal(self, planet, natal_degree, orb=5.0):
-        """Check if a transit planet is conjunct a natal degree."""
-        p_lon = self.positions[planet]
-        diff = abs((p_lon - natal_degree) % 360)
-        diff = min(diff, 360 - diff)
-        return diff <= orb
-
-
-
+class TransitState(BaseTransitState):
+    """
+    Transit state for this domain's evaluation.
+    Thin subclass of BaseTransitState — all logic lives in the base class.
+    Kept as a named class so existing call-sites continue to work unchanged.
+    """
+    pass
 
 # ═══════════════════════════════════════════════════════════════
 # LAYER 1: DASHA EVALUATOR (Vehicle Purchase — 9 rules)

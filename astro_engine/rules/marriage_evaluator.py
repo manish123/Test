@@ -18,16 +18,19 @@ from features.dasha import get_current_vimshottari, _generate_md_periods, _gener
 from features.dignity import SIGN_LORDS, get_sign
 from features.nakshatra import get_nakshatra
 
-# ═══════════════════════════════════════════════════════════════
-# CONSTANTS
-# ═══════════════════════════════════════════════════════════════
-IST_OFFSET = timedelta(hours=5, minutes=30)
-RULES_DIR = Path(__file__).resolve().parent / "domains" / "relationship" / "marriage"
+# ── Shared infrastructure (Phase 1 refactor) ─────────────────
+from rules.evaluator_base import (
+    IST_OFFSET, ist_to_utc, get_jd,
+    SIGN_NAMES, NAKSHATRA_LORDS,
+    NATURAL_BENEFICS, NATURAL_MALEFICS, BENEFIC_HOUSES, MALEFIC_HOUSES,
+    JUPITER_ASPECTS, SATURN_ASPECTS, MARS_ASPECTS,
+    BaseChartState, BaseTransitState,
+)
 
-NATURAL_BENEFICS = {"Jupiter", "Venus", "Mercury", "Moon"}
-NATURAL_MALEFICS = {"Sun", "Mars", "Saturn", "Rahu", "Ketu"}
-BENEFIC_HOUSES = {1, 2, 4, 5, 7, 9, 11}
-MALEFIC_HOUSES = {3, 6, 8, 12}
+# ═══════════════════════════════════════════════════════════════
+# CONSTANTS (domain-specific only)
+# ═══════════════════════════════════════════════════════════════
+RULES_DIR = Path(__file__).resolve().parent / "domains" / "relationship" / "marriage"
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -125,106 +128,51 @@ def _load_calibration():
 CALIBRATION = _load_calibration()
 
 
-SIGN_NAMES = {
-    1: "Aries", 2: "Taurus", 3: "Gemini", 4: "Cancer",
-    5: "Leo", 6: "Virgo", 7: "Libra", 8: "Scorpio",
-    9: "Sagittarius", 10: "Capricorn", 11: "Aquarius", 12: "Pisces"
-}
-
-# Nakshatra lords (Vimshottari sequence)
-NAKSHATRA_LORDS = [
-    "Ketu", "Venus", "Sun", "Moon", "Mars", "Rahu", "Jupiter", "Saturn", "Mercury",
-    "Ketu", "Venus", "Sun", "Moon", "Mars", "Rahu", "Jupiter", "Saturn", "Mercury",
-    "Ketu", "Venus", "Sun", "Moon", "Mars", "Rahu", "Jupiter", "Saturn", "Mercury",
-]
-
-# Jupiter special aspects: from its position, it aspects houses 5, 7, 9 away
-# Saturn special aspects: from its position, it aspects houses 3, 7, 10 away
-JUPITER_ASPECTS = [5, 7, 9]  # houses from Jupiter's position
-SATURN_ASPECTS = [3, 7, 10]  # houses from Saturn's position
-MARS_ASPECTS = [4, 7, 8]     # houses from Mars's position
-
-
-def ist_to_utc(dt):
-    return dt - IST_OFFSET
-
-
-def get_jd(dt_ist):
-    dt_utc = ist_to_utc(dt_ist)
-    return swe.julday(dt_utc.year, dt_utc.month, dt_utc.day,
-                      dt_utc.hour + dt_utc.minute / 60.0)
-
-
 
 # ═══════════════════════════════════════════════════════════════
 # CHART STATE BUILDER
 # ═══════════════════════════════════════════════════════════════
 
-class ChartState:
-    """Encapsulates all natal chart data needed for rule evaluation."""
+class ChartState(BaseChartState):
+    """
+    Marriage-domain chart state.
+    Extends BaseChartState with marriage-specific house lords,
+    D9 calculations, and sensitive points.
+
+    API is identical to the pre-refactor class — all callers
+    (career_evaluator, childbirth_evaluator, etc.) continue to work.
+    """
 
     def __init__(self, birth_dt, lat, lon, alt=0):
-        self.birth_dt = birth_dt
-        self.lat = lat
-        self.lon = lon
-        self.alt = alt
-        self.location = {"latitude": lat, "longitude": lon, "altitude": alt}
+        super().__init__(birth_dt, lat, lon, alt)
 
-        configure_ephemeris()
-        self.birth_jd = get_jd(birth_dt)
-        self.birth_positions = get_planet_positions(self.birth_jd, self.location)
-        self.house_data = get_house_cusps(self.birth_jd, lat, lon)
-
-        self.asc_lon = self.house_data["ascendant"]
-        self.asc_sign = int(normalize_lon(self.asc_lon) // 30) + 1
-        self.moon_lon = self.birth_positions["Moon"]
-        self.moon_sign = get_sign(self.moon_lon)
-        self.moon_nakshatra = get_nakshatra(self.moon_lon)
-
-        # Compute planet data
-        self.planets = {}
-        for name, lon_val in self.birth_positions.items():
-            sign = get_sign(lon_val)
-            house = ((sign - self.asc_sign) % 12) + 1
-            self.planets[name] = {
-                "longitude": lon_val,
-                "sign": sign,
-                "house": house,
-                "nakshatra": get_nakshatra(lon_val),
-            }
-
-        # Key house lords
-        self.lagna_lord = SIGN_LORDS[self.asc_sign]
-        self.seventh_sign = ((self.asc_sign + 6 - 1) % 12) + 1
-        self.seventh_lord = SIGN_LORDS[self.seventh_sign]
-        self.second_sign = ((self.asc_sign + 1 - 1) % 12) + 1
-        self.second_lord = SIGN_LORDS[self.second_sign]
-        self.ninth_sign = ((self.asc_sign + 8 - 1) % 12) + 1
-        self.ninth_lord = SIGN_LORDS[self.ninth_sign]
-        self.tenth_sign = ((self.asc_sign + 9 - 1) % 12) + 1
-        self.tenth_lord = SIGN_LORDS[self.tenth_sign]
+        # Marriage-specific house lords
+        self.seventh_sign  = ((self.asc_sign + 6 - 1) % 12) + 1
+        self.seventh_lord  = SIGN_LORDS[self.seventh_sign]
+        self.second_sign   = ((self.asc_sign + 1 - 1) % 12) + 1
+        self.second_lord   = SIGN_LORDS[self.second_sign]
+        self.ninth_sign    = ((self.asc_sign + 8 - 1) % 12) + 1
+        self.ninth_lord    = SIGN_LORDS[self.ninth_sign]
+        self.tenth_sign    = ((self.asc_sign + 9 - 1) % 12) + 1
+        self.tenth_lord    = SIGN_LORDS[self.tenth_sign]
         self.eleventh_sign = ((self.asc_sign + 10 - 1) % 12) + 1
         self.eleventh_lord = SIGN_LORDS[self.eleventh_sign]
 
-
-        # Planets in 7th house
+        # Planets in / aspecting 7th house
         self.seventh_house_occupants = [
             name for name, data in self.planets.items() if data["house"] == 7
         ]
-
-        # Planets aspecting 7th house
         self.seventh_house_aspectors = self._get_aspectors_of_house(7)
 
-        # 2nd lord dispositor (sign where 2nd lord sits → lord of that sign)
+        # Dispositors
         second_lord_sign = self.planets[self.second_lord]["sign"]
         self.second_lord_dispositor = SIGN_LORDS[second_lord_sign]
 
-        # 7th lord dispositor (sign where 7th lord sits → lord of that sign)
         seventh_lord_sign = self.planets[self.seventh_lord]["sign"]
         self.seventh_lord_dispositor = SIGN_LORDS[seventh_lord_sign]
 
-        # Navamsa (D9) calculations
-        self.d9_asc_sign = self._compute_d9_lagna()
+        # Navamsa (D9)
+        self.d9_asc_sign     = self._compute_d9_lagna()
         self.d9_seventh_sign = ((self.d9_asc_sign + 6 - 1) % 12) + 1
         self.seventh_lord_d9_sign = self._get_d9_sign(
             self.birth_positions[self.seventh_lord]
@@ -236,69 +184,12 @@ class ChartState:
         self.janma_nakshatra_lord = NAKSHATRA_LORDS[nak_index % 27]
 
         # Sensitive Marriage Points
-        lagna_lord_lon = self.birth_positions[self.lagna_lord]
+        lagna_lord_lon  = self.birth_positions[self.lagna_lord]
         seventh_lord_lon = self.birth_positions[self.seventh_lord]
         self.sensitive_point_1 = (lagna_lord_lon + seventh_lord_lon) % 360
 
         nakshatra_lord_lon = self.birth_positions[self.janma_nakshatra_lord]
         self.sensitive_point_2 = (nakshatra_lord_lon + seventh_lord_lon) % 360
-
-    def _get_aspectors_of_house(self, target_house):
-        """Get planets that aspect a given house via Vedic aspects."""
-        aspectors = []
-        for name, data in self.planets.items():
-            planet_house = data["house"]
-            # All planets aspect 7th from themselves
-            if ((planet_house + 7 - 1 - 1) % 12) + 1 == target_house:
-                aspectors.append(name)
-            # Jupiter special aspects (5, 7, 9)
-            if name == "Jupiter":
-                for asp in [5, 9]:
-                    if ((planet_house + asp - 1 - 1) % 12) + 1 == target_house:
-                        aspectors.append(name)
-            # Saturn special aspects (3, 7, 10)
-            if name == "Saturn":
-                for asp in [3, 10]:
-                    if ((planet_house + asp - 1 - 1) % 12) + 1 == target_house:
-                        aspectors.append(name)
-            # Mars special aspects (4, 7, 8)
-            if name == "Mars":
-                for asp in [4, 8]:
-                    if ((planet_house + asp - 1 - 1) % 12) + 1 == target_house:
-                        aspectors.append(name)
-        return list(set(aspectors))
-
-
-    def _compute_d9_lagna(self):
-        """Compute Navamsa lagna sign from ascendant longitude."""
-        return self._get_d9_sign(self.asc_lon)
-
-    def _get_d9_sign(self, longitude):
-        """Get the Navamsa sign for a given longitude."""
-        lon = normalize_lon(longitude)
-        # Each sign has 4 padas of 3°20' each = 9 navamsas per sign
-        # Navamsa starts from Aries for fire signs, Cancer for water, etc.
-        sign = int(lon // 30) + 1
-        degree_in_sign = lon % 30
-        navamsa_index = int(degree_in_sign / 3.333333333)  # 0-8
-
-        # Starting navamsa depends on sign element
-        if sign in [1, 5, 9]:    # Fire signs start from Aries
-            start = 1
-        elif sign in [2, 6, 10]:  # Earth signs start from Capricorn
-            start = 10
-        elif sign in [3, 7, 11]:  # Air signs start from Libra
-            start = 7
-        else:                     # Water signs start from Cancer
-            start = 4
-
-        d9_sign = ((start - 1 + navamsa_index) % 12) + 1
-        return d9_sign
-
-    def get_house_from_sign(self, transit_sign, reference_sign=None):
-        """Get house number from a sign, relative to reference (default: lagna)."""
-        ref = reference_sign or self.asc_sign
-        return ((transit_sign - ref) % 12) + 1
 
 
 
@@ -306,71 +197,14 @@ class ChartState:
 # TRANSIT STATE (computed for a specific date)
 # ═══════════════════════════════════════════════════════════════
 
-class TransitState:
-    """Encapsulates transit positions for a specific date."""
-
-    def __init__(self, date, chart: ChartState):
-        self.date = date
-        self.chart = chart
-        configure_ephemeris()
-        self.jd = get_jd(date)
-        self.positions = get_planet_positions(self.jd, chart.location)
-
-        self.planet_signs = {}
-        self.planet_houses_from_lagna = {}
-        self.planet_houses_from_moon = {}
-
-        for name, lon_val in self.positions.items():
-            sign = get_sign(lon_val)
-            self.planet_signs[name] = sign
-            self.planet_houses_from_lagna[name] = chart.get_house_from_sign(sign)
-            self.planet_houses_from_moon[name] = chart.get_house_from_sign(
-                sign, chart.moon_sign
-            )
-
-    def planet_aspects_house(self, planet, target_house, from_ref="lagna"):
-        """Check if a transit planet aspects a target house."""
-        if from_ref == "lagna":
-            p_house = self.planet_houses_from_lagna[planet]
-        else:
-            p_house = self.planet_houses_from_moon[planet]
-
-        # All planets aspect 7th from themselves
-        aspected = [((p_house + 6) % 12) + 1]
-
-        if planet == "Jupiter":
-            aspected.extend([((p_house + 4) % 12) + 1, ((p_house + 8) % 12) + 1])
-        elif planet == "Saturn":
-            aspected.extend([((p_house + 2) % 12) + 1, ((p_house + 9) % 12) + 1])
-        elif planet == "Mars":
-            aspected.extend([((p_house + 3) % 12) + 1, ((p_house + 7) % 12) + 1])
-
-        # Also include conjunction (being in the house)
-        aspected.append(p_house)
-
-        return target_house in aspected
-
-    def planet_in_sign(self, planet, target_sign):
-        """Check if transit planet is in a specific sign."""
-        return self.planet_signs.get(planet) == target_sign
-
-    def jupiter_on_degree(self, target_degree, orb=2.0):
-        """Check if transit Jupiter is within orb of a specific degree."""
-        jup_lon = self.positions["Jupiter"]
-        diff = abs((jup_lon - target_degree) % 360)
-        diff = min(diff, 360 - diff)
-        return diff <= orb
-
-    def jupiter_trine_degree(self, target_degree, orb=2.0):
-        """Check if Jupiter is trine (120/240) or opposite (180) to a degree."""
-        jup_lon = self.positions["Jupiter"]
-        for offset in [0, 120, 240, 180]:
-            check_point = (target_degree + offset) % 360
-            diff = abs((jup_lon - check_point) % 360)
-            diff = min(diff, 360 - diff)
-            if diff <= orb:
-                return True
-        return False
+class TransitState(BaseTransitState):
+    """
+    Transit state for marriage-domain evaluation.
+    Thin subclass of BaseTransitState — no additional logic needed.
+    Kept as a named class so existing imports of TransitState from
+    this module continue to work unchanged.
+    """
+    pass
 
 
 
