@@ -1,0 +1,505 @@
+[
+  {
+    "rule_id": "nakshatra_magha_authoritarian_leadership",
+    "source_text": {
+      "work_name": "27 Nakshatras (Lunar Mansions) and Zodiac Constellations in Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "10. Magha Nakshatra... Strengths : Leadership, respect for tradition, and charisma Weaknesses : Pride, dominance, and resistance to change... Favorable Aspects : Leadership, ancestral guidance, and public service Unfavorable Aspects : Overbearing attitude, lack of flexibility",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "respected_leadership",
+      "controversial_authority"
+    ],
+    "rule_type": "nakshatra_activation",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "A key chart indicator (Ascendant, Moon, or 10th Lord) is positioned in Magha Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "Magha"
+      ],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Magha Nakshatra imparts strong traditional leadership and public service capabilities. However, its shadow side manifests as a highly dominant, prideful, and overbearing leadership style, leading to controversial authority despite achieving a respected position.",
+      "mode": "respected_leadership",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "Highlights the innate qualitative style of leadership (authoritarian yet traditional) produced by the Ketu-ruled throne star."
+  },
+  {
+    "rule_id": "nirayana_surya_10th_executive_power",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "92-93",
+      "quote": "Surya :Strong executive leadership capability, ethical intelligence, rational decision-making skills. In general, highly auspicious when Surya is well disposed... Indicates government service, management at higher levels of large organizations, & political appointments... If Surya is poorly disposed there may be weak decisions, unreliable behavior in positions of authority, micro-managing, or petty controlling authoritarianism",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "executive_power",
+      "political_influence",
+      "controversial_authority"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "The Sun (Surya) is positioned in the 10th house (Karma Bhava)"
+      ],
+      "any_of": [
+        "The Sun is well disposed (yielding ethical leadership)",
+        "The Sun is poorly disposed (yielding petty controlling authoritarianism)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "10"
+      ],
+      "planets": [
+        "Sun"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The Sun in the 10th house guarantees an outcome of executive power, government service, or top-tier management. Its dignity determines the quality: a strong Sun gives ethical, rational leadership, while an afflicted Sun results in micro-management and unreliable authoritarianism.",
+      "mode": "executive_power",
+      "quality": "mixed",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "status": "active",
+    "notes": "Defines the core qualitative difference between respected ethical leadership and petty authoritarianism based on the Sun's dignity."
+  },
+  {
+    "rule_id": "nirayana_shani_10th_bureaucratic_control",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "93",
+      "quote": "Shani:House-10 is Shani's natural house; Shani does well here. Believable personality who has credibility and is willing to work their way up the ladder. May have a vulgar style, but the people recognize him as one of their own. Often found in government service, with trade unions, and other populist appeals to the common man. Stickler for the rules - but the letter of the law is what move him, not the spirit of the law!",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "bureaucratic_control",
+      "stable_authority",
+      "political_influence"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Saturn (Shani) is positioned in the 10th house (Karma Bhava)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "10"
+      ],
+      "planets": [
+        "Saturn"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn in the 10th produces highly stable, bureaucratic authority built on credibility, hard work, and populist appeal. The leadership style is rigid, adhering strictly to the letter of the law and organizational rules, making the native an excellent civil servant or union leader.",
+      "mode": "bureaucratic_control",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Qualitative rule highlighting Saturn's structural, populist, and rule-bound approach to power."
+  },
+  {
+    "rule_id": "nirayana_rahu_10th_controversial_authority",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "93",
+      "quote": "Rahu:Risk-positive individual with strong desire for power. Rahu gives the result of his Lord, plus Rahu contributes obsessive-compulsive behaviors and extreme hunger for the object of its desire. Career is associated with taboo-breaking...",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "controversial_authority",
+      "executive_power"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Rahu is positioned in the 10th house (Karma Bhava)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "10"
+      ],
+      "planets": [
+        "Rahu"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Rahu in the 10th generates an obsessive hunger for executive power and status. The outcome is often a rapid but controversial ascent to authority, characterized by taboo-breaking actions, massive ambition, and high risk-taking.",
+      "mode": "controversial_authority",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Illustrates the ambitious but highly disruptive and controversial nature of nodal power."
+  },
+  {
+    "rule_id": "nirayana_12th_lord_10th_symbolic_power",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "198",
+      "quote": "Elements of foreign cultural behavior (L-12) are brought into the leadership station or symbolic royal position... L-12's dream-based, body-dissolving influence causes native to experience losses through official judgments. Unfavorable for conventional career advancement, but surprisingly may lead to extraordinary public prestige. If the spirits wish for this native to accede to high levels of public recognition, this shall be done.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "symbolic_power",
+      "hidden_influence"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 12th house is positioned in the 10th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "10",
+        "12"
+      ],
+      "planets": [
+        "12th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The 12th lord in the 10th house dissolves conventional executive control, replacing it with symbolic power or hidden institutional influence. The native may suffer worldly career losses but achieve extraordinary, almost spiritual or foreign-driven public prestige.",
+      "mode": "symbolic_power",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "Explains how the house of loss (12th) manifests in the house of status (10th) as symbolic or otherworldly authority rather than direct bureaucratic control."
+  },
+  {
+    "rule_id": "nirayana_sun_makara_posturing_leadership",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "206",
+      "quote": "If Surya and Budha, can be a mouthpiece for a simplistic, fear-based ideology (Shani) rather than a confident, regal, self-knowing sense of truth (Surya). If Surya in kendra or otherwise strengthened, the leadership style = moralistic with ideological sermonizing and public displays of ritually conformist behavior. Naturally at home in large, conservative religious and government organizations The native will parrot the moral rules of the organization (Makara) without personal inquiry or spiritual engagement. Public posturing. Lack of ultimate accountability. In a leadership position, this native is prone to self-doubt.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "bureaucratic_control",
+      "symbolic_power",
+      "unstable_leadership"
+    ],
+    "rule_type": "planetary_dignity",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The Sun (Surya) is positioned in Makara (Capricorn)"
+      ],
+      "any_of": [
+        "The Sun is positioned in a Kendra (1st, 4th, 7th, 10th house)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "1",
+        "4",
+        "7",
+        "10"
+      ],
+      "planets": [
+        "Sun"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the Sun (natural ego and authority) is placed in Saturn's conservative sign of Capricorn, leadership becomes an exercise in bureaucratic conformism. The outcome is public posturing, sermonizing, and a lack of true accountability, often masking deep self-doubt behind strict organizational rules.",
+      "mode": "bureaucratic_control",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "A stark qualitative delineation of how solar authority is compromised when forced into Saturnian ideological rigidity."
+  },
+  {
+    "rule_id": "nirayana_shani_8th_hidden_institutional_control",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "246-247",
+      "quote": "In randhrasthana/domain-8:Service seeks a hidden venue. Covert but highly structured intelligence gathering, typically in employ of a large but secret or semi-secret public organization. Administers confidential social justice policy and programs, handles undocumented exchanges. Privy to secret plans... Native's official title may be a decoy; his actual public responsibilities are masked.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "hidden_influence",
+      "bureaucratic_control"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "Saturn (Shani) is positioned in the 8th house (Randhrasthana)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "8"
+      ],
+      "planets": [
+        "Saturn"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Saturn in the 8th house structures the native's career around covert operations, confidential intelligence, and undocumented policy administration. The outcome is profound hidden institutional influence where the native wields immense power behind the scenes, often using a decoy official title.",
+      "mode": "hidden_influence",
+      "quality": "mixed",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Perfectly isolates the qualitative signature of the 'power behind the throne' or intelligence community executive."
+  },
+  {
+    "rule_id": "jp_10th_lord_benefic_respected_leadership",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "15",
+      "verse": "63",
+      "page": "924",
+      "quote": "When the lord of the 10th bhava is associated with a benefic planet or is in the midst of two benefic planets or occupies a Nayajnsa of a benefic planet, the person born will have fame and a high sense of honor.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "respected_leadership",
+      "stable_authority"
+    ],
+    "rule_type": "classical_pattern",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The Lord of the 10th house is conjunct a benefic planet",
+        "The Lord of the 10th house is hemmed between two benefic planets (Shubha Kartari Yoga)",
+        "The Lord of the 10th house is positioned in the Navamsa of a benefic planet"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "10"
+      ],
+      "planets": [
+        "10th_lord",
+        "Benefics"
+      ],
+      "nakshatra": [],
+      "d9": [
+        "10th_lord_navamsa"
+      ],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the lord of career and karma is thoroughly supported by benefic energy\u2014either through direct conjunction, a protective Shubha Kartari Yoga, or strong D9 dignity\u2014the resulting outcome is highly respected leadership, untarnished fame, and a deeply honorable professional reputation.",
+      "mode": "respected_leadership",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "status": "active",
+    "notes": "Establishes the classical requirements for honorable, dispute-free career authority."
+  },
+  {
+    "rule_id": "nirayana_8th_lord_10th_shifting_authority",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "192",
+      "quote": "L-8 in 3rd-from-swakshetra. Not a good setup, unless the native is a world-class healer with a loyal organization behind them. House-10 belongs to Shani who does not like change, especially not deeply transformative change. L-8 is all about profound change such as the cycle of life & death. This native may do an excellent job but outside of the tantric specialties may not receive much public approval. Many job changes. Shifting public image.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "unstable_leadership",
+      "controversial_authority",
+      "institutional_conflict"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 8th house is positioned in the 10th house (which is the 3rd house counted from its own 8th house)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "8",
+        "10"
+      ],
+      "planets": [
+        "8th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Injecting the volatile, transformative energy of the 8th lord into the highly structured, Saturnian 10th house creates chronic professional disruption. Unless engaged in extreme crisis-management or esoteric fields, the outcome is unstable leadership, multiple job changes, and a shifting, controversial public image lacking broad approval.",
+      "mode": "unstable_leadership",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Highlights the innate friction between 8th house chaos and 10th house order, resulting in an inability to sustain stable authority."
+  }
+]

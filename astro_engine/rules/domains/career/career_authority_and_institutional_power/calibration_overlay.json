@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "domain": "career",
+  "event_family": "career_authority_and_institutional_power",
+  "layer_weights": {
+    "dasha_weight": 0.35,
+    "transit_weight": 0.30,
+    "fast_trigger_weight": 0.20,
+    "classical_weight": 0.15
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15
+  },
+  "adjustments": [],
+  "notes": "Initial calibration overlay — no empirical adjustments yet."
+}

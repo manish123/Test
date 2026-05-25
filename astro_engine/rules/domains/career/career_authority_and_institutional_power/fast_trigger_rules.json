@@ -1,0 +1,219 @@
+[
+  {
+    "rule_id": "fast_trigger_moon_abhishek_tara_promotion",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Abhishek 28th Star... Triggers honors, promotions, social recognition, and professional freedom.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "trigger_indicator": "promotion_event",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Transit Moon passes exactly over the 28th Nakshatra (Abhishek Tara) counted from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "28th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Abhishek_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The fast transit of the Moon (taking roughly one day) over the 28th Nakshatra (Abhishek/Coronation Tara) acts as the exact timing mechanism for the official announcement of honors, promotions, and the activation of a public role or executive authority.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Used to pinpoint the exact day a promotion or social recognition is formalized within a broader positive transit."
+  },
+  {
+    "rule_id": "fast_trigger_moon_karma_tara_role_change",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Karma 10th Star... Dictates professional changes, promotions, or job shifts. Transits of Saturn, Rahu, or Ketu over this star trigger immediate job disruptions. Benefics transiting here bring success.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "trigger_indicator": "public_authority_activation",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Transit Moon (acting as a fast-moving benefic) passes exactly over the 10th Nakshatra (Karma Tara) counted from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "10th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Karma_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The Moon's fast transit over the Karma Tara (the 10th star from birth, governing professional actions) acts as a precise trigger for daily success, positive job shifts, and the assumption of new public authority or executive roles.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A daily/weekly dial to identify the exact moments of success within a broader promotional window."
+  },
+  {
+    "rule_id": "fast_trigger_mars_anga_gochara_success",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "37-38",
+      "page": null,
+      "quote": "Mars' transit Distribution amongst limbs Effects... (c) 9th, 10th, 11th - chest success",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "trigger_indicator": "leadership_assumption",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mars passes exactly through the 9th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Mars passes exactly through the 10th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Mars passes exactly through the 11th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Mars"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "9th_from_Moon",
+        "10th_from_Moon",
+        "11th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the energetic and commanding planet Mars transits the 9th, 10th, or 11th Nakshatras from the birth star (symbolizing the 'chest' in Anga Gochara, denoting pride, courage, and standing), it acts as a fast trigger for decisive executive success and the bold assumption of leadership.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Mars provides the spark of initiative. This transit isolates the exact days/weeks when leadership actions successfully manifest."
+  },
+  {
+    "rule_id": "fast_trigger_triple_transit_execution",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "4",
+      "quote": "Observe whether any natal planet is under the influence of TRIPLE transit \u2013 one from slow moving planets and other from fast moving planets. Slow moving planets provide benefic / malefic background and the fast moving planets set the time of event \u2013 good / bad. ... Fast moving planets are Sun, Mercury, Venus, Mars and Moon.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "trigger_indicator": "executive_appointment",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "A career-signifying natal point (such as the 10th Lord or Sun) is currently being aspected or conjuncted by a slow-moving planet (Jupiter or Saturn)",
+        "A fast-moving planet (specifically the Moon or Mars) concurrently makes an exact transit over this identical natal point or its trine"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon",
+        "Mars"
+      ],
+      "houses": [
+        "10"
+      ],
+      "planets": [
+        "Sun",
+        "10th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "While slow-moving transits (Jupiter/Saturn) establish the broader seasonal window for a promotion or institutional rise, the exact day of an executive appointment or authority transfer is pinpointed by the fast-moving Moon or Mars making a simultaneous 'triple transit' alignment over the sensitive career points.",
+      "mode": "unknown",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A fundamental meta-rule of timing: the slow planets load the mechanism, and the fast planets (Moon/Mars) act as the final detonator for the event."
+  }
+]
