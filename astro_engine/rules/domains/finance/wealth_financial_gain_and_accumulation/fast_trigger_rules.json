@@ -1,0 +1,323 @@
+[
+  {
+    "rule_id": "fast_trigger_moon_9_10_nakshatra_wealth",
+    "name": "Moon Transit 9th/10th Nakshatra (Eyes) — Sudden Wealth Gain",
+    "description": "When the Moon transits the 9th or 10th Nakshatra from the birth star (representing the 'two eyes' in Anga Gochara), it triggers an exact 2-day window for sudden gain of wealth.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "36",
+      "page": null,
+      "quote": "The Moons's transit Distribution amongst limbs Effects... (d) 9th. 10th - two eyes gain of wealth",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["sudden_gain"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Moon passes exactly through the 9th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 10th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["9th_from_Moon", "10th_from_Moon"],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the fast-moving Moon transits the 9th or 10th Nakshatra from the birth star (representing the 'two eyes' of the Kala Purusha in Anga Gochara), it acts as an exact, short-term trigger (approximately a 2-day window) for experiencing a sudden gain of wealth.",
+      "mode": "sudden_gain",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 2,
+      "exact_window_days": 1,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "moon_eyes_wealth_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "finalize_revenue_actions"
+    },
+    "metadata": {
+      "notes": "An Anga Gochara (limb transit) rule used as a micro-timing dial to pinpoint exact daily windows for financial influx."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_moon_25_to_27_nakshatra_acquisition",
+    "name": "Moon Transit 25th-27th Nakshatra (Right Hand) — Wealth Acquisition",
+    "description": "The Moon transiting the final three Nakshatras relative to the birth star (symbolizing the 'right hand') triggers an exact daily window for successfully completing wealth acquisition.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "36",
+      "page": null,
+      "quote": "The Moons's transit Distribution amongst limbs Effects... (h) 25th. 26th. 27th - right hand acquisition of wealth",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["asset_purchase"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Moon passes exactly through the 25th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 26th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 27th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Moon"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["25th_from_Moon", "26th_from_Moon", "27th_from_Moon"],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The Moon transiting the final three Nakshatras relative to the birth star (symbolizing the 'right hand' for action and receiving) triggers an exact daily window for successfully completing the acquisition of wealth, property, or assets.",
+      "mode": "asset_purchase",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 3,
+      "exact_window_days": 1,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "right_hand_acquisition_trigger",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "sign_contracts_receive_payments"
+    },
+    "metadata": {
+      "notes": "Excellent transit window for executing a financial transaction or booking a profit."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_mars_16_17_nakshatra_gains",
+    "name": "Mars Transit 16th/17th Nakshatra (Head) — Aggressive Gains",
+    "description": "Mars transiting the 16th or 17th Nakshatra from the birth star triggers a fast window for securing gains through quick execution and decisive financial action.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "37-38",
+      "page": null,
+      "quote": "Mars' transit Distribution amongst limbs Effects... (e) 16th. 17th – head gains",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["speculative_gain"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mars passes exactly through the 16th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Mars passes exactly through the 17th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mars"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["16th_from_Moon", "17th_from_Moon"],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When transiting Mars passes through the 16th or 17th Nakshatra from the birth star (representing the 'head' in Anga Gochara), its dynamic energy triggers a fast window for securing gains, often through quick execution, speculation, or decisive financial action.",
+      "mode": "speculative_gain",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 14,
+      "exact_window_days": 5,
+      "confidence_decay_days": 3
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mars_head_gains_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "exact",
+      "recommended_action": "execute_aggressive_trades"
+    },
+    "metadata": {
+      "notes": "Mars is an active detonator; its transit over the 16th/17th stars pinpoints an exact timeline for sudden bursts of financial accumulation."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_mercury_4_to_6_nakshatra_financial_gain",
+    "name": "Mercury Transit 4th-6th Nakshatra (Face) — Income Activation",
+    "description": "Mercury's rapid transit across the 4th, 5th, or 6th Nakshatras from the birth star acts as a swift trigger for immediate financial gain through commerce and trade.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "39-40",
+      "page": null,
+      "quote": "The transits of Mercury, Jupiter and Venus Distribution amongst limbs Effects ... (b) 4rd, 5th, 6th - face financial gain",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["income_activation"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 78,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mercury passes exactly through the 4th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Mercury passes exactly through the 5th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Mercury passes exactly through the 6th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mercury"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["4th_from_Moon", "5th_from_Moon", "6th_from_Moon"],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mercury's rapid transit across the 4th, 5th, or 6th Nakshatras from the birth star acts as a swift trigger for immediate financial gain and income activation, usually through commerce, trade, or communications.",
+      "mode": "income_activation",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 3,
+      "exact_window_days": 1,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mercury_face_income_trigger",
+      "likelihood_band": "moderate",
+      "timing_band": "exact",
+      "recommended_action": "close_commercial_deals"
+    },
+    "metadata": {
+      "notes": "Extracts the fast-moving component (Mercury) from the general benefic Anga Gochara rule to function as a precise financial trigger."
+    }
+  },
+  {
+    "rule_id": "fast_trigger_mercury_13_to_17_nakshatra_wealth_spike",
+    "name": "Mercury Transit 13th-17th Nakshatra (Belly) — Wealth Spike",
+    "description": "When Mercury transits the 13th to 17th Nakshatras relative to the birth star (representing the 'belly' for assimilation), it triggers a sudden, potent influx of wealth.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "39-40",
+      "page": null,
+      "quote": "The transits of Mercury, Jupiter and Venus Distribution amongst limbs Effects ... (d) 13th. 14th, 15th, 16th, 17th - belly influx of wealth",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["wealth_spike"],
+    "rule_type": "fast_trigger",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "exact",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mercury passes exactly through the 13th, 14th, 15th, 16th, or 17th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mercury"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["13th_from_Moon", "14th_from_Moon", "15th_from_Moon", "16th_from_Moon", "17th_from_Moon"],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the fast-moving planet of commerce (Mercury) transits the 13th to 17th Nakshatras relative to the birth star (representing the 'belly' for assimilation/accumulation), it triggers a sudden, potent influx of wealth and liquidity into the native's life.",
+      "mode": "wealth_spike",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 5,
+      "exact_window_days": 2,
+      "confidence_decay_days": 1
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mercury_belly_wealth_spike",
+      "likelihood_band": "high",
+      "timing_band": "exact",
+      "recommended_action": "book_profits_and_receive_payments"
+    },
+    "metadata": {
+      "notes": "Optimal quick-timing window for high-volume transactions, cash flow realization, and booking business profits."
+    }
+  }
+]

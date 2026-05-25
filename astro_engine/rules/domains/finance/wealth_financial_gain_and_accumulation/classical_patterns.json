@@ -1,0 +1,571 @@
+[
+  {
+    "rule_id": "bphs_dhana_yoga_2nd_11th_exchange",
+    "name": "Dhana Yoga \u2014 2nd/11th Lord Exchange",
+    "description": "The mutual exchange of lords of accumulated wealth (2nd) and incoming gains (11th) forms one of the most powerful Dhana Yogas.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "13",
+      "verse": "4-5",
+      "page": "97",
+      "quote": "If the 2nd lord is in the 11th while the lord of the 11th is in the 2nd, wealth will he acquired by the native. Alternatively, these two lords may join in an angle or in a trine.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "wealth_potential"
+    ],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 95,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The Lord of the 2nd house is positioned in the 11th house and the Lord of the 11th house is positioned in the 2nd house (Mutual Exchange/Parivartana)",
+        "The Lord of the 2nd house and the Lord of the 11th house are conjunct in a Kendra (1st, 4th, 7th, 10th house)",
+        "The Lord of the 2nd house and the Lord of the 11th house are conjunct in a Trikona (5th, 9th house)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "2",
+        "11",
+        "1",
+        "4",
+        "5",
+        "7",
+        "9",
+        "10"
+      ],
+      "planets": [
+        "2nd_lord",
+        "11th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of immense wealth potential. The union or mutual exchange of the lords of accumulated wealth (2nd) and incoming gains (11th) establishes a continuous cycle of financial growth.",
+      "mode": "wealth_potential",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "dhana_yoga_2_11_exchange",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "classify_wealth_archetype"
+    },
+    "metadata": {
+      "notes": "One of the most fundamental and powerful Dhana Yogas in Vedic astrology."
+    }
+  },
+  {
+    "rule_id": "bphs_dhana_yoga_jupiter_moon_venus_placement",
+    "name": "Jupiter 11th + Moon 2nd + Venus 9th \u2014 Extreme Abundance",
+    "description": "When the natural benefics of wealth, nourishment, and luxury are perfectly aligned in the houses of gains, savings, and fortune.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "22",
+      "verse": "6",
+      "page": "185",
+      "quote": "The native will own 6000 Nishkas if the 11th is occupied by Jupiter while the 2nd and 9th are respectively taken over by the Moon and Venus by position.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "abundance",
+      "luxury_lifestyle"
+    ],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Jupiter is positioned in the 11th house",
+        "The Moon is positioned in the 2nd house",
+        "Venus is positioned in the 9th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "2",
+        "9",
+        "11"
+      ],
+      "planets": [
+        "Jupiter",
+        "Moon",
+        "Venus"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the ultimate planetary benefics occupy the triad of wealth houses (Jupiter in gains, Moon in savings, Venus in fortune), it generates a specific signature for vast accumulated riches.",
+      "mode": "abundance",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "benefic_triad_wealth",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "classify_luxury_archetype"
+    },
+    "metadata": {
+      "notes": "A specialized Dhana Yoga explicitly guaranteeing high numeric wealth."
+    }
+  },
+  {
+    "rule_id": "bphs_dhana_yoga_benefics_9th_house",
+    "name": "Jupiter + Mercury + Moon in 9th \u2014 Fortune and Luxury",
+    "description": "A convergence of major benefics in the 9th house (11th from 11th) symbolizes magnificent fortune.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "22",
+      "verse": "7",
+      "page": "185",
+      "quote": "Should Jupiter, Mercury and the Moon be in the 11th from the 11th (i.e. 9th from the ascendant) the native will be endowed with wealth, grains, fortunes, diamonds, ornaments etc.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "luxury_lifestyle",
+      "asset_accumulation"
+    ],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Jupiter is positioned in the 9th house",
+        "Mercury is positioned in the 9th house",
+        "The Moon is positioned in the 9th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "9"
+      ],
+      "planets": [
+        "Jupiter",
+        "Mercury",
+        "Moon"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The 9th house acts structurally as the 11th from the 11th (Bhavat Bhavam for supreme gains). A convergence of the major benefics here symbolizes magnificent fortune resulting in high-end assets and lasting prosperity.",
+      "mode": "luxury_lifestyle",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "benefics_9th_fortune",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_fortune_archetype"
+    },
+    "metadata": {
+      "notes": "A sophisticated application of Bhavat Bhavam principle for wealth."
+    }
+  },
+  {
+    "rule_id": "jp_raja_dhana_yoga_2_9_10_lords",
+    "name": "Raja-Dhana Yoga \u2014 9th/10th/2nd Lords Conjunction",
+    "description": "When Dharma-Karma Adhipati Yoga integrates with the lord of accumulated wealth, it guarantees high status translating into vast personal treasuries.",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "7",
+      "verse": "21",
+      "page": "391",
+      "quote": "In the first yoga, the lords of the 10th and the 9th bhavas counted from the Lagna are in conjunction and associated with the lord of the 2nd bhava... the person born under each of the several resulting yogas will have at his command much wealth and many vehicles",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "wealth_potential",
+      "status_wealth"
+    ],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 90,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 9th house is conjunct the Lord of the 10th house",
+        "The Lord of the 2nd house is conjunct or strongly associated with the Lords of the 9th and 10th houses"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "2",
+        "9",
+        "10"
+      ],
+      "planets": [
+        "2nd_lord",
+        "9th_lord",
+        "10th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the supreme Dharma-Karma Adhipati Yoga (9th + 10th lords) integrates with the lord of accumulated wealth (2nd lord), it guarantees high social status seamlessly translating into vast personal treasuries.",
+      "mode": "status_wealth",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "raja_dhana_yoga",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "classify_status_wealth"
+    },
+    "metadata": {
+      "notes": "Links Dharma-Karma yoga directly to financial outcomes."
+    }
+  },
+  {
+    "rule_id": "bphs_dhana_yoga_venus_mars_5_11_axis",
+    "name": "Venus Own 5th + Mars 11th \u2014 Speculative Riches",
+    "description": "A dignified Venus in the 5th house of speculation with Mars in the 11th house of gains generates great riches through speculative markets.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "41",
+      "verse": "2",
+      "page": "325",
+      "quote": "YOGAS FOR GREAT AFFLUENCE: Should a sign of Venus be the 5th house and be occupied by Venus himself while Mars is in the 11th house, the native will obtain great riches.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "speculative_success"
+    ],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The 5th house is ruled by Venus (Taurus or Libra)",
+        "Venus is positioned in the 5th house (in its own sign)",
+        "Mars is positioned in the 11th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5",
+        "11"
+      ],
+      "planets": [
+        "Venus",
+        "Mars"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A dignified Venus in the 5th house of intelligence and speculation directly aspected by an energetic Mars from the 11th house of gains symbolizes dynamic, aggressive, and highly successful market engagements generating great riches.",
+      "mode": "speculative_success",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "venus_mars_speculative_wealth",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_speculative_archetype"
+    },
+    "metadata": {
+      "notes": "Specific yoga for success in speculative markets and investments."
+    }
+  },
+  {
+    "rule_id": "bphs_lunar_dhana_yoga_upachaya_benefics",
+    "name": "All Benefics in Upachaya from Moon \u2014 Affluence",
+    "description": "All three natural benefics in growth houses from the Moon indicate steady, massive affluence over time.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "37",
+      "verse": "6",
+      "page": "310",
+      "quote": "DHANA YOGA: Should all the (three) benefices be in Upachaya (i.e. 3rd, 6th, 10th and 11th) counted from the Moon, one will be very affluent",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "financial_growth",
+      "stable_wealth"
+    ],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "All three natural benefics (Jupiter, Venus, and Mercury) are positioned in Upachaya houses (3rd, 6th, 10th, or 11th) relative to the Moon's placement"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "3",
+        "6",
+        "10",
+        "11"
+      ],
+      "planets": [
+        "Moon",
+        "Jupiter",
+        "Venus",
+        "Mercury"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Benefics positioned in the growing (Upachaya) houses from the Moon indicate that the native's emotional intelligence and psychological resilience steadily build massive affluence over time.",
+      "mode": "financial_growth",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "lunar_upachaya_affluence",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_growth_archetype"
+    },
+    "metadata": {
+      "notes": "A Moon-referenced Dhana Yoga indicating consistent financial growth."
+    }
+  },
+  {
+    "rule_id": "bphs_dhana_yoga_venus_ascendant_saturn_mercury",
+    "name": "Venus in Own Lagna + Saturn/Mercury \u2014 Embodied Prosperity",
+    "description": "An empowered Venus in the Lagna supported by Saturn and Mercury wires the native's identity for wealth generation.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "41",
+      "verse": "14",
+      "page": "327",
+      "quote": "If Venus be in the ascendant identical with his own sign and be conjunct or aspected by Saturn and Mercury, one will be wealthy.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "prosperity",
+      "business_prosperity"
+    ],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Ascendant (1st house) is ruled by Venus (Taurus or Libra)",
+        "Venus is positioned in the Ascendant (in its own sign)"
+      ],
+      "any_of": [
+        "Venus is conjunct Saturn and Mercury",
+        "Venus is aspected by Saturn and Mercury"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "1"
+      ],
+      "planets": [
+        "Venus",
+        "Saturn",
+        "Mercury"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "An empowered Venus in the Lagna representing the self, structurally supported by Saturn (discipline) and Mercury (commerce), wires the native's identity entirely for wealth generation.",
+      "mode": "prosperity",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "venus_lagna_prosperity",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_prosperity_archetype"
+    },
+    "metadata": {
+      "notes": "Specific to Taurus/Libra ascendants with Venus in the 1st house."
+    }
+  },
+  {
+    "rule_id": "bphs_dhana_yoga_1st_11th_exchange",
+    "name": "1st/11th Lord Exchange \u2014 Self-Wealth Axis",
+    "description": "A direct Parivartana between the self (1st) and gains (11th) binds the native's development to continuous financial inflows.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "22",
+      "verse": "8",
+      "page": "185",
+      "quote": "One will gain 1000 Nishkas in his 33rd year if the 11th lord is in the ascendant and the ascendant lord is in the 11th.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "financial_growth"
+    ],
+    "rule_type": "classical_pattern",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 11th house is positioned in the Ascendant (1st house)",
+        "The Lord of the Ascendant (1st house) is positioned in the 11th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "1",
+        "11"
+      ],
+      "planets": [
+        "1st_lord",
+        "11th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "A direct Parivartana (exchange) between the self (1st house) and gains/networks (11th house) intrinsically binds the native's physical and personal development to continuous, effortless financial inflows.",
+      "mode": "financial_growth",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "self_gains_exchange",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_growth_archetype"
+    },
+    "metadata": {
+      "notes": "Indicates wealth gain around age 33 specifically, per BPHS."
+    }
+  }
+]
