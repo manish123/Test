@@ -115,6 +115,11 @@ class ChartState(BaseChartState):
 
     def __init__(self, birth_dt, lat, lon, alt=0):
         super().__init__(birth_dt, lat, lon, alt)
+
+        # Parent-loss-specific: Sun data (father karaka)
+        self.sun_lon = self.birth_positions["Sun"]
+        self.sun_sign = get_sign(self.sun_lon)
+
         # Key house lords
         self.lagna_lord = SIGN_LORDS[self.asc_sign]
         self.fourth_sign = ((self.asc_sign + 3 - 1) % 12) + 1
