@@ -192,13 +192,6 @@ class ChartState(BaseChartState):
         lagna_lord_lon = self.birth_positions[self.lagna_lord]
         self.sensitive_point_2 = (eleventh_lord_lon + lagna_lord_lon) % 360
 
-    def get_house_from_sign(self, transit_sign, reference_sign=None):
-        """Get house number from a sign, relative to reference (default: lagna)."""
-        ref = reference_sign or self.asc_sign
-        return ((transit_sign - ref) % 12) + 1
-
-
-
 # ═══════════════════════════════════════════════════════════════
 # TRANSIT STATE (computed for a specific date)
 # ═══════════════════════════════════════════════════════════════

@@ -116,14 +116,6 @@ def _load_calibration():
 CALIBRATION = _load_calibration()
 
 
-def ist_to_utc(dt):
-    return dt - IST_OFFSET
-
-
-def get_jd(dt_ist):
-    dt_utc = ist_to_utc(dt_ist)
-    return swe.julday(dt_utc.year, dt_utc.month, dt_utc.day,
-                      dt_utc.hour + dt_utc.minute / 60.0)
 
 
 
@@ -190,14 +182,6 @@ class ChartState(BaseChartState):
         # Point 2: Moon + Jupiter longitude sum (public wisdom axis)
         jupiter_lon = self.birth_positions["Jupiter"]
         self.sensitive_point_2 = (self.moon_lon + jupiter_lon) % 360
-
-    def get_house_from_sign(self, transit_sign, reference_sign=None):
-        """Get house number from a sign, relative to reference (default: lagna)."""
-        ref = reference_sign or self.asc_sign
-        return ((transit_sign - ref) % 12) + 1
-
-
-
 
 # ═══════════════════════════════════════════════════════════════
 # TRANSIT STATE (computed for a specific date)

@@ -40,6 +40,34 @@ from features.dignity import SIGN_LORDS, get_sign
 from features.nakshatra import get_nakshatra
 
 
+import json as _json
+
+# ═══════════════════════════════════════════════════════════════
+# CALIBRATION LOADER UTILITY
+# ═══════════════════════════════════════════════════════════════
+
+def load_calibration(calibration_path, fallback_defaults: dict) -> dict:
+    """
+    Load a domain calibration overlay from a JSON file.
+
+    Parameters
+    ----------
+    calibration_path : Path or str
+        Absolute path to the calibration_overlay.json file.
+    fallback_defaults : dict
+        Default calibration dict returned if the file is missing or invalid.
+
+    Returns
+    -------
+    dict — the loaded calibration, or fallback_defaults on error.
+    """
+    try:
+        with open(calibration_path, "r") as f:
+            return _json.load(f)
+    except (FileNotFoundError, _json.JSONDecodeError):
+        return fallback_defaults
+
+
 # ═══════════════════════════════════════════════════════════════
 # TIMEZONE PLUMBING
 # ═══════════════════════════════════════════════════════════════

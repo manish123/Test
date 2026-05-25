@@ -109,14 +109,6 @@ CALIBRATION = _load_calibration()
 
 
 
-def ist_to_utc(dt):
-    return dt - IST_OFFSET
-
-
-def get_jd(dt_ist):
-    dt_utc = ist_to_utc(dt_ist)
-    return swe.julday(dt_utc.year, dt_utc.month, dt_utc.day,
-                      dt_utc.hour + dt_utc.minute / 60.0)
 
 
 # ═══════════════════════════════════════════════════════════════
