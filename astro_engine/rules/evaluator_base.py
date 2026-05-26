@@ -69,6 +69,81 @@ def load_calibration(calibration_path, fallback_defaults: dict) -> dict:
 
 
 # ═══════════════════════════════════════════════════════════════
+# SCORING PROFILE LOADER (v3.0.0)
+# ═══════════════════════════════════════════════════════════════
+
+_PROFILES_DIR = Path(__file__).resolve().parent.parent / "configs" / "scoring_profiles"
+_PROFILE_CACHE: dict = {}
+
+
+def load_scoring_profile(domain: str) -> dict:
+    """
+    Load a versioned scoring profile for a domain.
+
+    Parameters
+    ----------
+    domain : str
+        One of: trading, general_life, career, relationship, health,
+        spirituality, finance. Falls back to general_life if not found.
+
+    Returns
+    -------
+    dict — the scoring profile, or None if no profile exists.
+
+    Notes
+    -----
+    Profiles are cached after first load. The returned dict contains:
+    - confidence: {base_components, risk_penalty, promise_multipliers, ...}
+    - thresholds: {very_high, high, moderate, low}
+    - layer_weights: {dasha_weight, transit_weight, ...}
+    - trading_gate: {enabled, ...}
+    - nakshatra_adjustment: {source, good, bad, ...}
+
+    If the profile file does not exist, returns None (caller uses hardcoded defaults).
+    """
+    if domain in _PROFILE_CACHE:
+        return _PROFILE_CACHE[domain]
+
+    profile_path = _PROFILES_DIR / f"{domain}.yaml"
+    if not profile_path.exists():
+        # Try general_life as fallback
+        profile_path = _PROFILES_DIR / "general_life.yaml"
+        if not profile_path.exists():
+            _PROFILE_CACHE[domain] = None
+            return None
+
+    try:
+        import yaml
+        with open(profile_path, "r") as f:
+            profile = yaml.safe_load(f)
+        _PROFILE_CACHE[domain] = profile
+        return profile
+    except Exception:
+        _PROFILE_CACHE[domain] = None
+        return None
+
+
+def get_profile_confidence_params(profile: dict) -> dict:
+    """
+    Extract confidence formula parameters from a scoring profile.
+
+    Returns a dict compatible with confidence_score() if profile is provided,
+    or None if profile is None (signaling: use hardcoded defaults).
+    """
+    if profile is None:
+        return None
+    conf = profile.get("confidence", {})
+    return {
+        "risk_penalty_factor": conf.get("risk_penalty", {}).get("factor", 0.15),
+        "risk_penalty_cap": conf.get("risk_penalty", {}).get("cap", 40),
+        "high_risk_threshold": conf.get("risk_penalty", {}).get("high_risk_threshold", 120),
+        "high_risk_extra": conf.get("risk_penalty", {}).get("high_risk_extra", 10),
+        "weak_promise_multiplier": conf.get("promise_multipliers", {}).get("weak", 0.6),
+        "kakshya_inactive_multiplier": conf.get("kakshya_multiplier", {}).get("inactive", 0.7),
+    }
+
+
+# ═══════════════════════════════════════════════════════════════
 # TIMEZONE PLUMBING
 # ═══════════════════════════════════════════════════════════════
 
