@@ -1,0 +1,58 @@
+# General Life Domain Scoring Profile — v3.0.0
+# Optimized for: balanced adaptation, stability, growth, wellbeing
+# No trading-specific logic. Neutral interpretation.
+
+version: "3.0.0"
+domain: "general_life"
+status: "active"
+
+confidence:
+  base_components:
+    event_strength_cap: 80
+    yoga_cap: 25
+    dasha_cap: 35
+  risk_penalty:
+    factor: 0.12          # Lower than trading — life events tolerate more risk
+    cap: 35
+    high_risk_threshold: 130
+    high_risk_extra: 5
+  promise_multipliers:
+    weak: 0.7             # Less punitive than trading for weak promise
+    moderate: 1.0
+    strong: 1.1           # Slight boost for strong promise
+  kakshya_multiplier:
+    active: 1.0
+    inactive: 0.85        # Less punitive than trading (0.7)
+  adjustments:
+    yogini_factor: true
+    sandhi_multiplier: true
+    chara_sandhi_factor: 0.95   # Milder than trading (0.9)
+    tara_confidence_boost_factor: 2   # Lower than trading (3)
+    rulebook_confidence_factor: 0.0   # No nakshatra rulebook for general life
+    kakshya_bonus: 5
+
+thresholds:
+  very_high: 55
+  high: 40
+  moderate: 25
+  low: 15
+
+layer_weights:
+  dasha_weight: 0.30
+  transit_weight: 0.30
+  fast_trigger_weight: 0.20
+  classical_weight: 0.20    # Higher classical weight for life events
+
+event_filter:
+  enabled: false            # No trading event filter for general life
+
+trading_gate:
+  enabled: false            # Trading gate is NEVER active for general life
+
+nakshatra_adjustment:
+  source: "canonical_tara_only"
+  # General life uses only the canonical tara system, not trading-derived lists
+  good: []
+  bad: []
+  good_factor: 1.0
+  bad_factor: 1.0

@@ -1,0 +1,105 @@
+# Canonical Vedic Scoring Inputs — FROZEN
+# These values come from classical texts and MUST NEVER be modified by
+# calibration, backtest, PnL feedback, or domain-specific tuning.
+#
+# This file is documentation only — the actual values live in code constants.
+# It exists to make the contract explicit and auditable.
+
+version: "3.0.0"
+status: "frozen"
+authority: "Vedic canon (BPHS, Phaladeepika, Jataka Parijata)"
+
+# ═══════════════════════════════════════════════════════════════
+# TARA SYSTEM (Navatara from BPHS)
+# ═══════════════════════════════════════════════════════════════
+tara:
+  formula: "(transit_nak_index - janma_nak_index) % 27 + 1, then % 9 (0→9)"
+  source: "BPHS — Navatara system"
+  polarity:
+    favorable: [2, 4, 6, 8, 9]   # Sampat, Kshema, Sadhana, Mitra, Param Mitra
+    unfavorable: [1, 3, 5, 7]     # Janma, Vipat, Pratyak, Naidhana
+  worst: 7  # Naidhana
+
+# ═══════════════════════════════════════════════════════════════
+# MOORTHY GRADING (Classical Gochara)
+# ═══════════════════════════════════════════════════════════════
+moorthy:
+  source: "Phaladeepika — Gochara chapter"
+  mapping:
+    swarna: [1, 6, 11]    # Gold — most favorable
+    rajata: [2, 5, 9]     # Silver
+    taamra: [3, 7, 10]    # Copper
+    loha: [4, 8, 12]      # Iron — least favorable
+  ordering: "swarna > rajata > taamra > loha"
+
+# ═══════════════════════════════════════════════════════════════
+# DIGNITY CLASSIFICATION (BPHS Ch. 1, 3)
+# ═══════════════════════════════════════════════════════════════
+dignity:
+  source: "BPHS Chapter 1 (sign lords), Chapter 3 (exaltation/debilitation)"
+  sign_lords:
+    1: Mars       # Aries
+    2: Venus      # Taurus
+    3: Mercury    # Gemini
+    4: Moon       # Cancer
+    5: Sun        # Leo
+    6: Mercury    # Virgo
+    7: Venus      # Libra
+    8: Mars       # Scorpio
+    9: Jupiter    # Sagittarius
+    10: Saturn    # Capricorn
+    11: Saturn    # Aquarius
+    12: Jupiter   # Pisces
+  classification_order: "exalted > moolatrikona > own > great_friend > friend > neutral > enemy > bitter_enemy > debilitated"
+
+# ═══════════════════════════════════════════════════════════════
+# ASPECT RULES (BPHS)
+# ═══════════════════════════════════════════════════════════════
+aspects:
+  source: "BPHS — planetary aspects"
+  universal: [7]          # All planets aspect 7th
+  jupiter: [5, 7, 9]     # Jupiter special aspects
+  saturn: [3, 7, 10]     # Saturn special aspects
+  mars: [4, 7, 8]        # Mars special aspects
+
+# ═══════════════════════════════════════════════════════════════
+# DASHA PERIODS (BPHS — Vimshottari)
+# ═══════════════════════════════════════════════════════════════
+dasha:
+  source: "BPHS — Vimshottari Dasha"
+  total_years: 120
+  periods:
+    Ketu: 7
+    Venus: 20
+    Sun: 6
+    Moon: 10
+    Mars: 7
+    Rahu: 18
+    Jupiter: 16
+    Saturn: 19
+    Mercury: 17
+
+# ═══════════════════════════════════════════════════════════════
+# NAKSHATRA SEQUENCE (Vedic canon)
+# ═══════════════════════════════════════════════════════════════
+nakshatra:
+  source: "Vedic canon"
+  count: 27
+  size_degrees: 13.333333
+  lord_sequence: [Ketu, Venus, Sun, Moon, Mars, Rahu, Jupiter, Saturn, Mercury]
+  # Repeats 3 times for 27 nakshatras
+
+# ═══════════════════════════════════════════════════════════════
+# COMBUSTION THRESHOLDS (Phaladeepika)
+# ═══════════════════════════════════════════════════════════════
+combustion:
+  source: "Phaladeepika"
+  thresholds_degrees:
+    Moon: 12
+    Mars: 17
+    Mercury_direct: 14
+    Mercury_retro: 12
+    Jupiter: 11
+    Venus_direct: 10
+    Venus_retro: 8
+    Saturn: 15

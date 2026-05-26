@@ -1,0 +1,65 @@
+# Trading Domain Scoring Profile — v3.0.0
+# Optimized for: capital preservation, drawdown reduction, timing precision
+# Feedback source: 519 trading days (Apr 2022–Mar 2026), Nifty/BankNifty
+
+version: "3.0.0"
+domain: "trading"
+status: "active"
+
+confidence:
+  base_components:
+    event_strength_cap: 80
+    yoga_cap: 25
+    dasha_cap: 35
+  risk_penalty:
+    factor: 0.15
+    cap: 40
+    high_risk_threshold: 120
+    high_risk_extra: 10
+  promise_multipliers:
+    weak: 0.6
+    moderate: 1.0
+    strong: 1.0
+  kakshya_multiplier:
+    active: 1.0
+    inactive: 0.7
+  adjustments:
+    yogini_factor: true
+    sandhi_multiplier: true
+    chara_sandhi_factor: 0.9
+    tara_confidence_boost_factor: 3
+    rulebook_confidence_factor: 0.6
+    kakshya_bonus: 10
+
+thresholds:
+  very_high: 55
+  high: 40
+  moderate: 25
+  low: 15
+
+layer_weights:
+  dasha_weight: 0.35
+  transit_weight: 0.30
+  fast_trigger_weight: 0.20
+  classical_weight: 0.15
+
+event_filter:
+  enabled: true
+  trading_event_boost: 1.15
+  non_trading_event_multiplier: 0.35
+
+trading_gate:
+  enabled: true
+  sav_pass: 28
+  sav_fail: 20
+  kas_composite_pass: 197
+  chandrabala_8th_block: true
+  no_trade_tara_remainders: [3, 5, 7]
+  risky_nakshatras: ["Dhanishta", "Ashlesha", "Ashwini", "Mrigashira", "Jyeshtha"]
+
+nakshatra_adjustment:
+  source: "empirical_trading_backtest"
+  good: ["Rohini", "Pushya", "Anuradha", "Vishakha"]
+  bad: ["Mrigashira", "Ardra", "Ashlesha", "Jyeshtha", "Dhanishta"]
+  good_factor: 1.1
+  bad_factor: 0.85
