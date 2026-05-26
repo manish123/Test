@@ -1,0 +1,250 @@
+[
+  {
+    "rule_id": "bphs_12th_lord_malefics_wandering",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "24",
+      "verse": "11",
+      "page": null,
+      "quote": "One will wander from country to country if the 12th lord and 12th house are with malefics and be in aspect to malefics.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "indicator": "homeland separation",
+    "indicates": "homeland_detachment",
+    "rule_type": "classical_pattern",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The 12th house is occupied by malefic planets",
+        "The Lord of the 12th house is conjunct malefic planets",
+        "The 12th house and its Lord are aspected by malefic planets"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "12"
+      ],
+      "planets": [
+        "12th_lord",
+        "Malefics"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of homeland separation and wandering combinations. Severe malefic affliction to both the 12th house (representing distant lands and isolation) and its lord structurally disconnects the native from their roots, causing aimless wandering or forced detachment from their home country."
+    }
+  },
+  {
+    "rule_id": "hora_sara_abhi_yoga_exile",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": null,
+      "verse": "117",
+      "page": "268",
+      "quote": "When the Ascendant lord is in the 12th, a malefic placed in the 10th and the Moon is with Mars, Abhi yoga is formed which makes one wander in distant places and suffer from penury.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "indicator": "exile patterns",
+    "indicates": "exile_pattern",
+    "rule_type": "yoga",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The Lord of the Ascendant (Lagna) is positioned in the 12th house",
+        "A malefic planet is positioned in the 10th house",
+        "The Moon is conjunct Mars"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "10",
+        "12"
+      ],
+      "planets": [
+        "Lagna_lord",
+        "Moon",
+        "Mars",
+        "Malefics"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of exile patterns and distant residence due to misfortune. The formation of Abhi Yoga forcibly detaches the individual's core identity (Lagna lord in 12th) while creating public friction (malefic in 10th) and emotional volatility (Moon-Mars), leading to wandering in foreign lands often under conditions of hardship."
+    }
+  },
+  {
+    "rule_id": "jp_12th_from_lagna_lord_permanent_abode",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "11",
+      "verse": "23",
+      "page": null,
+      "quote": "When the lord of the 12th house from that occupied by the lord of the Lagna is the latter\u2019s enemy or is in depression or weak, the person born goes to a foreign country. He will abide permanently there if the (Vyayapa) referred to above be aspected by Venus in the capacity of a friend.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "indicator": "distant residence",
+    "indicates": "long_term_migration",
+    "rule_type": "classical_pattern",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The planet ruling the 12th house counted from the Lagna Lord's position is weak, debilitated, or an enemy to the Lagna Lord",
+        "This secondary 12th lord is aspected by Venus",
+        "Venus functions as a temporal or natural friend to this planet"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "12th_from_Lagna_lord"
+      ],
+      "planets": [
+        "Lagna_lord",
+        "Venus"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of long-term migration and permanent foreign settlement. When the loss-indicator (12th lord) relative to the self (Lagna lord) is weakened, the native leaves their homeland. Friendly aspect from Venus (significator of comfort and diplomacy) secures a permanent and comfortable settlement in that foreign country."
+    }
+  },
+  {
+    "rule_id": "jp_moveable_signs_foreign_fortune",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "11",
+      "verse": "26",
+      "page": null,
+      "quote": "When a moveable sign is the Lagna and its lord is in a moveable Rasi and aspected by planets occupying moveable Rasis, the person born will have his fortune in a foreign country.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "indicator": "foreign settlement tendency",
+    "indicates": "foreign_residence",
+    "rule_type": "classical_pattern",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Ascendant (Lagna) is a moveable (Chara) sign (Aries, Cancer, Libra, Capricorn)",
+        "The Lord of the Ascendant is positioned in a moveable sign",
+        "The Lord of the Ascendant is aspected by other planets that are also positioned in moveable signs"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "1"
+      ],
+      "planets": [
+        "Lagna_lord"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": [
+        "Moveable_Signs"
+      ]
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of migration potential and foreign residence combinations. The heavy emphasis on Moveable (Chara) signs\u2014which inherently signify motion, travel, and change\u2014implies the native's destiny and fortune are not tied to their birthplace, but rather to foreign lands."
+    }
+  },
+  {
+    "rule_id": "jp_sun_moon_saturn_foreign_fondness",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "8",
+      "verse": "7",
+      "page": "603",
+      "quote": "If Saturn, the Moon and the Sun combine in one bhava, the person born will be wickedly inclined, deceitful and fond of foreign countries.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "indicator": "migration potential",
+    "indicates": "foreign_residence",
+    "rule_type": "yoga",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "Saturn is conjunct the Moon",
+        "Saturn is conjunct the Sun",
+        "The Moon is conjunct the Sun"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [],
+      "planets": [
+        "Sun",
+        "Moon",
+        "Saturn"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of foreign settlement tendency and wandering combinations. The harsh conjunction of the luminaries (Sun and Moon) with the cold, isolating energy of Saturn produces deep restlessness and dissatisfaction with the familiar, creating an innate fondness and psychological pull toward foreign countries and distant environments."
+    }
+  },
+  {
+    "rule_id": "nirayana_rahu_9th_foreign_religion",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "184",
+      "quote": "Rahu in dharma bhava gives a foreign guru or attraction to foreign religions. Ketu in 9th bhava has no fixed dogma. Wandering mendicant, a peripatetic priest.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "indicator": "homeland separation",
+    "indicates": "homeland_detachment",
+    "rule_type": "house_activation",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Rahu is positioned in the 9th house (Dharma Bhava)",
+        "Ketu is positioned in the 9th house (Dharma Bhava)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "9"
+      ],
+      "planets": [
+        "Rahu",
+        "Ketu"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of homeland separation and wandering mendicant patterns. The nodes in the 9th house of paradigm and belief disconnect the native from their ancestral orthodoxy. Rahu generates an obsession with foreign cultures and gurus, while Ketu produces a wandering, ungrounded 'peripatetic' lifestyle devoid of fixed cultural boundaries."
+    }
+  }
+]

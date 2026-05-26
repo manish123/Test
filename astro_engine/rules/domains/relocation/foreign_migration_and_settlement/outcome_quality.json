@@ -1,0 +1,335 @@
+[
+  {
+    "rule_id": "jp_permanent_foreign_settlement_venus",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "11",
+      "verse": "23",
+      "page": null,
+      "quote": "When the lord of the 12th house from that occupied by the lord of the Lagna is the latter\u2019s enemy or is in depression or weak, the person born goes to a foreign country. He will abide permanently there if the (Vyayapa) referred to above be aspected by Venus in the capacity of a friend.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "permanent_settlement",
+      "successful_immigration"
+    ],
+    "rule_type": "planetary_dignity",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The planet ruling the 12th house counted from the Lagna Lord is weak, debilitated, or an enemy to the Lagna Lord",
+        "This secondary 12th lord is aspected by Venus",
+        "Venus functions as a temporal or natural friend to this planet"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "12th_from_Lagna_lord"
+      ],
+      "planets": [
+        "Lagna_lord",
+        "Venus"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the loss-indicator (12th lord) relative to the self (Lagna lord) is weakened, the native leaves their homeland. However, the friendly aspect of Venus (significator of comfort and diplomacy) guarantees that the outcome is a highly stable, comfortable, and permanent settlement abroad.",
+      "mode": "permanent_settlement",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "status": "active",
+    "notes": "Clearly delineates the difference between merely going abroad and achieving permanent settlement (driven by Venus)."
+  },
+  {
+    "rule_id": "jp_moveable_signs_foreign_fortune",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "11",
+      "verse": "26",
+      "page": null,
+      "quote": "When a moveable sign is the Lagna and its lord is in a moveable Rasi and aspected by planets occupying moveable Rasis, the person born will have his fortune in a foreign country.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "foreign_prosperity",
+      "successful_immigration"
+    ],
+    "rule_type": "planetary_dignity",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Ascendant (Lagna) is a moveable (Chara) sign (Aries, Cancer, Libra, Capricorn)",
+        "The Lord of the Ascendant is positioned in a moveable sign",
+        "The Lord of the Ascendant is aspected by planets that are also positioned in moveable signs"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "1"
+      ],
+      "planets": [
+        "Lagna_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": [
+        "Moveable_Signs"
+      ]
+    },
+    "interpretation": {
+      "meaning": "A heavy emphasis on Moveable (Chara) signs\u2014which inherently signify motion, travel, and change\u2014implies the native's destiny and ultimate financial success are not tied to their birthplace. The outcome is immense foreign prosperity and wealth acquired through migration.",
+      "mode": "foreign_prosperity",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "A structural rule emphasizing the Chara (moveable) quality for successful foreign outcomes and prosperity."
+  },
+  {
+    "rule_id": "bphs_12th_lord_malefics_wandering",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "24",
+      "verse": "11",
+      "page": "189",
+      "quote": "One will wander from country to country if the 12th lord and 12th house are with malefics and be in aspect to malefics.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "repeated_migration",
+      "unstable_status"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The 12th house is occupied by malefic planets",
+        "The Lord of the 12th house is conjunct malefic planets",
+        "The 12th house and its Lord are aspected by malefic planets"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "12"
+      ],
+      "planets": [
+        "12th_lord",
+        "Malefics"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Severe malefic affliction to both the 12th house (representing distant lands and isolation) and its lord structurally disconnects the native from any permanent roots. The outcome is an unstable immigration status leading to repeated migration cycles, visa rejections, and aimless wandering without settling.",
+      "mode": "repeated_migration",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Contrasts directly with the Venus aspect rule; pure malefic influence on the 12th creates severe instability rather than permanent settlement."
+  },
+  {
+    "rule_id": "nirayana_12th_house_isolation_abroad",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "104",
+      "quote": "The essence of 12th-house experience is isolation with an element of animosity from the parts of oneself regarding which one is in denial. Therefore whatever extreme of alienation, separateness, and foreignness - that transcendent or terrifying sense of living in a private bubble - the 12th lord by character requires, will occur... foreign travel or foreign residence.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "loneliness_abroad",
+      "exile_pattern"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The 12th house or 12th lord is the primary driver of the native's foreign residence"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "12"
+      ],
+      "planets": [
+        "12th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When foreign residence is dictated purely by the 12th house (without stabilizing 9th or 4th house support), the qualitative outcome is intense psychological isolation. The native experiences a terrifying sense of alienation, existing in a 'private bubble' that leads to profound loneliness abroad and an exile-like detachment from their surroundings.",
+      "mode": "loneliness_abroad",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "Describes the psychological quality of 12th-house driven migration as inherently isolating and alienating."
+  },
+  {
+    "rule_id": "nirayana_3rd_house_emigration_loss",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "57",
+      "quote": "12th-from-4th: Change of Residence / Emigration, unmet emotional needs / dissolution of emotional security.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "homeland_detachment",
+      "unstable_status"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "The 3rd house (acting functionally as the 12th house from the 4th house of roots/homeland) is highly active or serves as the primary indicator for relocation"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "3",
+        "4"
+      ],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The 3rd house operates as the 12th house (loss/dissolution) relative to the 4th house of homeland and emotional security. The outcome of such migration is marked by unmet emotional needs, a deep dissolution of emotional security, and profound homeland detachment.",
+      "mode": "homeland_detachment",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "Applies the Bhavat Bhavam principle to qualitative emotional outcomes of emigration, showing it as a loss of the 4th house."
+  },
+  {
+    "rule_id": "phaladeepika_moon_virgo_banishment",
+    "source_text": {
+      "work_name": "MANTRESWARA'S PHALA DEEPIKA",
+      "chapter": "8",
+      "verse": "8",
+      "page": null,
+      "quote": "When the Moon be in Virgo and be aspected by the Sun, Mars, Mercury, Jupiter, Venus and Saturn... He will be banished from his country (native place).",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "exile_pattern",
+      "forced_displacement"
+    ],
+    "rule_type": "planetary_dignity",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The Moon is positioned in Virgo (Kanya)"
+      ],
+      "any_of": [
+        "The Moon is aspected by specific planets (the sequence in the text implies severe malefic aspects lead to banishment)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Moon"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the Moon is in Virgo and heavily aspected by specific restricting planets, the psychological and environmental outcome is forced displacement. The native is effectively banished or exiled from their native country and faces involuntary isolation.",
+      "mode": "exile_pattern",
+      "quality": "challenging",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.8
+    },
+    "status": "active",
+    "notes": "A classical planetary yoga directly resulting in exile and forced loss of one's native homeland."
+  }
+]
