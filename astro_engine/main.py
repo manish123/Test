@@ -322,7 +322,13 @@ def _run_single(
 
     moon_nak = next(p["nakshatra"] for p in planets if p["name"] == "Moon")
     tara_remainder = get_tara(janma_nak, moon_nak)
-    factor = nakshatra_adjustment(moon_nak)
+
+    # Nakshatra adjustment: only apply empirical GOOD/BAD overlay when trading
+    # event filter is active (trading path). Non-trading paths use factor=1.0.
+    if use_trading_event_filter:
+        factor = nakshatra_adjustment(moon_nak)
+    else:
+        factor = 1.0
 
     for event_name in event_scores:
         event_scores[event_name] *= factor

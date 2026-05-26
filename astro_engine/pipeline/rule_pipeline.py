@@ -59,6 +59,7 @@ from rules.evaluator_base import (
     get_tara as _get_tara_base,
     calculate_tara_score as _calculate_tara_score_base,
     get_trade_decision as _get_trade_decision_base,
+    load_scoring_profile, get_profile_confidence_params,
 )
 
 from features.rahu_ketu import (
@@ -101,6 +102,16 @@ def run_rules(feature: FeatureResult, birth_data: dict, eval_date, config: dict 
     allow_adult_insights = config.get("allow_adult_insights", False)
     use_trading_event_filter = config.get("use_trading_event_filter", False)
     use_nakshatra_rulebook_bias = config.get("use_nakshatra_rulebook_bias", False)
+
+    # ── Scoring profile (Phase 9) ────────────────────────────────────────────
+    # Resolve which domain profile to use. Trading path uses trading.yaml;
+    # all other paths use general_life (or a domain-specific profile if specified).
+    _scoring_domain = config.get("scoring_domain", "trading" if use_trading_event_filter else "general_life")
+    _scoring_profile = load_scoring_profile(_scoring_domain)
+    _use_nakshatra_overlay = bool(
+        _scoring_profile
+        and _scoring_profile.get("nakshatra_adjustment", {}).get("source") != "canonical_tara_only"
+    )
 
     # ── Convert PlanetFeatures to mutable dicts ───────────────────────────────
     planets = []
@@ -224,7 +235,12 @@ def run_rules(feature: FeatureResult, birth_data: dict, eval_date, config: dict 
     tara_remainder = _get_tara(janma_nak, moon_nak)
 
     # ── Nakshatra adjustment ──────────────────────────────────────────────────
-    factor = nakshatra_adjustment(moon_nak)
+    # Only apply empirical GOOD/BAD nakshatra overlay when the scoring profile
+    # has nakshatra lists (trading). Non-trading profiles use canonical tara only.
+    if _use_nakshatra_overlay:
+        factor = nakshatra_adjustment(moon_nak)
+    else:
+        factor = 1.0  # No empirical overlay for non-trading paths
     for event_name in event_scores:
         event_scores[event_name] *= factor
 
@@ -395,12 +411,18 @@ def run_rules(feature: FeatureResult, birth_data: dict, eval_date, config: dict 
     )
 
     # ── Trading event filter ──────────────────────────────────────────────────
+    # Only active when explicitly enabled AND the scoring profile is trading.
     if use_trading_event_filter:
+        _boost = TRADING_EVENT_BOOST
+        _damp = NON_TRADING_EVENT_MULTIPLIER
+        if _scoring_profile and _scoring_profile.get("event_filter", {}).get("enabled"):
+            _boost = _scoring_profile["event_filter"].get("trading_event_boost", TRADING_EVENT_BOOST)
+            _damp = _scoring_profile["event_filter"].get("non_trading_event_multiplier", NON_TRADING_EVENT_MULTIPLIER)
         event_scores = {
             event_name: (
-                score * TRADING_EVENT_BOOST
+                score * _boost
                 if event_name.lower() in TRADING_FOCUSED_EVENTS
-                else score * NON_TRADING_EVENT_MULTIPLIER
+                else score * _damp
             )
             for event_name, score in event_scores.items()
         }
