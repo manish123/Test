@@ -1,0 +1,173 @@
+[
+  {
+    "rule_id": "fast_trigger_moon_19_to_24_nakshatra_border_crossing",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "36",
+      "page": null,
+      "quote": "The Moons's transit Distribution amongst limbs Effects... (g) 19th, 20th, 21st. 22nd. 23rd. 24th - two feet going to foreign place",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "trigger_indicator": "border_crossing",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Moon passes exactly through the 19th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 20th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 21st Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 22nd Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 23rd Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 24th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon"
+      ],
+      "houses": [],
+      "planets": [
+        "Moon"
+      ],
+      "nakshatra": [
+        "19th_from_Moon",
+        "20th_from_Moon",
+        "21st_from_Moon",
+        "22nd_from_Moon",
+        "23rd_from_Moon",
+        "24th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Using the Anga Gochara (Limb Transit) system, when the fast-moving Moon transits the cluster of the 19th through 24th Nakshatras from the birth star (symbolizing the 'two feet'), it acts as a precise daily trigger for movement, travel, and physically crossing borders to a foreign place.",
+      "mode": "border_crossing",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "An exact daily indicator pinpointing the timing of physical travel or departure for a foreign relocation."
+  },
+  {
+    "rule_id": "fast_trigger_mars_26_27_nakshatra_migration",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "37-38",
+      "page": null,
+      "quote": "Mars' transit Distribution amongst limbs Effects... (h) 26th, 27th - two eyes going to a foreign place",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "trigger_indicator": "migration_execution",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mars passes exactly through the 26th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Mars passes exactly through the 27th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Mars"
+      ],
+      "houses": [],
+      "planets": [
+        "Mars"
+      ],
+      "nakshatra": [
+        "26th_from_Moon",
+        "27th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Mars transits the 26th or 27th Nakshatras from the birth star (representing the 'two eyes' in Anga Gochara), it triggers an active, energized window for executing a migration plan or abruptly departing to a foreign place.",
+      "mode": "migration_execution",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Mars acts as an active execution trigger over a brief period of days, converting long-term immigration plans into actual physical displacement."
+  },
+  {
+    "rule_id": "fast_trigger_moon_adhana_19_relocation",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Adhana 19th Star... Triggers geographical relocation, career settlement, and creative output.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "trigger_indicator": "relocation_completion",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Transit Moon passes exactly over the 19th Nakshatra (Adhana Tara) counted from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "19th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Adhana_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The fast transit of the Moon over the 19th Nakshatra (Adhana Tara) acts as a highly sensitive daily trigger for finalizing geographical relocation. It often marks the exact day of arrival, settling into a new home abroad, or receiving definitive relocation confirmation.",
+      "mode": "relocation_completion",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Applies the Tara Chakra (Navatara) system to pinpoint the completion or execution day of a major geographical move."
+  }
+]

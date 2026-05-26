@@ -1,0 +1,55 @@
+# Spirituality Domain Scoring Profile — v3.0.0
+# Optimized for: inner awareness, detachment, karmic understanding
+version: "3.0.0"
+domain: "spirituality"
+status: "active"
+
+confidence:
+  base_components:
+    event_strength_cap: 80
+    yoga_cap: 25
+    dasha_cap: 35
+  risk_penalty:
+    factor: 0.08
+    cap: 25
+    high_risk_threshold: 150
+    high_risk_extra: 0
+  promise_multipliers:
+    weak: 0.8
+    moderate: 1.0
+    strong: 1.15
+  kakshya_multiplier:
+    active: 1.0
+    inactive: 0.9
+  adjustments:
+    yogini_factor: true
+    sandhi_multiplier: true
+    chara_sandhi_factor: 0.98
+    tara_confidence_boost_factor: 1.5
+    rulebook_confidence_factor: 0.0
+    kakshya_bonus: 3
+
+thresholds:
+  very_high: 55
+  high: 40
+  moderate: 25
+  low: 15
+
+layer_weights:
+  dasha_weight: 0.30
+  transit_weight: 0.25
+  fast_trigger_weight: 0.15
+  classical_weight: 0.30
+
+event_filter:
+  enabled: false
+
+trading_gate:
+  enabled: false
+
+nakshatra_adjustment:
+  source: "canonical_tara_only"
+  good: []
+  bad: []
+  good_factor: 1.0
+  bad_factor: 1.0

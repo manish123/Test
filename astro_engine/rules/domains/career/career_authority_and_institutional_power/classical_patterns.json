@@ -1,0 +1,338 @@
+[
+  {
+    "rule_id": "bphs_amatya_karaka_10th_lord_authority",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "40",
+      "verse": "1",
+      "page": "322",
+      "quote": "If the 10th lord from the ascendant is conjunct or aspected by the dispositor of Amatya Karaka or even conjunct or aspected by Amatya karaka himself, the native will be a chief in the king's court.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "indicator": "government_authority",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The Lord of the 10th house is conjunct the Amatya Karaka",
+        "The Lord of the 10th house receives an aspect from the Amatya Karaka",
+        "The Lord of the 10th house is conjunct the dispositor of the Amatya Karaka",
+        "The Lord of the 10th house receives an aspect from the dispositor of the Amatya Karaka"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "10"
+      ],
+      "planets": [
+        "10th_lord",
+        "Amatya_Karaka"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of high governance patterns and executive capability. The Amatya Karaka represents the 'minister' or career advisor in Jaimini astrology; its direct structural connection to the 10th house lord of karma guarantees strong authority potential and high positions in government or corporate courts."
+    }
+  },
+  {
+    "rule_id": "bphs_malefics_3_6_army_chief",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "40",
+      "verse": "7",
+      "page": "323",
+      "quote": "Should malefic be in the 3rd and 6th from Atmakaraka or Arudha Lagna or the natal ascendant, one will become an army chief.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "indicator": "command_position",
+    "rule_type": "classical_pattern",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Malefic planets are positioned in the 3rd house",
+        "Malefic planets are positioned in the 6th house"
+      ],
+      "any_of": [
+        "The 3rd and 6th houses are counted from the natal Ascendant",
+        "The 3rd and 6th houses are counted from the Atmakaraka",
+        "The 3rd and 6th houses are counted from the Arudha Lagna"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "3",
+        "6"
+      ],
+      "planets": [
+        "Malefics"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": [
+        "Atmakaraka",
+        "Arudha_Lagna"
+      ]
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of command potential and strategic dominance. Malefics in the 3rd (courage/initiative) and 6th (competition/enemies) naturally crush opposition. When measured from powerful centers of self (Lagna, Atmakaraka, Arudha Lagna), it indicates aggressive leadership tendencies suited for military or chief executive roles."
+    }
+  },
+  {
+    "rule_id": "bphs_10th_1st_lord_exchange",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "40",
+      "verse": "13",
+      "page": "324",
+      "quote": "An exchange of signs between the 10th lord and the ascendant lord will make the native associated with the king in a great manner",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "indicator": "career_dominance",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 10th house is positioned in the Ascendant (1st house)",
+        "The Lord of the Ascendant (1st house) is positioned in the 10th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "1",
+        "10"
+      ],
+      "planets": [
+        "1st_lord",
+        "10th_lord"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of intense career dominance and institutional influence. This powerful Parivartana Yoga inextricably binds the native's physical identity (1st house) with their public status and career (10th house), producing a natural aptitude for executive capability and top-tier leadership."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_adhiyoga_commander_minister",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "6",
+      "verse": "42",
+      "page": null,
+      "quote": "When the benefic planets occupy the 6th, 7th and 8th places from the Lagna or the Moon, the Yoga so formed is called Adhiyoga. The person born with Adhiyoga is a commander (Superintendent of Police or Commander of an army), a minister or a ruler (of a District or State).",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "indicator": "institutional_control",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Benefic planets occupy the 6th, 7th, and 8th houses counted from the Ascendant (Lagnadhiyoga)",
+        "Benefic planets occupy the 6th, 7th, and 8th houses counted from the Moon (Chandradhiyoga)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "6",
+        "7",
+        "8"
+      ],
+      "planets": [
+        "Benefics",
+        "Moon"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of administrative power and institutional control. When the natural benefics channel their energy through the 6th, 7th, and 8th houses from the Lagna or Moon, it creates an unshakeable framework of influence over competitors and the public, resulting in ministerial or directorial governance patterns."
+    }
+  },
+  {
+    "rule_id": "dharma_karmadhipati_raja_yoga",
+    "source_text": {
+      "work_name": "The Power of Trikonas: How These Houses Support Your Natural Dharma - Vedic astrologer",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "The Kendra-Trikona Raja Yoga occurs when a Kendra lord (action) connects with a Trikona lord (purpose). This brings success and recognition, showing action aligned with purpose. The Dharma-Karmadhipati Yoga is formed when the 9th lord (Dharma) and the 10th lord (Karma/Career) are connected.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "indicator": "executive_power",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The Lord of the 9th house and the Lord of the 10th house are conjunct",
+        "The Lord of the 9th house and the Lord of the 10th house mutually aspect each other"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "9",
+        "10"
+      ],
+      "planets": [
+        "9th_lord",
+        "10th_lord"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of executive capability and supreme authority potential. By synthesizing the house of fortune/grace (9th) with the house of public action/status (10th), the native naturally possesses the mandate to rule and direct large organizations, manifesting profound professional success."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_mars_saturn_jupiter_raja_yoga",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "7",
+      "verse": "24",
+      "page": "80",
+      "quote": "The following are 4 Rajayogas declared by those versed in the science: ... (4) Mars, Saturn and Jupiter quartered in the 10th, 11th and the Lagna.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "indicator": "leadership",
+    "rule_type": "combination",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Mars is positioned in the 10th house",
+        "Saturn is positioned in the 11th house",
+        "Jupiter is positioned in the Ascendant (1st house)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "1",
+        "10",
+        "11"
+      ],
+      "planets": [
+        "Mars",
+        "Saturn",
+        "Jupiter"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of vast organizational influence and command potential. With Jupiter protecting the physical self (1st), Mars conferring unstoppable executive drive in career (10th), and Saturn ensuring massive structural gains (11th), the native is astrologically destined for elite leadership."
+    }
+  },
+  {
+    "rule_id": "bphs_benefics_kendra_malefics_upachaya",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "39",
+      "verse": "48",
+      "page": "321",
+      "quote": "If all benefices are relegated to angles while malefic are in the 3rd, 6th and 11th, the native, though may be of mean descent will ascend, the throne.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "indicator": "organizational_influence",
+    "rule_type": "classical_pattern",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "All natural benefic planets are positioned in Kendra houses (1st, 4th, 7th, or 10th)",
+        "All natural malefic planets are positioned in Upachaya houses (3rd, 6th, or 11th)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "1",
+        "3",
+        "4",
+        "6",
+        "7",
+        "10",
+        "11"
+      ],
+      "planets": [
+        "Benefics",
+        "Malefics"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of unparalleled governance patterns and institutional ascent. Benefics stabilizing the core pillars of life (Angles) provide immense inner wisdom and protection, while malefics placed in houses of growth (Upachayas) guarantee the competitive ruthlessness and ambition needed to rise to the absolute top."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_four_planets_digbala",
+    "source_text": {
+      "work_name": "MANTRESWARA'S PHALA DEEPIKA",
+      "chapter": "7",
+      "verse": "4",
+      "page": "74",
+      "quote": "Should there be five such planets (excepting Saturn) or at least 4 planets possessing Digbala, even the person born in an ordinary family, becomes a king.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "indicator": "career_dominance",
+    "rule_type": "combination",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "At least four planets possess full Digbala (directional strength) in the chart"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "1",
+        "4",
+        "7",
+        "10"
+      ],
+      "planets": [],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": [
+        "Digbala"
+      ]
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of career dominance and leadership tendencies. Digbala (Directional Strength) operates when planets are in their optimal zones of action (e.g., Sun in 10th, Jupiter in 1st). When 4 or more planets reach this peak geometric effectiveness, the native's actions translate flawlessly into high societal status and executive power."
+    }
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "transition_id": "life_trans_001",
+    "category": "lifecycle_transition",
+    "source_text": {
+      "work_name": "The Chronometry of Consciousness: Analyzing the Impact of Planetary Transits on Natal Charts and Life Events",
+      "chapter": "Predictable Life-Cycle Transits",
+      "verse": "",
+      "quote": "First Saturn Return (Ages 27\u201330)... Demolition of youthful identity; structural transition into psychological adulthood... Major lifetime commitments: marriage, home purchases, starting families, or major career pivots."
+    },
+    "from_state": "Youthful Expansion Phase (Unstructured exploration and identity formation)",
+    "to_state": "Consolidation and Institutionalization Phase (Structural adulthood)",
+    "transition_drivers": [
+      "Transiting Saturn returning to its natal position (First Saturn Return)"
+    ],
+    "required_conditions": [
+      "The native reaching the age threshold of 27-30 years."
+    ],
+    "blocking_conditions": [
+      "Refusal to accept adult responsibilities or long-term accountability."
+    ],
+    "acceleration_factors": [
+      "Early assumption of heavy professional or domestic burdens (e.g., mortgages, marriage)."
+    ],
+    "collapse_risks": [
+      "Structural breakdown of career or relationships if the prior growth phase was built on fantasy or lacked discipline."
+    ],
+    "stability_factors": [
+      "Willingness to commit, accept limitations, and build realistic, long-term foundations."
+    ],
+    "psychological_shift": [
+      "Demolition of youthful illusions.",
+      "Transition from limitless potential to pragmatic, boundaried reality."
+    ],
+    "business_manifestation": [
+      "Transitioning from speculative startup phases to formalized corporate structures.",
+      "Major career pivots away from 'jobs' into committed 'professions'.",
+      "Locking in long-term debt (mortgages/business loans) for institutional stability."
+    ],
+    "confidence": 0.95
+  },
+  {
+    "transition_id": "life_trans_002",
+    "category": "lifecycle_transition",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": "Moon in the 12 Rashis / Sade Sati",
+      "verse": "",
+      "quote": "Sade Sati continues in the most intense annihilating mid-section as Shani enters the precise sign of your rashi Moon... These years are tough and lonely, but things get easier as the native locates alternative sources of identity, nourishment, and protection. Exacerbation of chronic lifetime internal conflicts, which manifest as conditions of physical, financial, & emotional illness... Loss of business partner or spouse."
+    },
+    "from_state": "Complacent Stability Phase (Reliance on inherited or outdated emotional/financial security)",
+    "to_state": "Restructuring and Re-anchoring Phase (Hard-won inner resilience)",
+    "transition_drivers": [
+      "Saturn transiting the 12th, 1st, and 2nd houses from the Natal Moon (7.5 year cycle)"
+    ],
+    "required_conditions": [
+      "Continuous long-term transit pressure over the luminary of the mind/emotions."
+    ],
+    "blocking_conditions": [
+      "Clinging to obsolete partnerships or false sources of security out of fear."
+    ],
+    "acceleration_factors": [
+      "Proactive liquidation of bad debts and toxic relationships before they are forcefully removed."
+    ],
+    "collapse_risks": [
+      "Complete collapse phase involving bankruptcy, jail time, severe illness, or hostile dissolution of business partnerships."
+    ],
+    "stability_factors": [
+      "Radical humility, patience, and developing self-reliant psychic and financial nourishment."
+    ],
+    "psychological_shift": [
+      "Moving through profound grief and isolation to acquire 'invaluable life wisdom and strength'.",
+      "Emotional exhaustion leading to deep psychological maturity."
+    ],
+    "business_manifestation": [
+      "Severe corporate restructuring.",
+      "Liquidating unprofitable divisions or writing off bad loans.",
+      "Surviving a brutal bear market or industry-wide recession to emerge as a hardened market leader."
+    ],
+    "confidence": 0.94
+  },
+  {
+    "transition_id": "life_trans_003",
+    "category": "lifecycle_transition",
+    "source_text": {
+      "work_name": "The Chronometry of Consciousness: Analyzing the Impact of Planetary Transits on Natal Charts and Life Events",
+      "chapter": "Predictable Life-Cycle Transits",
+      "verse": "",
+      "quote": "Uranus Opposition (Ages 41-43)... Urgent psychological demand for personal freedom, authenticity, and deconditioning. Sudden, disruptive life choices: radical career changes, divorces, relocations, or lifestyle shifts."
+    },
+    "from_state": "Institutionalized Stagnation Phase (Socially conditioned conformity)",
+    "to_state": "Reinvention and Deconditioning Phase (Radical authenticity)",
+    "transition_drivers": [
+      "Transiting Uranus opposing Natal Uranus (Midlife crisis indicator)"
+    ],
+    "required_conditions": [
+      "The native reaching the age threshold of 41-43 years."
+    ],
+    "blocking_conditions": [
+      "Rigid adherence to safe, traditional structures despite intense internal pressure and burnout."
+    ],
+    "acceleration_factors": [
+      "Exposure to disruptive technologies, sudden market shifts, or a sudden loss of external constraints."
+    ],
+    "collapse_risks": [
+      "Reckless speculative mania phase.",
+      "Blowing up highly functional systems, marriages, or careers without a viable backup plan."
+    ],
+    "stability_factors": [
+      "Channeling the disruptive urge into lateral career moves or innovative business models rather than pure destruction."
+    ],
+    "psychological_shift": [
+      "Existential urgency to break free from the 'matrix' of societal expectations.",
+      "Transition from doing what is 'expected' to what is 'authentic'."
+    ],
+    "business_manifestation": [
+      "A founder exiting the rigid corporate entity they built to start a disruptive, agile new venture.",
+      "Complete rebranding of a stagnant company.",
+      "Pivoting an entire business model to align with new, radical market technologies."
+    ],
+    "confidence": 0.92
+  },
+  {
+    "transition_id": "life_trans_004",
+    "category": "lifecycle_transition",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "64 (Dasa Effects)",
+      "verse": "4-10",
+      "quote": "If a Dasa rasi owned by a benefic, is occupied by a malefic, favourable effects will be experienced in the first part of the Dasa and they will be adverse in the latter part."
+    },
+    "from_state": "Growth and Prosperity Phase (Benevolent leadership and expansion)",
+    "to_state": "Adversarial Crisis Phase (Hostile operational environment)",
+    "transition_drivers": [
+      "Chronological progression through a planetary period (Dasha) where the sign's occupant's nature overrides the sign lord's nature at the midpoint."
+    ],
+    "required_conditions": [
+      "A Dasha period governed by a benefic lord, but physically occupied by a malefic planet."
+    ],
+    "blocking_conditions": [
+      "None. This is an unavoidable temporal shift in the astrological clock."
+    ],
+    "acceleration_factors": [
+      "The exact mathematical midpoint of the Dasha period."
+    ],
+    "collapse_risks": [
+      "Total lack of preparedness for market downturns.",
+      "Assuming that early-stage growth and easy capital will last forever."
+    ],
+    "stability_factors": [
+      "Using the prosperous first half of the cycle to build defensive moats and cash reserves for the second half."
+    ],
+    "psychological_shift": [
+      "Shock of transitioning from a protected, optimistic environment into a high-stakes, ruthless reality."
+    ],
+    "business_manifestation": [
+      "The 'Hostile Takeover' phase: A company begins with benevolent, visionary founders (Benefic Lord), but control is suddenly seized by ruthless, cost-cutting executives (Malefic Occupant).",
+      "A sudden regulatory crackdown after years of unregulated market expansion."
+    ],
+    "confidence": 0.88
+  },
+  {
+    "transition_id": "life_trans_005",
+    "category": "lifecycle_transition",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": "8th House / Randhra Bhava",
+      "verse": "",
+      "quote": "8th-from-1st bhava: (Cycle of Birth & Death, Recovery), Longevity, life-saving rescues, Mysterious and Undiagnosable Diseases which are cured, Recovery = 'New Lease on Life', (apparent) final phase or point of End-of-Cycle turning point, return, myth of eternal return, Recycling, sudden movements... Transformation /Destruction, Restoration (inc. Historic Restoration) renovation."
+    },
+    "from_state": "Terminal Decline or Hidden Crisis Phase (Systemic entropy and concealed rot)",
+    "to_state": "Recovery and Restoration Phase (Systemic rebirth)",
+    "transition_drivers": [
+      "Activation of the 8th House (Randhra Bhava) via major Dasha or slow-moving transit."
+    ],
+    "required_conditions": [
+      "A pre-existing condition of deep systemic stress, hidden debt, or unaddressed market obsolescence."
+    ],
+    "blocking_conditions": [
+      "Refusal to let old, dysfunctional parts of the system 'die'.",
+      "Avoidance of deep, structural 'surgery'."
+    ],
+    "acceleration_factors": [
+      "Sudden emergencies, catastrophic market shocks, or exposure of hidden secrets."
+    ],
+    "collapse_risks": [
+      "Complete systemic death (bankruptcy, liquidation) if the crisis is too deep to be salvaged.",
+      "Scandals destroying the foundational trust of the entity."
+    ],
+    "stability_factors": [
+      "Access to emergency capital (insurance, bailouts, inheritances).",
+      "Intervention by highly skilled crisis managers or 'healers'."
+    ],
+    "psychological_shift": [
+      "Transition from paralyzing existential fear and loss of control to the profound relief of survival and rebirth."
+    ],
+    "business_manifestation": [
+      "Chapter 11 Bankruptcy leading to successful reorganization.",
+      "Aggressive corporate restructuring (firing executives, selling off dead divisions).",
+      "A dramatic 'pivot' that saves a failing startup from collapse, resulting in a 'New Lease on Life'."
+    ],
+    "confidence": 0.95
+  }
+]

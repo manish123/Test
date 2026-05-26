@@ -1,0 +1,219 @@
+[
+  {
+    "rule_id": "fast_trigger_moon_adhana_19_creative_launch",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Adhana 19th Star... Triggers geographical relocation, career settlement, and creative output.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "trigger_indicator": "creative_launch",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Transit Moon passes exactly over the 19th Nakshatra (Adhana Tara) counted from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "19th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Adhana_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The fast transit of the Moon (taking roughly one day) over the 19th Nakshatra (Adhana Tara) acts as a precise timing trigger for a creative launch, the sudden generation of ideas, and manifesting creative output into the world.",
+      "mode": "creative_launch",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Utilizes the specific Tara Chakra coordinate for generation/conception to pinpoint exact days of artistic delivery or content publication."
+  },
+  {
+    "rule_id": "fast_trigger_moon_abhishek_28_viral_event",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Abhishek 28th Star... Triggers honors, promotions, social recognition, and professional freedom.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "trigger_indicator": "viral_event",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Transit Moon passes exactly over the 28th Nakshatra (Abhishek Tara) counted from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "28th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Abhishek_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The Moon's rapid transit across the 28th Nakshatra (Coronation/Abhishek Star) triggers a sudden spike in social recognition. In a media context, this exact daily window serves as a detonator for a viral event, audience surge, and receiving high public attention for creative work.",
+      "mode": "viral_event",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A pinpoint trigger for the exact day a creative piece goes viral or gains massive social validation."
+  },
+  {
+    "rule_id": "fast_trigger_triple_transit_5th_house_breakthrough",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "4",
+      "quote": "Observe whether any natal planet is under the influence of TRIPLE transit \u2013 one from slow moving planets and other from fast moving planets. Slow moving planets provide benefic / malefic background and the fast moving planets set the time of event \u2013 good / bad. ... Fast moving planets are Sun, Mercury, Venus, Mars and Moon.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "trigger_indicator": "artistic_breakthrough",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The natal 5th house (ruling self-expression, genius, and popularity) or natal 5th Lord is currently influenced by a slow-moving benefic transit (e.g., Jupiter)",
+        "A fast-moving planet (specifically the Moon or Mars) concurrently makes an exact transit over this identical 5th house point or its trine"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon",
+        "Mars",
+        "Jupiter"
+      ],
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "5th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Using the triple transit methodology, while a slow-moving benefic (like Jupiter) sets a broad favorable season for the 5th house of creativity, the exact day of a major artistic breakthrough or the flash of creative genius is detonated by the fast-moving transit of the Moon or Mars over the same mathematical degree.",
+      "mode": "artistic_breakthrough",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Combines the general triple transit execution rule with the 5th house's classical governance of creative expression and literature."
+  },
+  {
+    "rule_id": "fast_trigger_triple_transit_3rd_house_engagement",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "4",
+      "quote": "Observe whether any natal planet is under the influence of TRIPLE transit \u2013 one from slow moving planets and other from fast moving planets. Slow moving planets provide benefic / malefic background and the fast moving planets set the time of event \u2013 good / bad. ... Fast moving planets are Sun, Mercury, Venus, Mars and Moon.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "trigger_indicator": "engagement_surge",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The natal 3rd house (ruling communications media, messaging, and audience interaction) or natal 3rd Lord is influenced by a favorable slow-moving transit",
+        "A fast-moving planet (Moon or Mars) concurrently makes an exact transit over this identical 3rd house point or its trine"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon",
+        "Mars"
+      ],
+      "houses": [
+        "3"
+      ],
+      "planets": [
+        "3rd_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the 3rd house of media and communication is primed by a slower transit, the rapid passage of the Moon or Mars across it acts as an immediate trigger for a sudden engagement surge, an audience interaction spike, and highly effective short-term media distribution.",
+      "mode": "engagement_surge",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Links the fast planetary trigger to the 3rd house's rulership over communications media and short-term marketing/content outputs."
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "rule_id": "transit_malefic_desha_27_homeland_detachment",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Desha 27th Star Determines relationship to the homeland; malefic transits can alienate the native from their community.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "homeland_detachment",
+      "forced_displacement"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "A malefic transiting planet passes over the 27th Nakshatra (Desha Tara) counted from the natal Janma Nakshatra (Moon)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Sun"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "27th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Desha_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The 27th Nakshatra counted from the natal Moon (Desha Tara) governs the native's fundamental relationship with their homeland and local community. When slow-moving malefic planets transit this specific star, it acts as a medium-term trigger that alienates the native from their origins, directly initiating periods of homeland detachment or forced displacement.",
+      "mode": "homeland_detachment",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A specialized Tara Chakra transit rule explicitly linking malefic movement over the 27th star to homeland alienation."
+  },
+  {
+    "rule_id": "transit_adhana_19_immigration_relocation",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Adhana 19th Star... Triggers geographical relocation, career settlement, and creative output.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "immigration",
+      "permanent_foreign_residence"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "An activating transiting planet passes over the 19th Nakshatra (Adhana Tara) counted from the natal Janma Nakshatra (Moon)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "19th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Adhana_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The Adhana Tara (the 19th star counted from the natal Moon) is highly sensitive to generation, conception, and movement. Transits of slow-moving activating planets over this coordinate serve as a direct trigger for major geographical relocation, frequently paving the way for immigration and the establishment of a new base of permanent residence.",
+      "mode": "immigration",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Links the activation of the Adhana Tara directly to relocation and geographical shifts."
+  },
+  {
+    "rule_id": "transit_activation_12th_from_4th_emigration",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System / Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "57, 4",
+      "quote": "12th-from-4th: Change of Residence / Emigration, unmet emotional needs / dissolution of emotional security... Verify the transit of major planets like Saturn, Rahu-ketu, Jupiter- see how far they are favorable or otherwise for the bhava(s) under study.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "immigration",
+      "homeland_detachment"
+    ],
+    "rule_type": "house_activation",
+    "timing_band": "medium",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "A major slow-moving planet (Jupiter, Saturn, Rahu, or Ketu) transits the 3rd house from the Ascendant, which functionally acts as the 12th house (loss/dissolution) relative to the 4th house (homeland/roots)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "houses": [
+        "3",
+        "4"
+      ],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Using the Bhavat Bhavam principle, the 3rd house operates as the 12th house of loss and detachment relative to the 4th house of the homeland and emotional security. When major transit planets activate this zone, it initiates a structural dissolution of the native's roots, triggering windows for emigration and long-term changes of residence.",
+      "mode": "immigration",
+      "quality": "mixed",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.8,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A structural derivative house transit rule applying general transit activation directly to the axis of emigration."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "domain": "finance",
+  "event_family": "wealth_financial_gain_and_accumulation",
+  "layer_weights": {
+    "dasha_weight": 0.30,
+    "transit_weight": 0.35,
+    "fast_trigger_weight": 0.20,
+    "classical_weight": 0.15
+  },
+  "likelihood_thresholds": {
+    "very_high": 55,
+    "high": 40,
+    "moderate": 25,
+    "low": 15
+  },
+  "adjustments": [],
+  "notes": "Initial calibration overlay — no empirical adjustments yet."
+}

@@ -1,0 +1,478 @@
+[
+  {
+    "rule_id": "bphs_dasha_saturn_jupiter_imprisonment",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "79-80",
+      "page": "704",
+      "quote": "Antagonism with kinsmen, mental agony, quarrels, loss of position, losses in ventures, loss of wealth as a result of imposition of fines or penalties by government, imprisonment, distress to wife and son, will be the results if Jupiter be weak and be in the 6th, the 8th or the 12th from the lord of the Dasa (Saturn).",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "imprisonment_risk",
+      "regulatory_pressure",
+      "legal_defeat"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Saturn Mahadasha is active",
+        "Jupiter Antardasha is active",
+        "Jupiter is weak in dignity",
+        "Jupiter is positioned in the 6th, 8th, or 12th house counted from the Mahadasha lord (Saturn)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Saturn",
+        "Jupiter"
+      ],
+      "transit": [],
+      "houses": [
+        "6",
+        "8",
+        "12"
+      ],
+      "planets": [
+        "Saturn",
+        "Jupiter"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "During Saturn's Mahadasha, if Jupiter is weak and poorly placed in a 6/8 or 2/12 axis from Saturn, it triggers severe legal and regulatory conflicts. The native faces government fines, penalties, and potential imprisonment due to loss of Jupiterian protection.",
+      "mode": "imprisonment_risk",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Illustrates the danger of the Shadashtaka (6/8) or Dwidvadasa (2/12) Dasha-Antardasha relationship when the protective planet is weak."
+  },
+  {
+    "rule_id": "bphs_dasha_mercury_rahu_legal_pressure",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "52-53",
+      "page": "564",
+      "quote": "Pressure of hard work as a government functionary, loss of position, fears, imprisonment, diseases, agony to self and kinsmen, heart disease, loss of reputation and wealth, will be the results if Rahu be associated with a malefic or malefics in the 8th or the 12th from the lord of the Dasa (Mercury).",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "imprisonment_risk",
+      "regulatory_pressure",
+      "legal_defeat"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Mercury Mahadasha is active",
+        "Rahu Antardasha is active",
+        "Rahu is associated with one or more malefic planets",
+        "Rahu is positioned in the 8th or 12th house counted from the Mahadasha lord (Mercury)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Mercury",
+        "Rahu"
+      ],
+      "transit": [],
+      "houses": [
+        "8",
+        "12"
+      ],
+      "planets": [
+        "Mercury",
+        "Rahu",
+        "Malefics"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Rahu occupies a highly malefic house (8th or 12th) relative to the Mahadasha lord Mercury and is further afflicted, its Antardasha initiates a period of extreme regulatory scrutiny, loss of public reputation, and the threat of imprisonment.",
+      "mode": "regulatory_pressure",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Links Dasha periods of Rahu in Dusthanas from the Mahadasha lord to sudden legal downfalls."
+  },
+  {
+    "rule_id": "bphs_dasha_mars_saturn_release",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "23",
+      "page": "620",
+      "quote": "Mars-Saturn-Release from imprisonment, happiness on account of wealth, grains, clothes and servants.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "legal_victory",
+      "settlement"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Mars Mahadasha is active",
+        "Saturn Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Mars",
+        "Saturn"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Mars",
+        "Saturn"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Despite being mutual enemies, the Dasha combination of Mars and Saturn can indicate the resolution of a difficult karmic debt, manifesting as a legal victory, settlement, or literal release from imprisonment.",
+      "mode": "legal_victory",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.8,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A rare positive legal outcome derived from the interaction of the two primary natural malefics."
+  },
+  {
+    "rule_id": "bphs_dasha_rahu_saturn_rigorous_imprisonment",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "31",
+      "page": "212",
+      "quote": "...-\u015aani. Rigorous imprisonment, loss of enjoyments, danger from enemies, affliction with rheumatism.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "imprisonment_risk",
+      "criminal_allegation",
+      "legal_dispute"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Rahu Mahadasha is active",
+        "Saturn Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Rahu",
+        "Saturn"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Rahu",
+        "Saturn"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The notorious Rahu-Saturn (or Saturn-Rahu) period is highly prone to severe adversarial conflicts, criminal allegations, and the execution of harsh legal penalties, frequently manifesting as rigorous imprisonment or profound losses.",
+      "mode": "imprisonment_risk",
+      "quality": "challenging",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "One of the most dangerous periods for legal entanglement and institutional punishment."
+  },
+  {
+    "rule_id": "bphs_dasha_sun_rahu_government_punishment",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "5",
+      "page": "213",
+      "quote": "Sun-Rahu-Hunger, danger from poison, loss of wealth as a result of punishment by the king.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "regulatory_pressure",
+      "legal_defeat"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Sun Mahadasha is active",
+        "Rahu Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Sun",
+        "Rahu"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Sun",
+        "Rahu"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The interaction between the Sun (government/law/authority) and Rahu (violation/deception) initiates a period of acute regulatory pressure, investigations, and financial loss stemming directly from government or state-level legal punishments.",
+      "mode": "regulatory_pressure",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Classic signature for losing a lawsuit against the state or facing tax/regulatory fines."
+  },
+  {
+    "rule_id": "bphs_dasha_moon_rahu_imprisonment",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "13",
+      "page": "631",
+      "quote": "Moon-Rahu-Disharmony with friends and kinsmen, going away from homeland, loss of wealth, imprisonment.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "imprisonment_risk",
+      "legal_dispute"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Moon Mahadasha is active",
+        "Rahu Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Moon",
+        "Rahu"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Moon",
+        "Rahu"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The psychological instability and deception associated with the Moon-Rahu period can spiral into serious legal disputes, leading to social alienation, exile, and vulnerability to imprisonment.",
+      "mode": "imprisonment_risk",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A volatile period where emotional missteps may lead to criminal allegations or confinement."
+  },
+  {
+    "rule_id": "bphs_dasha_mars_dusthana_disputes",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "19-20",
+      "page": "64",
+      "quote": "Brutality, mental ailment, imprisonment, loss of kinsmen, disputes with brothers and failure in ventures will result if Mars be in the 8th or the 12th from the lord of the Dasa, be associated with malefics or be without dignity and strength.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "legal_dispute",
+      "imprisonment_risk"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Mars Antardasha is active",
+        "Mars is positioned in the 8th or 12th house counted from the Mahadasha lord"
+      ],
+      "any_of": [
+        "Mars is associated with malefic planets",
+        "Mars is without dignity and strength"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Mars"
+      ],
+      "transit": [],
+      "houses": [
+        "8",
+        "12"
+      ],
+      "planets": [
+        "Mars",
+        "Malefics"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Mars operates from a Dusthana (8th or 12th) relative to the Mahadasha lord and lacks strength or is afflicted, its Antardasha triggers aggressive property or familial legal disputes, escalating conflicts, and potential imprisonment.",
+      "mode": "legal_dispute",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Defines the exact parameters for when Mars transitions from mere competition to destructive litigation and confinement."
+  },
+  {
+    "rule_id": "bphs_dasha_sun_saturn_obstacles",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "62",
+      "verse": "7",
+      "page": "771",
+      "quote": "Sun-Saturn-Imprisonment, death, excitement, obstacles and losses in ventures.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "imprisonment_risk",
+      "legal_defeat"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Sun Mahadasha is active",
+        "Saturn Antardasha (or Pratyantar Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Sun",
+        "Saturn"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Sun",
+        "Saturn"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The clash between the Sun (authority) and Saturn (hardship/delays) generates intense friction. Their combined Dasha period produces major obstacles, legal defeats, state-enforced penalties, and a high risk of imprisonment.",
+      "mode": "imprisonment_risk",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Represents the fundamental conflict between the King (Sun) and the servant/law (Saturn), resulting in punitive legal actions."
+  }
+]

@@ -1,0 +1,553 @@
+[
+  {
+    "rule_id": "bphs_cancer_5th_moon_saturn_11th_wealth",
+    "name": "Cancer 5th + Moon + Saturn 11th \u2014 Extreme Stable Wealth",
+    "description": "For Pisces Ascendant, Moon in own sign in 5th and Saturn in own sign in 11th ensures extreme affluence.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "41",
+      "verse": "8",
+      "page": "327",
+      "quote": "If Cancer be the 5th house containing the Moon therein u Saturn is in the 11th, the native will become very affluent.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "stable_wealth",
+      "long_term_accumulation"
+    ],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Ascendant is Pisces",
+        "The 5th house is Cancer",
+        "The Moon is positioned in the 5th house (Cancer)",
+        "Saturn is positioned in the 11th house (Capricorn)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5",
+        "11"
+      ],
+      "planets": [
+        "Moon",
+        "Saturn"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "For a Pisces Ascendant, when the Moon occupies its own sign in the 5th house and Saturn occupies its own sign in the 11th house, the structural outcome is extreme affluence and highly stable, long-term wealth accumulation.",
+      "mode": "stable_wealth",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "pisces_asc_stable_wealth",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "classify_stable_wealth"
+    },
+    "metadata": {
+      "notes": "A highly specific configuration ensuring the wealth-generating houses are exceptionally strong in their own signs."
+    }
+  },
+  {
+    "rule_id": "nirayana_chandra_mangala_11th_network_wealth",
+    "name": "Chandra-Mangala Yoga 11th \u2014 Network-Based Wealth",
+    "description": "Moon-Mars conjunction in the 11th house produces exceptional business prosperity driven by vast social connections.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "173",
+      "quote": "Bhava 11: Very profitable financially. Chandra-Mangala yoga here gives financial benefit here in nearly any rashi. Special dignity and added income for business in marketplace activities, buy-sell, community development, interconnections between linked networks of association.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "network_based_wealth",
+      "business_prosperity"
+    ],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Moon is positioned in the 11th house",
+        "Mars is positioned in the 11th house",
+        "The Moon and Mars are conjunct (Chandra-Mangala Yoga)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "11"
+      ],
+      "planets": [
+        "Moon",
+        "Mars"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The union of the Moon and Mars in the 11th house of gains produces an outcome of exceptional business prosperity driven by vast social connections and marketplace activities.",
+      "mode": "network_based_wealth",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "chandra_mangala_11th_network",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_network_wealth"
+    },
+    "metadata": {
+      "notes": "Illustrates how Chandra-Mangala Yoga shifts into hyper-profitable networking when placed in the 11th house."
+    }
+  },
+  {
+    "rule_id": "nirayana_8th_lord_in_6th_hidden_wealth",
+    "name": "8th Lord in 6th \u2014 Hidden Wealth from Confidential Deals",
+    "description": "The 8th lord in the 6th generates substantial hidden wealth from confidential financial arrangements.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "149",
+      "quote": "As 11th-from-8th bhava Ripu Bhava gives the fruits of hidden matters. L-8 in 6th bhava is usually very profitable, with gains resulting from confidential financial arrangements, 'private equity', undercover deals, etc.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "hidden_wealth",
+      "business_prosperity"
+    ],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 82,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 8th house is positioned in the 6th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "6",
+        "8"
+      ],
+      "planets": [
+        "8th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Using the Bhavat Bhavam principle, the 6th house acts as the 11th (gains) from the 8th (secrets). The 8th lord in the 6th generates substantial hidden wealth from confidential arrangements and private equity.",
+      "mode": "hidden_wealth",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "hidden_wealth_6th_8th",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_hidden_wealth"
+    },
+    "metadata": {
+      "notes": "A sophisticated application of Vipreet Raj Yoga dynamics leading to secretive financial gain."
+    }
+  },
+  {
+    "rule_id": "nirayana_5th_8th_lords_parivartana_speculation",
+    "name": "5th/8th Lords Parivartana \u2014 Speculative Market Success",
+    "description": "A strong mutual exchange between the 5th and 8th lords creates extraordinary speculative success through stock market investments.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "151",
+      "quote": "Stock market and other financial market fluctuations are a result of randhra bhava. A person will do well in large-scale market investments when their 8th lord is well placed and aspected; when their 5th lord is well-placed and well-aspected; and, ideally, if these two lords enjoy parivartan.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "speculative_success",
+      "sudden_riches"
+    ],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 5th house and the Lord of the 8th house are in mutual exchange (Parivartana Yoga)",
+        "The Lord of the 5th house is well-placed and receives benefic aspects",
+        "The Lord of the 8th house is well-placed and receives benefic aspects"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5",
+        "8"
+      ],
+      "planets": [
+        "5th_lord",
+        "8th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The 8th house rules sudden fluctuations and other people's money, while the 5th house rules intelligence and speculation. A strong mutual exchange creates extraordinary speculative success yielding sudden riches.",
+      "mode": "speculative_success",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "speculative_parivartana",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_speculative_archetype"
+    },
+    "metadata": {
+      "notes": "Defines the specific astrological architecture required for success in high-volatility financial trading."
+    }
+  },
+  {
+    "rule_id": "bphs_arudha_12th_mixed_influences_unstable_wealth",
+    "name": "Arudha 12th Mixed Influences \u2014 Unstable Wealth",
+    "description": "When the 12th from Arudha Lagna is struck by both benefic and malefic forces, the outcome is highly unstable wealth with massive earnings but equally massive expenses.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "29",
+      "verse": "16-17",
+      "page": "263",
+      "quote": "PADA AND FINANCIAL LOSSES: If the 12th from Lagna Pada is aspected by conjunct both benefices and malefic, there will be abundant earnings but plenty of expenses.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "unstable_wealth",
+      "multiple_income_sources"
+    ],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 78,
+    "polarity": "mixed",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The 12th house counted from the Lagna Pada (Arudha Lagna) is occupied or aspected by a benefic planet",
+        "The 12th house counted from the Lagna Pada (Arudha Lagna) is occupied or aspected by a malefic planet"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "12"
+      ],
+      "planets": [
+        "Benefics",
+        "Malefics"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": [
+        "Arudha_Lagna"
+      ]
+    },
+    "interpretation": {
+      "meaning": "When the house of expenditure from the native's tangible image (12th from Arudha Lagna) is struck by both positive and negative planetary forces, the outcome is highly unstable wealth with massive earnings but equally massive expenses.",
+      "mode": "unstable_wealth",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "outputs": {
+      "symbolic_label": "arudha_unstable_wealth",
+      "likelihood_band": "moderate",
+      "timing_band": "none",
+      "recommended_action": "classify_unstable_wealth"
+    },
+    "metadata": {
+      "notes": "Highlights how the 12th from Arudha dictates the retention vs. loss of manifested wealth."
+    }
+  },
+  {
+    "rule_id": "nirayana_chandra_mangala_5th_creative_wealth",
+    "name": "Chandra-Mangala Yoga 5th \u2014 Creative and Speculative Wealth",
+    "description": "Moon-Mars conjunction in the 5th house yields highly profitable outcomes through creative genius, speculation, and entrepreneurship.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "171",
+      "quote": "Bhava 5: Profitable. Chandra-Mangala yoga here gives financial benefit under most circumstances. Special dignity and added income from business in literature, performance art, speculation, and services for children.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "speculative_success",
+      "business_prosperity"
+    ],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The Moon is positioned in the 5th house",
+        "Mars is positioned in the 5th house",
+        "The Moon and Mars are conjunct (Chandra-Mangala Yoga)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Moon",
+        "Mars"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The wealth-generating Chandra-Mangala Yoga in the 5th house yields highly profitable outcomes through creative genius, speculative success, and entrepreneurship.",
+      "mode": "speculative_success",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "chandra_mangala_5th_creative",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_creative_wealth"
+    },
+    "metadata": {
+      "notes": "Links the emotional-action wealth yoga (Moon-Mars) to 5th house significations."
+    }
+  },
+  {
+    "rule_id": "nirayana_8th_house_inheritance_marriage_wealth",
+    "name": "Strong 8th House \u2014 Inheritance and Spousal Wealth",
+    "description": "A strong 8th house produces inheritance-supported wealth through legacies, insurance, and joint marital assets.",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "152",
+      "quote": "2nd-from-7th bhava: Spouse's Skandha: Family Culture, Historic Values, and Finances - Estate of first spouse... wealth of the first spouse = food, speech, face... joint assets in first marriage; Insurance, wealth held within contracted agreements; legacies & inheritance by written contract ('will').",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "inheritance_supported_wealth"
+    ],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "The 8th house (which serves structurally as the 2nd house from the 7th house of marriage) is powerfully activated for wealth"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "8"
+      ],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The 8th house functions as the wealth (2nd) of the spouse (7th). A strong 8th house produces inheritance-supported wealth through legacies, insurance, alimony, and joint marital assets.",
+      "mode": "inheritance_supported_wealth",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "outputs": {
+      "symbolic_label": "8th_house_inheritance_wealth",
+      "likelihood_band": "high",
+      "timing_band": "none",
+      "recommended_action": "classify_inheritance_wealth"
+    },
+    "metadata": {
+      "notes": "Validates the 8th house as a primary vector for unearned wealth and spousal resources."
+    }
+  },
+  {
+    "rule_id": "bphs_jupiter_11th_moon_2nd_venus_9th_luxury",
+    "name": "Jupiter 11th + Moon 2nd + Venus 9th \u2014 Luxury Lifestyle",
+    "description": "The ultimate planetary benefics in the triad of wealth houses secure a lifelong outcome of massive financial abundance and luxury.",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "22",
+      "verse": "6",
+      "page": "258",
+      "quote": "The native will own 6000 Nishkas if the 11th is occupied by Jupiter while the 2nd and 9th are respectively taken over by the Moon and Venus by position.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": [
+      "luxury_lifestyle",
+      "stable_wealth"
+    ],
+    "rule_type": "outcome_quality",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "timing_band": "none",
+    "conditions": {
+      "all_of": [
+        "Jupiter is positioned in the 11th house",
+        "The Moon is positioned in the 2nd house",
+        "Venus is positioned in the 9th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "2",
+        "9",
+        "11"
+      ],
+      "planets": [
+        "Jupiter",
+        "Moon",
+        "Venus"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the ultimate planetary benefics occupy the triad of wealth houses, it secures a lifelong outcome of massive financial abundance, ensuring a luxury lifestyle and stable wealth accumulation of the highest order.",
+      "mode": "luxury_lifestyle",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "window": null,
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "outputs": {
+      "symbolic_label": "benefic_triad_luxury",
+      "likelihood_band": "very_high",
+      "timing_band": "none",
+      "recommended_action": "classify_luxury_lifestyle"
+    },
+    "metadata": {
+      "notes": "A specialized Dhana Yoga explicitly guaranteeing multi-millionaire status."
+    }
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "rule_id": "transit_jupiter_2_11_from_moon_wealth",
+    "name": "Jupiter Transit 2nd/11th from Moon — Wealth Acquisition Window",
+    "description": "Jupiter's transit through the 2nd or 11th house from the natal Moon creates a highly supportive one-year window for acquiring wealth and expanding financial assets.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "18-20",
+      "page": null,
+      "quote": "The effects of the transit of Jupiter through the various houses reckoned from the Moon will be as given below:- ... 2nd - Acquisition of wealth, domestic happiness and influence over others. ... 11th - Gain of wealth, freedom from diseases and increase in landed property.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["monetary_gain", "asset_accumulation", "wealth_growth"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 92,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes through the 2nd house counted from the natal Moon sign",
+        "Transit Jupiter passes through the 11th house counted from the natal Moon sign"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": ["2", "11"],
+      "planets": ["Jupiter", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When transiting Jupiter passes through the 2nd house (wealth) or 11th house (gains) from the natal Moon, it creates a highly supportive, roughly one-year window for acquiring wealth, increasing landed property, and expanding financial assets.",
+      "mode": "wealth_growth",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "window": {
+      "broad_window_days": 365,
+      "exact_window_days": 90,
+      "confidence_decay_days": 45
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_2_11_wealth_window",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "pursue_investments_and_acquisitions"
+    },
+    "metadata": {
+      "notes": "Classic transit (Gochara) rule defining the most prosperous Jupiter periods for financial accumulation."
+    }
+  },
+  {
+    "rule_id": "transit_mercury_2_4_8_11_from_moon_wealth",
+    "name": "Mercury Transit 2nd/4th/8th/11th from Moon — Commercial Gain",
+    "description": "Mercury's transit through specific houses from the natal Moon triggers short-to-medium term windows of financial inflow and commercial success.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "17",
+      "page": null,
+      "quote": "The following effects will be realised by the passage fo Mercury through the various houses reckoned from the Moon:- ... 2nd - Gain of wealth ... 4th - Accrual of wealth ... 8th - Gain of wealth and birth of children ... 11th - Increase in prosperity",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["monetary_gain", "business_gain", "income_expansion"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 82,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mercury passes through the 2nd house counted from the natal Moon sign",
+        "Transit Mercury passes through the 4th house counted from the natal Moon sign",
+        "Transit Mercury passes through the 8th house counted from the natal Moon sign",
+        "Transit Mercury passes through the 11th house counted from the natal Moon sign"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mercury"],
+      "houses": ["2", "4", "8", "11"],
+      "planets": ["Mercury", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Mercury's transit through specific houses from the natal Moon triggers short-to-medium term windows of financial inflow. The 2nd, 4th, 8th, and 11th houses bring commercial success, business gains, and sudden accrual of wealth.",
+      "mode": "monetary_gain",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 14,
+      "confidence_decay_days": 7
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.8,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "mercury_wealth_houses_active",
+      "likelihood_band": "moderate",
+      "timing_band": "medium",
+      "recommended_action": "execute_commercial_transactions"
+    },
+    "metadata": {
+      "notes": "Mercury is fast-moving, but its transit through these specific Moon-based houses reliably indicates commercial profitability."
+    }
+  },
+  {
+    "rule_id": "transit_venus_2_8_9_from_moon_wealth",
+    "name": "Venus Transit 2nd/8th/9th from Moon — Prosperity Window",
+    "description": "Venus transiting the 2nd, 8th, or 9th house from the natal Moon acts as a supportive medium-term indicator for wealth acquisition and general prosperity.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "21",
+      "page": null,
+      "quote": "The effects of the transit of Venus through the various houses reckoned from the Moon be as follows: - ... 2nd - Gain of wealth. ... 8th - Acqusition of wealth. 9th - Prosperity all round.",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["monetary_gain", "wealth_growth"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 80,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Venus passes through the 2nd house counted from the natal Moon sign",
+        "Transit Venus passes through the 8th house counted from the natal Moon sign",
+        "Transit Venus passes through the 9th house counted from the natal Moon sign"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Venus"],
+      "houses": ["2", "8", "9"],
+      "planets": ["Venus", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Venus transits the 2nd, 8th, or 9th house from the natal Moon, it acts as a supportive medium-term indicator for the acquisition of wealth, comforts, and general prosperity.",
+      "mode": "wealth_growth",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 30,
+      "exact_window_days": 14,
+      "confidence_decay_days": 7
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "venus_prosperity_window",
+      "likelihood_band": "moderate",
+      "timing_band": "medium",
+      "recommended_action": "acquire_luxury_assets"
+    },
+    "metadata": {
+      "notes": "A classic Gochara rule utilizing the natural significator of luxuries (Venus)."
+    }
+  },
+  {
+    "rule_id": "transit_rahu_10_from_moon_wealth",
+    "name": "Rahu Transit 10th from Moon — Ambitious Gains",
+    "description": "Rahu transiting the 10th house from the natal Moon represents a powerful 1.5-year window for ambition, professional scaling, and significant monetary gains.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "24-30",
+      "page": null,
+      "quote": "Rahu in the course of his passage through the various houses will cause the following effects :— ... 10th - Gains (of wealth).",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["monetary_gain", "speculative_profit"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 85,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Transit Rahu passes through the 10th house counted from the natal Moon sign"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Rahu"],
+      "houses": ["10"],
+      "planets": ["Rahu", "Moon"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Rahu transiting the 10th house from the natal Moon represents a powerful 1.5-year window for ambition, professional scaling, and significant, sometimes unexpected, monetary gains.",
+      "mode": "monetary_gain",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 540,
+      "exact_window_days": 180,
+      "confidence_decay_days": 90
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "rahu_10th_gains_window",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "scale_ambitions_aggressively"
+    },
+    "metadata": {
+      "notes": "Rahu in the 10th from the Moon is one of its best transit placements for material and financial success."
+    }
+  },
+  {
+    "rule_id": "transit_jupiter_on_natal_sun_wealth",
+    "name": "Jupiter Transit over Natal Sun — Financial Expansion",
+    "description": "When Jupiter transits over the natal degree of the Sun, it triggers financial expansion and money gain directly to the native.",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "6",
+      "quote": "Transit of Jupiter On the Natal Point of Sun Money gain in first round-to father & in second round - to Native",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["monetary_gain", "wealth_growth"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 88,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [
+        "Transit Jupiter passes over the exact longitude of the natal Sun"
+      ],
+      "any_of": [
+        "It is the second 12-year cycle (second round) of Jupiter for the native"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Jupiter"],
+      "houses": [],
+      "planets": ["Jupiter", "Sun"],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Jupiter transits over the natal degree of the Sun, it triggers financial expansion and money gain. In the native's adulthood (second round onwards), this wealth flows directly to the native.",
+      "mode": "monetary_gain",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 10
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "jupiter_sun_conjunction_wealth",
+      "likelihood_band": "high",
+      "timing_band": "medium",
+      "recommended_action": "pursue_financial_expansion"
+    },
+    "metadata": {
+      "notes": "A powerful conjunction mapping the planet of abundance over the planet of authority and vitality."
+    }
+  },
+  {
+    "rule_id": "transit_benefics_anga_gochara_wealth",
+    "name": "Benefic Anga Gochara — Financial Gain Nakshatras",
+    "description": "Using the Anga Gochara system, benefic planets transiting specific Nakshatras from the birth star activate distinct periods of financial gain and massive influx of wealth.",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "39-40",
+      "page": null,
+      "quote": "The transits of Mercury, Jupiter and Venus Distribution amongst limbs Effects ... (b) 4rd, 5th, 6th - face financial gain ... (d) 13th. 14th, 15th, 16th, 17th - belly influx of wealth",
+      "translation": null
+    },
+    "domain": "finance",
+    "event_family": "wealth_financial_gain_and_accumulation",
+    "event_subtype": ["monetary_gain", "income_expansion"],
+    "rule_type": "dasha",
+    "status": "active",
+    "priority": 78,
+    "polarity": "supportive",
+    "timing_band": "medium",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mercury, Jupiter, or Venus passes through the 4th, 5th, or 6th Nakshatra counted from the natal Janma Nakshatra (financial gain)",
+        "Transit Mercury, Jupiter, or Venus passes through the 13th, 14th, 15th, 16th, or 17th Nakshatra counted from the natal Janma Nakshatra (influx of wealth)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": ["Mercury", "Jupiter", "Venus"],
+      "houses": [],
+      "planets": [],
+      "nakshatra": ["4th_from_Moon", "5th_from_Moon", "6th_from_Moon", "13th_from_Moon", "14th_from_Moon", "15th_from_Moon", "16th_from_Moon", "17th_from_Moon"],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Using the Anga Gochara (Limb Transit) system, when benefic planets (Mercury, Jupiter, Venus) transit specific Nakshatras from the birth star (representing the face and belly of the Kala Purusha), they activate distinct medium-term periods of financial gain and massive influx of wealth.",
+      "mode": "income_expansion",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "window": {
+      "broad_window_days": 60,
+      "exact_window_days": 14,
+      "confidence_decay_days": 7
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.8,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "outputs": {
+      "symbolic_label": "benefic_anga_gochara_wealth",
+      "likelihood_band": "moderate",
+      "timing_band": "medium",
+      "recommended_action": "finalize_revenue_actions"
+    },
+    "metadata": {
+      "notes": "Maps the transit of benefics through Nakshatras to identify periods of material and financial prosperity."
+    }
+  }
+]

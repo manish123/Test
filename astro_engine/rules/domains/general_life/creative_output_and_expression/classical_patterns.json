@@ -1,0 +1,411 @@
+[
+  {
+    "rule_id": "bphs_venus_karakamsa_poet",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "33",
+      "verse": "87-92.5",
+      "page": "339",
+      "quote": "Should Venus be in the 5th from Karakamsa, the native will be a poet, be eloquent and be a poet.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "expressive talent",
+    "indicates": "artistic_talent",
+    "rule_type": "combination",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Venus is positioned in the Karakamsa",
+        "Venus is positioned in the 5th house counted from the Karakamsa"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Venus"
+      ],
+      "d9": [
+        "Karakamsa"
+      ],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of expressive talent and creative potential. When the planet of aesthetics (Venus) influences the soul's designated expression point (Karakamsa) or the house of creativity from it (5th), it wires the native for poetic eloquence and artistic intelligence."
+    }
+  },
+  {
+    "rule_id": "bphs_moon_jupiter_karakamsa_author",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "33",
+      "verse": "85-86",
+      "page": "339",
+      "quote": "The Moon and Jupiter in the Karakamsa or the 5th therefrom denotes a writer well-versed in all branches of learning.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "artistic intelligence",
+    "indicates": "creative_expression",
+    "rule_type": "combination",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Moon is conjunct Jupiter"
+      ],
+      "any_of": [
+        "The Moon and Jupiter are positioned in the Karakamsa",
+        "The Moon and Jupiter are positioned in the 5th house counted from the Karakamsa"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Moon",
+        "Jupiter"
+      ],
+      "d9": [
+        "Karakamsa"
+      ],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of artistic intelligence and literary capability. The union of the mind (Moon) and wisdom (Jupiter) in the creative axis of the Navamsa chart bestows exceptional authorship, expansive imagination, and the ability to articulate profound knowledge."
+    }
+  },
+  {
+    "rule_id": "nirayana_authorship_3_5_9_houses",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "53",
+      "quote": "Creative authourship needs strong 3rd and 5th bhavas (creative inspiration) as well as a fortunate dharma bhava, for the 9th bhava rules publications.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "audience attraction",
+    "indicates": "media_success",
+    "rule_type": "classical_pattern",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The 3rd house (media/communication) is strongly dignified",
+        "The 5th house (creative inspiration) is strongly dignified",
+        "The 9th house (publications/distribution) is strongly dignified"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "3",
+        "5",
+        "9"
+      ],
+      "planets": [],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of media success and audience attraction. A successful author or content creator requires the mechanical skill of communication (3rd house), the spark of creative genius (5th house), and the fortune to successfully publish and distribute the work to the masses (9th house)."
+    }
+  },
+  {
+    "rule_id": "vama_venus_mars_5th_house_artistry",
+    "source_text": {
+      "work_name": "Conjunctions in Astrology: Meaning, Types & Planetary Effects - VAMA",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Venus\u2013Mars: Sparks passion, creativity, and charm \u2014 common in artists, actors... 5th House: Venus\u2013Mars creates romantic charm and artistic talent.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "creative potential",
+    "indicates": "performance_ability",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Venus is conjunct Mars"
+      ],
+      "any_of": [
+        "The conjunction occurs in the 5th house",
+        "The conjunction occurs in the Ascendant (1st house)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "1",
+        "5"
+      ],
+      "planets": [
+        "Venus",
+        "Mars"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of creative potential and dynamic expressive talent. The fiery energy of Mars combined with the aesthetic grace of Venus generates extreme passion, making the native highly magnetic and suited for performance arts, acting, and engaging entertainment."
+    }
+  },
+  {
+    "rule_id": "nirayana_chandra_mangala_5th_monetization",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "130",
+      "quote": "Bhava 5: Profitable. Chandra-Mangala yoga here gives financial benefit under most circumstances. Special dignity and added income from business in literature, performance art, speculation, and services for children.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "monetization capability",
+    "indicates": "monetized_creativity",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Moon is conjunct Mars (Chandra-Mangala Yoga)",
+        "The conjunction is positioned in the 5th house"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "5"
+      ],
+      "planets": [
+        "Moon",
+        "Mars"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of monetization capability through creativity. The wealth-generating Chandra-Mangala Yoga placed in the house of genius and arts (5th house) specifically channels financial gain through creative outputs like literature, performance arts, and entertainment ventures."
+    }
+  },
+  {
+    "rule_id": "phaladeepika_moon_navamsa_mercury_arts",
+    "source_text": {
+      "work_name": "MANTRESWARA'S PHALA DEEPIKA",
+      "chapter": "9",
+      "verse": "13",
+      "page": null,
+      "quote": "If at birth the Moon be occupying the navamsa of Mercury and be aspected by the Sun, Mars, Mercury, Jupiter, Venus and Saturn, the person concerned will respectivery become (1) an actor, (2) a thief, (3) a poet (4) a minister, (5) one versed in singing and (6) skilled in arts.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "expressive talent",
+    "indicates": "performance_ability",
+    "rule_type": "combination",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Moon is positioned in a Navamsa ruled by Mercury (Gemini or Virgo D9)"
+      ],
+      "any_of": [
+        "The Moon is aspected by the Sun (makes an actor)",
+        "The Moon is aspected by Mercury (makes a poet)",
+        "The Moon is aspected by Venus (makes a singer)",
+        "The Moon is aspected by Saturn (makes an artist)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [],
+      "planets": [
+        "Moon",
+        "Mercury",
+        "Sun",
+        "Venus",
+        "Saturn"
+      ],
+      "d9": [
+        "Mercury_Navamsa"
+      ],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of performance ability and expressive talent. When the mind (Moon) is filtered through Mercury's intellectual/communicative Navamsa, aspects from other planets finely tune the creative output into acting, poetry, singing, or visual arts."
+    }
+  },
+  {
+    "rule_id": "jp_mercury_venus_conjunction_music",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "8",
+      "verse": "5",
+      "page": null,
+      "quote": "If Venus be in conjunction with Mercury, the person born will be versed in the sacred books and fond of music, play and mirth.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "creative potential",
+    "indicates": "artistic_talent",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Venus is conjunct Mercury"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [],
+      "planets": [
+        "Venus",
+        "Mercury"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of creative potential and artistic intelligence. The union of Mercury (skill, communication, playful intellect) and Venus (beauty, harmony, aesthetics) naturally inclines the native toward musical abilities, joyous entertainment, and engaging creativity."
+    }
+  },
+  {
+    "rule_id": "jp_jupiter_saturn_artist",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "8",
+      "verse": "5",
+      "page": null,
+      "quote": "If Jupiter be in conjunction with Saturn, the effect of the yoga will be that the person born in it will be an artist.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "creative potential",
+    "indicates": "artistic_talent",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Jupiter is conjunct Saturn"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [],
+      "planets": [
+        "Jupiter",
+        "Saturn"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of deep artistic intelligence and structured creative talent. The blending of Jupiter's grand vision and inspiration with Saturn's discipline, structure, and endurance forms the foundational psychological architecture of a dedicated artist or craftsman."
+    }
+  },
+  {
+    "rule_id": "vama_sun_mercury_buddha_aditya_speakers",
+    "source_text": {
+      "work_name": "Conjunctions in Astrology: Meaning, Types & Planetary Effects - VAMA",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Sun\u2013Mercury (Buddha Aditya Yoga): Enhances intellect, communication, and fame. Often found in teachers, leaders, and public speakers.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "audience attraction",
+    "indicates": "media_success",
+    "rule_type": "yoga",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Sun is conjunct Mercury (Buddha Aditya Yoga)"
+      ],
+      "any_of": [],
+      "none_of": [
+        "Mercury is deeply combust"
+      ]
+    },
+    "signals": {
+      "houses": [],
+      "planets": [
+        "Sun",
+        "Mercury"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of audience attraction and media success. A strong Buddha Aditya Yoga illuminates the intellect and communication skills, providing the charisma and authoritative voice necessary to captivate audiences, making it ideal for public speaking, writing, and digital media."
+    }
+  },
+  {
+    "rule_id": "nirayana_venus_kendra_government_arts",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "144",
+      "quote": "Fine arts, dancing, & literary composition result from Venus; interior decorators & even successful psychotherapists are born under this influence as well. A benefic in kendra gives ease and talent... Government patronage and remunderation for political, artistic & musical work.",
+      "translation": null
+    },
+    "domain": "creativity_and_media",
+    "event_family": "creative_output_and_audience",
+    "indicator": "monetization capability",
+    "indicates": "monetized_creativity",
+    "rule_type": "classical_pattern",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Venus is positioned in a Kendra (1st, 4th, 7th, or 10th house)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "1",
+        "4",
+        "7",
+        "10"
+      ],
+      "planets": [
+        "Venus"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of high monetization capability through the arts. A powerfully placed Venus in an angular house provides natural ease and talent in creative domains (music, dance, literature), while simultaneously attracting prestigious patronage and solid remuneration for that artistic output."
+    }
+  }
+]

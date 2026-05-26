@@ -1,0 +1,431 @@
+[
+  {
+    "rule_id": "hora_sara_sun_jupiter_foreign_residence",
+    "source_text": {
+      "work_name": "Hora Sara",
+      "chapter": null,
+      "verse": "18",
+      "page": null,
+      "quote": "During the sub-period of Jupiter in Sun's dasa, one will be virtuous (or he will be liberal in donating) and enjoy all luxuries. He will be rich in knowledge and possess wealth, acquire fame and live in foreign countries.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "long_term_foreign_residence",
+      "migration_through_career"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Sun Mahadasha is active",
+        "Jupiter Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Sun",
+        "Jupiter"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Sun",
+        "Jupiter"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The interaction of the Sun (authority) and Jupiter (expansion/wisdom) triggers a highly supportive period for moving to and living in foreign countries, accompanied by wealth, luxuries, and a solid reputation.",
+      "mode": "foreign_residence",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A classic period for prosperous foreign residency."
+  },
+  {
+    "rule_id": "bphs_rahu_sun_foreign_recognition",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "66",
+      "page": "674",
+      "quote": "Well being in every way and recognition from the kings (high dignitaries) in foreign countries, will be the results, if the Sun be in a kendra, trikona, the 3rd or the 11th from the lord of the Dasa (Rahu).",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "foreign_institutional_integration",
+      "visa_approval"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Rahu Mahadasha is active",
+        "Sun Antardasha is active"
+      ],
+      "any_of": [
+        "The Sun is in a Kendra (1st, 4th, 7th, 10th) from Rahu",
+        "The Sun is in a Trikona (5th, 9th) from Rahu",
+        "The Sun is in the 3rd house from Rahu",
+        "The Sun is in the 11th house from Rahu"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Rahu",
+        "Sun"
+      ],
+      "transit": [],
+      "houses": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "7",
+        "9",
+        "10",
+        "11"
+      ],
+      "planets": [
+        "Rahu",
+        "Sun"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the Sun is well-placed relative to Rahu, the Rahu-Sun Dasha activates a powerful phase of foreign institutional integration, leading to success, official recognition, and secure residence in a foreign land.",
+      "mode": "foreign_residence",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.95,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Excellent period for securing foreign visas, citizenship, or high-level employment abroad."
+  },
+  {
+    "rule_id": "bphs_jupiter_moon_forced_wanderings",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "61-63",
+      "page": "543",
+      "quote": "There will be loss of wealth and kinsmen, wanderings in foreign lands, danger from the king (government) and thieves... if the Moon be weak or associated with malefics, or, be in the 6th, the 8th or the 12th from the Ascendant or the lord of the Dasa (Jupiter).",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "forced_displacement",
+      "exile"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Jupiter Mahadasha is active",
+        "Moon Antardasha is active"
+      ],
+      "any_of": [
+        "The Moon is weak in Paksha Bala",
+        "The Moon is associated with malefic planets",
+        "The Moon is in the 6th, 8th, or 12th house from the Ascendant",
+        "The Moon is in the 6th, 8th, or 12th house from Jupiter"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Jupiter",
+        "Moon"
+      ],
+      "transit": [],
+      "houses": [
+        "6",
+        "8",
+        "12"
+      ],
+      "planets": [
+        "Jupiter",
+        "Moon",
+        "Malefics"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "If the Moon is afflicted or placed in a Dusthana from the Ascendant or the Mahadasha lord Jupiter, the period triggers sudden, unstable wanderings in foreign lands driven by conflict, state pressure, or loss of resources.",
+      "mode": "forced_displacement",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Indicates refugee status, exile, or unstable migration due to hardship rather than opportunity."
+  },
+  {
+    "rule_id": "bphs_saturn_rahu_exile",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "54",
+      "page": "794",
+      "quote": "Saturn-Rahu-Going away from homeland, danger from the king, bewitchment. taking of poison, troubles from wind and bile.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "homeland_separation",
+      "exile"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Saturn Mahadasha is active",
+        "Rahu Antardasha (or Sookshma/Prana Dasha) is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Saturn",
+        "Rahu"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Saturn",
+        "Rahu"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The combination of Saturn and Rahu creates immense pressure, often forcing the native to abruptly leave their homeland due to threats from authorities, societal breakdown, or political danger.",
+      "mode": "exile_pattern",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A classic indicator for forced migration, asylum seeking, or political exile."
+  },
+  {
+    "rule_id": "bphs_moon_rahu_separation",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "13",
+      "page": "631",
+      "quote": "Moon-Rahu-Disharmony with friends and kinsmen, going away from homeland, loss of wealth, imprisonment.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "homeland_separation"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Moon Mahadasha is active",
+        "Rahu Antardasha is active"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Moon",
+        "Rahu"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [
+        "Moon",
+        "Rahu"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The interaction of the Moon (emotions/home) and Rahu (foreignness/disruption) severs the native's ties to their local community and family, resulting in moving away from the homeland under stressful or isolating circumstances.",
+      "mode": "exile_pattern",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Highlights psychological and social alienation leading to migration."
+  },
+  {
+    "rule_id": "bphs_jupiter_mercury_foreign_wanderings",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": null,
+      "verse": "25-26",
+      "page": "682",
+      "quote": "There will be loss of wealth, journeys to foreign countries, danger from thieves while travelling, wounds, burning sensations, eye troubles, wanderings in foreign lands, if Mercury be in the 6th, the 8th or the 12th from the lord of Dasa (Jupiter) or be associated with a malefic without the aspect of a benefic.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "forced_displacement"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Jupiter Mahadasha is active",
+        "Mercury Antardasha is active"
+      ],
+      "any_of": [
+        "Mercury is in the 6th, 8th, or 12th house from Jupiter",
+        "Mercury is associated with a malefic planet and lacks benefic aspect"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Jupiter",
+        "Mercury"
+      ],
+      "transit": [],
+      "houses": [
+        "6",
+        "8",
+        "12"
+      ],
+      "planets": [
+        "Jupiter",
+        "Mercury",
+        "Malefics"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "An ill-placed Mercury during Jupiter's Dasha causes unstable and dangerous travel. The native is subjected to involuntary wanderings in foreign lands, often encountering legal, physical, or financial threats.",
+      "mode": "forced_displacement",
+      "quality": "challenging",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.85,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Focuses on the hazards of international travel and lack of permanent settlement."
+  },
+  {
+    "rule_id": "jp_kalachakra_moveable_sign_migration",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "17",
+      "verse": "82",
+      "page": "995",
+      "quote": "If the lord of the Rasi referred to in the preceding slokas be in a moveable sign or occupy a Navamsa owned by a moveable sign and if the (Kalachakra) be that produced by a moveable sign, the person concerned will have to go to a foreign country.",
+      "translation": null
+    },
+    "domain": "migration",
+    "event_family": "foreign_settlement",
+    "event_subtype": [
+      "immigration",
+      "long_term_foreign_residence"
+    ],
+    "rule_type": "dasha",
+    "timing_band": "broad",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "A Kalachakra Dasha period ruled by a moveable (Chara) sign is active"
+      ],
+      "any_of": [
+        "The planetary lord of the active Dasha Rasi is positioned in a moveable sign in the D1 chart",
+        "The planetary lord of the active Dasha Rasi is positioned in a moveable Navamsa in the D9 chart"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [
+        "Kalachakra_Dasha"
+      ],
+      "transit": [],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [
+        "Moveable_Navamsa"
+      ],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "In the Kalachakra Dasha system, when the Dasha of a moveable sign is running, and its dispositor is also placed in a moveable sign or Navamsa, the native is destined to leave their birth country and migrate to a foreign land.",
+      "mode": "immigration",
+      "quality": "mixed",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.9,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A precise timing rule utilizing the sign-based Kalachakra Dasha and the principle of 'Chara' (mobility) for predicting foreign relocation."
+  }
+]

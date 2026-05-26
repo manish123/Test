@@ -59,101 +59,14 @@ import swisseph as swe
 from datetime import datetime, timedelta
 import math
 
-
-TARA_SCORES = {
-    1: -1,
-    2: 2,
-    3: -2,
-    4: 1.5,
-    5: -1.5,
-    6: 2,
-    7: -3,
-    8: 1,
-    9: 2,
-}
-
-PANCHANG_RISK_WEIGHT = 0.5
-TRADING_EVENT_BOOST = 1.15
-NON_TRADING_EVENT_MULTIPLIER = 0.35
-
-PLANET_WEIGHTS = {
-    "Moon": 3,
-    "Mercury": 2.5,
-    "Jupiter": 2,
-    "Saturn": 2,
-    "Mars": 1.5,
-    "Venus": 1,
-    "Sun": 1,
-}
-
-
-def get_tara(janma, transit):
-    j = nakshatra_list.index(janma)
-    t = nakshatra_list.index(transit)
-
-    count = (t - j) % 27 + 1
-    tara = count % 9
-    return 9 if tara == 0 else tara
-
-
-def calculate_score(janma_nak, pdata):
-    score = 0
-
-    for p in PLANET_WEIGHTS:
-        nak = pdata[p]["nakshatra"]
-        tara = get_tara(janma_nak, nak)
-        score += TARA_SCORES[tara] * PLANET_WEIGHTS[p]
-
-    return round(score, 2)
-
-
-def get_trade_decision(pdata):
-    m = pdata["Moon"]["nakshatra"]
-    s = pdata["Sun"]["nakshatra"]
-    v = pdata["Venus"]["nakshatra"]
-    mars = pdata["Mars"]["nakshatra"]
-
-    if m in ["Vishakha", "Rohini", "Pushya", "Anuradha", "Uttara Ashadha"]:
-        return "TRADE HEAVILY", f"Moon in {m}"
-
-    if s == "Krittika":
-        return "TRADE HEAVILY", "Sun in Krittika"
-
-    if v in ["Krittika", "Shravana"]:
-        return "TRADE HEAVILY", f"Venus in {v}"
-
-    if m in [
-        "Dhanishta",
-        "Mrigashira",
-        "Ashlesha",
-        "Jyeshtha",
-        "Shravana",
-        "Ashwini",
-        "Magha",
-        "Mula",
-        "Bharani",
-        "Purva Phalguni",
-        "Purva Ashadha",
-        "Ardra",
-        "Shatabhisha",
-        "Purva Bhadrapada",
-        "Krittika",
-    ]:
-        return "DO NOT TRADE", f"Moon in {m}"
-
-    if mars == "Dhanishta":
-        return "DO NOT TRADE", "Mars in Dhanishta"
-
-    if v in ["Rohini", "Shatabhisha"]:
-        return "DO NOT TRADE", f"Venus in {v}"
-
-    if s in ["Rohini", "Dhanishta"]:
-        return "DO NOT TRADE", f"Sun in {s}"
-
-    if m in ["Chitra", "Revati", "Uttara Bhadrapada", "Swati"]:
-        return "NEUTRAL", f"Moon in {m}"
-
-    return "NEUTRAL", "No rule triggered"
+# ── Shared tara scoring (Phase 1 refactor) ────────────────────────────────────
+from rules.evaluator_base import (
+    TARA_SCORES, PLANET_WEIGHTS,
+    PANCHANG_RISK_WEIGHT, TRADING_EVENT_BOOST, NON_TRADING_EVENT_MULTIPLIER,
+    get_tara, calculate_tara_score, get_trade_decision,
+)
+# Compatibility aliases — call-sites in this file use these names
+calculate_score = calculate_tara_score  # main.py used calculate_score; base uses calculate_tara_score
 
 
 def ist_to_utc(dt):
@@ -409,7 +322,13 @@ def _run_single(
 
     moon_nak = next(p["nakshatra"] for p in planets if p["name"] == "Moon")
     tara_remainder = get_tara(janma_nak, moon_nak)
-    factor = nakshatra_adjustment(moon_nak)
+
+    # Nakshatra adjustment: only apply empirical GOOD/BAD overlay when trading
+    # event filter is active (trading path). Non-trading paths use factor=1.0.
+    if use_trading_event_filter:
+        factor = nakshatra_adjustment(moon_nak)
+    else:
+        factor = 1.0
 
     for event_name in event_scores:
         event_scores[event_name] *= factor

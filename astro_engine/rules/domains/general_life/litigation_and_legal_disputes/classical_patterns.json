@@ -1,0 +1,380 @@
+[
+  {
+    "rule_id": "bphs_royal_punishment_wealth_loss",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "13",
+      "verse": "8",
+      "page": "135",
+      "quote": "Should the lords of the 2nd and 11th be relegated to the 6th/8th/12th (jointly or separately) while Mars is in the 11th and Rahu is in the 2nd, the native will lose his wealth on account of royal punishments.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "indicator": "punishment risk",
+    "indicates": "regulatory_issue",
+    "rule_type": "yoga",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "Mars is positioned in the 11th house",
+        "Rahu is positioned in the 2nd house"
+      ],
+      "any_of": [
+        "The Lord of the 2nd house is positioned in the 6th, 8th, or 12th house",
+        "The Lord of the 11th house is positioned in the 6th, 8th, or 12th house"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "2",
+        "6",
+        "8",
+        "11",
+        "12"
+      ],
+      "planets": [
+        "2nd_lord",
+        "11th_lord",
+        "Mars",
+        "Rahu"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of regulatory exposure and punishment risk. When the planets of accumulated wealth and gains (2nd and 11th lords) are severely afflicted in Dusthana houses, combined with the aggressive/taboo axis of Mars-Rahu occupying the financial houses, the native suffers massive financial loss through state-imposed penalties, government fines, and royal punishments."
+    }
+  },
+  {
+    "rule_id": "jp_malefics_5_9_captivity",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "5",
+      "verse": "4",
+      "page": "304",
+      "quote": "When two malefic planets occupy the 5th and 9th houses and are not aspected by benefic planets at a person's birth, His death will be in captivity.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "indicator": "legal vulnerability",
+    "indicates": "imprisonment_risk",
+    "rule_type": "combination",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "A malefic planet occupies the 5th house",
+        "A malefic planet occupies the 9th house"
+      ],
+      "any_of": [],
+      "none_of": [
+        "Benefic planets aspect the 5th house",
+        "Benefic planets aspect the 9th house"
+      ]
+    },
+    "signals": {
+      "houses": [
+        "5",
+        "9"
+      ],
+      "planets": [
+        "Malefics"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of extreme legal vulnerability and imprisonment risk. When the primary trines (5th and 9th houses, representing past life merit, fortune, and dharma) are wholly corrupted by malefics without any protective benefic aspects, the native is highly vulnerable to being restrained, facing captivity, or dying in prison."
+    }
+  },
+  {
+    "rule_id": "jp_8th_decanate_imprisonment",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "5",
+      "verse": "4",
+      "page": "304",
+      "quote": "When the decanate of the 8th house is what is termed (Sarpa), Pasa or (Miyjada/Nigada), the death will be the same as before [in captivity].",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "indicator": "legal vulnerability",
+    "indicates": "imprisonment_risk",
+    "rule_type": "combination",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The Drekkana (decanate) of the 8th house is classified as Sarpa (serpent)",
+        "The Drekkana (decanate) of the 8th house is classified as Pasa (noose)",
+        "The Drekkana (decanate) of the 8th house is classified as Nigada (fetters/shackles)"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "8"
+      ],
+      "planets": [],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": [
+        "8th_house_Drekkana"
+      ]
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of imprisonment risk. The 8th house rules the conditions surrounding transformation and death. If its decanate is symbolically tied to bondage (Pasa/Noose or Nigada/Shackles), it signifies intense karmic vulnerability to being legally detained, confined, or incarcerated."
+    }
+  },
+  {
+    "rule_id": "bphs_sun_3rd_legal_punishment",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "44",
+      "verse": "25-31",
+      "page": "445",
+      "quote": "if the Sun, being with strength, is in the 3rd house from the ascendant, one will obtain his death due to a king (or legal punishments).",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "indicator": "punishment risk",
+    "indicates": "regulatory_issue",
+    "rule_type": "combination",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The Sun is positioned in the 3rd house",
+        "The Sun is endowed with strength"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [
+        "3"
+      ],
+      "planets": [
+        "Sun"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of punishment risk and severe regulatory exposure. A strong Sun (ruling the state, law, and authority) placed in the 3rd house of actions and initiative suggests that the native's bold or transgressive actions directly draw the wrath of the state, resulting in severe legal punishments or state-sanctioned execution."
+    }
+  },
+  {
+    "rule_id": "jp_moon_saturn_mars_criminality",
+    "source_text": {
+      "work_name": "Jataka Parijata",
+      "chapter": "8",
+      "verse": "10",
+      "page": "604",
+      "quote": "If the Moon Saturn and Mars combine and produce thi yoga, the person born in it will be fickle minded and so wicked as to perpetrate the unnatural crime of matricide",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "indicator": "punishment risk",
+    "indicates": "public_accusation",
+    "rule_type": "yoga",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [
+        "The Moon is conjunct Saturn",
+        "The Moon is conjunct Mars",
+        "Saturn is conjunct Mars"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "houses": [],
+      "planets": [
+        "Moon",
+        "Saturn",
+        "Mars"
+      ],
+      "d9": [],
+      "nakshatra": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Symbolic indicator of severe punishment risk and extreme adversarial conflict. The volatile conjunction of the mind (Moon) with severe malefics (Mars and Saturn) shatters emotional stability and morality. It indicates a deep vulnerability to committing grave crimes, resulting in public accusation and catastrophic legal/criminal consequences."
+    }
+  },
+  {
+    "rule_id": "nirayana_2nd_lord_6th_legal_victory",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "66",
+      "quote": "BPHS Ch. 24, shloka 18 : \"When Dhana's lord is in Ari Bhava along with a benefic, the native will gain wealth through his enemies.\" It is know as satramooladdhana yoga.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "legal_victory"
+    ],
+    "rule_type": "yoga",
+    "timing_band": "none",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The Lord of the 2nd house is positioned in the 6th house (Ari Bhava)",
+        "The Lord of the 2nd house is conjunct a benefic planet"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "6"
+      ],
+      "planets": [
+        "2nd_lord",
+        "Benefics"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When the lord of wealth (2nd house) is placed in the house of conflict and enemies (6th house) along with a benefic planet, it forms Satramooladdhana Yoga. The outcome is financial gain and legal victory achieved directly through overcoming enemies and adversaries.",
+      "mode": "legal_victory",
+      "quality": "supportive",
+      "confidence": 0.95
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.95
+    },
+    "status": "active",
+    "notes": "A classical wealth-producing yoga that specifically guarantees positive outcomes from litigation and adversarial situations."
+  },
+  {
+    "rule_id": "nirayana_chandra_mangala_7th_prolonged_litigation",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "173",
+      "quote": "Bhava 7: Profitable, but emotional volatility in marriage & contractual relationships. Chandra-Mangala yoga here gives financial benefit through making agreements which have to be re-negotiated frequently. Good for attorney or litigator. Special dignity and added income from business in making contracts & agreements, marriage, partnerships, and alliances, weighing and balancing.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "prolonged_litigation",
+      "legal_victory"
+    ],
+    "rule_type": "yoga",
+    "timing_band": "none",
+    "polarity": "mixed",
+    "conditions": {
+      "all_of": [
+        "The Moon (Chandra) is positioned in the 7th house",
+        "Mars (Mangala) is positioned in the 7th house",
+        "The Moon and Mars are conjunct (Chandra-Mangala Yoga)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "7"
+      ],
+      "planets": [
+        "Moon",
+        "Mars"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The conjunction of the Moon and Mars in the 7th house guarantees financial profit through contracts, but guarantees emotional volatility. The outcome is prolonged litigation and frequently re-negotiated legal agreements, making it an excellent placement for a professional litigator who profits from ongoing legal battles.",
+      "mode": "prolonged_litigation",
+      "quality": "mixed",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.85
+    },
+    "status": "active",
+    "notes": "A double-edged sword: highly profitable but ensures legal conflicts drag on and require constant re-litigation."
+  },
+  {
+    "rule_id": "nirayana_6th_house_weakness_legal_damage",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "66",
+      "quote": "Professionals with strong 6th bhava markers may profit considerably from handling the negative materials of conflict/imbalance... However those same professionals must walk the line between serving victims and becoming a victim. L-6 and any occupants of Ripu Bhava must have dignity to ensure ethical results.",
+      "translation": null
+    },
+    "domain": "litigation",
+    "event_family": "litigation_and_legal_conflict",
+    "event_subtype": [
+      "public_legal_damage",
+      "repeated_legal_conflict"
+    ],
+    "rule_type": "planetary_dignity",
+    "timing_band": "none",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "The Lord of the 6th house lacks dignity (is debilitated, combust, or heavily afflicted by enemies)",
+        "Occupants of the 6th house lack dignity"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [],
+      "houses": [
+        "6"
+      ],
+      "planets": [
+        "6th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "While a strong 6th house allows one to manage conflict, a poorly dignified 6th lord or weak planets in the 6th house cause the native to fall onto the wrong side of the line. The outcome is becoming a victim of exploitation, enduring public legal damage, and facing unethical repeated legal conflicts.",
+      "mode": "public_legal_damage",
+      "quality": "challenging",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.9
+    },
+    "status": "active",
+    "notes": "Distinguishes between a native who manages litigation successfully versus one who is chronically victimized by the legal system."
+  }
+]

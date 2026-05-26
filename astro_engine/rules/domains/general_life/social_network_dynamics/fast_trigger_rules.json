@@ -1,0 +1,231 @@
+[
+  {
+    "rule_id": "fast_trigger_moon_mitra_tara_alliance",
+    "source_text": {
+      "work_name": "45 SARAVATOBHADRA CHAKRA IN ASTROLOGY K. Ilangovan",
+      "chapter": null,
+      "verse": null,
+      "page": "1-3",
+      "quote": "8th Nakshatra Mitra Financial gain & Success through friend... Planets The specific effects... Moon Pleasant happenings if strong and Vice-Versa",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "trigger_indicator": "alliance_formation",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The transit Moon is strong in dignity or aspect"
+      ],
+      "any_of": [
+        "Transit Moon passes exactly through the 8th Nakshatra (Mitra Tara) counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon"
+      ],
+      "houses": [],
+      "planets": [
+        "Moon"
+      ],
+      "nakshatra": [
+        "8th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Mitra_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The fast transit of a strong Moon over the 8th Nakshatra (Mitra Tara/Friend Star) from the birth moon triggers an exact daily window for pleasant happenings, alliance formation, and concrete success or financial gain acquired specifically through a friend.",
+      "mode": "alliance_formation",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A daily Nakshatra transit trigger using the Navatara/Sarvatobhadra Chakra system to pinpoint immediate support from social contacts."
+  },
+  {
+    "rule_id": "fast_trigger_moon_param_mitra_tara_elite",
+    "source_text": {
+      "work_name": "45 SARAVATOBHADRA CHAKRA IN ASTROLOGY K. Ilangovan",
+      "chapter": null,
+      "verse": null,
+      "page": "1-3",
+      "quote": "9th Nakshatra Param Mitra Financial gain & Success through very intimate friend... Planets The specific effects... Moon Pleasant happenings if strong",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "trigger_indicator": "elite_contact",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The transit Moon is strong in dignity or aspect"
+      ],
+      "any_of": [
+        "Transit Moon passes exactly through the 9th Nakshatra (Param Mitra Tara) counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon"
+      ],
+      "houses": [],
+      "planets": [
+        "Moon"
+      ],
+      "nakshatra": [
+        "9th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Param_Mitra_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The Moon's rapid transit over the 9th Nakshatra from birth (Param Mitra Tara/Great Friend Star) triggers sudden pleasant happenings, elite contacts, and significant success manifesting through very intimate friends or closely allied patrons.",
+      "mode": "elite_contact",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Pinpoints the exact day a profound networking opportunity or favor from a very close ally occurs."
+  },
+  {
+    "rule_id": "fast_trigger_moon_16_to_18_nakshatra_betrayal",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "36",
+      "page": null,
+      "quote": "The Moons's transit Distribution amongst limbs Effects... (f) 16th, 17th. 18th - left hand quarrels",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "trigger_indicator": "betrayal_event",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Moon passes exactly through the 16th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 17th Nakshatra counted from the natal Janma Nakshatra",
+        "Transit Moon passes exactly through the 18th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Moon"
+      ],
+      "houses": [],
+      "planets": [
+        "Moon"
+      ],
+      "nakshatra": [
+        "16th_from_Moon",
+        "17th_from_Moon",
+        "18th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Using the Anga Gochara (Limb Transit) system, when the fast-moving Moon transits the 16th, 17th, or 18th Nakshatra from the birth star (symbolizing the 'left hand'), it acts as a highly sensitive trigger for interpersonal quarrels, sudden social fallout, and potential betrayal events.",
+      "mode": "betrayal_event",
+      "quality": "challenging",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "An exact daily indicator for interpersonal turbulence or breaking of alliances."
+  },
+  {
+    "rule_id": "fast_trigger_mars_3_to_8_nakshatra_social_conflict",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "37-38",
+      "page": null,
+      "quote": "Mars' transit Distribution amongst limbs Effects... (b) 3rd, 4th, 5th, 6th, 7th, 8th - two feet quarrels",
+      "translation": null
+    },
+    "domain": "social_networks",
+    "event_family": "social_network_dynamics",
+    "trigger_indicator": "network_shift",
+    "rule_type": "fast_trigger",
+    "timing_band": "exact",
+    "polarity": "challenging",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Mars passes exactly through the 3rd, 4th, 5th, 6th, 7th, or 8th Nakshatra counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Mars"
+      ],
+      "houses": [],
+      "planets": [
+        "Mars"
+      ],
+      "nakshatra": [
+        "3rd_from_Moon",
+        "4th_from_Moon",
+        "5th_from_Moon",
+        "6th_from_Moon",
+        "7th_from_Moon",
+        "8th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "When Mars transits the cluster of the 3rd through 8th Nakshatras from the birth star (representing the 'two feet' in Anga Gochara), its aggressive energy triggers sharp, fast-moving quarrels, network shifts, and severe social friction requiring the native to actively defend their position.",
+      "mode": "network_shift",
+      "quality": "challenging",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.0,
+      "fast_trigger_weight": 1.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Mars acts as a detonator here, converting underlying social tensions into open conflict and active network restructuring."
+  }
+]

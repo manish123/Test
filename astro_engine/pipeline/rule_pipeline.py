@@ -52,6 +52,16 @@ from rules.personality_engine import build_personality_profile
 from rules.argala import compute_argala_score
 from rules.arudha import compute_arudha_pada
 
+# ── Shared tara scoring (Phase 1 refactor — was duplicated from main.py) ──────
+from rules.evaluator_base import (
+    TARA_SCORES, PLANET_WEIGHTS,
+    PANCHANG_RISK_WEIGHT, TRADING_EVENT_BOOST, NON_TRADING_EVENT_MULTIPLIER,
+    get_tara as _get_tara_base,
+    calculate_tara_score as _calculate_tara_score_base,
+    get_trade_decision as _get_trade_decision_base,
+    load_scoring_profile, get_profile_confidence_params,
+)
+
 from features.rahu_ketu import (
     detect_kala_sarpa,
     get_node_aspect_houses,
@@ -64,65 +74,15 @@ from decisions.trading_gate import TRADING_FOCUSED_EVENTS
 
 from astronomy.utils import normalize_lon
 
-
-# ═══════════════════════════════════════════════════════════════
-# TARA SCORING (replicated from main.py)
-# ═══════════════════════════════════════════════════════════════
-
-TARA_SCORES = {1: -1, 2: 2, 3: -2, 4: 1.5, 5: -1.5, 6: 2, 7: -3, 8: 1, 9: 2}
-
-PLANET_WEIGHTS = {
-    "Moon": 3, "Mercury": 2.5, "Jupiter": 2, "Saturn": 2,
-    "Mars": 1.5, "Venus": 1, "Sun": 1,
-}
-
-PANCHANG_RISK_WEIGHT = 0.5
-TRADING_EVENT_BOOST = 1.15
-NON_TRADING_EVENT_MULTIPLIER = 0.35
-
-
+# Local aliases preserve the private-prefixed names used throughout this file
 def _get_tara(janma, transit):
-    j = nakshatra_list.index(janma)
-    t = nakshatra_list.index(transit)
-    count = (t - j) % 27 + 1
-    tara = count % 9
-    return 9 if tara == 0 else tara
-
+    return _get_tara_base(janma, transit)
 
 def _calculate_tara_score(janma_nak, pdata):
-    score = 0
-    for p in PLANET_WEIGHTS:
-        nak = pdata[p]["nakshatra"]
-        tara = _get_tara(janma_nak, nak)
-        score += TARA_SCORES[tara] * PLANET_WEIGHTS[p]
-    return round(score, 2)
-
+    return _calculate_tara_score_base(janma_nak, pdata)
 
 def _get_trade_decision(pdata):
-    m = pdata["Moon"]["nakshatra"]
-    s = pdata["Sun"]["nakshatra"]
-    v = pdata["Venus"]["nakshatra"]
-    mars = pdata["Mars"]["nakshatra"]
-
-    if m in ["Vishakha", "Rohini", "Pushya", "Anuradha", "Uttara Ashadha"]:
-        return "TRADE HEAVILY", f"Moon in {m}"
-    if s == "Krittika":
-        return "TRADE HEAVILY", "Sun in Krittika"
-    if v in ["Krittika", "Shravana"]:
-        return "TRADE HEAVILY", f"Venus in {v}"
-    if m in ["Dhanishta", "Mrigashira", "Ashlesha", "Jyeshtha", "Shravana",
-             "Ashwini", "Magha", "Mula", "Bharani", "Purva Phalguni",
-             "Purva Ashadha", "Ardra", "Shatabhisha", "Purva Bhadrapada", "Krittika"]:
-        return "DO NOT TRADE", f"Moon in {m}"
-    if mars == "Dhanishta":
-        return "DO NOT TRADE", "Mars in Dhanishta"
-    if v in ["Rohini", "Shatabhisha"]:
-        return "DO NOT TRADE", f"Venus in {v}"
-    if s in ["Rohini", "Dhanishta"]:
-        return "DO NOT TRADE", f"Sun in {s}"
-    if m in ["Chitra", "Revati", "Uttara Bhadrapada", "Swati"]:
-        return "NEUTRAL", f"Moon in {m}"
-    return "NEUTRAL", "No rule triggered"
+    return _get_trade_decision_base(pdata)
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -142,6 +102,16 @@ def run_rules(feature: FeatureResult, birth_data: dict, eval_date, config: dict 
     allow_adult_insights = config.get("allow_adult_insights", False)
     use_trading_event_filter = config.get("use_trading_event_filter", False)
     use_nakshatra_rulebook_bias = config.get("use_nakshatra_rulebook_bias", False)
+
+    # ── Scoring profile (Phase 9) ────────────────────────────────────────────
+    # Resolve which domain profile to use. Trading path uses trading.yaml;
+    # all other paths use general_life (or a domain-specific profile if specified).
+    _scoring_domain = config.get("scoring_domain", "trading" if use_trading_event_filter else "general_life")
+    _scoring_profile = load_scoring_profile(_scoring_domain)
+    _use_nakshatra_overlay = bool(
+        _scoring_profile
+        and _scoring_profile.get("nakshatra_adjustment", {}).get("source") != "canonical_tara_only"
+    )
 
     # ── Convert PlanetFeatures to mutable dicts ───────────────────────────────
     planets = []
@@ -265,7 +235,12 @@ def run_rules(feature: FeatureResult, birth_data: dict, eval_date, config: dict 
     tara_remainder = _get_tara(janma_nak, moon_nak)
 
     # ── Nakshatra adjustment ──────────────────────────────────────────────────
-    factor = nakshatra_adjustment(moon_nak)
+    # Only apply empirical GOOD/BAD nakshatra overlay when the scoring profile
+    # has nakshatra lists (trading). Non-trading profiles use canonical tara only.
+    if _use_nakshatra_overlay:
+        factor = nakshatra_adjustment(moon_nak)
+    else:
+        factor = 1.0  # No empirical overlay for non-trading paths
     for event_name in event_scores:
         event_scores[event_name] *= factor
 
@@ -436,12 +411,18 @@ def run_rules(feature: FeatureResult, birth_data: dict, eval_date, config: dict 
     )
 
     # ── Trading event filter ──────────────────────────────────────────────────
+    # Only active when explicitly enabled AND the scoring profile is trading.
     if use_trading_event_filter:
+        _boost = TRADING_EVENT_BOOST
+        _damp = NON_TRADING_EVENT_MULTIPLIER
+        if _scoring_profile and _scoring_profile.get("event_filter", {}).get("enabled"):
+            _boost = _scoring_profile["event_filter"].get("trading_event_boost", TRADING_EVENT_BOOST)
+            _damp = _scoring_profile["event_filter"].get("non_trading_event_multiplier", NON_TRADING_EVENT_MULTIPLIER)
         event_scores = {
             event_name: (
-                score * TRADING_EVENT_BOOST
+                score * _boost
                 if event_name.lower() in TRADING_FOCUSED_EVENTS
-                else score * NON_TRADING_EVENT_MULTIPLIER
+                else score * _damp
             )
             for event_name, score in event_scores.items()
         }

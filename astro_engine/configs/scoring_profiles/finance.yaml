@@ -1,0 +1,55 @@
+# Finance Domain Scoring Profile — v3.0.0
+# Optimized for: wealth accumulation, property, financial stability
+version: "3.0.0"
+domain: "finance"
+status: "active"
+
+confidence:
+  base_components:
+    event_strength_cap: 80
+    yoga_cap: 25
+    dasha_cap: 35
+  risk_penalty:
+    factor: 0.13
+    cap: 36
+    high_risk_threshold: 125
+    high_risk_extra: 8
+  promise_multipliers:
+    weak: 0.65
+    moderate: 1.0
+    strong: 1.1
+  kakshya_multiplier:
+    active: 1.0
+    inactive: 0.75
+  adjustments:
+    yogini_factor: true
+    sandhi_multiplier: true
+    chara_sandhi_factor: 0.92
+    tara_confidence_boost_factor: 2.5
+    rulebook_confidence_factor: 0.0
+    kakshya_bonus: 8
+
+thresholds:
+  very_high: 55
+  high: 40
+  moderate: 25
+  low: 15
+
+layer_weights:
+  dasha_weight: 0.30
+  transit_weight: 0.35
+  fast_trigger_weight: 0.20
+  classical_weight: 0.15
+
+event_filter:
+  enabled: false
+
+trading_gate:
+  enabled: false
+
+nakshatra_adjustment:
+  source: "canonical_tara_only"
+  good: []
+  bad: []
+  good_factor: 1.0
+  bad_factor: 1.0

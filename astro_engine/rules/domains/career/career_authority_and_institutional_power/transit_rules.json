@@ -1,0 +1,293 @@
+[
+  {
+    "rule_id": "transit_10th_lord_upachaya_promotion",
+    "source_text": {
+      "work_name": "Importance of TRANSIT Astrology",
+      "chapter": null,
+      "verse": null,
+      "page": "6",
+      "quote": "10th lord 3,6,10,11 bhavas Promotion in job",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "promotion"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "The transiting 10th Lord passes through the 3rd, 6th, 10th, or 11th house from the Ascendant or natal Moon"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "10th_lord"
+      ],
+      "houses": [
+        "3",
+        "6",
+        "10",
+        "11"
+      ],
+      "planets": [
+        "10th_lord"
+      ],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "The transit of the natal 10th lord through the Upachaya houses (houses of effort and growth: 3rd, 6th, 10th, and 11th) acts as a highly supportive timing window for receiving a job promotion, assuming management control, and advancing in organizational rank.",
+      "mode": "promotion",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Upachaya transits of the karma lord consistently dictate professional expansion and structural promotion."
+  },
+  {
+    "rule_id": "transit_benefics_karma_tara_success",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Karma 10th Star... Dictates professional changes, promotions, or job shifts. Transits of Saturn, Rahu, or Ketu over this star trigger immediate job disruptions. Benefics transiting here bring success.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "promotion",
+      "management_control"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "A benefic transiting planet (such as Jupiter or Venus) passes exactly over the 10th Nakshatra (Karma Tara) counted from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Venus"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "10th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Karma_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The 10th Nakshatra from the birth star is the Karma Tara, which specifically governs professional actions and status. The transit of major benefic planets over this coordinate triggers career success, structural promotions, and highly positive job shifts.",
+      "mode": "promotion",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "A powerful Navatara/Tara Chakra transit principle specifically isolating the activation of professional ascendance."
+  },
+  {
+    "rule_id": "transit_abhishek_tara_honors",
+    "source_text": {
+      "work_name": "Nakshatras as Celestial Blueprints: An Analytical Study of Lunar Mansions in Predicting Major Life Events",
+      "chapter": null,
+      "verse": null,
+      "page": null,
+      "quote": "Abhishek 28th Star... Triggers honors, promotions, social recognition, and professional freedom.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "institutional_recognition",
+      "authority_expansion"
+    ],
+    "rule_type": "transit",
+    "timing_band": "narrow",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "An activating transiting planet passes over the 28th Nakshatra (Abhishek Tara) counted from the natal Janma Nakshatra"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Sun",
+        "Saturn"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "28th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": [
+        "Abhishek_Tara"
+      ]
+    },
+    "interpretation": {
+      "meaning": "The Abhishek (Coronation) Tara is the 28th star sequence from the natal moon. Transits of slow-moving or authority-giving planets over this extremely sensitive coordinate confer profound honors, promotions, and significant institutional recognition, effectively 'crowning' the native in their field.",
+      "mode": "institutional_recognition",
+      "quality": "supportive",
+      "confidence": 0.9
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.9,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Specific 28-nakshatra scheme trigger utilized for timing coronation, awards, and extreme executive elevation."
+  },
+  {
+    "rule_id": "transit_auspicious_10th_house_recognition",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": null,
+      "verse": null,
+      "page": "92",
+      "quote": "Even when the 10th house is not itself distinguished, mahadasha of L10 or auspicious transits through karma bhava can bring social recognition for achievements. A strong 10th at birth shows natural ambition to achieve leadership status, but ambition can also temporarily increase with positive dasha or transits as above.",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "institutional_recognition",
+      "leadership_role"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [
+        "Auspicious or benefic transiting planets (such as Jupiter or the Sun) pass through the 10th house (Karma Bhava)"
+      ],
+      "any_of": [],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Sun"
+      ],
+      "houses": [
+        "10"
+      ],
+      "planets": [],
+      "nakshatra": [],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Regardless of the natal dignity of the 10th house, when auspicious transiting planets cross the midheaven (10th house), they trigger a temporary but potent window of social recognition, leadership ambition, and public validation of professional achievements.",
+      "mode": "institutional_recognition",
+      "quality": "supportive",
+      "confidence": 0.85
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.85,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "Core transit principle for activating the Karma Bhava to enhance public status and executive visibility."
+  },
+  {
+    "rule_id": "transit_benefics_feet_nakshatras_honor",
+    "source_text": {
+      "work_name": "Phaladeepika",
+      "chapter": "26",
+      "verse": "39-40",
+      "page": null,
+      "quote": "The transits of Mercury, Jupiter and Venus Distribution amongst limbs Effects... (f) 20th, 21st, 22nd, 23rd, 24th, 25th, 26th 27th two feet honour and gain of reputation",
+      "translation": null
+    },
+    "domain": "career",
+    "event_family": "career_authority_and_institutional_power",
+    "event_subtype": [
+      "executive_visibility",
+      "institutional_recognition"
+    ],
+    "rule_type": "transit",
+    "timing_band": "medium",
+    "polarity": "supportive",
+    "conditions": {
+      "all_of": [],
+      "any_of": [
+        "Transit Jupiter passes through any of the 20th to 27th Nakshatras counted from the natal Janma Nakshatra",
+        "Transit Venus passes through any of the 20th to 27th Nakshatras counted from the natal Janma Nakshatra"
+      ],
+      "none_of": []
+    },
+    "signals": {
+      "dasha": [],
+      "transit": [
+        "Jupiter",
+        "Venus"
+      ],
+      "houses": [],
+      "planets": [],
+      "nakshatra": [
+        "20th_from_Moon",
+        "21st_from_Moon",
+        "22nd_from_Moon",
+        "23rd_from_Moon",
+        "24th_from_Moon",
+        "25th_from_Moon",
+        "26th_from_Moon",
+        "27th_from_Moon"
+      ],
+      "d9": [],
+      "sensitive_points": []
+    },
+    "interpretation": {
+      "meaning": "Using the Anga Gochara (Limb Transit) system, when major benefics like Jupiter or Venus transit the final sequence of Nakshatras (20th through 27th) from the birth star, it activates a sustained period of rising honor, executive visibility, and wide public reputation.",
+      "mode": "executive_visibility",
+      "quality": "supportive",
+      "confidence": 0.8
+    },
+    "weights": {
+      "dasha_weight": 0.0,
+      "transit_weight": 0.8,
+      "fast_trigger_weight": 0.0,
+      "classical_weight": 0.0
+    },
+    "status": "active",
+    "notes": "An Anga Gochara rule mapping prolonged benefic transits to the accumulation of status and structural respect."
+  }
+]
