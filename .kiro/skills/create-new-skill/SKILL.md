@@ -1,3 +1,7 @@
+---
+name: create-new-skill
+description: Guidelines for creating reusable skills from coding insights and patterns discovered during development.
+---
 # create-new-skill
 
 Guidelines for creating reusable skills from coding insights and patterns discovered during development.

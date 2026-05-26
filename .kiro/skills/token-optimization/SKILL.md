@@ -1,3 +1,7 @@
+---
+name: token-optimization
+description: Guide for managing token budgets effectively in AI agent workflows to optimize performance and cost.
+---
 # token-optimization
 
 Guide for managing token budgets effectively in AI agent workflows to optimize performance and cost.

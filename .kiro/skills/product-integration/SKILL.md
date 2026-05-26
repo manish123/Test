@@ -1,3 +1,7 @@
+---
+name: product-integration
+description: Framework for seamlessly integrating external systems, APIs, and services into your product while maintaining testability and flexibility.
+---
 # product-integration
 
 Framework for seamlessly integrating external systems, APIs, and services into your product while maintaining testability and flexibility.

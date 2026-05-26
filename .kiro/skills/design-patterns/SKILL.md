@@ -1,3 +1,7 @@
+---
+name: design-patterns
+description: Reusable architectural patterns that solve common problems while keeping code maintainable and testable.
+---
 # design-patterns
 
 Reusable architectural patterns that solve common problems while keeping code maintainable and testable.

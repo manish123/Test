@@ -1,3 +1,7 @@
+---
+name: self-learning
+description: Framework for AI agents to discover, document, and reuse effective patterns during development.
+---
 # self-learning
 
 Framework for AI agents to discover, document, and reuse effective patterns during development.

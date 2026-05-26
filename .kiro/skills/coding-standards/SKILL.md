@@ -1,3 +1,7 @@
+---
+name: coding-standards
+description: Code style conventions that make your codebase AI-friendly, maintainable, and self-documenting.
+---
 # coding-standards
 
 Code style conventions that make your codebase AI-friendly, maintainable, and self-documenting.

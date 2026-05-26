@@ -1,3 +1,7 @@
+---
+name: technology-agnostic-framework
+description: Universal project structure and setup that works with any programming language, framework, or technology stack while enabling progressive technology selection.
+---
 # technology-agnostic-framework
 
 Universal project structure and setup that works with any programming language, framework, or technology stack while enabling progressive technology selection.
