@@ -25,6 +25,7 @@ from rules.evaluator_base import (
     JUPITER_ASPECTS, SATURN_ASPECTS, MARS_ASPECTS,
     BaseChartState, BaseTransitState,
     load_calibration,
+    load_scoring_profile,
 )
 
 # ═══════════════════════════════════════════════════════════════
@@ -54,6 +55,19 @@ CALIBRATION = load_calibration(
         },
     },
 )
+
+# ── Scoring profile (v3.0.0) ──────────────────────────────────
+_SCORING_PROFILE = load_scoring_profile("finance")
+if _SCORING_PROFILE:
+    # Override calibration thresholds/weights with profile values
+    if "likelihood_thresholds" in _SCORING_PROFILE.get("thresholds", {}).__class__.__name__ == "NoneType" or True:
+        _profile_thresholds = _SCORING_PROFILE.get("thresholds")
+        if _profile_thresholds:
+            CALIBRATION["likelihood_thresholds"] = _profile_thresholds
+        _profile_weights = _SCORING_PROFILE.get("layer_weights")
+        if _profile_weights:
+            CALIBRATION["layer_weights"] = _profile_weights
+
 
 
 # ═══════════════════════════════════════════════════════════════

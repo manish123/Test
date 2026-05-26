@@ -28,6 +28,7 @@ from rules.evaluator_base import (
     NATURAL_BENEFICS, NATURAL_MALEFICS,
     JUPITER_ASPECTS, SATURN_ASPECTS, MARS_ASPECTS,
     BaseChartState, BaseTransitState,
+    load_scoring_profile,
 )
 
 # ═══════════════════════════════════════════════════════════════
@@ -89,6 +90,10 @@ def _load_calibration():
 
 
 CALIBRATION = _load_calibration()
+
+# ── Scoring profile (v3.0.0) ──────────────────────────────────
+_SCORING_PROFILE = load_scoring_profile("finance")
+
 
 
 

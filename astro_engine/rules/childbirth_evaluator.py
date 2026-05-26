@@ -19,6 +19,7 @@ from rules.marriage_evaluator import (
     NATURAL_BENEFICS, NATURAL_MALEFICS, BENEFIC_HOUSES, MALEFIC_HOUSES,
     IST_OFFSET, ist_to_utc, get_jd, NAKSHATRA_LORDS,
 )
+from rules.evaluator_base import load_scoring_profile
 from features.dasha import _generate_md_periods, _generate_ad_periods
 from features.dignity import SIGN_LORDS, get_sign
 
@@ -52,6 +53,10 @@ def _load_childbirth_calibration():
         }
 
 CALIBRATION = _load_childbirth_calibration()
+
+# ── Scoring profile (v3.0.0) ──────────────────────────────────
+_SCORING_PROFILE = load_scoring_profile("relationship")
+
 
 
 

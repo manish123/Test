@@ -19,6 +19,7 @@ from rules.evaluator_base import (
     NATURAL_BENEFICS, NATURAL_MALEFICS,
     BaseChartState, BaseTransitState,
     load_calibration,
+    load_scoring_profile,
 )
 
 RULES_DIR = Path(__file__).resolve().parent / "domains" / "general_life" / "creative_output_and_expression"
@@ -33,6 +34,19 @@ CALIBRATION = load_calibration(
         "likelihood_thresholds": {"very_high": 55, "high": 40, "moderate": 25, "low": 15},
     },
 )
+
+# ── Scoring profile (v3.0.0) ──────────────────────────────────
+_SCORING_PROFILE = load_scoring_profile("general_life")
+if _SCORING_PROFILE:
+    # Override calibration thresholds/weights with profile values
+    if "likelihood_thresholds" in _SCORING_PROFILE.get("thresholds", {}).__class__.__name__ == "NoneType" or True:
+        _profile_thresholds = _SCORING_PROFILE.get("thresholds")
+        if _profile_thresholds:
+            CALIBRATION["likelihood_thresholds"] = _profile_thresholds
+        _profile_weights = _SCORING_PROFILE.get("layer_weights")
+        if _profile_weights:
+            CALIBRATION["layer_weights"] = _profile_weights
+
 
 
 class ChartState(BaseChartState):
