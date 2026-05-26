@@ -1,0 +1,429 @@
+[
+  {
+    "archetype_id": "biz_arch_001",
+    "name": "The Captain of Industry (Hierarchical Conqueror)",
+    "category": "business_archetype",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": "Mars in the 12 Rashis",
+      "verse": "",
+      "quote": "Uchcha Kuja produces \u2018captains of industry'. Mangala in Makara is a competitive winner in hierarchical organizations. In any bhava, this yoga guarantees business success. Tightly planned & organized energy; controlled productive energetic pace, supports long-term achievement."
+    },
+    "core_signature": "Relentless, disciplined drive for supreme control and competitive dominance within large, structured corporate hierarchies.",
+    "planetary_drivers": [
+      "Mars (Mangala) exalted",
+      "Saturn (Shani) dispositor influence"
+    ],
+    "house_drivers": [
+      "10th House (Karma Bhava)"
+    ],
+    "behavioral_traits": [
+      "Tightly planned and highly organized",
+      "Starts work early and stays late",
+      "Learns rapidly from past mistakes",
+      "Exhibits a 'hunter's instinct' during negotiations",
+      "Asserts power through immense physical and mental vitality"
+    ],
+    "wealth_style": [
+      "Wealth generated through industrial monopolies, hard assets, and commanding market share",
+      "Long-term, sustainable wealth accumulation"
+    ],
+    "scaling_style": [
+      "Top-down structural expansion",
+      "Methodical and patient scaling",
+      "Absorption of competitors through brute-force market dominance"
+    ],
+    "leadership_style": [
+      "Authoritative, demanding, and uncompromising",
+      "Highly competitive",
+      "Directs from the top of the hierarchy"
+    ],
+    "risk_style": [
+      "Calculated and heavily mitigated",
+      "Prefers risks that can be out-worked or out-managed by sheer endurance"
+    ],
+    "partnership_style": [
+      "Transactional and utilitarian",
+      "Requires partners to fall in line with their strategic vision"
+    ],
+    "failure_modes": [
+      "Burnout from severe physical stress (especially joints/bones)",
+      "Alienation of employees due to ruthless expectations",
+      "Inability to pivot quickly due to rigid hierarchical systems"
+    ],
+    "modern_expression": [
+      "Corporate CEO",
+      "Manufacturing Mogul",
+      "Private Equity restructuring expert",
+      "Real Estate Developer"
+    ],
+    "suppression_factors": [
+      "Lack of clear hierarchical structure",
+      "Overly emotional or chaotic work environments"
+    ],
+    "amplification_factors": [
+      "Well-placed Saturn providing stamina",
+      "Tough, highly competitive market conditions"
+    ],
+    "related_archetypes": [
+      "biz_arch_004 (The Network Tycoon)"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "archetype_id": "biz_arch_002",
+    "name": "The Administrative Warrior (Information Hustler)",
+    "category": "business_archetype",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": "Mars in the 12 Rashis / 3rd House",
+      "verse": "",
+      "quote": "Administrative warrior: very productive in the world of meetings, conferences, schedules, reports... Uses their arsenal of information as defensive weaponry, to defend their path of self-advancement. Can become distinguished, successful operators in information-intensive domains."
+    },
+    "core_signature": "Aggressive mobilization of data, communication, and team dynamics to achieve commercial victory.",
+    "planetary_drivers": [
+      "Mars (Mangala) in Gemini",
+      "Mercury (Budha)"
+    ],
+    "house_drivers": [
+      "3rd House (Sahaja Bhava)"
+    ],
+    "behavioral_traits": [
+      "Compulsive planner and project manager",
+      "Fast, terse, and highly articulate in communication",
+      "Intolerant of slow or plodding colleagues",
+      "Builds relationships specifically for tactical leverage"
+    ],
+    "wealth_style": [
+      "High-velocity commercial transactions",
+      "Profit from sales, marketing, and media",
+      "Self-made wealth through daily, repetitive hustle"
+    ],
+    "scaling_style": [
+      "Horizontal expansion through aggressive networking",
+      "High-volume, fast-turnover business models",
+      "Scaling via media dominance and PR"
+    ],
+    "leadership_style": [
+      "Micromanager",
+      "Tactical team leader rather than visionary",
+      "Combative but agile"
+    ],
+    "risk_style": [
+      "High-speed tactical risks",
+      "Willingness to engage in corporate warfare via media or information leaks"
+    ],
+    "partnership_style": [
+      "Treats colleagues as 'team-mates' or 'troops'",
+      "Highly manipulative of social dynamics to secure advantage"
+    ],
+    "failure_modes": [
+      "Mental exhaustion and burnout",
+      "Alienating teams through abrasive or hyper-critical communication",
+      "Losing the 'big picture' by obsessing over micro-details"
+    ],
+    "modern_expression": [
+      "Digital Marketing Agency Founder",
+      "PR Crisis Manager",
+      "High-Frequency Trader",
+      "Tech Startup Growth Hacker"
+    ],
+    "suppression_factors": [
+      "Slow-moving bureaucratic environments",
+      "Lack of access to data or communication tools"
+    ],
+    "amplification_factors": [
+      "Fast-paced markets (e.g., tech, media, crypto)",
+      "Strong Mercurial dignity"
+    ],
+    "related_archetypes": [
+      "biz_arch_005 (The Diplomatic Negotiator)"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "archetype_id": "biz_arch_003",
+    "name": "The Crisis Capitalist (Conflict Monetizer)",
+    "category": "business_archetype",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": "6th House (Ari Bhava)",
+      "verse": "",
+      "quote": "Professionals with strong 6th bhava markers may profit considerably from handling the negative materials of conflict/imbalance, hatred/animosity, ignorance/bad choices, exploitation/victimhood, and illness/debt... L-6 brings instability, imbalance, indebtedness and conflict into the house where it resides. But house-6 itself can be very profitable for creative, intelligent people."
+    },
+    "core_signature": "Generating significant wealth by navigating, managing, or exploiting systemic human distress, debt, and conflict.",
+    "planetary_drivers": [
+      "Saturn (Shani)",
+      "Mars (Kuja)",
+      "Rahu (Node)"
+    ],
+    "house_drivers": [
+      "6th House (Ari Bhava)"
+    ],
+    "behavioral_traits": [
+      "Highly pragmatic and unsentimental",
+      "Thrives in environments of extreme stress or hostility",
+      "Ethically flexible (walks a thin line between serving victims and exploiting them)",
+      "Hyper-vigilant and heavily armored psychologically"
+    ],
+    "wealth_style": [
+      "Profits derived from loan interest, medical billing, legal settlements, and disaster recovery",
+      "Wealth generated by solving (or feeding) other people's emergencies"
+    ],
+    "scaling_style": [
+      "Counter-cyclical growth (grows when the broader market is crashing)",
+      "Scaling by acquiring distressed assets or consolidating debt"
+    ],
+    "leadership_style": [
+      "Crisis manager",
+      "Detached and clinically objective",
+      "Defensive and highly litigious"
+    ],
+    "risk_style": [
+      "Extremely comfortable with systemic risk and worst-case scenarios",
+      "Profits directly from the realization of risk (insurance models)"
+    ],
+    "partnership_style": [
+      "Mistrustful",
+      "Prefers legally ironclad, highly defensive contracts",
+      "Often deals with 'open enemies' rather than willing partners"
+    ],
+    "failure_modes": [
+      "Becoming the victim of the very exploitation they manage",
+      "Drowning in litigation or toxic debt",
+      "Severe psychosomatic illness from chronic stress exposure"
+    ],
+    "modern_expression": [
+      "Distressed Debt Investor",
+      "Litigation Attorney",
+      "Healthcare/Pharma Executive",
+      "Restructuring Consultant (Corporate Raider)"
+    ],
+    "suppression_factors": [
+      "Periods of extreme peace and economic stability",
+      "Weak 6th Lord dignity (causes them to become the victim rather than the manager)"
+    ],
+    "amplification_factors": [
+      "Economic recessions",
+      "High societal conflict or health crises"
+    ],
+    "related_archetypes": [],
+    "confidence": 0.92
+  },
+  {
+    "archetype_id": "biz_arch_004",
+    "name": "The Network Ecosystem Builder (Platform Tycoon)",
+    "category": "business_archetype",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": "11th House (Labha Bhava)",
+      "verse": "",
+      "quote": "Labha bhava/Aquarius rules acquaintances, social gatherings, agreements between friends, community activities, development work, and networks of all kinds (including electro-magnetic device networks like computer, telephone, internet, etc.)... Very profitable financially... Special dignity and added income for business in marketplace activities, buy-sell, community development, interconnections between linked networks of association."
+    },
+    "core_signature": "Accumulation of massive wealth through the creation, facilitation, and monetization of expansive human and technological networks.",
+    "planetary_drivers": [
+      "Saturn (Shani) in its futuristic aspect",
+      "Rahu (Node)",
+      "Jupiter (Guru)"
+    ],
+    "house_drivers": [
+      "11th House (Labha Bhava)",
+      "Aquarius (Kumbha)"
+    ],
+    "behavioral_traits": [
+      "Egalitarian but highly strategic",
+      "Understands complex systems and macro-trends",
+      "Sociable but emotionally detached from individuals (focuses on the collective)",
+      "Values connections and user acquisition above immediate unit economics"
+    ],
+    "wealth_style": [
+      "Exponential returns (VC style)",
+      "Platform fees, marketplace commissions, and network-effect monetization",
+      "Wealth drawn directly from the 'crowd'"
+    ],
+    "scaling_style": [
+      "Viral and exponential growth",
+      "Building platforms where others transact",
+      "Borderless, global expansion"
+    ],
+    "leadership_style": [
+      "Facilitator and community leader",
+      "Visionary systems architect",
+      "Decentralized management"
+    ],
+    "risk_style": [
+      "Tolerates high conceptual and technological risk",
+      "Willing to subsidize early adoption to capture market share"
+    ],
+    "partnership_style": [
+      "Builds vast 'webs' of associates rather than deep 1-on-1 partnerships",
+      "Values large-scale joint ventures and corporate integrations"
+    ],
+    "failure_modes": [
+      "Loss of core identity to the 'mob' or algorithm",
+      "Scandals involving data, privacy, or community trust",
+      "Network collapse due to rapid shift in public opinion"
+    ],
+    "modern_expression": [
+      "Social Media Founder",
+      "E-commerce Marketplace Creator",
+      "Venture Capitalist",
+      "Crypto/Web3 Architect"
+    ],
+    "suppression_factors": [
+      "Isolation",
+      "Hyper-localized or restricted markets"
+    ],
+    "amplification_factors": [
+      "Strong technological infrastructure",
+      "Mass cultural shifts toward globalization"
+    ],
+    "related_archetypes": [
+      "biz_arch_005 (The Speculative Genius)"
+    ],
+    "confidence": 0.94
+  },
+  {
+    "archetype_id": "biz_arch_005",
+    "name": "The Speculative Genius (Risk & Entertainment Entrepreneur)",
+    "category": "business_archetype",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": "5th House (Putra Bhava)",
+      "verse": "",
+      "quote": "Entrepreneur -- Gambling, Gaming, Casinos, Speculation, Investment Banking. Courtship and Romance, Amusements... If the rashi is supportive with good drishti, grows wealthy by market speculation & varieties of gambling. Creative, literary personality. Rational intelligence is much heightened. Loves amusements, luxuries, and praise."
+    },
+    "core_signature": "Monetizing brilliant creative intelligence, charismatic performance, and high-stakes financial speculation.",
+    "planetary_drivers": [
+      "Sun (Surya)",
+      "Venus (Shukra)",
+      "Rahu (Node)"
+    ],
+    "house_drivers": [
+      "5th House (Putra Bhava)",
+      "Leo (Simha)"
+    ],
+    "behavioral_traits": [
+      "Highly creative, theatrical, and expressive",
+      "Needs to be the center of attention (craves applause)",
+      "Intolerant of boring, repetitive corporate structures",
+      "Operates on intuition, 'genius' flashes, and grand visions"
+    ],
+    "wealth_style": [
+      "Royalties, intellectual property, and licensing",
+      "Windfalls from speculative trading, options, or crypto",
+      "Income from the entertainment and luxury sectors"
+    ],
+    "scaling_style": [
+      "Scales through personal branding, celebrity, and viral popularity",
+      "Hit-driven economics (one massive win pays for 100 losses)"
+    ],
+    "leadership_style": [
+      "Charismatic icon and role model",
+      "Inspires through creative genius rather than administrative management",
+      "Often acts like royalty"
+    ],
+    "risk_style": [
+      "Loves wild risk-taking and taboo-breaking (especially with Rahu)",
+      "Gambler's psychology; willing to bet it all on their own talent"
+    ],
+    "partnership_style": [
+      "Requires partners to act as 'fans' or administrative support",
+      "Prone to dramatic, highly romanticized but volatile business marriages"
+    ],
+    "failure_modes": [
+      "Catastrophic financial loss through arrogant over-speculation",
+      "Creative burnout (if Saturn suppresses)",
+      "Narcissism destroying professional relationships"
+    ],
+    "modern_expression": [
+      "Celebrity Entrepreneur (e.g., Fashion/Beauty lines)",
+      "Day Trader / Hedge Fund Manager",
+      "Film Producer / Showrunner",
+      "Game Developer"
+    ],
+    "suppression_factors": [
+      "Strict corporate compliance and bureaucratic environments",
+      "Saturnian demands for slow, plodding labor"
+    ],
+    "amplification_factors": [
+      "Bull markets",
+      "Cultural obsession with celebrity and entertainment"
+    ],
+    "related_archetypes": [
+      "biz_arch_004 (The Network Ecosystem Builder)"
+    ],
+    "confidence": 0.88
+  },
+  {
+    "archetype_id": "biz_arch_006",
+    "name": "The Diplomatic Negotiator (The Dealmaker)",
+    "category": "business_archetype",
+    "source_text": {
+      "work_name": "Predictive Astrology Through The Nirayana System",
+      "chapter": "Mercury in 10th House / 7th House",
+      "verse": "",
+      "quote": "Mercury makes you very social, intelligent, and amiable. Your demeanor is so flexible that every type of social group accepts you in its fold... You possess special expertise in the legal profession, economics, trade & commerce, business management & accounting. Your efficiency as a diplomat or negotiator will be pronounced."
+    },
+    "core_signature": "Generating commercial success through supreme social adaptability, contract negotiation, and brokering agreements.",
+    "planetary_drivers": [
+      "Mercury (Budha)",
+      "Venus (Shukra)"
+    ],
+    "house_drivers": [
+      "7th House (Kalatra Bhava)",
+      "10th House (Karma Bhava)",
+      "Libra (Tula)"
+    ],
+    "behavioral_traits": [
+      "Charming, polite, and amiable",
+      "Intellectually agile and objective",
+      "Mixes effortlessly with both high society and the working class",
+      "Seeks balance, equity, and the 'golden mean' in transactions"
+    ],
+    "wealth_style": [
+      "Commissions, brokerage fees, and agency models",
+      "Profits derived from trade, import/export, and facilitating exchanges",
+      "Steady wealth through legally sound partnerships"
+    ],
+    "scaling_style": [
+      "Scales by expanding their Rolodex and alliance network",
+      "Joint ventures and strategic mergers"
+    ],
+    "leadership_style": [
+      "Consensus-builder",
+      "Leads through persuasion, diplomacy, and legal framing rather than force"
+    ],
+    "risk_style": [
+      "Risk-averse; prefers to hedge bets",
+      "Uses ironclad contracts and negotiations to eliminate downside"
+    ],
+    "partnership_style": [
+      "The ultimate partner; excels in B2B relations",
+      "Treats marriage and business partnerships with the same legalistic reverence"
+    ],
+    "failure_modes": [
+      "Paralysis by analysis (inability to make a unilateral decision)",
+      "Over-compromising to avoid necessary conflict",
+      "Being outmaneuvered by purely ruthless competitors (Mars/Saturn types)"
+    ],
+    "modern_expression": [
+      "M&A Investment Banker",
+      "Corporate Diplomat / Lobbyist",
+      "Supply Chain / Import-Export Broker",
+      "High-end Real Estate Agent"
+    ],
+    "suppression_factors": [
+      "Highly isolated or combative 'zero-sum' industries",
+      "Lack of social mobility"
+    ],
+    "amplification_factors": [
+      "Globalized trade",
+      "Industries requiring complex B2B sales and partnerships"
+    ],
+    "related_archetypes": [
+      "biz_arch_002 (The Administrative Warrior)"
+    ],
+    "confidence": 0.91
+  }
+]

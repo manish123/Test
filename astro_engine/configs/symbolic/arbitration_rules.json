@@ -1,0 +1,172 @@
+[
+  {
+    "conflict_id": "arb_001",
+    "category": "arbitration_logic",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "3",
+      "verse": "57-58",
+      "quote": "Friendship on one count and neutrality on another count make them friendly. Enmity on one count combined with affinity on the other turns into equality. Enmity and neutralship cause only enmity. Should there be enmity in both manners, extreme enmity is obtained."
+    },
+    "conflicting_factors": [
+      "Natural Friendship (Naisargika Maitri)",
+      "Temporary Enmity (Tatkalika Shatruta)"
+    ],
+    "dominant_factor": "Mathematical Synthesis",
+    "subordinate_factor": "Individual Relationship Statuses",
+    "resolution_logic": "When a planet's permanent (natural) relationship conflicts with its temporary (positional) relationship towards another planet, astrology resolves this through a 'Compound Relationship' (Panchadha Maitri) calculus. Conflicting polarities (Friendship + Enmity) cancel each other out to create Neutrality/Equality.",
+    "suppression_effects": [
+      "Extreme positive or negative behaviors are suppressed into a neutral baseline when forces oppose."
+    ],
+    "amplification_effects": [
+      "Enmity + Enmity amplifies to 'Extreme Enmity' (Adhi Shatru)",
+      "Friendship + Friendship amplifies to 'Extreme Friendship' (Adhi Mitra)"
+    ],
+    "conditional_overrides": [],
+    "resulting_expression": "A neutralized, pragmatic working relationship between the planetary energies (Equality).",
+    "modern_interpretation": "Algebraic synthesis of opposing behavioral drives. When a person's core nature conflicts with their situational environment, the resulting behavior is a compromised, neutral middle ground rather than an extreme expression.",
+    "confidence": 0.95
+  },
+  {
+    "conflict_id": "arb_002",
+    "category": "arbitration_logic",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "74",
+      "verse": "14 (Notes Section)",
+      "quote": "If there are equal number of malefics and benefics, those with greater strength will influence the results of that house. Mixed results should be declared if there be no difference in the streangth of malefics and benefics."
+    },
+    "conflicting_factors": [
+      "Equal Benefic Occupation/Aspect",
+      "Equal Malefic Occupation/Aspect"
+    ],
+    "dominant_factor": "Quantitative Planetary Strength (Shadbala)",
+    "subordinate_factor": "Natural Benefic/Malefic Status",
+    "resolution_logic": "When a house receives a perfectly balanced amount of positive (benefic) and negative (malefic) influences, qualitative assessment is abandoned in favor of quantitative strength. The planet with higher mathematical strength dictates the final outcome. If strengths are exactly tied, the outcome remains 'mixed'.",
+    "suppression_effects": [
+      "The weaker planet's agenda is suppressed by the stronger planet's agenda, regardless of whether it is benefic or malefic."
+    ],
+    "amplification_effects": [],
+    "conditional_overrides": [
+      "Strength (Bala) overrides natural planetary temperament in dead-tie situations."
+    ],
+    "resulting_expression": "Victory of the quantitatively stronger energy, or a highly volatile mixed outcome if strengths are perfectly matched.",
+    "modern_interpretation": "Resource-based dominance. In a corporate or psychological deadlock where positive and negative forces are equal, the side with the most raw energy, capital, or endurance (Shadbala) wins the conflict.",
+    "confidence": 0.98
+  },
+  {
+    "conflict_id": "arb_003",
+    "category": "arbitration_logic",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Dasa Effects",
+      "verse": "4-10",
+      "quote": "If a Dasa rasi owned by a benefic, is occupied by a malefic, favourable effects will be experienced in the first part of the Dasa and they will be adverse in the latter part. A Dasa rasi owned and occupied by a malefic will always yield infavourable results."
+    },
+    "conflicting_factors": [
+      "Sign Dispositor (Lord of the House) is Benefic",
+      "Occupant of the Sign is Malefic"
+    ],
+    "dominant_factor": "Occupant (Latter Half)",
+    "subordinate_factor": "Lord/Dispositor (First Half)",
+    "resolution_logic": "When the foundational ruler of a sign and the actual occupant of that sign have conflicting temperaments (Benefic vs. Malefic), the conflict is resolved chronologically rather than simultaneously. The innate nature of the house lord manifests in the first half of the time period, while the occupant takes over in the second half.",
+    "suppression_effects": [
+      "The malefic occupant is suppressed during the first half of the period.",
+      "The benefic lord is suppressed during the second half of the period."
+    ],
+    "amplification_effects": [],
+    "conditional_overrides": [
+      "Temporal Splitting (Time-based segregation of conflicting energies)."
+    ],
+    "resulting_expression": "A starkly divided life chapter: initial success and smoothness followed by sudden adversity (or vice versa).",
+    "modern_interpretation": "Chronological compartmentalization. Instead of blending good and bad into a mediocre middle, the system experiences them sequentially\u2014like a hostile corporate takeover where the benevolent founder's influence fades and the ruthless new management takes over halfway through.",
+    "confidence": 0.94
+  },
+  {
+    "conflict_id": "arb_004",
+    "category": "arbitration_logic",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "79",
+      "verse": "9-10",
+      "quote": "There is planetary war if Mars, Mercury, Jupiter, Venus and Saturn are together (within one degree of each other), Venus is the conquerer whether he is in North or South, but amongst the other four only one, who is in the North, is the conquerer and that in the South is conquered... If the planet who leads the native to ascetism, is conquered in planetary war... the person will relinquish the holy order"
+    },
+    "conflicting_factors": [
+      "Planet A in exact conjunction (within 1 degree)",
+      "Planet B in exact conjunction (within 1 degree)"
+    ],
+    "dominant_factor": "Planet with Northern Declination / Higher Latitude (or Venus)",
+    "subordinate_factor": "Planet with Southern Declination / Lower Latitude",
+    "resolution_logic": "In Graha Yuddha (Planetary War), two energies fighting for the exact same spatial degree cannot coexist. The conflict is resolved purely by spatial elevation (the planet further North). The 'conquered' planet is stripped of its ability to manifest its agenda (e.g., losing its power to confer asceticism).",
+    "suppression_effects": [
+      "Total suppression and defeat of the southern planet's significations and yogas."
+    ],
+    "amplification_effects": [
+      "Complete dominance of the northern planet's agenda."
+    ],
+    "conditional_overrides": [
+      "Venus Exemption: Venus automatically wins any planetary war regardless of its spatial declination (North or South)."
+    ],
+    "resulting_expression": "The total hijacking of the defeated planet's energy by the victorious planet.",
+    "modern_interpretation": "Zero-sum resource competition. When two psychological drives or market forces compete for the exact same niche (1-degree conjunction), one must completely consume the other based on a hierarchical advantage (elevation/declination), with diplomacy/aesthetics (Venus) serving as an absolute trump card.",
+    "confidence": 0.97
+  },
+  {
+    "conflict_id": "arb_005",
+    "category": "arbitration_logic",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "31",
+      "verse": "11-17 (Notes)",
+      "quote": "If the benefic's Argala is obstructed by another, then the benefic will become ineffective in Argala and the first-mentioned malefic will operate freely. Argala can be by a malefic with reference to a benefic so that the native does not enjoy good effects due to the benefic."
+    },
+    "conflicting_factors": [
+      "Planet causing Argala (Intervening Influence)",
+      "Planet causing Virodha Argala (Obstructing Influence)"
+    ],
+    "dominant_factor": "Unobstructed Planet (or stronger obstructing planet)",
+    "subordinate_factor": "Obstructed Planet",
+    "resolution_logic": "Astrological intervention (Argala) can be blocked by a counter-intervention (Virodha Argala) in specific geometric houses. If a benefic tries to stop a malefic, but a third planet obstructs the benefic, the benefic's protective power is nullified, reverting the system back to the malefic's control.",
+    "suppression_effects": [
+      "A benefic's protective influence is completely neutralized by a strategically placed obstacle."
+    ],
+    "amplification_effects": [
+      "The original malefic energy is amplified/restored because its mitigating factor was removed."
+    ],
+    "conditional_overrides": [
+      "Geometric/Spatial Override: Obstruction only occurs from specific counter-houses (e.g., 12th obstructs 2nd, 10th obstructs 4th)."
+    ],
+    "resulting_expression": "A complex chain reaction where an apparent savior is handcuffed, allowing the initial crisis to proceed.",
+    "modern_interpretation": "Checks and balances failure. Similar to a legal injunction being overturned by a higher court, allowing the original hostile action to execute unimpeded.",
+    "confidence": 0.9
+  },
+  {
+    "conflict_id": "arb_006",
+    "category": "arbitration_logic",
+    "source_text": {
+      "work_name": "Brihat Parashara Hora Shastra",
+      "chapter": "Unknown (General Rules)",
+      "verse": "8-10",
+      "quote": "Mercury is neutral (i.e. a benefice when associated with a benefice and a malefic when related to a malefic)."
+    },
+    "conflicting_factors": [
+      "Mercury's innate neutrality/intellect",
+      "The inherent nature of Mercury's conjunct or aspecting partner"
+    ],
+    "dominant_factor": "The Associating Planet",
+    "subordinate_factor": "Mercury",
+    "resolution_logic": "When an innately neutral, adaptable planet (Mercury) comes into conflict or contact with a strongly polarized planet (Benefic or Malefic), Mercury resolves the conflict through complete assimilation. It abandons its neutrality and adopts the polarity of the dominant associating force.",
+    "suppression_effects": [
+      "Suppression of Mercury's independent, objective neutrality."
+    ],
+    "amplification_effects": [
+      "Amplification of the associating planet's malefic or benefic energy, as Mercury acts as a multiplier/mimic."
+    ],
+    "conditional_overrides": [
+      "Association Override: Proximity dictates fundamental nature."
+    ],
+    "resulting_expression": "Intellect (Mercury) weaponized for malefic purposes or utilized for benefic, constructive purposes depending entirely on its company.",
+    "modern_interpretation": "The Chameleon Effect. Pure logic or data (Mercury) has no inherent morality; when subjected to a highly polarized environment, it mutates to serve the agenda of the dominant environmental force.",
+    "confidence": 0.95
+  }
+]
