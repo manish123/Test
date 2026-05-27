@@ -1,0 +1,2172 @@
+{
+  "version": "2.0.0",
+  "total_required_files": 308,
+  "external_dependencies": [
+    "pyswisseph>=2.10",
+    "numpy>=1.24",
+    "pyyaml>=6.0",
+    "python-dateutil>=2.9"
+  ],
+  "optional_dependencies": [
+    "pandas>=2.0",
+    "julian>=0.14"
+  ],
+  "files": [
+    {
+      "path": "api_bridges/__init__.py",
+      "category": "required",
+      "purpose": "External API entry point",
+      "depends_on": "pipeline/, rules/symbolic/, rules/domains/",
+      "safe_to_move": true
+    },
+    {
+      "path": "api_bridges/personality_bridge.py",
+      "category": "required",
+      "purpose": "External API entry point",
+      "depends_on": "pipeline/, rules/symbolic/, rules/domains/",
+      "safe_to_move": true
+    },
+    {
+      "path": "api_bridges/timing_bridge.py",
+      "category": "required",
+      "purpose": "External API entry point",
+      "depends_on": "pipeline/, rules/symbolic/, rules/domains/",
+      "safe_to_move": true
+    },
+    {
+      "path": "astroenginev2_required_files.json",
+      "category": "required",
+      "purpose": "Support file",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "astronomy/__init__.py",
+      "category": "required",
+      "purpose": "Layer A \u2014 Ephemeris computation",
+      "depends_on": "pyswisseph, configs/v2.0.0.yaml",
+      "safe_to_move": true
+    },
+    {
+      "path": "astronomy/birth_data.py",
+      "category": "required",
+      "purpose": "Layer A \u2014 Ephemeris computation",
+      "depends_on": "pyswisseph, configs/v2.0.0.yaml",
+      "safe_to_move": true
+    },
+    {
+      "path": "astronomy/config.py",
+      "category": "required",
+      "purpose": "Layer A \u2014 Ephemeris computation",
+      "depends_on": "pyswisseph, configs/v2.0.0.yaml",
+      "safe_to_move": true
+    },
+    {
+      "path": "astronomy/engine_base.py",
+      "category": "required",
+      "purpose": "Layer A \u2014 Ephemeris computation",
+      "depends_on": "pyswisseph, configs/v2.0.0.yaml",
+      "safe_to_move": true
+    },
+    {
+      "path": "astronomy/ephemeris.py",
+      "category": "required",
+      "purpose": "Layer A \u2014 Ephemeris computation",
+      "depends_on": "pyswisseph, configs/v2.0.0.yaml",
+      "safe_to_move": true
+    },
+    {
+      "path": "astronomy/planets.py",
+      "category": "required",
+      "purpose": "Layer A \u2014 Ephemeris computation",
+      "depends_on": "pyswisseph, configs/v2.0.0.yaml",
+      "safe_to_move": true
+    },
+    {
+      "path": "astronomy/utils.py",
+      "category": "required",
+      "purpose": "Layer A \u2014 Ephemeris computation",
+      "depends_on": "pyswisseph, configs/v2.0.0.yaml",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/scoring_profiles/canonical.yaml",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/scoring_profiles/career.yaml",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/scoring_profiles/finance.yaml",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/scoring_profiles/general_life.yaml",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/scoring_profiles/health.yaml",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/scoring_profiles/relationship.yaml",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/scoring_profiles/spirituality.yaml",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/scoring_profiles/trading.yaml",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/symbolic/arbitration_rules.json",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/symbolic/business_archetypes.json",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/symbolic/causal_narratives.json",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/symbolic/lifecycle_transitions.json",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/symbolic/planetary_behaviors.json",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "configs/v2.0.0.yaml",
+      "category": "required",
+      "purpose": "Runtime configuration data",
+      "depends_on": "None (data files)",
+      "safe_to_move": true
+    },
+    {
+      "path": "contracts/__init__.py",
+      "category": "required",
+      "purpose": "Typed data contracts",
+      "depends_on": "None (dataclass definitions)",
+      "safe_to_move": true
+    },
+    {
+      "path": "contracts/astronomy_result.py",
+      "category": "required",
+      "purpose": "Typed data contracts",
+      "depends_on": "None (dataclass definitions)",
+      "safe_to_move": true
+    },
+    {
+      "path": "contracts/decision_result.py",
+      "category": "required",
+      "purpose": "Typed data contracts",
+      "depends_on": "None (dataclass definitions)",
+      "safe_to_move": true
+    },
+    {
+      "path": "contracts/engine_snapshot.py",
+      "category": "required",
+      "purpose": "Typed data contracts",
+      "depends_on": "None (dataclass definitions)",
+      "safe_to_move": true
+    },
+    {
+      "path": "contracts/feature_result.py",
+      "category": "required",
+      "purpose": "Typed data contracts",
+      "depends_on": "None (dataclass definitions)",
+      "safe_to_move": true
+    },
+    {
+      "path": "contracts/rule_result.py",
+      "category": "required",
+      "purpose": "Typed data contracts",
+      "depends_on": "None (dataclass definitions)",
+      "safe_to_move": true
+    },
+    {
+      "path": "contracts/symbolic_result.py",
+      "category": "required",
+      "purpose": "Typed data contracts",
+      "depends_on": "None (dataclass definitions)",
+      "safe_to_move": true
+    },
+    {
+      "path": "decisions/__init__.py",
+      "category": "required",
+      "purpose": "Layer D \u2014 Scoring and governance",
+      "depends_on": "rules/ output dicts",
+      "safe_to_move": true
+    },
+    {
+      "path": "decisions/confidence.py",
+      "category": "required",
+      "purpose": "Layer D \u2014 Scoring and governance",
+      "depends_on": "rules/ output dicts",
+      "safe_to_move": true
+    },
+    {
+      "path": "decisions/confidence_calibration.py",
+      "category": "required",
+      "purpose": "Layer D \u2014 Scoring and governance",
+      "depends_on": "rules/ output dicts",
+      "safe_to_move": true
+    },
+    {
+      "path": "decisions/decision_engine.py",
+      "category": "required",
+      "purpose": "Layer D \u2014 Scoring and governance",
+      "depends_on": "rules/ output dicts",
+      "safe_to_move": true
+    },
+    {
+      "path": "decisions/feedback.py",
+      "category": "required",
+      "purpose": "Layer D \u2014 Scoring and governance",
+      "depends_on": "rules/ output dicts",
+      "safe_to_move": true
+    },
+    {
+      "path": "decisions/normalization.py",
+      "category": "required",
+      "purpose": "Layer D \u2014 Scoring and governance",
+      "depends_on": "rules/ output dicts",
+      "safe_to_move": true
+    },
+    {
+      "path": "decisions/priority.py",
+      "category": "required",
+      "purpose": "Layer D \u2014 Scoring and governance",
+      "depends_on": "rules/ output dicts",
+      "safe_to_move": true
+    },
+    {
+      "path": "decisions/risk_engine.py",
+      "category": "required",
+      "purpose": "Layer D \u2014 Scoring and governance",
+      "depends_on": "rules/ output dicts",
+      "safe_to_move": true
+    },
+    {
+      "path": "decisions/trading_gate.py",
+      "category": "required",
+      "purpose": "Layer D \u2014 Scoring and governance",
+      "depends_on": "rules/ output dicts",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/__init__.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/ashtakavarga.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/chara_dasha.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/combustion.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/dasha.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/dignity.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/divisional.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/houses.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/nakshatra.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/panchang.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/planet_builder.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/planet_enrichment.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/planetary_calculator.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/planetary_positions.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/rahu_ketu.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/shadbala.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/time_decay.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/transit.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/vimsopaka.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "features/yogini.py",
+      "category": "required",
+      "purpose": "Layer B \u2014 Classical feature extraction",
+      "depends_on": "astronomy/",
+      "safe_to_move": true
+    },
+    {
+      "path": "main.py",
+      "category": "required",
+      "purpose": "Legacy monolithic entry point",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "orchestration/__init__.py",
+      "category": "required",
+      "purpose": "API payload builders",
+      "depends_on": "symbolic/, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "orchestration/career_api_adapter.py",
+      "category": "required",
+      "purpose": "API payload builders",
+      "depends_on": "symbolic/, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "orchestration/context_contracts.py",
+      "category": "required",
+      "purpose": "API payload builders",
+      "depends_on": "symbolic/, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "orchestration/context_router.py",
+      "category": "required",
+      "purpose": "API payload builders",
+      "depends_on": "symbolic/, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "orchestration/payload_builder.py",
+      "category": "required",
+      "purpose": "API payload builders",
+      "depends_on": "symbolic/, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "orchestration/personality_api_adapter.py",
+      "category": "required",
+      "purpose": "API payload builders",
+      "depends_on": "symbolic/, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "orchestration/prompt_sections.py",
+      "category": "required",
+      "purpose": "API payload builders",
+      "depends_on": "symbolic/, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "orchestration/timing_api_adapter.py",
+      "category": "required",
+      "purpose": "API payload builders",
+      "depends_on": "symbolic/, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "orchestration/token_budget.py",
+      "category": "required",
+      "purpose": "API payload builders",
+      "depends_on": "symbolic/, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "pipeline/__init__.py",
+      "category": "required",
+      "purpose": "Pipeline orchestration",
+      "depends_on": "astronomy/, features/, rules/, decisions/",
+      "safe_to_move": true
+    },
+    {
+      "path": "pipeline/astronomy_pipeline.py",
+      "category": "required",
+      "purpose": "Pipeline orchestration",
+      "depends_on": "astronomy/, features/, rules/, decisions/",
+      "safe_to_move": true
+    },
+    {
+      "path": "pipeline/decision_pipeline.py",
+      "category": "required",
+      "purpose": "Pipeline orchestration",
+      "depends_on": "astronomy/, features/, rules/, decisions/",
+      "safe_to_move": true
+    },
+    {
+      "path": "pipeline/feature_pipeline.py",
+      "category": "required",
+      "purpose": "Pipeline orchestration",
+      "depends_on": "astronomy/, features/, rules/, decisions/",
+      "safe_to_move": true
+    },
+    {
+      "path": "pipeline/rule_pipeline.py",
+      "category": "required",
+      "purpose": "Pipeline orchestration",
+      "depends_on": "astronomy/, features/, rules/, decisions/",
+      "safe_to_move": true
+    },
+    {
+      "path": "requirements.txt",
+      "category": "required",
+      "purpose": "Pip dependency list",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/__init__.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/activation_intelligence.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "rules/multi_evaluator_runner.py, rules/evaluator_base.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/argala.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/arudha.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/aspects.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/avastha.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/badhakesh.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/business_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/career_authority_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/career_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/childbirth_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/creative_output_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/base.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/business_launch/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/business_launch/business_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/business_launch/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/business_launch/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/business_launch/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/business_launch/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/business_launch/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/business_launch/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/business_launch/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/business/interpreter.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_authority_and_institutional_power/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_authority_and_institutional_power/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_authority_and_institutional_power/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_authority_and_institutional_power/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_authority_and_institutional_power/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_authority_and_institutional_power/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_authority_and_institutional_power/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_profession/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_profession/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_profession/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_profession/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_profession/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/career_profession/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/career/interpreter.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/childbirth/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/childbirth/childbirth_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/childbirth/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/childbirth/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/childbirth/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/childbirth/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/childbirth/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/parent_health_and_loss/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/parent_health_and_loss/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/parent_health_and_loss/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/parent_health_and_loss/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/parent_health_and_loss/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/parent_health_and_loss/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/parent_health_and_loss/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/parent_health_and_loss/parent_loss_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/family/parent_health_and_loss/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/ancestral_property_and_inheritance/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/ancestral_property_and_inheritance/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/ancestral_property_and_inheritance/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/ancestral_property_and_inheritance/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/ancestral_property_and_inheritance/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/ancestral_property_and_inheritance/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/ancestral_property_and_inheritance/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/ancestral_property_and_inheritance/property_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/ancestral_property_and_inheritance/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/financial_crisis_and_debt/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/financial_crisis_and_debt/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/financial_crisis_and_debt/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/financial_crisis_and_debt/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/financial_crisis_and_debt/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/financial_crisis_and_debt/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/financial_crisis_and_debt/financial_crisis_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/financial_crisis_and_debt/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/financial_crisis_and_debt/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/wealth_financial_gain_and_accumulation/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/wealth_financial_gain_and_accumulation/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/wealth_financial_gain_and_accumulation/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/wealth_financial_gain_and_accumulation/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/wealth_financial_gain_and_accumulation/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/wealth_financial_gain_and_accumulation/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/finance/wealth_financial_gain_and_accumulation/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/creative_output_and_expression/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/creative_output_and_expression/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/creative_output_and_expression/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/creative_output_and_expression/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/creative_output_and_expression/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/creative_output_and_expression/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/creative_output_and_expression/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/interpreter.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/litigation_and_legal_disputes/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/litigation_and_legal_disputes/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/litigation_and_legal_disputes/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/litigation_and_legal_disputes/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/litigation_and_legal_disputes/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/litigation_and_legal_disputes/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/litigation_and_legal_disputes/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/social_network_dynamics/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/social_network_dynamics/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/social_network_dynamics/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/social_network_dynamics/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/social_network_dynamics/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/social_network_dynamics/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/general_life/social_network_dynamics/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/health/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/health/interpreter.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/surgery_and_medical_events/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/surgery_and_medical_events/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/surgery_and_medical_events/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/surgery_and_medical_events/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/surgery_and_medical_events/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/surgery_and_medical_events/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/surgery_and_medical_events/medical_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/surgery_and_medical_events/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/medical/surgery_and_medical_events/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/property_purchase_and_house_acquisition/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/property_purchase_and_house_acquisition/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/property_purchase_and_house_acquisition/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/property_purchase_and_house_acquisition/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/property_purchase_and_house_acquisition/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/property_purchase_and_house_acquisition/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/property_purchase_and_house_acquisition/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/property_purchase_and_house_acquisition/property_purchase_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/property_purchase_and_house_acquisition/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/vehicle_purchase_and_vehicle_ownership/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/vehicle_purchase_and_vehicle_ownership/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/vehicle_purchase_and_vehicle_ownership/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/vehicle_purchase_and_vehicle_ownership/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/vehicle_purchase_and_vehicle_ownership/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/vehicle_purchase_and_vehicle_ownership/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/vehicle_purchase_and_vehicle_ownership/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/vehicle_purchase_and_vehicle_ownership/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/property/vehicle_purchase_and_vehicle_ownership/vehicle_purchase_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/registry.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/interpreter.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/marriage/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/marriage/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/marriage/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/marriage/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/marriage/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/marriage/marriage_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/marriage/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relationship/marriage/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_migration_and_settlement/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_migration_and_settlement/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_migration_and_settlement/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_migration_and_settlement/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_migration_and_settlement/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_migration_and_settlement/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_migration_and_settlement/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_settlement/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_settlement/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_settlement/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_settlement/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_settlement/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_settlement/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_settlement/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_settlement/relocation_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/relocation/foreign_settlement/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/spirituality/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/spirituality/interpreter.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/fame_and_public_recognition/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/fame_and_public_recognition/calibration_overlay.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/fame_and_public_recognition/calibration_schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/fame_and_public_recognition/classical_patterns.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/fame_and_public_recognition/dasha_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/fame_and_public_recognition/fame_rule.schema.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/fame_and_public_recognition/fast_trigger_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/fame_and_public_recognition/outcome_quality.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/status/fame_and_public_recognition/transit_rules.json",
+      "category": "required",
+      "purpose": "Domain rule data (JSON)",
+      "depends_on": "Loaded by evaluator_base.load_calibration()",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/trading/__init__.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/domains/trading/interpreter.py",
+      "category": "required",
+      "purpose": "Domain interpreter / init",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/evaluator_base.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "astronomy/, features/",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/event_engine.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/event_ontology.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/event_registry.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/fame_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/financial_crisis_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/foreign_migration_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/governance.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/graha_yuddha.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/kakshya.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/litigation_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/longevity.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/maraka.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/marriage_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/medical_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/moorthy.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/multi_evaluator_runner.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/multi_planet.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/nakshatra_weight.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/neechabhanga.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/parent_loss_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/personality_engine.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/property_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/property_purchase_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/rasi_drishti.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/relocation_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/retrograde.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/sade_sati.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/sbc.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/social_network_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/state_engine.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/symbolic/__init__.py",
+      "category": "required",
+      "purpose": "Layer C1 \u2014 Universal symbolic states",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/symbolic/planetary_conditions.py",
+      "category": "required",
+      "purpose": "Layer C1 \u2014 Universal symbolic states",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/temporal_aggregator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "rules/multi_evaluator_runner.py",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/vedha.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/vehicle_purchase_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/wealth_evaluator.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Domain evaluator",
+      "depends_on": "rules/evaluator_base.py, features/dasha.py, rules/domains/ JSON",
+      "safe_to_move": true
+    },
+    {
+      "path": "rules/yoga_engine.py",
+      "category": "required",
+      "purpose": "Layer C \u2014 Interpretive rules",
+      "depends_on": "Various",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/__init__.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/arbitration_engine.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/archetype_engine.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/archetype_prioritizer.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/coherence_engine.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/coherent_state_builder.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/lifecycle_engine.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/narrative_engine.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/narrative_ranker.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/planetary_behavior_engine.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/prompt_context_builder.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/registry_loader.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/semantic_compressor.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    },
+    {
+      "path": "symbolic/symbolic_state_engine.py",
+      "category": "required",
+      "purpose": "Symbolic intelligence (10A/10B)",
+      "depends_on": "rules/evaluator_base.py, configs/symbolic/*.json",
+      "safe_to_move": true
+    }
+  ]
+}
