@@ -1,10 +1,10 @@
 {
   "subject_a": {
     "subject_id": "A",
-    "accuracy": 0.75,
-    "exact": 6,
-    "approximate": 3,
-    "wrong_timing": 3,
+    "accuracy": 0.6111111111111112,
+    "exact": 5,
+    "approximate": 0,
+    "wrong_timing": 7,
     "missed": 0,
     "no_evaluator": 0,
     "total_events": 12,
@@ -18,14 +18,14 @@
           1995,
           1997
         ],
-        "predicted_year": 2011,
+        "predicted_year": 1994,
         "predicted_month": 10,
-        "predicted_score": 123,
+        "predicted_score": 153,
         "result": "WRONG_TIMING",
-        "detail": "Best peak at 2011-10 (score=123), outside window (1995, 1997)",
+        "detail": "Best peak at 1994-10 (score=153), outside window (1995, 1997)",
         "score_points": 1,
         "peak_rank": 0,
-        "signal_at_event": 0
+        "signal_at_event": 25
       },
       {
         "event": "odd jobs / transition phase",
@@ -36,14 +36,14 @@
           1996,
           1998
         ],
-        "predicted_year": 1998,
+        "predicted_year": 1994,
         "predicted_month": 10,
-        "predicted_score": 73,
-        "result": "APPROXIMATE",
-        "detail": "Peak at 1998-10 within window (1996, 1998) (score=73)",
-        "score_points": 2,
+        "predicted_score": 153,
+        "result": "WRONG_TIMING",
+        "detail": "Best peak at 1994-10 (score=153), outside window (1996, 1998)",
+        "score_points": 1,
         "peak_rank": 0,
-        "signal_at_event": 0
+        "signal_at_event": 25
       },
       {
         "event": "MTech at IIT Roorkee",
@@ -54,13 +54,13 @@
           1998,
           2000
         ],
-        "predicted_year": 1998,
+        "predicted_year": 1994,
         "predicted_month": 10,
-        "predicted_score": 73,
-        "result": "EXACT",
-        "detail": "Peak at 1998-10 (score=73, VERY_HIGH)",
-        "score_points": 3,
-        "peak_rank": 12,
+        "predicted_score": 153,
+        "result": "WRONG_TIMING",
+        "detail": "Best peak at 1994-10 (score=153), outside window (1998, 2000)",
+        "score_points": 1,
+        "peak_rank": 0,
         "signal_at_event": 0
       },
       {
@@ -72,14 +72,14 @@
           2000,
           2002
         ],
-        "predicted_year": 2015,
-        "predicted_month": 10,
-        "predicted_score": 63,
+        "predicted_year": 2006,
+        "predicted_month": 4,
+        "predicted_score": 152,
         "result": "WRONG_TIMING",
-        "detail": "Best peak at 2015-10 (score=63), outside window (2000, 2002)",
+        "detail": "Best peak at 2006-04 (score=152), outside window (2000, 2002)",
         "score_points": 1,
         "peak_rank": 0,
-        "signal_at_event": 0
+        "signal_at_event": 63
       },
       {
         "event": "joined NCR / moved to Bhopal",
@@ -92,12 +92,12 @@
         ],
         "predicted_year": 2002,
         "predicted_month": 4,
-        "predicted_score": 75,
+        "predicted_score": 164,
         "result": "EXACT",
-        "detail": "Peak at 2002-04 (score=75, VERY_HIGH)",
+        "detail": "Peak at 2002-04 (score=164, VERY_HIGH)",
         "score_points": 3,
-        "peak_rank": 15,
-        "signal_at_event": 0
+        "peak_rank": 17,
+        "signal_at_event": 91
       },
       {
         "event": "joined IBILT",
@@ -110,11 +110,11 @@
         ],
         "predicted_year": 2006,
         "predicted_month": 10,
-        "predicted_score": 95,
+        "predicted_score": 150,
         "result": "EXACT",
-        "detail": "Peak at 2006-10 (score=95, VERY_HIGH)",
+        "detail": "Peak at 2006-10 (score=150, VERY_HIGH)",
         "score_points": 3,
-        "peak_rank": 4,
+        "peak_rank": 2,
         "signal_at_event": 0
       },
       {
@@ -126,14 +126,14 @@
           2006,
           2008
         ],
-        "predicted_year": 2007,
+        "predicted_year": 2009,
         "predicted_month": 1,
-        "predicted_score": 82,
-        "result": "APPROXIMATE",
-        "detail": "Peak at 2007-01 within window (2006, 2008) (score=82)",
-        "score_points": 2,
-        "peak_rank": 10,
-        "signal_at_event": 32
+        "predicted_score": 225,
+        "result": "WRONG_TIMING",
+        "detail": "Best peak at 2009-01 (score=225), outside window (2006, 2008)",
+        "score_points": 1,
+        "peak_rank": 0,
+        "signal_at_event": 97
       },
       {
         "event": "mother passed away",
@@ -198,14 +198,14 @@
           2009,
           2011
         ],
-        "predicted_year": 2011,
-        "predicted_month": 7,
-        "predicted_score": 93,
-        "result": "APPROXIMATE",
-        "detail": "Peak at 2011-07 within window (2009, 2011) (score=93)",
-        "score_points": 2,
-        "peak_rank": 8,
-        "signal_at_event": 25
+        "predicted_year": 2015,
+        "predicted_month": 10,
+        "predicted_score": 243,
+        "result": "WRONG_TIMING",
+        "detail": "Best peak at 2015-10 (score=243), outside window (2009, 2011)",
+        "score_points": 1,
+        "peak_rank": 0,
+        "signal_at_event": 68
       },
       {
         "event": "arranged marriage",
@@ -218,12 +218,12 @@
         ],
         "predicted_year": 2008,
         "predicted_month": 4,
-        "predicted_score": 159,
+        "predicted_score": 312,
         "result": "EXACT",
-        "detail": "Peak at 2008-04 (score=159, VERY_HIGH)",
+        "detail": "Peak at 2008-04 (score=312, VERY_HIGH)",
         "score_points": 3,
         "peak_rank": 1,
-        "signal_at_event": 80
+        "signal_at_event": 105
       }
     ],
     "dual_chart": [
@@ -234,33 +234,11 @@
           2008,
           2010
         ],
-        "score_a_in_window": 159,
-        "score_b_in_window": 97,
+        "score_a_in_window": 312,
+        "score_b_in_window": 155,
         "both_active": true,
-        "overlap_quarters": [
-          {
-            "year": 2010,
-            "month": 1,
-            "score_a": 120,
-            "score_b": 97,
-            "combined": 217
-          },
-          {
-            "year": 2010,
-            "month": 1,
-            "score_a": 120,
-            "score_b": 97,
-            "combined": 217
-          },
-          {
-            "year": 2010,
-            "month": 4,
-            "score_a": 107,
-            "score_b": 97,
-            "combined": 204
-          }
-        ],
-        "correlation_strength": "STRONG"
+        "overlap_quarters": [],
+        "correlation_strength": "MODERATE"
       },
       {
         "domain": "childbirth",
@@ -269,19 +247,11 @@
           2009,
           2011
         ],
-        "score_a_in_window": 93,
-        "score_b_in_window": 103,
-        "both_active": true,
-        "overlap_quarters": [
-          {
-            "year": 2011,
-            "month": 7,
-            "score_a": 93,
-            "score_b": 99,
-            "combined": 192
-          }
-        ],
-        "correlation_strength": "STRONG"
+        "score_a_in_window": 0,
+        "score_b_in_window": 186,
+        "both_active": false,
+        "overlap_quarters": [],
+        "correlation_strength": "WEAK"
       }
     ]
   },
@@ -306,12 +276,12 @@
         ],
         "predicted_year": 2010,
         "predicted_month": 1,
-        "predicted_score": 97,
+        "predicted_score": 155,
         "result": "APPROXIMATE",
-        "detail": "Peak at 2010-01 within window (2008, 2010) (score=97)",
+        "detail": "Peak at 2010-01 within window (2008, 2010) (score=155)",
         "score_points": 2,
-        "peak_rank": 17,
-        "signal_at_event": 0
+        "peak_rank": 11,
+        "signal_at_event": 18
       },
       {
         "event": "child_birth",
@@ -324,12 +294,12 @@
         ],
         "predicted_year": 2011,
         "predicted_month": 1,
-        "predicted_score": 103,
+        "predicted_score": 186,
         "result": "APPROXIMATE",
-        "detail": "Peak at 2011-01 within window (2009, 2011) (score=103)",
+        "detail": "Peak at 2011-01 within window (2009, 2011) (score=186)",
         "score_points": 2,
-        "peak_rank": 6,
-        "signal_at_event": 55
+        "peak_rank": 4,
+        "signal_at_event": 138
       }
     ],
     "dual_chart": null
