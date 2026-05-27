@@ -216,11 +216,33 @@ class ChartState(BaseChartState):
 
 class TransitState(BaseTransitState):
     """
-    Transit state for this domain's evaluation.
-    Thin subclass of BaseTransitState — all logic lives in the base class.
-    Kept as a named class so existing call-sites continue to work unchanged.
+    Transit state for relocation domain evaluation.
+    Extends BaseTransitState with degree-level conjunction checks
+    needed by relocation transit rules.
     """
-    pass
+
+    def __init__(self, eval_date, chart):
+        super().__init__(eval_date, chart)
+        # Precompute houses from Moon's sign for relocation checks
+        moon_sign = chart.moon_sign
+        self.planet_houses_from_moon = {}
+        for name, lon in self.positions.items():
+            p_sign = int(lon // 30) + 1
+            self.planet_houses_from_moon[name] = ((p_sign - moon_sign) % 12) + 1
+
+    def rahu_conjunct_natal_moon(self, natal_moon_lon, orb=5.0):
+        """Return True if transit Rahu is within orb of natal Moon degree."""
+        rahu_lon = self.positions.get("Rahu", 0)
+        diff = abs((rahu_lon - natal_moon_lon) % 360)
+        diff = min(diff, 360 - diff)
+        return diff <= orb
+
+    def planet_conjunct_natal(self, planet_name, natal_degree, orb=8.0):
+        """Return True if transit planet is within orb of a natal degree."""
+        transit_lon = self.positions.get(planet_name, 0)
+        diff = abs((transit_lon - natal_degree) % 360)
+        diff = min(diff, 360 - diff)
+        return diff <= orb
 
 # ═══════════════════════════════════════════════════════════════
 # LAYER 1: DASHA EVALUATOR (Relocation)

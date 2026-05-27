@@ -229,6 +229,31 @@ def evaluate_all_domains(birth_dt, lat, lon, eval_date, alt=0):
                     "classical": r.classical.get("migration_promise", "unknown"),
                     "outcome": r.outcome.get("migration_type", "unknown"),
                 }
+            elif domain_name == "parent_loss":
+                # Parent loss requires explicit dasha computation (3-param dasha layer)
+                chart = mod.ChartState(birth_dt, lat, lon, alt)
+                age_at_eval = (eval_date - birth_dt).days / 365.25
+                windows = mod.scan_parent_loss_windows(
+                    chart, start_age=max(0, age_at_eval - 1),
+                    end_age=age_at_eval + 1)
+                if windows:
+                    best = windows[0]
+                    all_fired = best.dasha_fired + best.transit_fired + best.fast_trigger_fired
+                    results[domain_name] = {
+                        "score": round(best.total_score, 2),
+                        "likelihood": best.likelihood,
+                        "timing_band": best.timing_band,
+                        "fired_count": len(all_fired),
+                        "top_rules": [rid for rid, _, _ in all_fired[:3]],
+                        "classical": "parent_loss",
+                        "outcome": best.outcome.get("mode", "unknown") if isinstance(best.outcome, dict) else "unknown",
+                    }
+                else:
+                    results[domain_name] = {
+                        "score": 0, "likelihood": "VERY_LOW",
+                        "timing_band": "none", "fired_count": 0,
+                        "top_rules": [], "classical": "none", "outcome": "none",
+                    }
             else:
                 # Other evaluators: instantiate chart + transit, run layers if available
                 chart = mod.ChartState(birth_dt, lat, lon, alt)

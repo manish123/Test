@@ -3,12 +3,12 @@ A,graduation,career,1996,2011,WRONG_TIMING,1,0,123,0
 A,odd jobs / transition phase,career,1996,1998,APPROXIMATE,2,0,73,0
 A,MTech at IIT Roorkee,career,1998,1998,EXACT,3,0,73,12
 A,failed business attempt,business,2001,2015,WRONG_TIMING,1,0,63,0
-A,joined NCR / moved to Bhopal,relocation,2003,2003,EXACT,3,0,72,4
+A,joined NCR / moved to Bhopal,relocation,2003,2002,EXACT,3,0,75,15
 A,joined IBILT,career,2005,2006,EXACT,3,0,95,4
-A,relocated to Pune / joined Mastek,relocation,2007,1997,WRONG_TIMING,1,0,77,0
-A,mother passed away,parent_loss,1993,0,MISSED,0,0.0,0.0,0
-A,father passed away,parent_loss,2018,0,MISSED,0,0.0,0.0,0
-A,sister passed away,parent_loss,2018,0,MISSED,0,0.0,0.0,0
+A,relocated to Pune / joined Mastek,relocation,2007,2007,APPROXIMATE,2,32,82,10
+A,mother passed away,parent_loss,1993,2006,WRONG_TIMING,1,47.35,75.2,0
+A,father passed away,parent_loss,2018,2017,EXACT,3,53.55,58.15,14
+A,sister passed away,parent_loss,2018,2017,EXACT,3,45.35,58.15,14
 A,son born,childbirth,2010,2011,APPROXIMATE,2,25,93,8
 A,arranged marriage,marriage,2009,2008,EXACT,3,80,159,1
 B,arranged_marriage,marriage,2009,2010,APPROXIMATE,2,0,97,17

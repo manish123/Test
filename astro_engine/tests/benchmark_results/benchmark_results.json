@@ -1,11 +1,11 @@
 {
   "subject_a": {
     "subject_id": "A",
-    "accuracy": 0.5277777777777778,
-    "exact": 4,
-    "approximate": 2,
+    "accuracy": 0.75,
+    "exact": 6,
+    "approximate": 3,
     "wrong_timing": 3,
-    "missed": 3,
+    "missed": 0,
     "no_evaluator": 0,
     "total_events": 12,
     "events": [
@@ -90,13 +90,13 @@
           2002,
           2004
         ],
-        "predicted_year": 2003,
+        "predicted_year": 2002,
         "predicted_month": 4,
-        "predicted_score": 72,
+        "predicted_score": 75,
         "result": "EXACT",
-        "detail": "Peak at 2003-04 (score=72, VERY_HIGH)",
+        "detail": "Peak at 2002-04 (score=75, VERY_HIGH)",
         "score_points": 3,
-        "peak_rank": 4,
+        "peak_rank": 15,
         "signal_at_event": 0
       },
       {
@@ -126,14 +126,14 @@
           2006,
           2008
         ],
-        "predicted_year": 1997,
+        "predicted_year": 2007,
         "predicted_month": 1,
-        "predicted_score": 77,
-        "result": "WRONG_TIMING",
-        "detail": "Best peak at 1997-01 (score=77), outside window (2006, 2008)",
-        "score_points": 1,
-        "peak_rank": 0,
-        "signal_at_event": 0
+        "predicted_score": 82,
+        "result": "APPROXIMATE",
+        "detail": "Peak at 2007-01 within window (2006, 2008) (score=82)",
+        "score_points": 2,
+        "peak_rank": 10,
+        "signal_at_event": 32
       },
       {
         "event": "mother passed away",
@@ -144,14 +144,14 @@
           1992,
           1994
         ],
-        "predicted_year": 0,
-        "predicted_month": 0,
-        "predicted_score": 0.0,
-        "result": "MISSED",
-        "detail": "No signal for domain 'parent_loss'",
-        "score_points": 0,
+        "predicted_year": 2006,
+        "predicted_month": 7,
+        "predicted_score": 75.2,
+        "result": "WRONG_TIMING",
+        "detail": "Best peak at 2006-07 (score=75), outside window (1992, 1994)",
+        "score_points": 1,
         "peak_rank": 0,
-        "signal_at_event": 0.0
+        "signal_at_event": 47.35
       },
       {
         "event": "father passed away",
@@ -162,14 +162,14 @@
           2017,
           2019
         ],
-        "predicted_year": 0,
-        "predicted_month": 0,
-        "predicted_score": 0.0,
-        "result": "MISSED",
-        "detail": "No signal for domain 'parent_loss'",
-        "score_points": 0,
-        "peak_rank": 0,
-        "signal_at_event": 0.0
+        "predicted_year": 2017,
+        "predicted_month": 1,
+        "predicted_score": 58.15,
+        "result": "EXACT",
+        "detail": "Peak at 2017-01 (score=58, VERY_HIGH)",
+        "score_points": 3,
+        "peak_rank": 14,
+        "signal_at_event": 53.55
       },
       {
         "event": "sister passed away",
@@ -180,14 +180,14 @@
           2017,
           2019
         ],
-        "predicted_year": 0,
-        "predicted_month": 0,
-        "predicted_score": 0.0,
-        "result": "MISSED",
-        "detail": "No signal for domain 'parent_loss'",
-        "score_points": 0,
-        "peak_rank": 0,
-        "signal_at_event": 0.0
+        "predicted_year": 2017,
+        "predicted_month": 1,
+        "predicted_score": 58.15,
+        "result": "EXACT",
+        "detail": "Peak at 2017-01 (score=58, VERY_HIGH)",
+        "score_points": 3,
+        "peak_rank": 14,
+        "signal_at_event": 45.35
       },
       {
         "event": "son born",
