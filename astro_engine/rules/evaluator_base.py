@@ -416,6 +416,31 @@ class BaseTransitState:
                 return True
         return False
 
+    # ── Conjunction helpers (used by domain evaluators) ────────
+
+    def planet_conjunct_natal(self, planet_name, natal_degree, orb=8.0):
+        """Return True if transit *planet_name* is within *orb* of *natal_degree*."""
+        transit_lon = self.positions.get(planet_name, 0)
+        diff = abs((transit_lon - natal_degree) % 360)
+        diff = min(diff, 360 - diff)
+        return diff <= orb
+
+    def jupiter_conjunct_natal(self, natal_degree, orb=8.0):
+        """Return True if transit Jupiter is within *orb* of *natal_degree*."""
+        return self.planet_conjunct_natal("Jupiter", natal_degree, orb)
+
+    def rahu_conjunct_natal(self, natal_degree, orb=5.0):
+        """Return True if transit Rahu is within *orb* of *natal_degree*."""
+        return self.planet_conjunct_natal("Rahu", natal_degree, orb)
+
+    def rahu_conjunct_natal_moon(self, natal_moon_lon, orb=5.0):
+        """Return True if transit Rahu is within *orb* of natal Moon degree."""
+        return self.planet_conjunct_natal("Rahu", natal_moon_lon, orb)
+
+    def saturn_conjunct_natal(self, natal_degree, orb=8.0):
+        """Return True if transit Saturn is within *orb* of *natal_degree*."""
+        return self.planet_conjunct_natal("Saturn", natal_degree, orb)
+
 
 # ═══════════════════════════════════════════════════════════════
 # TARA SCORING (shared between main.py and rule_pipeline.py)
