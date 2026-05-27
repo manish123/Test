@@ -1,0 +1,237 @@
+{
+  "subject_a": {
+    "baseline": [
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "1993-10-01 00:00:00",
+        "signal": 63,
+        "detail": "1993-10 score=63",
+        "event": "Mother passed away"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "1995-10-01 00:00:00",
+        "signal": 48,
+        "detail": "1995-10 score=48",
+        "event": "Graduation"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2000-01-01 00:00:00",
+        "signal": 0,
+        "detail": "2000-01 score=0",
+        "event": "Failed business attempt"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2003-04-01 00:00:00",
+        "signal": 72,
+        "detail": "2003-04 score=72",
+        "event": "Moved to Bhopal/NCR"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2006-10-01 00:00:00",
+        "signal": 95,
+        "detail": "2006-10 score=95",
+        "event": "Joined IBILT"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2008-01-01 00:00:00",
+        "signal": 25,
+        "detail": "2008-01 score=25",
+        "event": "Relocated Pune/Mastek"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2008-04-01 00:00:00",
+        "signal": 159,
+        "detail": "2008-04 score=159",
+        "event": "Marriage"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2011-07-01 00:00:00",
+        "signal": 93,
+        "detail": "2011-07 score=93",
+        "event": "Son born"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2019-04-01 00:00:00",
+        "signal": 74,
+        "detail": "2019-04 score=74",
+        "event": "Sister passed away"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2019-04-01 00:00:00",
+        "signal": 74,
+        "detail": "2019-04 score=74",
+        "event": "Father passed away"
+      }
+    ],
+    "tuned": [
+      {
+        "result": "WRONG_TIMING",
+        "score": 1,
+        "predicted": "1995-01-01 00:00:00",
+        "signal": 50.8,
+        "detail": "Best at 1995-01 score=51, outside (1992, 1994)",
+        "event": "Mother passed away",
+        "domain": "parent_loss",
+        "expected": "1993-11"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "1995-10-01 00:00:00",
+        "signal": 48,
+        "detail": "1995-10 score=48",
+        "event": "Graduation",
+        "domain": "career",
+        "expected": "1996-06"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2000-01-01 00:00:00",
+        "signal": 0,
+        "detail": "2000-01 score=0",
+        "event": "Failed business attempt",
+        "domain": "business",
+        "expected": "2001-06"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2003-04-01 00:00:00",
+        "signal": 108.0,
+        "detail": "2003-04 score=108",
+        "event": "Moved to Bhopal/NCR",
+        "domain": "relocation",
+        "expected": "2003-06"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2006-10-01 00:00:00",
+        "signal": 95,
+        "detail": "2006-10 score=95",
+        "event": "Joined IBILT",
+        "domain": "career",
+        "expected": "2005-06"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2008-01-01 00:00:00",
+        "signal": 37.5,
+        "detail": "2008-01 score=38",
+        "event": "Relocated Pune/Mastek",
+        "domain": "relocation",
+        "expected": "2007-08"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2008-04-01 00:00:00",
+        "signal": 159,
+        "detail": "2008-04 score=159",
+        "event": "Marriage",
+        "domain": "marriage",
+        "expected": "2009-05"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2011-07-01 00:00:00",
+        "signal": 93,
+        "detail": "2011-07 score=93",
+        "event": "Son born",
+        "domain": "childbirth",
+        "expected": "2010-12"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2018-01-01 00:00:00",
+        "signal": 80.35,
+        "detail": "2018-01 score=80",
+        "event": "Sister passed away",
+        "domain": "parent_loss",
+        "expected": "2018-01"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2018-01-01 00:00:00",
+        "signal": 80.35,
+        "detail": "2018-01 score=80",
+        "event": "Father passed away",
+        "domain": "parent_loss",
+        "expected": "2018-03"
+      }
+    ]
+  },
+  "subject_b": {
+    "baseline": [
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2010-01-01 00:00:00",
+        "signal": 97,
+        "detail": "2010-01 score=97",
+        "event": "Marriage"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2011-01-01 00:00:00",
+        "signal": 103,
+        "detail": "2011-01 score=103",
+        "event": "Son born"
+      }
+    ],
+    "tuned": [
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2010-01-01 00:00:00",
+        "signal": 97,
+        "detail": "2010-01 score=97",
+        "event": "Marriage",
+        "domain": "marriage",
+        "expected": "2009-05"
+      },
+      {
+        "result": "EXACT",
+        "score": 3,
+        "predicted": "2011-01-01 00:00:00",
+        "signal": 103,
+        "detail": "2011-01 score=103",
+        "event": "Son born",
+        "domain": "childbirth",
+        "expected": "2010-12"
+      }
+    ]
+  },
+  "totals": {
+    "baseline": 36,
+    "tuned": 34,
+    "max": 36,
+    "baseline_pct": 1.0,
+    "tuned_pct": 0.944
+  }
+}

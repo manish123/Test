@@ -166,10 +166,25 @@ class ChartState(BaseChartState):
 class TransitState(BaseTransitState):
     """
     Transit state for this domain's evaluation.
-    Thin subclass of BaseTransitState — all logic lives in the base class.
-    Kept as a named class so existing call-sites continue to work unchanged.
+    Extends BaseTransitState with degree-level conjunction checks
+    and house-from-Sun computation needed by parent loss rules.
     """
-    pass
+
+    def __init__(self, eval_date, chart):
+        super().__init__(eval_date, chart)
+        # Precompute houses from Sun for malefic transit checks
+        sun_sign = chart.sun_sign
+        self.planet_houses_from_sun = {}
+        for name, lon in self.positions.items():
+            p_sign = int(lon // 30) + 1
+            self.planet_houses_from_sun[name] = ((p_sign - sun_sign) % 12) + 1
+
+    def planet_conjunct_natal(self, planet_name, natal_degree, orb=8.0):
+        """Return True if transit planet is within orb of a natal degree."""
+        transit_lon = self.positions.get(planet_name, 0)
+        diff = abs((transit_lon - natal_degree) % 360)
+        diff = min(diff, 360 - diff)
+        return diff <= orb
 
 def evaluate_dasha_layer(chart: ChartState, md_lord: str, ad_lord: str):
     """

@@ -1,0 +1,337 @@
+{
+  "subject_a": {
+    "subject_id": "A",
+    "accuracy": 0.5277777777777778,
+    "exact": 4,
+    "approximate": 2,
+    "wrong_timing": 3,
+    "missed": 3,
+    "no_evaluator": 0,
+    "total_events": 12,
+    "events": [
+      {
+        "event": "graduation",
+        "domain": "career",
+        "expected_year": 1996,
+        "expected_month": 6,
+        "window": [
+          1995,
+          1997
+        ],
+        "predicted_year": 2011,
+        "predicted_month": 10,
+        "predicted_score": 123,
+        "result": "WRONG_TIMING",
+        "detail": "Best peak at 2011-10 (score=123), outside window (1995, 1997)",
+        "score_points": 1,
+        "peak_rank": 0,
+        "signal_at_event": 0
+      },
+      {
+        "event": "odd jobs / transition phase",
+        "domain": "career",
+        "expected_year": 1996,
+        "expected_month": 6,
+        "window": [
+          1996,
+          1998
+        ],
+        "predicted_year": 1998,
+        "predicted_month": 10,
+        "predicted_score": 73,
+        "result": "APPROXIMATE",
+        "detail": "Peak at 1998-10 within window (1996, 1998) (score=73)",
+        "score_points": 2,
+        "peak_rank": 0,
+        "signal_at_event": 0
+      },
+      {
+        "event": "MTech at IIT Roorkee",
+        "domain": "career",
+        "expected_year": 1998,
+        "expected_month": 6,
+        "window": [
+          1998,
+          2000
+        ],
+        "predicted_year": 1998,
+        "predicted_month": 10,
+        "predicted_score": 73,
+        "result": "EXACT",
+        "detail": "Peak at 1998-10 (score=73, VERY_HIGH)",
+        "score_points": 3,
+        "peak_rank": 12,
+        "signal_at_event": 0
+      },
+      {
+        "event": "failed business attempt",
+        "domain": "business",
+        "expected_year": 2001,
+        "expected_month": 6,
+        "window": [
+          2000,
+          2002
+        ],
+        "predicted_year": 2015,
+        "predicted_month": 10,
+        "predicted_score": 63,
+        "result": "WRONG_TIMING",
+        "detail": "Best peak at 2015-10 (score=63), outside window (2000, 2002)",
+        "score_points": 1,
+        "peak_rank": 0,
+        "signal_at_event": 0
+      },
+      {
+        "event": "joined NCR / moved to Bhopal",
+        "domain": "relocation",
+        "expected_year": 2003,
+        "expected_month": 6,
+        "window": [
+          2002,
+          2004
+        ],
+        "predicted_year": 2003,
+        "predicted_month": 4,
+        "predicted_score": 72,
+        "result": "EXACT",
+        "detail": "Peak at 2003-04 (score=72, VERY_HIGH)",
+        "score_points": 3,
+        "peak_rank": 4,
+        "signal_at_event": 0
+      },
+      {
+        "event": "joined IBILT",
+        "domain": "career",
+        "expected_year": 2005,
+        "expected_month": 6,
+        "window": [
+          2004,
+          2006
+        ],
+        "predicted_year": 2006,
+        "predicted_month": 10,
+        "predicted_score": 95,
+        "result": "EXACT",
+        "detail": "Peak at 2006-10 (score=95, VERY_HIGH)",
+        "score_points": 3,
+        "peak_rank": 4,
+        "signal_at_event": 0
+      },
+      {
+        "event": "relocated to Pune / joined Mastek",
+        "domain": "relocation",
+        "expected_year": 2007,
+        "expected_month": 8,
+        "window": [
+          2006,
+          2008
+        ],
+        "predicted_year": 1997,
+        "predicted_month": 1,
+        "predicted_score": 77,
+        "result": "WRONG_TIMING",
+        "detail": "Best peak at 1997-01 (score=77), outside window (2006, 2008)",
+        "score_points": 1,
+        "peak_rank": 0,
+        "signal_at_event": 0
+      },
+      {
+        "event": "mother passed away",
+        "domain": "parent_loss",
+        "expected_year": 1993,
+        "expected_month": 11,
+        "window": [
+          1992,
+          1994
+        ],
+        "predicted_year": 0,
+        "predicted_month": 0,
+        "predicted_score": 0.0,
+        "result": "MISSED",
+        "detail": "No signal for domain 'parent_loss'",
+        "score_points": 0,
+        "peak_rank": 0,
+        "signal_at_event": 0.0
+      },
+      {
+        "event": "father passed away",
+        "domain": "parent_loss",
+        "expected_year": 2018,
+        "expected_month": 3,
+        "window": [
+          2017,
+          2019
+        ],
+        "predicted_year": 0,
+        "predicted_month": 0,
+        "predicted_score": 0.0,
+        "result": "MISSED",
+        "detail": "No signal for domain 'parent_loss'",
+        "score_points": 0,
+        "peak_rank": 0,
+        "signal_at_event": 0.0
+      },
+      {
+        "event": "sister passed away",
+        "domain": "parent_loss",
+        "expected_year": 2018,
+        "expected_month": 1,
+        "window": [
+          2017,
+          2019
+        ],
+        "predicted_year": 0,
+        "predicted_month": 0,
+        "predicted_score": 0.0,
+        "result": "MISSED",
+        "detail": "No signal for domain 'parent_loss'",
+        "score_points": 0,
+        "peak_rank": 0,
+        "signal_at_event": 0.0
+      },
+      {
+        "event": "son born",
+        "domain": "childbirth",
+        "expected_year": 2010,
+        "expected_month": 12,
+        "window": [
+          2009,
+          2011
+        ],
+        "predicted_year": 2011,
+        "predicted_month": 7,
+        "predicted_score": 93,
+        "result": "APPROXIMATE",
+        "detail": "Peak at 2011-07 within window (2009, 2011) (score=93)",
+        "score_points": 2,
+        "peak_rank": 8,
+        "signal_at_event": 25
+      },
+      {
+        "event": "arranged marriage",
+        "domain": "marriage",
+        "expected_year": 2009,
+        "expected_month": 5,
+        "window": [
+          2008,
+          2010
+        ],
+        "predicted_year": 2008,
+        "predicted_month": 4,
+        "predicted_score": 159,
+        "result": "EXACT",
+        "detail": "Peak at 2008-04 (score=159, VERY_HIGH)",
+        "score_points": 3,
+        "peak_rank": 1,
+        "signal_at_event": 80
+      }
+    ],
+    "dual_chart": [
+      {
+        "domain": "marriage",
+        "target_year": 2009,
+        "window": [
+          2008,
+          2010
+        ],
+        "score_a_in_window": 159,
+        "score_b_in_window": 97,
+        "both_active": true,
+        "overlap_quarters": [
+          {
+            "year": 2010,
+            "month": 1,
+            "score_a": 120,
+            "score_b": 97,
+            "combined": 217
+          },
+          {
+            "year": 2010,
+            "month": 1,
+            "score_a": 120,
+            "score_b": 97,
+            "combined": 217
+          },
+          {
+            "year": 2010,
+            "month": 4,
+            "score_a": 107,
+            "score_b": 97,
+            "combined": 204
+          }
+        ],
+        "correlation_strength": "STRONG"
+      },
+      {
+        "domain": "childbirth",
+        "target_year": 2010,
+        "window": [
+          2009,
+          2011
+        ],
+        "score_a_in_window": 93,
+        "score_b_in_window": 103,
+        "both_active": true,
+        "overlap_quarters": [
+          {
+            "year": 2011,
+            "month": 7,
+            "score_a": 93,
+            "score_b": 99,
+            "combined": 192
+          }
+        ],
+        "correlation_strength": "STRONG"
+      }
+    ]
+  },
+  "subject_b": {
+    "subject_id": "B",
+    "accuracy": 0.6666666666666666,
+    "exact": 0,
+    "approximate": 2,
+    "wrong_timing": 0,
+    "missed": 0,
+    "no_evaluator": 0,
+    "total_events": 2,
+    "events": [
+      {
+        "event": "arranged_marriage",
+        "domain": "marriage",
+        "expected_year": 2009,
+        "expected_month": 5,
+        "window": [
+          2008,
+          2010
+        ],
+        "predicted_year": 2010,
+        "predicted_month": 1,
+        "predicted_score": 97,
+        "result": "APPROXIMATE",
+        "detail": "Peak at 2010-01 within window (2008, 2010) (score=97)",
+        "score_points": 2,
+        "peak_rank": 17,
+        "signal_at_event": 0
+      },
+      {
+        "event": "child_birth",
+        "domain": "childbirth",
+        "expected_year": 2010,
+        "expected_month": 12,
+        "window": [
+          2009,
+          2011
+        ],
+        "predicted_year": 2011,
+        "predicted_month": 1,
+        "predicted_score": 103,
+        "result": "APPROXIMATE",
+        "detail": "Peak at 2011-01 within window (2009, 2011) (score=103)",
+        "score_points": 2,
+        "peak_rank": 6,
+        "signal_at_event": 55
+      }
+    ],
+    "dual_chart": null
+  }
+}
