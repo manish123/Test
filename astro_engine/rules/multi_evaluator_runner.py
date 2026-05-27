@@ -17,6 +17,37 @@ from dateutil.relativedelta import relativedelta
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from rules.evaluator_base import SIGN_NAMES, BaseChartState, BaseTransitState
+from features.dasha import _generate_md_periods, _generate_ad_periods
+
+
+# ═══════════════════════════════════════════════════════════════
+# DASHA HELPER
+# ═══════════════════════════════════════════════════════════════
+
+def _get_current_dasha(birth_dt, moon_lon, eval_date):
+    """
+    Compute current Vimshottari MD and AD lords for a given date.
+
+    Parameters
+    ----------
+    birth_dt : datetime — natal birth datetime
+    moon_lon : float — natal Moon longitude (for nakshatra-based dasha start)
+    eval_date : datetime — date to evaluate
+
+    Returns
+    -------
+    (md_lord: str, ad_lord: str) — current Mahadasha and Antardasha lords
+    """
+    md_periods = _generate_md_periods(birth_dt, moon_lon, years=80)
+    for md in md_periods:
+        if md["start"] <= eval_date <= md["end"]:
+            ad_periods = _generate_ad_periods(md)
+            for ad in ad_periods:
+                if ad["start"] <= eval_date <= ad["end"]:
+                    return md["lord"], ad["lord"]
+            # If no AD found (edge case), return MD lord for both
+            return md["lord"], md["lord"]
+    return "unknown", "unknown"
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -269,8 +300,12 @@ def evaluate_all_domains(birth_dt, lat, lon, eval_date, alt=0):
                         sig = inspect.signature(mod.evaluate_dasha_layer)
                         params = list(sig.parameters.keys())
                         if len(params) == 3:  # chart, md_lord, ad_lord
-                            # Need dasha info — skip for now (requires full dasha computation)
-                            pass
+                            # Compute current dasha and pass to evaluator
+                            md_lord, ad_lord = _get_current_dasha(
+                                birth_dt, chart.moon_lon, eval_date)
+                            dasha_results = mod.evaluate_dasha_layer(chart, md_lord, ad_lord)
+                            fired.extend(dasha_results)
+                            score += sum(s for _, s, _ in dasha_results)
                         elif len(params) == 2:  # chart, transit
                             dasha_results = mod.evaluate_dasha_layer(chart, transit)
                             fired.extend(dasha_results)
