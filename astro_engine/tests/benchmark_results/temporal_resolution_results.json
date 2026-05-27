@@ -1,0 +1,324 @@
+[
+  {
+    "event": "Marriage",
+    "subject": "A",
+    "domain": "marriage",
+    "actual_date": "2009-05-07 00:00:00",
+    "1_peak_only": {
+      "predicted": "2008-07-07 00:00:00",
+      "score": 179,
+      "distance_days": 304,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "2_peak_window": {
+      "predicted": "2008-07-07 00:00:00",
+      "score": 179,
+      "distance_days": 304,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    },
+    "3_monthly_band": {
+      "predicted": "2008-07-15 00:00:00",
+      "score": 179.0,
+      "distance_days": 296,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "4_quarterly_band": {
+      "predicted": "2008-08-15 00:00:00",
+      "score": 120.33333333333333,
+      "distance_days": 265,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "5_multi_resolution": {
+      "predicted": "2008-07-07 00:00:00",
+      "score": 0,
+      "distance_days": 304,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    }
+  },
+  {
+    "event": "Son born",
+    "subject": "A",
+    "domain": "childbirth",
+    "actual_date": "2010-12-04 00:00:00",
+    "1_peak_only": {
+      "predicted": "2012-05-04 00:00:00",
+      "score": 137,
+      "distance_days": 517,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "2_peak_window": {
+      "predicted": "2012-05-04 00:00:00",
+      "score": 137,
+      "distance_days": 517,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    },
+    "3_monthly_band": {
+      "predicted": "2012-05-15 00:00:00",
+      "score": 137.0,
+      "distance_days": 528,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "4_quarterly_band": {
+      "predicted": "2012-05-15 00:00:00",
+      "score": 136.0,
+      "distance_days": 528,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "5_multi_resolution": {
+      "predicted": "2012-05-04 00:00:00",
+      "score": 0,
+      "distance_days": 517,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    }
+  },
+  {
+    "event": "Father death",
+    "subject": "A",
+    "domain": "parent_loss",
+    "actual_date": "2018-03-15 00:00:00",
+    "1_peak_only": {
+      "predicted": "2018-04-15 00:00:00",
+      "score": 85.55,
+      "distance_days": 31,
+      "same_month": false,
+      "same_quarter": true,
+      "window_overlap": 0
+    },
+    "2_peak_window": {
+      "predicted": "2018-04-15 00:00:00",
+      "score": 85.55,
+      "distance_days": 31,
+      "same_month": false,
+      "same_quarter": true,
+      "window_overlap": 1.0
+    },
+    "3_monthly_band": {
+      "predicted": "2018-04-15 00:00:00",
+      "score": 85.55,
+      "distance_days": 31,
+      "same_month": false,
+      "same_quarter": true,
+      "window_overlap": 0
+    },
+    "4_quarterly_band": {
+      "predicted": "2018-05-15 00:00:00",
+      "score": 76.21666666666667,
+      "distance_days": 61,
+      "same_month": false,
+      "same_quarter": true,
+      "window_overlap": 0
+    },
+    "5_multi_resolution": {
+      "predicted": "2018-04-15 00:00:00",
+      "score": 0,
+      "distance_days": 31,
+      "same_month": false,
+      "same_quarter": true,
+      "window_overlap": 1.0
+    }
+  },
+  {
+    "event": "Pune relocation",
+    "subject": "A",
+    "domain": "relocation",
+    "actual_date": "2007-08-20 00:00:00",
+    "1_peak_only": {
+      "predicted": "2009-01-20 00:00:00",
+      "score": 155,
+      "distance_days": 519,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "2_peak_window": {
+      "predicted": "2009-01-20 00:00:00",
+      "score": 155,
+      "distance_days": 519,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    },
+    "3_monthly_band": {
+      "predicted": "2009-01-15 00:00:00",
+      "score": 155.0,
+      "distance_days": 514,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "4_quarterly_band": {
+      "predicted": "2009-02-15 00:00:00",
+      "score": 155.0,
+      "distance_days": 545,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "5_multi_resolution": {
+      "predicted": "2009-01-20 00:00:00",
+      "score": 0,
+      "distance_days": 519,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    }
+  },
+  {
+    "event": "Bhopal move",
+    "subject": "A",
+    "domain": "relocation",
+    "actual_date": "2003-06-01 00:00:00",
+    "1_peak_only": {
+      "predicted": "2002-02-01 00:00:00",
+      "score": 103,
+      "distance_days": 485,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "2_peak_window": {
+      "predicted": "2002-02-01 00:00:00",
+      "score": 103,
+      "distance_days": 485,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    },
+    "3_monthly_band": {
+      "predicted": "2002-02-15 00:00:00",
+      "score": 103.0,
+      "distance_days": 471,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "4_quarterly_band": {
+      "predicted": "2002-02-15 00:00:00",
+      "score": 85.33333333333333,
+      "distance_days": 471,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "5_multi_resolution": {
+      "predicted": "2002-02-01 00:00:00",
+      "score": 0,
+      "distance_days": 485,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    }
+  },
+  {
+    "event": "Marriage",
+    "subject": "B",
+    "domain": "marriage",
+    "actual_date": "2009-05-07 00:00:00",
+    "1_peak_only": {
+      "predicted": "2010-01-07 00:00:00",
+      "score": 97,
+      "distance_days": 245,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "2_peak_window": {
+      "predicted": "2010-01-07 00:00:00",
+      "score": 97,
+      "distance_days": 245,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    },
+    "3_monthly_band": {
+      "predicted": "2010-01-15 00:00:00",
+      "score": 97.0,
+      "distance_days": 253,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "4_quarterly_band": {
+      "predicted": "2010-02-15 00:00:00",
+      "score": 97.0,
+      "distance_days": 284,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "5_multi_resolution": {
+      "predicted": "2010-01-07 00:00:00",
+      "score": 0,
+      "distance_days": 245,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    }
+  },
+  {
+    "event": "Son born",
+    "subject": "B",
+    "domain": "childbirth",
+    "actual_date": "2010-12-04 00:00:00",
+    "1_peak_only": {
+      "predicted": "2011-04-04 00:00:00",
+      "score": 119,
+      "distance_days": 121,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "2_peak_window": {
+      "predicted": "2011-04-04 00:00:00",
+      "score": 119,
+      "distance_days": 121,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    },
+    "3_monthly_band": {
+      "predicted": "2011-04-15 00:00:00",
+      "score": 119.0,
+      "distance_days": 132,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "4_quarterly_band": {
+      "predicted": "2010-08-15 00:00:00",
+      "score": 61.666666666666664,
+      "distance_days": 111,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 0
+    },
+    "5_multi_resolution": {
+      "predicted": "2011-04-04 00:00:00",
+      "score": 0,
+      "distance_days": 121,
+      "same_month": false,
+      "same_quarter": false,
+      "window_overlap": 1.0
+    }
+  }
+]
